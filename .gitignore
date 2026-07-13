@@ -1,0 +1,17 @@
+.env
+agent_memory.json
+trading_state.json
+trades.log
+alm_model.bin
+__pycache__/
+*.pyc
+venv/
+bot.log
+*.log
+*.pid
+.pids/
+pids/
+supervisor.lock
+cpp_engine/build/
+research_results.json
+market_research_report.json
