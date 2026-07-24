@@ -41,6 +41,15 @@ PAPER_MODE = False  # LIVE TRADING ON REAL DERIV ACCOUNT
 # Markets sorted by research
 MARKET_LIST = ['JD25', 'JD100', 'JD10', 'R_75', 'R_25', 'JD50']  # Removed: JD75(-$12), R_50(-$5), R_10(-$3), R_100(-$0.25)
 MARKET_WEIGHTS = {'R_75': 1.0, 'JD100': 1.0, 'JD50': 1.0, 'JD25': 1.0, 'R_25': 1.0, 'R_100': 1.0, 'R_50': 1.0, 'JD75': 1.0, 'R_10': 1.0, 'JD10': 1.0}
+# ════ MISSION CONFIG: trade only what the data proves works ════
+MISSION_CONFIG = {}
+try:
+    _mc_file = Path(__file__).parent / 'mission_config.json'
+    if _mc_file.exists():
+        MISSION_CONFIG = json.loads(_mc_file.read_text())
+except Exception:
+    pass
+
 MARKET_TYPES = {'R_75': 'volatility', 'JD100': 'jump', 'JD50': 'jump', 'JD25': 'jump',
                 'R_25': 'volatility', 'R_100': 'volatility', 'R_50': 'volatility',
                 'JD75': 'jump', 'R_10': 'volatility', 'JD10': 'jump'}
@@ -5302,6 +5311,73 @@ async def main():
                 _hr = int(time.strftime('%H'))
                 if _hr in (3, 4, 19, 23):
                     score *= 0.05  # research-confirmed losing hours
+                # ════ MISSION ENFORCEMENT: trade only what data proves works ════
+                _mission = MISSION_CONFIG.get('rules', {})
+                _hour = int(time.strftime('%H'))
+                
+                # Rule 1: Market whitelist — only R_75 allowed
+                _allowed_markets = _mission.get('MARKET_WHITELIST', {}).get('allowed', [])
+                _banned_markets = _mission.get('MARKET_WHITELIST', {}).get('banned', [])
+                if _allowed_markets and m not in _allowed_markets:
+                    score *= 0.01  # market not in whitelist
+                if m in _banned_markets:
+                    score *= 0.001  # market explicitly banned
+                
+                # Rule 2: Hour filter — only trade profitable hours
+                _allowed_hours = _mission.get('HOUR_FILTER', {}).get('allowed', [])
+                _banned_hours = _mission.get('HOUR_FILTER', {}).get('banned', [])
+                _tight_hours = _mission.get('HOUR_FILTER', {}).get('tight_hours', [])
+                if _allowed_hours and _hour not in _allowed_hours:
+                    score *= 0.05  # hour not in whitelist
+                if _hour in _banned_hours:
+                    score *= 0.01  # hour explicitly banned
+                if _hour in _tight_hours:
+                    score *= 0.001  # worst hours — absolute zero
+                
+                # Rule 3: Strategy whitelist — only proven families
+                _allowed_strats = _mission.get('STRATEGY_WHITELIST', {}).get('allowed', [])
+                _strat_name = strategy.get('strategy', '')
+                _strat_family = '_'.join(_strat_name.split('_')[:2]) if _strat_name else ''
+                if _allowed_strats and _strat_name not in _allowed_strats and _strat_family not in _allowed_strats:
+                    score *= 0.05  # strategy not in whitelist
+                
+                # Rule 4: Stake cap — max $2
+                _max_stake = _mission.get('STAKE_RULES', {}).get('max_stake', 2.0)
+                
+                # Rule 5: Daily loss limit — $5 hard stop
+                _max_daily_loss = _mission.get('STAKE_RULES', {}).get('max_daily_loss', 5.0)
+                if risk.pnl < -_max_daily_loss:
+                    score *= 0.001  # daily loss limit breached
+                
+                # Rule 6: Quality gates — min health, confidence, EV
+                _min_health = _mission.get('QUALITY_GATES', {}).get('min_health_score', 70)
+                _min_conf = _mission.get('QUALITY_GATES', {}).get('min_confidence', 5)
+                if hasattr(tools, 'diagnostic'):
+                    _last_scan = tools.diagnostic.state.get('diagnostic_history', [])
+                    if _last_scan:
+                        _health = _last_scan[-1].get('health_score', 0)
+                        if _health < _min_health:
+                            score *= 0.3  # system degraded
+                if strategy.get('confidence', 0) < _min_conf:
+                    score *= 0.5  # low confidence
+                
+                # Rule 7: Strategy must have positive PnL
+                _strat_pnl = tools.memory.strategies.get(f"{m}:{_strat_name}", {}).get('total_profit', 0)
+                _require_pos_pnl = _mission.get('QUALITY_GATES', {}).get('require_strategy_pnl_positive', True)
+                if _require_pos_pnl and _strat_pnl < -1.0:
+                    score *= 0.1  # strategy is losing money
+                
+                # Rule 8: Market must have positive PnL
+                _mkt_pnl = sum(v.get('total_profit', 0) for k, v in tools.memory.strategies.items() if k.startswith(m + ':'))
+                _require_mkt_pos = _mission.get('QUALITY_GATES', {}).get('require_market_pnl_positive', True)
+                if _require_mkt_pos and _mkt_pnl < -5.0:
+                    score *= 0.05  # market is bleeding
+                
+                # Rule 9: Max daily trades
+                _max_daily = _mission.get('STAKE_RULES', {}).get('max_daily_trades', 20)
+                if risk.total >= _max_daily:
+                    score *= 0.001  # daily trade limit reached
+
                 # Research: boost top-3 proven combos
                 if m == 'JD25' and strategy.get('strategy') == 'DIGIT_DIFF_1':
                     score *= 1.8  # 67.6% WR, +$13.08
