@@ -1771,9 +1771,10 @@ class Risk:
         
         # Evolution override: model can set exact stake
         if hasattr(self, 'override_stake') and self.override_stake:
-            return round(max(1.00, min(self.override_stake, base_stake)), 2)
+            return round(max(1.00, min(self.override_stake, 1.00)), 2)
         
-        return round(max(1.00, min(stake, base_stake)), 2)
+        # ════ HARD STAKE CAP: $1.00 flat — no escalation until profitable ════
+        return 1.00
     
     def get_active_family(self):
         """Get which contract family to trade this cycle.
@@ -5341,45 +5342,77 @@ async def main():
                 _hr = int(time.strftime('%H'))
                 if _hr in (3, 4, 19, 23):
                     score *= 0.05  # research-confirmed losing hours
-                # ════ MISSION ENFORCEMENT: trade only what data proves works ════
+                # ════ MISSION v3: MATH-FIRST — only trade what beats 51.3% break-even ════
                 _mission = MISSION_CONFIG.get('rules', {})
                 _hour = int(time.strftime('%H'))
+                _strat_name = strategy.get('strategy', '')
+                _contract = strategy.get('contract', '')
                 
-                # Rule 1: Market whitelist — only R_75 allowed
+                # RULE 1: CONTRACT WHITELIST — ban DIGITDIFF/DIGITMATCH/DIGITODD
+                # These have 95% payout but system can't beat 51.3% WR
+                _banned_contracts = _mission.get('CONTRACT_WHITELIST', {}).get('banned', [])
+                if _contract in _banned_contracts:
+                    score *= 0.001  # mathematically guaranteed loss
+                
+                # RULE 2: MARKET WHITELIST — only proven profitable markets
                 _allowed_markets = _mission.get('MARKET_WHITELIST', {}).get('allowed', [])
                 _banned_markets = _mission.get('MARKET_WHITELIST', {}).get('banned', [])
                 if _allowed_markets and m not in _allowed_markets:
-                    score *= 0.01  # market not in whitelist
+                    score *= 0.01
                 if m in _banned_markets:
-                    score *= 0.001  # market explicitly banned
+                    score *= 0.001
                 
-                # Rule 2: Hour filter — only trade profitable hours
+                # RULE 3: STRATEGY WHITELIST — only strategies with >51.3% WR
+                _strat_whitelist = _mission.get('STRATEGY_WHITELIST', {}).get('allowed', [])
+                _strat_allowed = False
+                for _sw in _strat_whitelist:
+                    if isinstance(_sw, dict) and _sw.get('market') == m and _sw.get('strategy') == _strat_name:
+                        _strat_allowed = True
+                        break
+                    elif isinstance(_sw, str) and (_sw == _strat_name or _sw in _strat_name):
+                        _strat_allowed = True
+                        break
+                if _strat_whitelist and not _strat_allowed:
+                    score *= 0.01  # strategy not in whitelist
+                
+                # RULE 4: WR CHECK — strategy must have >51.3% WR
+                _strat_stats = tools.memory.strategies.get(f"{m}:{_strat_name}", {})
+                _strat_wr = _strat_stats.get('win_rate', 0)
+                _strat_pnl = _strat_stats.get('total_profit', 0)
+                _strat_trades = _strat_stats.get('trades', 0)
+                if _strat_trades >= 5 and _strat_wr < 51.3:
+                    score *= 0.01  # below break-even WR
+                if _strat_trades >= 5 and _strat_pnl < -1.0:
+                    score *= 0.05  # losing money
+                
+                # RULE 5: HOUR FILTER — only profitable hours
                 _allowed_hours = _mission.get('HOUR_FILTER', {}).get('allowed', [])
                 _banned_hours = _mission.get('HOUR_FILTER', {}).get('banned', [])
                 _tight_hours = _mission.get('HOUR_FILTER', {}).get('tight_hours', [])
                 if _allowed_hours and _hour not in _allowed_hours:
-                    score *= 0.05  # hour not in whitelist
+                    score *= 0.05
                 if _hour in _banned_hours:
-                    score *= 0.01  # hour explicitly banned
+                    score *= 0.01
                 if _hour in _tight_hours:
-                    score *= 0.001  # worst hours — absolute zero
+                    score *= 0.001
                 
-                # Rule 3: Strategy whitelist — only proven families
-                _allowed_strats = _mission.get('STRATEGY_WHITELIST', {}).get('allowed', [])
-                _strat_name = strategy.get('strategy', '')
-                _strat_family = '_'.join(_strat_name.split('_')[:2]) if _strat_name else ''
-                if _allowed_strats and _strat_name not in _allowed_strats and _strat_family not in _allowed_strats:
-                    score *= 0.05  # strategy not in whitelist
+                # RULE 6: STAKE FLAT — max $1, no escalation
+                _max_stake = _mission.get('STAKE_RULES', {}).get('max_stake', 1.0)
                 
-                # Rule 4: Stake cap — max $2
-                _max_stake = _mission.get('STAKE_RULES', {}).get('max_stake', 2.0)
-                
-                # Rule 5: Daily loss limit — $5 hard stop
-                _max_daily_loss = _mission.get('STAKE_RULES', {}).get('max_daily_loss', 5.0)
+                # RULE 7: DAILY LOSS STOP — $3 hard stop
+                _max_daily_loss = _mission.get('STAKE_RULES', {}).get('max_daily_loss', 3.0)
                 if risk.pnl < -_max_daily_loss:
-                    score *= 0.001  # daily loss limit breached
+                    score *= 0.001
                 
-                # Rule 6: Quality gates — min health, confidence, EV
+                # RULE 8: KILL SWITCHES
+                _kill = _mission.get('KILL_SWITCHES', {})
+                if risk.consec_loss >= _kill.get('consecutive_loss_stop', 3):
+                    score *= 0.001  # consecutive loss stop
+                _hourly_loss = abs(min(0, risk.pnl))
+                if _hourly_loss >= _kill.get('hourly_loss_stop', 1.5):
+                    score *= 0.01  # hourly loss stop
+                
+                # RULE 9: QUALITY GATES
                 _min_health = _mission.get('QUALITY_GATES', {}).get('min_health_score', 70)
                 _min_conf = _mission.get('QUALITY_GATES', {}).get('min_confidence', 5)
                 if hasattr(tools, 'diagnostic'):
@@ -5387,26 +5420,19 @@ async def main():
                     if _last_scan:
                         _health = _last_scan[-1].get('health_score', 0)
                         if _health < _min_health:
-                            score *= 0.3  # system degraded
+                            score *= 0.3
                 if strategy.get('confidence', 0) < _min_conf:
-                    score *= 0.5  # low confidence
+                    score *= 0.5
                 
-                # Rule 7: Strategy must have positive PnL
-                _strat_pnl = tools.memory.strategies.get(f"{m}:{_strat_name}", {}).get('total_profit', 0)
-                _require_pos_pnl = _mission.get('QUALITY_GATES', {}).get('require_strategy_pnl_positive', True)
-                if _require_pos_pnl and _strat_pnl < -1.0:
-                    score *= 0.1  # strategy is losing money
-                
-                # Rule 8: Market must have positive PnL
-                _mkt_pnl = sum(v.get('total_profit', 0) for k, v in tools.memory.strategies.items() if k.startswith(m + ':'))
-                _require_mkt_pos = _mission.get('QUALITY_GATES', {}).get('require_market_pnl_positive', True)
-                if _require_mkt_pos and _mkt_pnl < -5.0:
-                    score *= 0.05  # market is bleeding
-                
-                # Rule 9: Max daily trades
-                _max_daily = _mission.get('STAKE_RULES', {}).get('max_daily_trades', 20)
+                # RULE 10: MAX DAILY TRADES — 10 only
+                _max_daily = _mission.get('STAKE_RULES', {}).get('max_daily_trades', 10)
                 if risk.total >= _max_daily:
-                    score *= 0.001  # daily trade limit reached
+                    score *= 0.001
+                
+                # RULE 11: MARKET PnL — market must be profitable
+                _mkt_pnl = sum(v.get('total_profit', 0) for k, v in tools.memory.strategies.items() if k.startswith(m + ':'))
+                if _mkt_pnl < -5.0:
+                    score *= 0.05
 
                 # Research: boost top-3 proven combos
                 if m == 'JD25' and strategy.get('strategy') == 'DIGIT_DIFF_1':

@@ -31,6 +31,60 @@
         "balance": 9985.0,
         "time": 1784896394565,
         "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": -1.0,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784896794151,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": -1.0,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784896868584,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": 0.92,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784896929505,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": 0.92,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784896981640,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": -1.0,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784897011272,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "DIGIT_DIFF_0",
+        "profit": -1.0,
+        "stake": 1.0,
+        "balance": 9973.96,
+        "time": 1784897052487,
+        "context": {}
       }
     ],
     "decisions": [

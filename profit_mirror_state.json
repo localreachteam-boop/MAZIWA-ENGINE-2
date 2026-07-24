@@ -33,10 +33,10 @@
         "pnl": -2.2
       },
       "15": {
-        "trades": 12,
-        "wins": 4,
-        "losses": 8,
-        "pnl": -4.2
+        "trades": 19,
+        "wins": 6,
+        "losses": 13,
+        "pnl": -7.36
       }
     }
   },
@@ -1412,7 +1412,35 @@
         "balance_range": "high"
       },
       "time": 1784896003.6241217
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784896929.26992
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784896981.3985958
     }
   ],
-  "echoes_pending": 2
+  "echoes_pending": 0
 }

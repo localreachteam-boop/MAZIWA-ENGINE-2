@@ -18,19 +18,19 @@
   },
   "openrouter": {
    "name": "OpenRouter",
-   "queries": 193,
-   "successes": 193,
+   "queries": 194,
+   "successes": 194,
    "failures": 0,
    "total_tokens": 0,
-   "total_latency": 457.27767419815063,
-   "avg_latency": 2.369314374083682,
+   "total_latency": 459.01763796806335,
+   "avg_latency": 2.36607029880445,
    "consec_fails": 0,
    "last_result": "none",
    "last_error": "",
    "trade_pnl": 0,
    "trade_wins": 0,
    "trade_losses": 0,
-   "score": 59.3
+   "score": 59.4
   }
  },
  "rotation_mode": "smart"

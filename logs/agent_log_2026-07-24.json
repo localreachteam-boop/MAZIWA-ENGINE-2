@@ -67683,5 +67683,2855 @@
   "agent": "brain",
   "note": "Win streak: 1 | confidence: 1",
   "time": 1784896026250
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3027 scout=$0.30",
+  "time": 1784896026463
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3027 scout=$0.30",
+  "time": 1784896027694
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896028928
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896029209
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896030578
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=1690 bal=$9982.56 pnl=$+12.60 wr=53% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+  "time": 1784896031825
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896032044
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896032268
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896033527
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896034842
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896035063
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896036296
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896037515
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896037775
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896039094
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896040323
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896040547
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896041827
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896043147
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896043364
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3428 scout=$0.30",
+  "time": 1784896044598
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=1700 bal=$9982.56 pnl=$+12.60 wr=53% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+  "time": 1784896045890
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896046117
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2063 scout=$0.30",
+  "time": 1784896046472
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2063 scout=$0.30",
+  "time": 1784896047793
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896049020
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2063 scout=$0.30",
+  "time": 1784896049248
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2063 scout=$0.30",
+  "time": 1784896050529
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 1",
+  "time": 1784896051885
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2727 scout=$0.30",
+  "time": 1784896052113
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #50 STARTED: JD25 DIGIT_DIFF_1 PUT stake=$1.00 [state=COMPRESSION conf=25%]",
+  "time": 1784896052335
+ },
+ {
+  "agent": "alm_brain",
+  "note": "MODEL APPROVED: DIGIT_DIFF_1 PUT on JD25 \u2014 Strategy alignment with regime and sufficient bala",
+  "time": 1784896058824
+ },
+ {
+  "agent": "improver",
+  "note": "PROMOTE: JD25:ODD_BIAS -- EV=0.3117, WR=67%, 12T",
+  "time": 1784896059051
+ },
+ {
+  "agent": "improver",
+  "note": "PROMOTE: JD100:FALL_TREND -- EV=0.1535, WR=59%, 88T",
+  "time": 1784896059255
+ },
+ {
+  "agent": "improver",
+  "note": "PROMOTE: R_75:FALL_TREND -- EV=0.0979, WR=63%, 130T",
+  "time": 1784896059462
+ },
+ {
+  "agent": "improver",
+  "note": "DEPRIORITIZE: R_10:DIGIT_DIFF_0 -- EV=-3.6000, WR=0%, 5T",
+  "time": 1784896059670
+ },
+ {
+  "agent": "improver",
+  "note": "DEPRIORITIZE: R_100:DIGIT_DIFF_0 -- EV=-3.5000, WR=0%, 5T",
+  "time": 1784896059876
+ },
+ {
+  "agent": "improver",
+  "note": "DEPRIORITIZE: JD75:DIGIT_DIFF_0 -- EV=-3.0100, WR=14%, 7T",
+  "time": 1784896060084
+ },
+ {
+  "agent": "brain",
+  "note": "IMPROVEMENT: 6 actions taken (3 promoted)",
+  "time": 1784896060315
+ },
+ {
+  "agent": "mirror",
+  "note": "Echo trade: JD75 DIGIT_DIFF_1 \u2190 JD25 (won $+0.95)",
+  "time": 1784896060633
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: JD75 DIGIT_DIFF_1 (score=4/4, 1.3h old)",
+  "time": 1784896060845
+ },
+ {
+  "agent": "bunch",
+  "note": "BUNCH START: JD75 DIGIT_DIFF_1 | score=42 size=6 stake=$1.0",
+  "time": 1784896061069
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on JD75 (NORMAL confidence)",
+  "time": 1784896061363
+ },
+ {
+  "agent": "risk",
+  "note": "\ud83e\ude78 DERIV DISCONNECT 10MIN: 10MIN: 7/10 losses, PnL=$-4.15 (disconnect #1)",
+  "time": 1784896064477
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #50 trade 1/8: \u274c $-1.00 | session_pnl=$-1.0000 | trade_1/8 (session_pnl=$-1.0000)",
+  "time": 1784896064695
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896065735
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=-0.2500",
+  "time": 1784896066055
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896066376
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896066722
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=0.5000",
+  "time": 1784896067027
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896067324
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=-0.4706",
+  "time": 1784896067627
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_1 - 78/162 losses, EV=-0.0546",
+  "time": 1784896067925
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.3846",
+  "time": 1784896068288
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0322",
+  "time": 1784896068585
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896068875
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.2703",
+  "time": 1784896069179
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=3.0000",
+  "time": 1784896069473
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=-0.1429",
+  "time": 1784896069765
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=0.8000",
+  "time": 1784896070066
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=-0.1818",
+  "time": 1784896070364
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=-0.3571",
+  "time": 1784896070671
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:FALL_TREND - 3/15 losses, EV=-0.1823",
+  "time": 1784896070970
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.0446",
+  "time": 1784896071282
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_1 - -5/14 losses, EV=-0.0364",
+  "time": 1784896071571
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=-0.0859",
+  "time": 1784896071867
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.1194",
+  "time": 1784896072158
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0623",
+  "time": 1784896072452
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896072748
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_8 - 2/12 losses, EV=-0.1809",
+  "time": 1784896073043
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:RISE_TREND - 6/15 losses, EV=-0.1971",
+  "time": 1784896073345
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_2 - 1/12 losses, EV=-0.0460",
+  "time": 1784896073647
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_4 - -9/15 losses, EV=-0.0693",
+  "time": 1784896073953
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896074262
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.1074",
+  "time": 1784896074570
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896074871
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1225",
+  "time": 1784896075172
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:FALL_TREND - 5/11 losses, EV=-0.2688",
+  "time": 1784896075475
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0460",
+  "time": 1784896075780
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896076079
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0725",
+  "time": 1784896076377
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_2 - 2/21 losses, EV=-0.0107",
+  "time": 1784896076674
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_6 - 1/14 losses, EV=-0.1452",
+  "time": 1784896076960
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.1823",
+  "time": 1784896077265
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0685",
+  "time": 1784896077556
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.0578",
+  "time": 1784896077848
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896078139
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896078436
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896078735
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:MOMENTUM_DOWN - 8/15 losses, EV=-0.0250",
+  "time": 1784896079026
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.2200",
+  "time": 1784896079330
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=-0.0250",
+  "time": 1784896079634
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:MOMENTUM_DOWN - 4/8 losses, EV=-0.4682",
+  "time": 1784896079938
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896080262
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896080563
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896080877
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896081241
+ },
+ {
+  "agent": "executor",
+  "note": "\u274c $-1.00 PUT on JD75 (DIGIT_DIFF_1)",
+  "time": 1784896081669
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u274c $-1.00 on JD75 DIGIT_DIFF_1 | bal=$9982.56 pnl=$+11.60 | wr=53% streak=L1 | stake=$1.00 regime=MEMORY",
+  "time": 1784896082031
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_1 (PUT)",
+  "time": 1784896082319
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 JD25:DIGIT_DIFF_1 PnL=$-1.0000",
+  "time": 1784896668871
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896674345
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896675828
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896677241
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896678554
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896679965
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896681346
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896682696
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=1830 bal=$9982.56 pnl=$+11.60 wr=53% mode=OPTIMAL strategies=199 retired=0 streak=L1",
+  "time": 1784896684019
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896684362
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896685741
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896687082
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2268 scout=$0.30",
+  "time": 1784896688513
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896689877
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896691237
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896692680
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896694050
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896695362
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896696774
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=1840 bal=$9982.56 pnl=$+11.60 wr=53% mode=OPTIMAL strategies=199 retired=0 streak=L1",
+  "time": 1784896697998
+ },
+ {
+  "agent": "protector",
+  "note": "Loss streak: 1 | mode: OPTIMAL | reason: default",
+  "time": 1784896698222
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896698596
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896699941
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896701365
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896702796
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896704123
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2497 scout=$0.30",
+  "time": 1784896705547
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2711 scout=$0.30",
+  "time": 1784896706938
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2711 scout=$0.30",
+  "time": 1784896708291
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2711 scout=$0.30",
+  "time": 1784896709704
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2711 scout=$0.30",
+  "time": 1784896711060
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=1850 bal=$9982.56 pnl=$+11.60 wr=53% mode=OPTIMAL strategies=199 retired=0 streak=L1",
+  "time": 1784896712345
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2711 scout=$0.30",
+  "time": 1784896712761
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #51 STARTED: JD25 DIGIT_DIFF_1 PUT stake=$1.00 [state=COMPRESSION conf=25%]",
+  "time": 1784896712973
+ },
+ {
+  "agent": "alm_brain",
+  "note": "MODEL APPROVED: DIGIT_DIFF_1 PUT on JD25 \u2014 Low consecutive loss and sufficient balance for si",
+  "time": 1784896718518
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: JD25 DIGIT_DIFF_1 (score=4/4, 0.2h old)",
+  "time": 1784896718748
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on JD75 (NORMAL confidence)",
+  "time": 1784896718963
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #51 trade 1/8: \u274c $-1.00 | session_pnl=$-1.0000 | trade_1/8 (session_pnl=$-1.0000)",
+  "time": 1784896722399
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896723447
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896723741
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896724041
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896724351
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=-0.3571",
+  "time": 1784896724645
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896724942
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=-0.3077",
+  "time": 1784896725246
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896725545
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896725843
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896726142
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896726445
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896726754
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=1.7000",
+  "time": 1784896727096
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896727395
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896727698
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=1.8636",
+  "time": 1784896728023
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784896728324
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.1337",
+  "time": 1784896728626
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784896728926
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_1 - -5/14 losses, EV=-0.2189",
+  "time": 1784896729231
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784896729541
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.1086",
+  "time": 1784896729845
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784896730148
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=0.0636",
+  "time": 1784896730451
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.0859",
+  "time": 1784896730752
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784896731049
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784896731345
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896731636
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_2 - 1/12 losses, EV=-0.0364",
+  "time": 1784896732051
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_4 - -9/15 losses, EV=-0.0578",
+  "time": 1784896732353
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896732650
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784896732946
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.1550",
+  "time": 1784896733248
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896733538
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784896733831
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.0545",
+  "time": 1784896734157
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:FALL_TREND - 5/11 losses, EV=-0.0900",
+  "time": 1784896734460
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784896734771
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896735191
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784896735492
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784896735797
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784896736102
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784896736393
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_9 - 2/9 losses, EV=-0.0487",
+  "time": 1784896736689
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0215",
+  "time": 1784896736982
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784896737278
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896737574
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896737869
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896738160
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:MOMENTUM_DOWN - 6/9 losses, EV=-0.1750",
+  "time": 1784896738456
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784896738751
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.1556",
+  "time": 1784896739046
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896739346
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896739648
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896739954
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896740247
+ },
+ {
+  "agent": "executor",
+  "note": "\u274c $-1.00 PUT on JD75 (DIGIT_DIFF_1)",
+  "time": 1784896740664
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u274c $-1.00 on JD75 DIGIT_DIFF_1 | bal=$9982.56 pnl=$+10.60 | wr=53% streak=L2 | stake=$1.00 regime=MEMORY",
+  "time": 1784896740974
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_1 (PUT)",
+  "time": 1784896741202
+ },
+ {
+  "agent": "picker",
+  "note": "Market rotation: JD75 \u2192 next in queue",
+  "time": 1784896741826
+ },
+ {
+  "agent": "system",
+  "note": "All 7 agents initialized: sensor, memory, picker, judge, protector, regime, strategist",
+  "time": 1784896750398
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_DIFF_0 score=0.3053 scout=$0.30",
+  "time": 1784896773407
+ },
+ {
+  "agent": "brain",
+  "note": "MODE: OPTIMAL -> EXPLORATION (new R_75 (0))",
+  "time": 1784896773610
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #1 STARTED: R_75 DIGIT_DIFF_0 PUT stake=$1.00 [state=COMPRESSION conf=0%]",
+  "time": 1784896773873
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_75 DIGIT_DIFF_0 (score=4/4, 2.5h old)",
+  "time": 1784896774132
+ },
+ {
+  "agent": "bunch",
+  "note": "BUNCH START: R_75 DIGIT_DIFF_0 | score=42 size=6 stake=$1.0",
+  "time": 1784896774331
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on R_75 (NORMAL confidence)",
+  "time": 1784896774587
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #1 trade 1/8: \u274c $-1.00 | session_pnl=$-1.0000 | trade_1/8 (session_pnl=$-1.0000)",
+  "time": 1784896777922
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896779340
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896779597
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896779858
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896780121
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=-0.3571",
+  "time": 1784896780375
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896780631
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=-0.3077",
+  "time": 1784896780883
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896781147
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896781405
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896781666
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896781928
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896782187
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=1.7000",
+  "time": 1784896782442
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896782699
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896782957
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=1.8636",
+  "time": 1784896783220
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784896783480
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.1337",
+  "time": 1784896783739
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784896783999
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_1 - -5/14 losses, EV=-0.2189",
+  "time": 1784896784259
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784896784522
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.1086",
+  "time": 1784896784786
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784896785051
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=0.0636",
+  "time": 1784896785316
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.0859",
+  "time": 1784896785582
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784896785851
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784896786110
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896786375
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_2 - 1/12 losses, EV=-0.0364",
+  "time": 1784896786639
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_4 - -9/15 losses, EV=-0.0578",
+  "time": 1784896786904
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896787184
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784896787451
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.1550",
+  "time": 1784896787726
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896787980
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784896788241
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.0545",
+  "time": 1784896788507
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:FALL_TREND - 5/11 losses, EV=-0.0900",
+  "time": 1784896788772
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784896789036
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896789305
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784896789571
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784896789835
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784896790097
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784896790361
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_9 - 2/9 losses, EV=-0.0487",
+  "time": 1784896790623
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0215",
+  "time": 1784896790886
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784896791151
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896791410
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896791670
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896791926
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:MOMENTUM_DOWN - 6/9 losses, EV=-0.1750",
+  "time": 1784896792199
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784896792453
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.1556",
+  "time": 1784896792708
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896792965
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896793227
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896793503
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896793799
+ },
+ {
+  "agent": "executor",
+  "note": "\u274c $-1.00 PUT on R_75 (DIGIT_DIFF_0)",
+  "time": 1784896794324
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u274c $-1.00 on R_75 DIGIT_DIFF_0 | bal=$9973.96 pnl=$+10.60 | wr=53% streak=L1 | stake=$1.00 regime=MEMORY",
+  "time": 1784896794581
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_0 (PUT)",
+  "time": 1784896794769
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_DIFF_0 PnL=$-1.0000",
+  "time": 1784896795905
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_DIFF_0 score=0.2170 scout=$0.30",
+  "time": 1784896801478
+ },
+ {
+  "agent": "overtrade",
+  "note": "SESSION BLOCKED: session gap (9s after loss)",
+  "time": 1784896801671
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_DIFF_0 score=0.2170 scout=$0.30",
+  "time": 1784896807299
+ },
+ {
+  "agent": "overtrade",
+  "note": "SESSION BLOCKED: session gap (3s after loss)",
+  "time": 1784896807492
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_DIFF_0 score=0.2170 scout=$0.30",
+  "time": 1784896811526
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #2 STARTED: R_75 DIGIT_DIFF_0 PUT stake=$1.00 [state=COMPRESSION conf=30%]",
+  "time": 1784896811716
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_75 DIGIT_DIFF_0 (score=4/4, 2.5h old)",
+  "time": 1784896811976
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=10 bal=$9973.96 pnl=$+10.60 wr=53% mode=EXPLORATION strategies=199 retired=0 streak=L1",
+  "time": 1784896812675
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_DIFF_0 PnL=$+0.0000",
+  "time": 1784896827184
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2489 scout=$0.30",
+  "time": 1784896833077
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #3 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=32%]",
+  "time": 1784896833272
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_75 DIGIT_DIFF_0 (score=4/4, 2.5h old)",
+  "time": 1784896833537
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=20 bal=$9973.96 pnl=$+10.60 wr=53% mode=EXPLORATION strategies=199 retired=0 streak=L1",
+  "time": 1784896836242
+ },
+ {
+  "agent": "protector",
+  "note": "Loss streak: 1 | mode: EXPLORATION | reason: new R_75 (1)",
+  "time": 1784896836449
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.0000",
+  "time": 1784896838740
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2489 scout=$0.30",
+  "time": 1784896844404
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #4 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=32%]",
+  "time": 1784896844602
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_75 DIGIT_DIFF_0 (score=4/4, 2.5h old)",
+  "time": 1784896844879
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on R_75 (NORMAL confidence)",
+  "time": 1784896845079
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #4 trade 1/8: \u274c $-1.00 | session_pnl=$-1.0000 | trade_1/8 (session_pnl=$-1.0000)",
+  "time": 1784896851855
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896853019
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896853306
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896853600
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896853879
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=-0.3571",
+  "time": 1784896854160
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896854440
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=-0.3077",
+  "time": 1784896854717
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896854993
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896855270
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896855550
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896855825
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896856101
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=1.7000",
+  "time": 1784896856377
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896856655
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896856932
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=1.8636",
+  "time": 1784896857208
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784896857486
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.1337",
+  "time": 1784896857762
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784896858034
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_1 - -5/14 losses, EV=-0.2189",
+  "time": 1784896858318
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784896858586
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.1086",
+  "time": 1784896858855
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784896859131
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=0.0636",
+  "time": 1784896859414
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.0859",
+  "time": 1784896859689
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784896859960
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784896860233
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896860514
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_2 - 1/12 losses, EV=-0.0364",
+  "time": 1784896860793
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_4 - -9/15 losses, EV=-0.0578",
+  "time": 1784896861075
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896861359
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784896861633
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.1550",
+  "time": 1784896861911
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896862188
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784896862462
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.0545",
+  "time": 1784896862741
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:FALL_TREND - 5/11 losses, EV=-0.0900",
+  "time": 1784896863014
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784896863296
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896863561
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784896863828
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784896864093
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784896864367
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784896864641
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_9 - 2/9 losses, EV=-0.0487",
+  "time": 1784896864913
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0215",
+  "time": 1784896865188
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784896865460
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896865732
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896866014
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896866287
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:MOMENTUM_DOWN - 6/9 losses, EV=-0.1750",
+  "time": 1784896866566
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784896866841
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.1556",
+  "time": 1784896867115
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896867390
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896867673
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896867952
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896868225
+ },
+ {
+  "agent": "executor",
+  "note": "\u274c $-1.00 PUT on R_75 (DIGIT_DIFF_0)",
+  "time": 1784896868657
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u274c $-1.00 on R_75 DIGIT_DIFF_0 | bal=$9973.96 pnl=$+9.60 | wr=53% streak=L2 | stake=$1.00 regime=MEMORY",
+  "time": 1784896868928
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_0 (PUT)",
+  "time": 1784896869233
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$-1.0000",
+  "time": 1784896870349
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896876121
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896879736
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896883326
+ },
+ {
+  "agent": "overtrade",
+  "note": "SESSION BLOCKED: session gap (17s after loss)",
+  "time": 1784896883522
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896889163
+ },
+ {
+  "agent": "overtrade",
+  "note": "SESSION BLOCKED: session gap (11s after loss)",
+  "time": 1784896889358
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896894981
+ },
+ {
+  "agent": "overtrade",
+  "note": "SESSION BLOCKED: session gap (5s after loss)",
+  "time": 1784896895178
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896900693
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #5 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=35%]",
+  "time": 1784896900889
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=30 bal=$9973.96 pnl=$+9.60 wr=53% mode=EXPLORATION strategies=199 retired=0 streak=L2",
+  "time": 1784896901910
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.0000",
+  "time": 1784896902126
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2343 scout=$0.30",
+  "time": 1784896907782
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #6 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=28%]",
+  "time": 1784896907982
+ },
+ {
+  "agent": "replicator",
+  "note": "REDUCE R_75 h15: x0.3 (dying_today_2L) \u2192 $0.22",
+  "time": 1784896908265
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on R_75 (NORMAL confidence)",
+  "time": 1784896908461
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #6 trade 1/8: \u2705 $+0.92 | session_pnl=$+0.9200 | trade_1/8 (session_pnl=$+0.9200)",
+  "time": 1784896911933
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896912939
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896913215
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896913495
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896913775
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=-1.0000",
+  "time": 1784896914045
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896914323
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=-1.0000",
+  "time": 1784896914604
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896914914
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896915192
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896915476
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896915754
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896916030
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=2.6000",
+  "time": 1784896916301
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896916570
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896916850
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=2.8571",
+  "time": 1784896917125
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784896917411
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.1337",
+  "time": 1784896917684
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784896917970
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_1 - -5/14 losses, EV=-0.2189",
+  "time": 1784896918247
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784896918529
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.1086",
+  "time": 1784896918810
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784896919088
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=0.5600",
+  "time": 1784896919362
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.6100",
+  "time": 1784896919640
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784896919926
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784896920203
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896920494
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_3 - 1/10 losses, EV=-0.3943",
+  "time": 1784896920775
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_4 - -9/15 losses, EV=-0.0578",
+  "time": 1784896921063
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896921348
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784896921635
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.1550",
+  "time": 1784896921920
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896922198
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784896922471
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.0545",
+  "time": 1784896922749
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:FALL_TREND - 5/11 losses, EV=-0.6100",
+  "time": 1784896923025
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784896923308
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896923596
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784896923881
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_2 - 2/21 losses, EV=-0.1520",
+  "time": 1784896924165
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784896924446
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784896924733
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784896925018
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_9 - 2/9 losses, EV=-0.0487",
+  "time": 1784896925303
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0914",
+  "time": 1784896925585
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784896925865
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896926143
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896926423
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896926723
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:MOMENTUM_DOWN - 6/9 losses, EV=-0.1750",
+  "time": 1784896927075
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784896927472
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.9500",
+  "time": 1784896927750
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896928034
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896928343
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896928638
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896928922
+ },
+ {
+  "agent": "mirror",
+  "note": "\ud83d\udcc8 Win recorded: R_75 DIGIT_DIFF_0 \u2014 99 patterns stored",
+  "time": 1784896929275
+ },
+ {
+  "agent": "executor",
+  "note": "\u2705 $+0.92 PUT on R_75 (DIGIT_DIFF_0)",
+  "time": 1784896929578
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u2705 $+0.92 on R_75 DIGIT_DIFF_0 | bal=$9973.96 pnl=$+10.52 | wr=53% streak=W1 | stake=$1.00 regime=MEMORY",
+  "time": 1784896929863
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_0 (PUT)",
+  "time": 1784896930066
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 2",
+  "time": 1784896931108
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.9200",
+  "time": 1784896931309
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2489 scout=$0.30",
+  "time": 1784896936712
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #7 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=13%]",
+  "time": 1784896936917
+ },
+ {
+  "agent": "mirror",
+  "note": "Echo trade: R_25 DIGIT_DIFF_0 \u2190 R_75 (won $+0.92)",
+  "time": 1784896937193
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_25 DIGIT_DIFF_1 (score=4/4, 2.3h old)",
+  "time": 1784896937389
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 8",
+  "time": 1784896938103
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 8",
+  "time": 1784896942409
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.0000",
+  "time": 1784896942612
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2489 scout=$0.30",
+  "time": 1784896947920
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #8 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=28%]",
+  "time": 1784896948117
+ },
+ {
+  "agent": "mirror",
+  "note": "Echo trade: R_50 DIGIT_DIFF_0 \u2190 R_75 (won $+0.92)",
+  "time": 1784896948411
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_50 DIGIT_DIFF_0 (score=4/4, 2.5h old)",
+  "time": 1784896948607
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 8",
+  "time": 1784896949318
+ },
+ {
+  "agent": "brain",
+  "note": "STATUS: cycle=40 bal=$9973.96 pnl=$+10.52 wr=53% mode=EXPLORATION strategies=199 retired=0 streak=W1",
+  "time": 1784896953645
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 1 | confidence: 8",
+  "time": 1784896953870
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.0000",
+  "time": 1784896954082
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2489 scout=$0.30",
+  "time": 1784896959392
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #9 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=22%]",
+  "time": 1784896959605
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_75 DIGIT_DIFF_0 (score=4/4, 0.0h old)",
+  "time": 1784896959886
+ },
+ {
+  "agent": "replicator",
+  "note": "REDUCE R_75 h15: x0.5 (bleeding_today_-1.08) \u2192 $0.38",
+  "time": 1784896960089
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on R_75 (NORMAL confidence)",
+  "time": 1784896960293
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #9 trade 1/8: \u2705 $+0.92 | session_pnl=$+0.9200 | trade_1/8 (session_pnl=$+0.9200)",
+  "time": 1784896964262
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896965244
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896965528
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896965818
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896966106
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=0.2857",
+  "time": 1784896966398
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896966726
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=0.8000",
+  "time": 1784896967034
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896967330
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896967617
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896967914
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896968206
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896968497
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=2.6000",
+  "time": 1784896968784
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896969072
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896969369
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=0.5000",
+  "time": 1784896969662
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784896969949
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=0.1337",
+  "time": 1784896970238
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784896970536
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784896970822
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.1086",
+  "time": 1784896971109
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784896971398
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=-0.2200",
+  "time": 1784896971690
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:RISE_TREND - 4/14 losses, EV=-0.2688",
+  "time": 1784896971983
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784896972282
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784896972618
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896972936
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_3 - 1/10 losses, EV=-0.4700",
+  "time": 1784896973277
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784896973612
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784896973896
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.7214",
+  "time": 1784896974177
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784896974467
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784896974761
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.0545",
+  "time": 1784896975084
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784896975461
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784896975869
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784896976241
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_2 - 2/21 losses, EV=-0.1520",
+  "time": 1784896976527
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784896976814
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784896977096
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784896977377
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0460",
+  "time": 1784896977660
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784896977938
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784896978219
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784896978512
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896978791
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:MOMENTUM_DOWN - 6/9 losses, EV=-0.1750",
+  "time": 1784896979112
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784896979402
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.9500",
+  "time": 1784896979711
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784896980026
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784896980331
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784896980620
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784896980915
+ },
+ {
+  "agent": "mirror",
+  "note": "\ud83d\udcc8 Win recorded: R_75 DIGIT_DIFF_0 \u2014 100 patterns stored",
+  "time": 1784896981405
+ },
+ {
+  "agent": "executor",
+  "note": "\u2705 $+0.92 PUT on R_75 (DIGIT_DIFF_0)",
+  "time": 1784896981718
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u2705 $+0.92 on R_75 DIGIT_DIFF_0 | bal=$9973.96 pnl=$+11.44 | wr=53% streak=W2 | stake=$1.00 regime=MEMORY",
+  "time": 1784896982012
+ },
+ {
+  "agent": "picker",
+  "note": "Win streak 2: rotating family",
+  "time": 1784896982223
+ },
+ {
+  "agent": "picker",
+  "note": "Contract shuffle: DIGIT_DIFF_0 (PUT)",
+  "time": 1784896982438
+ },
+ {
+  "agent": "research",
+  "note": "Experiment #80: market_probe on JD25 \u2014 Knowledge gap: Only 0 trades recorded",
+  "time": 1784896983244
+ },
+ {
+  "agent": "brain",
+  "note": "Win streak: 2 | confidence: 2",
+  "time": 1784896983927
+ },
+ {
+  "agent": "session",
+  "note": "SESSION EXITED: strategy retired \u2014 R_75:DIGIT_MATCH_7 PnL=$+0.9200",
+  "time": 1784896984141
+ },
+ {
+  "agent": "bunch",
+  "note": "RESCUE: R_75 DIGIT_MATCH_7 score=0.2463 scout=$0.30",
+  "time": 1784896989450
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #10 STARTED: R_75 DIGIT_MATCH_7 PUT stake=$1.00 [state=COMPRESSION conf=22%]",
+  "time": 1784896989662
+ },
+ {
+  "agent": "mirror",
+  "note": "Echo trade: R_25 DIGIT_DIFF_0 \u2190 R_75 (won $+0.92)",
+  "time": 1784896990087
+ },
+ {
+  "agent": "mirror",
+  "note": "Pattern replay: R_25 DIGIT_DIFF_1 (score=4/4, 2.3h old)",
+  "time": 1784896990346
+ },
+ {
+  "agent": "executor",
+  "note": "Entry: PUT $1.00 on R_75 (MEDIUM confidence)",
+  "time": 1784896990566
+ },
+ {
+  "agent": "session",
+  "note": "SESSION #10 trade 1/8: \u274c $-1.00 | session_pnl=$-1.0000 | trade_1/8 (session_pnl=$-1.0000)",
+  "time": 1784896994340
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_0 - 6/7 losses, EV=0.0000",
+  "time": 1784896995264
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_6 - 4/5 losses, EV=0.8000",
+  "time": 1784896995549
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896995869
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_0 - 19/33 losses, EV=0.0000",
+  "time": 1784896996155
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_4 - 5/6 losses, EV=-1.0000",
+  "time": 1784896996438
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:DIGIT_DIFF_0 - 5/5 losses, EV=0.0000",
+  "time": 1784896996723
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_6 - 5/6 losses, EV=0.8000",
+  "time": 1784896997018
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_1 - 4/5 losses, EV=0.8000",
+  "time": 1784896997318
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_DIFF_1 - 9/15 losses, EV=0.0000",
+  "time": 1784896997712
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_5 - 5/20 losses, EV=-0.0725",
+  "time": 1784896998133
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_5 - 5/5 losses, EV=-1.0000",
+  "time": 1784896998450
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_7 - 23/44 losses, EV=-0.1000",
+  "time": 1784896998728
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_5 - 6/6 losses, EV=-1.0000",
+  "time": 1784896999017
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_2 - 18/26 losses, EV=0.1250",
+  "time": 1784896999334
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_7 - 6/7 losses, EV=-1.0000",
+  "time": 1784896999613
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_9 - 6/6 losses, EV=0.5000",
+  "time": 1784896999895
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_7 - 5/5 losses, EV=0.9286",
+  "time": 1784897000174
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:ODD_BIAS - 4/5 losses, EV=-0.6750",
+  "time": 1784897000460
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_8 - 0/17 losses, EV=-0.0322",
+  "time": 1784897000758
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:RISE_TREND - 12/30 losses, EV=-0.4265",
+  "time": 1784897001044
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:FALL_TREND - 48/130 losses, EV=-0.2200",
+  "time": 1784897001326
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:FALL_TREND - 36/88 losses, EV=-0.1397",
+  "time": 1784897001606
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:ODD_BIAS - 5/5 losses, EV=-0.2200",
+  "time": 1784897001891
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_9 - 1/21 losses, EV=-0.0410",
+  "time": 1784897002176
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_3 - 2/26 losses, EV=-0.0157",
+  "time": 1784897002459
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784897002753
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_3 - 1/10 losses, EV=-0.4700",
+  "time": 1784897003043
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_MATCH_0 - 9/9 losses, EV=-1.0000",
+  "time": 1784897003321
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_7 - 2/12 losses, EV=-0.0516",
+  "time": 1784897003600
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:FALL_TREND - 4/15 losses, EV=-0.2688",
+  "time": 1784897003887
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_MATCH_0 - 20/36 losses, EV=-1.0000",
+  "time": 1784897004176
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:ODD_BIAS - 4/12 losses, EV=-0.1333",
+  "time": 1784897004472
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_25:RISE_TREND - 6/9 losses, EV=-0.2200",
+  "time": 1784897004760
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_5 - 1/14 losses, EV=-0.0990",
+  "time": 1784897005051
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_MATCH_0 - 5/5 losses, EV=-1.0000",
+  "time": 1784897005340
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_8 - 2/19 losses, EV=-0.0322",
+  "time": 1784897005629
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD25:DIGIT_DIFF_2 - 2/21 losses, EV=-0.1520",
+  "time": 1784897005918
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_5 - 1/11 losses, EV=-0.0364",
+  "time": 1784897006207
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_6 - 1/10 losses, EV=-0.0813",
+  "time": 1784897006499
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:DIGIT_DIFF_4 - 1/12 losses, EV=-0.1074",
+  "time": 1784897006787
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_75:DIGIT_DIFF_1 - 1/10 losses, EV=-0.0364",
+  "time": 1784897007066
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD100:DIGIT_DIFF_4 - 1/10 losses, EV=-0.1719",
+  "time": 1784897007354
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_UP - 6/10 losses, EV=0.0000",
+  "time": 1784897007711
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_100:FALL_TREND - 8/12 losses, EV=0.0000",
+  "time": 1784897008058
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD10:FALL_TREND - 30/60 losses, EV=-1.0000",
+  "time": 1784897008447
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:FALL_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784897008753
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_UP - 10/21 losses, EV=-0.1643",
+  "time": 1784897009061
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD50:MOMENTUM_DOWN - 9/10 losses, EV=0.6714",
+  "time": 1784897009381
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:MOMENTUM_DOWN - 5/7 losses, EV=0.0000",
+  "time": 1784897009812
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:RISE_TREND - 5/7 losses, EV=0.0000",
+  "time": 1784897010192
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: R_10:MOMENTUM_UP - 4/5 losses, EV=0.0000",
+  "time": 1784897010502
+ },
+ {
+  "agent": "learner",
+  "note": "RETIRED: JD75:DIGIT_MATCH_0 - 11/18 losses, EV=0.0000",
+  "time": 1784897010830
+ },
+ {
+  "agent": "round_profit",
+  "note": "\ud83d\uded1 CONSEC_LOSS: round 1 3 losses",
+  "time": 1784897011278
+ },
+ {
+  "agent": "efficiency",
+  "note": "\ud83d\uddd1\ufe0f KILLED DIGIT_DIFF_0: SV=-0.838 edge=0.0000 RR=0.00x",
+  "time": 1784897011607
+ },
+ {
+  "agent": "executor",
+  "note": "\u274c $-1.00 PUT on R_75 (DIGIT_DIFF_0)",
+  "time": 1784897011962
+ },
+ {
+  "agent": "brain",
+  "note": "TRADE RESULT: \u274c $-1.00 on R_75 DIGIT_DIFF_0 | bal=$9973.96 pnl=$+10.44 | wr=53% streak=L1 | stake=$1.00 regime=MEMORY",
+  "time": 1784897012266
  }
 ]

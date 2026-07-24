@@ -502,17 +502,37 @@
       ]
     },
     "JD75|15|DIGIT_DIFF_1": {
-      "trades": 1,
+      "trades": 2,
       "wins": 0,
-      "losses": 1,
-      "pnl": -1.0,
+      "losses": 2,
+      "pnl": -2.0,
       "peak_pnl": 0.0,
-      "consec_losses": 1,
-      "max_consec_losses": 1,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
       "status": "tracking",
       "first_seen": 1784896081.5651703,
-      "last_trade": 1784896081.565194,
+      "last_trade": 1784896740.5520456,
       "recent_5_pnl": [
+        -1.0,
+        -1.0
+      ]
+    },
+    "R_75|15|DIGIT_DIFF_0": {
+      "trades": 6,
+      "wins": 2,
+      "losses": 4,
+      "pnl": -2.16,
+      "peak_pnl": 0.0,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784896794.1338444,
+      "last_trade": 1784897052.460269,
+      "recent_5_pnl": [
+        -1.0,
+        0.92,
+        0.92,
+        -1.0,
         -1.0
       ]
     }
@@ -1498,7 +1518,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895982.2799137
+      "timestamp": 1784897128.582474
     },
     "R_25|15": {
       "confidence": 56,
@@ -1510,7 +1530,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895976.8823595
+      "timestamp": 1784897128.4443924
     },
     "R_100|15": {
       "confidence": 56,
@@ -1558,7 +1578,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895940.9788823
+      "timestamp": 1784897128.3771138
     },
     "JD25|15": {
       "confidence": 56,
@@ -1570,7 +1590,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895982.318333
+      "timestamp": 1784897128.1996863
     },
     "R_50|15": {
       "confidence": 56,
@@ -1594,7 +1614,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895982.2987666
+      "timestamp": 1784897128.5151906
     },
     "JD100|15": {
       "confidence": 56,
@@ -1606,7 +1626,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895982.259784
+      "timestamp": 1784897128.2719843
     },
     "R_75|16": {
       "confidence": 56,

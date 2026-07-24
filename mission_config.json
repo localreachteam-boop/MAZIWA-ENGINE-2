@@ -1,48 +1,82 @@
 {
-  "version": 2,
-  "name": "FOCUSED PROFIT \u2014 Trade Only What Works",
+  "version": 3,
+  "name": "MATH-FIRST \u2014 Only Trade What Beats the House Edge",
   "created": "2026-07-24",
+  "math": {
+    "payout_ratio": 0.95,
+    "loss_ratio": 1.0,
+    "break_even_wr": 51.3,
+    "explanation": "With 95% payout, you need >51.3% WR to profit. Every trade below that is guaranteed long-term loss."
+  },
   "rules": {
-    "description": "Based on 1775 trades of real data. Only trade proven winners.",
-    "MARKET_WHITELIST": {
-      "description": "Only trade these markets. All others are banned.",
+    "CONTRACT_WHITELIST": {
+      "description": "Only trade contracts with proven >51.3% WR. DIGITDIFF is banned \u2014 45% WR on 95% payout = guaranteed loss.",
       "allowed": [
-        "R_75"
+        "PUT",
+        "CALL"
+      ],
+      "banned": [
+        "DIGITDIFF",
+        "DIGITMATCH",
+        "DIGITODD",
+        "DIGITEVEN"
+      ],
+      "reason": "All contracts pay 95% on win. DIGITDIFF 45% WR = -$0.10/trade. DIGITMATCH 45% WR = -$0.10/trade. Only PUT/CALL with >51.3% WR can profit."
+    },
+    "MARKET_WHITELIST": {
+      "description": "Only trade markets where PUT/CALL strategies have proven profitable.",
+      "allowed": [
+        "R_75",
+        "JD100",
+        "JD25"
       ],
       "banned": [
         "JD10",
         "JD75",
-        "JD25",
         "JD50",
-        "JD100",
         "R_10",
         "R_25",
         "R_50",
         "R_100"
       ],
-      "reason": "R_75 is the ONLY profitable market (+$3.51). All others lose money."
+      "reason": "R_75 FALL_TREND: 63.1% WR, +$12.73. JD100 FALL_TREND: 58.1% WR, +$13.51. JD25 has mixed results."
     },
     "STRATEGY_WHITELIST": {
-      "description": "Only trade these proven strategies.",
+      "description": "Only trade strategies with proven >51.3% WR AND positive PnL.",
       "allowed": [
-        "FALL_TREND",
-        "DIGIT_DIFF_0",
-        "DIGIT_DIFF_1",
-        "DIGIT_DIFF_2",
-        "DIGIT_DIFF_5",
-        "DIGIT_DIFF_8",
-        "ODD_BIAS",
-        "DIGIT_MATCH_7"
+        {
+          "market": "R_75",
+          "strategy": "FALL_TREND",
+          "wr": 63.1,
+          "pnl": 12.73,
+          "trades": 130
+        },
+        {
+          "market": "JD100",
+          "strategy": "FALL_TREND",
+          "wr": 58.1,
+          "pnl": 13.51,
+          "trades": 88
+        },
+        {
+          "market": "JD25",
+          "strategy": "ODD_BIAS",
+          "wr": 66.7,
+          "pnl": 3.74,
+          "trades": 12
+        },
+        {
+          "market": "JD50",
+          "strategy": "MOMENTUM_UP",
+          "wr": 52.4,
+          "pnl": 1.41,
+          "trades": 21
+        }
       ],
-      "banned_families": [
-        "RISE_TREND",
-        "MOMENTUM_DOWN",
-        "ODD_FALLBACK"
-      ],
-      "reason": "Only FALL_TREND and select DIGIT_DIFF are profitable. Others bleed.",
+      "min_wr": 51.3,
       "min_trades": 10,
-      "min_wr": 55,
-      "min_pnl": 0
+      "min_pnl": 0,
+      "reason": "Only these have beaten the house edge consistently."
     },
     "HOUR_FILTER": {
       "description": "Only trade during profitable hours.",
@@ -69,7 +103,7 @@
         21,
         23
       ],
-      "reason": "h02(+$2.80), h15(+$1.95), h18(+$5.46), h22(+$6.89) are profitable. All others lose.",
+      "reason": "h02(+$2.80), h15(+$1.95), h18(+$5.46), h22(+$6.89). All others lose.",
       "tight_hours": [
         12,
         19,
@@ -77,49 +111,77 @@
       ]
     },
     "STAKE_RULES": {
-      "description": "Conservative staking. Protect capital.",
+      "description": "Flat staking. No escalation. Protect capital.",
       "base_stake": 1.0,
-      "max_stake": 2.0,
-      "max_daily_loss": 5.0,
-      "max_daily_trades": 20,
+      "max_stake": 1.0,
+      "max_daily_loss": 3.0,
+      "max_daily_trades": 10,
       "cooldown_after_loss_sec": 30,
       "cooldown_after_3_losses_sec": 120,
-      "reason": "System bleeds when staking aggressively. Keep it small."
+      "reason": "Stake escalation killed the account. Flat $1 until profitable for 7 days straight."
     },
     "QUALITY_GATES": {
-      "description": "Only trade when conditions are right.",
+      "description": "Only trade when ALL conditions are met.",
       "min_health_score": 70,
       "min_confidence": 5,
       "min_ev": 0.01,
       "require_strategy_pnl_positive": true,
       "require_market_pnl_positive": true,
-      "reason": "Don't trade when system is degraded or strategy is losing."
+      "require_wr_above_break_even": true,
+      "break_even_wr": 51.3,
+      "reason": "No trade unless we have mathematical edge."
+    },
+    "KILL_SWITCHES": {
+      "description": "Automatic stops to prevent blowup.",
+      "daily_loss_stop": 3.0,
+      "consecutive_loss_stop": 3,
+      "drawdown_stop": 5.0,
+      "hourly_loss_stop": 1.5,
+      "reason": "If any of these trigger, stop trading immediately."
     },
     "LEARNING_RULES": {
-      "description": "How the system improves itself.",
-      "retire_after_5_losses": true,
-      "retire_if_pnl_below": -3.0,
-      "archive_after_30_trades": true,
+      "description": "How the system improves.",
+      "retire_after_3_losses": true,
+      "retire_if_wr_below": 51.3,
+      "retire_if_pnl_below": -2.0,
       "retest_retired_weekly": true,
       "min_simulations_for_trust": 10,
-      "reason": "Kill losers fast. Retest occasionally in case market changes."
+      "reason": "Kill losers fast. Only retest if market conditions change."
     }
   },
   "targets": {
-    "daily_pnl": 2.0,
-    "daily_trades": 10,
-    "daily_win_rate": 58,
-    "weekly_pnl": 10.0,
-    "monthly_pnl": 40.0,
-    "max_drawdown": 10.0,
-    "reason": "Based on actual performance: R_75 FALL_TREND makes ~$0.10/trade. 20 trades/day = $2/day."
+    "daily_pnl": 1.5,
+    "daily_trades": 5,
+    "daily_win_rate": 55,
+    "weekly_pnl": 7.5,
+    "monthly_pnl": 30.0,
+    "max_drawdown": 5.0,
+    "reason": "Conservative. 5 trades \u00d7 $0.95 \u00d7 55% WR = $2.61/day gross. After losses: ~$1.50/day."
   },
-  "realistic_assessment": {
-    "current_avg_pnl_per_trade": -0.1868,
-    "best_strategy_avg_pnl_per_trade": 0.1,
-    "with_focus_on_winners": 0.15,
-    "daily_at_20_trades": 3.0,
-    "monthly_at_20_trades": 90.0,
-    "confidence": "MEDIUM \u2014 data shows it's possible but requires discipline"
+  "banned_strategies": {
+    "description": "These are mathematically guaranteed to lose long-term.",
+    "DIGITDIFF": {
+      "reason": "95% payout needs 51.3% WR. System achieves 45%. Guaranteed loss of $0.10/trade.",
+      "total_trades": 194,
+      "total_loss": -39.95,
+      "verdict": "BANNED"
+    },
+    "DIGITMATCH": {
+      "reason": "95% payout needs 51.3% WR. System achieves 45.8%. Losing $0.12/trade.",
+      "total_trades": 96,
+      "total_loss": -11.38,
+      "verdict": "BANNED"
+    },
+    "DIGITODD": {
+      "reason": "95% payout needs 51.3% WR. System achieves 35.5%. Losing $0.31/trade.",
+      "total_trades": 31,
+      "total_loss": -9.6,
+      "verdict": "BANNED"
+    },
+    "STAKE_ESCALATION": {
+      "reason": "Stakes ranged from $1 to $7.80. Higher stakes on losses = bigger losses.",
+      "max_stake_observed": 7.8,
+      "verdict": "BANNED \u2014 flat $1 only"
+    }
   }
 }
