@@ -285,7 +285,35 @@ class SelfDiagnostic:
         else:
             scores["timezone"] = 50
 
-        # ════ CHECK 7: Market Decay vs System Issue ════
+        # ════ CHECK 7: Entry Timing Quality ════
+        # Was the trade entered at a good moment? Check recent digit flow
+        entry_quality = self._check_entry_timing(market, hour)
+        scores["entry_timing"] = entry_quality["score"]
+        if entry_quality["score"] < 40:
+            issues.append(f"BAD ENTRY TIMING: {entry_quality['reason']}")
+
+        # ════ CHECK 8: Market Manipulation Detection ════
+        # Check for unusual digit distributions that suggest manipulation
+        manipulation = self._check_manipulation(market)
+        scores["manipulation"] = manipulation["score"]
+        if manipulation["score"] < 50:
+            issues.append(f"MANIPULATION ALERT: {manipulation['reason']}")
+
+        # ════ CHECK 9: Entry Signal Quality ════
+        # Was the signal strong enough to justify the trade?
+        signal_quality = self._check_signal_quality(market, strategy if 'strategy' in dir() else "ALL")
+        scores["signal_quality"] = signal_quality["score"]
+        if signal_quality["score"] < 30:
+            issues.append(f"WEAK SIGNAL: {signal_quality['reason']}")
+
+        # ════ CHECK 10: Market Regime ════
+        # Is this market in a tradeable regime?
+        regime_score = self._check_market_regime(market)
+        scores["regime"] = regime_score["score"]
+        if regime_score["score"] < 40:
+            issues.append(f"BAD REGIME: {regime_score['reason']}")
+
+        # ════ CHECK 11: Market Decay vs System Issue ════
         # If system is unhealthy, the loss is likely system's fault, not market's
         system_health = sum(scores.get(k, 50) for k in ["overtrading", "fatigue", "network", "execution"]) / 4
         market_health = sum(scores.get(k, 50) for k in ["strategy", "timezone"]) / 2
@@ -307,9 +335,11 @@ class SelfDiagnostic:
 
         # ════ COMPOSITE HEALTH SCORE ════
         weights = {
-            "overtrading": 0.15, "fatigue": 0.15,
-            "network": 0.20, "execution": 0.15,
-            "strategy": 0.15, "timezone": 0.10,
+            "overtrading": 0.10, "fatigue": 0.10,
+            "network": 0.15, "execution": 0.10,
+            "strategy": 0.12, "timezone": 0.08,
+            "entry_timing": 0.12, "manipulation": 0.10,
+            "signal_quality": 0.08, "regime": 0.05,
         }
         health_score = 0
         for k, w in weights.items():
@@ -363,6 +393,185 @@ class SelfDiagnostic:
         self._save()
 
         return health_score, issues, can_trade, stake_mult, action
+
+    def _check_entry_timing(self, market, hour):
+        """Check if trade was entered at a good moment."""
+        # Use timezone data to check if this hour historically performs well
+        # Low hour = bad timing (e.g., 3am vs peak hours)
+        score = 60  # default: ok
+        reason = ""
+        
+        # Peak hours: 8-20 UTC generally better for digit markets
+        if 2 <= hour <= 5:
+            score = 30
+            reason = f"Off-peak hour h{hour} — low liquidity window"
+        elif 6 <= hour <= 7:
+            score = 45
+            reason = f"Early hour h{hour} — market warming up"
+        elif 21 <= hour <= 23:
+            score = 40
+            reason = f"Late hour h{hour} — market winding down"
+        
+        # Check recent trade timestamps for rapid re-entry
+        trade_times = self.state.get("trade_timestamps", [])
+        if len(trade_times) >= 2:
+            last_gap = trade_times[-1] - trade_times[-2]
+            if last_gap < 5:  # less than 5 seconds between trades
+                score = min(score, 25)
+                reason = f"Re-entry too fast ({last_gap:.1f}s gap)"
+            elif last_gap < 10:
+                score = min(score, 40)
+                reason = f"Rapid re-entry ({last_gap:.1f}s gap)"
+        
+        return {"score": score, "reason": reason}
+
+    def _check_manipulation(self, market):
+        """Detect unusual digit distributions suggesting manipulation."""
+        try:
+            import json
+            from pathlib import Path
+            mem_file = Path(__file__).parent.parent / "agent_memory.json"
+            if not mem_file.exists():
+                return {"score": 60, "reason": "no data"}
+            
+            mem = json.loads(mem_file.read_text())
+            hist = mem.get("digit_history", {}).get(market, {})
+            total = hist.get("_total", 0)
+            
+            if total < 100:
+                return {"score": 60, "reason": "insufficient data"}
+            
+            # Calculate expected frequency (10% each)
+            expected = total / 10.0
+            
+            # Check for extreme skew (any digit > 2x or < 0.3x expected)
+            max_ratio = 0
+            min_ratio = 10
+            over_digit = None
+            under_digit = None
+            
+            for d in range(10):
+                count = hist.get(str(d), 0)
+                if count == 0:
+                    continue
+                ratio = count / expected
+                if ratio > max_ratio:
+                    max_ratio = ratio
+                    over_digit = d
+                if ratio < min_ratio:
+                    min_ratio = ratio
+                    under_digit = d
+            
+            score = 80
+            reason = ""
+            
+            if max_ratio > 1.5:
+                score = 30
+                reason = f"Digit {over_digit} overrepresented {max_ratio:.1f}x (possible bias)"
+            elif max_ratio > 1.3:
+                score = 50
+                reason = f"Digit {over_digit} slightly over {max_ratio:.1f}x"
+            
+            # Volatility markets (R_75, R_10, etc.) naturally produce very few 0s
+            vol_markets = {'R_75', 'R_10', 'R_25', 'R_50', 'R_100'}
+            skip_zero = market in vol_markets
+            if min_ratio < 0.3 and total > 500 and (under_digit != 0 or not skip_zero):
+                score = min(score, 35)
+                reason += f" | Digit {under_digit} underrepresented {min_ratio:.1f}x"
+            
+            # Check entropy — too low = artificial
+            import math
+            entropy = 0
+            for d in range(10):
+                count = hist.get(str(d), 0)
+                if count > 0:
+                    p = count / total
+                    entropy -= p * math.log2(p)
+            
+            max_entropy = math.log2(10)
+            if entropy < max_entropy * 0.85:
+                score = min(score, 45)
+                reason += f" | Low entropy {entropy:.2f}/{max_entropy:.2f}"
+            
+            return {"score": score, "reason": reason or "normal distribution"}
+        except Exception:
+            return {"score": 60, "reason": "analysis error"}
+
+    def _check_signal_quality(self, market, strategy):
+        """Check if the entry signal was strong enough."""
+        # Check C++ engine prediction confidence
+        try:
+            import json
+            from pathlib import Path
+            state_file = Path(__file__).parent.parent / "trading_state.json"
+            if not state_file.exists():
+                return {"score": 60, "reason": "no state data"}
+            
+            state = json.loads(state_file.read_text())
+            
+            # Check confidence score from brain
+            conf = state.get("confidence_score", 0)
+            if conf < 3:
+                return {"score": 30, "reason": f"Low confidence {conf}/10"}
+            elif conf < 5:
+                return {"score": 50, "reason": f"Moderate confidence {conf}/10"}
+            
+            # Check selected EV
+            ev = state.get("selected_ev", 0)
+            if ev < 0:
+                return {"score": 25, "reason": f"Negative EV {ev:.3f}"}
+            elif ev < 0.01:
+                return {"score": 45, "reason": f"Low EV {ev:.3f}"}
+            
+            return {"score": 70, "reason": "adequate signal"}
+        except Exception:
+            return {"score": 60, "reason": "analysis error"}
+
+    def _check_market_regime(self, market):
+        """Check if market is in a tradeable regime."""
+        try:
+            import json
+            from pathlib import Path
+            
+            # Check memory for market state
+            mem_file = Path(__file__).parent.parent / "agent_memory.json"
+            if not mem_file.exists():
+                return {"score": 60, "reason": "no data"}
+            
+            mem = json.loads(mem_file.read_text())
+            strats = mem.get("strategies", {})
+            
+            # Count active vs retired strategies for this market
+            active = 0
+            retired = 0
+            total_pnl = 0
+            
+            for key, val in strats.items():
+                if key.startswith(market + ":"):
+                    if val.get("status") == "RETIRED":
+                        retired += 1
+                    else:
+                        active += 1
+                    total_pnl += val.get("total_profit", 0)
+            
+            if active + retired == 0:
+                return {"score": 50, "reason": "no history for this market"}
+            
+            retire_rate = retired / (active + retired) if (active + retired) > 0 else 0
+            
+            if retire_rate > 0.7 and (active + retired) >= 5:
+                return {"score": 25, "reason": f"{retire_rate:.0%} strategies retired at {market}"}
+            elif retire_rate > 0.5:
+                return {"score": 40, "reason": f"{retire_rate:.0%} strategies retired"}
+            
+            if total_pnl < -20:
+                return {"score": 30, "reason": f"Market bleeding ${total_pnl:.2f}"}
+            elif total_pnl < -5:
+                return {"score": 45, "reason": f"Market losing ${total_pnl:.2f}"}
+            
+            return {"score": 70, "reason": "market healthy"}
+        except Exception:
+            return {"score": 60, "reason": "analysis error"}
 
     def get_status(self):
         """Dashboard status."""

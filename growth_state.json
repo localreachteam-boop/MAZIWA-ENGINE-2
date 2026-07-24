@@ -29,10 +29,10 @@
         "wr": 0.0
       },
       "14": {
-        "trades": 4,
+        "trades": 5,
         "wins": 3,
-        "pnl": 2.09,
-        "wr": 75.0
+        "pnl": 1.09,
+        "wr": 60.0
       },
       "16": {
         "trades": 1,
@@ -87,6 +87,12 @@
         "wins": 0,
         "pnl": -2.25,
         "wr": 0.0
+      },
+      "15": {
+        "trades": 3,
+        "wins": 1,
+        "pnl": -1.05,
+        "wr": 33.3
       }
     },
     "JD25": {
@@ -109,10 +115,10 @@
         "wr": 55.0
       },
       "15": {
-        "trades": 9,
+        "trades": 10,
         "wins": 7,
-        "pnl": 6.53,
-        "wr": 77.8
+        "pnl": 5.53,
+        "wr": 70.0
       },
       "16": {
         "trades": 1,
@@ -571,15 +577,15 @@
     }
   },
   "daily_snapshots": [],
-  "total_compound_earned": 168.90000000000185,
+  "total_compound_earned": 169.85000000000184,
   "streak_peak": 4,
   "best_streak_mult": 1.5,
   "today": "2026-07-24",
-  "daily_wins": 40,
-  "daily_losses": 51,
-  "daily_compound_earned": 41.130000000000024,
+  "daily_wins": 41,
+  "daily_losses": 55,
+  "daily_compound_earned": 42.08000000000003,
   "start_balance": 9896.990000000002,
   "last_balance": 9982.56,
-  "last_pnl": -46.61000000000009,
-  "daily_trades_today": 323
+  "last_pnl": -49.66000000000009,
+  "daily_trades_today": 328
 }

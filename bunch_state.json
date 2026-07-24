@@ -1,32 +1,6 @@
 {
   "completed_runs": [
     {
-      "market": "JD50",
-      "strategy": "DIGIT_MATCH_2",
-      "regime": "?",
-      "confidence": 40,
-      "bunch_size": 6,
-      "target_trades": 6,
-      "trades_done": 1,
-      "wins": 1,
-      "losses": 0,
-      "cumulative_pnl": 0.95,
-      "stake": 1.0,
-      "status": "TARGET_HIT",
-      "exit_reason": "target_hit ($+0.95)",
-      "profitable": true,
-      "session": "\u2753 Unknown",
-      "duration_s": 32.6,
-      "start_time": 1784660861495.3088,
-      "end_time": 1784660894095.3162,
-      "trades": [
-        {
-          "profit": 0.9500000000007276,
-          "time": 1784660894089.1853
-        }
-      ]
-    },
-    {
       "market": "JD25",
       "strategy": "DIGIT_DIFF_1",
       "regime": "?",
@@ -1491,16 +1465,62 @@
           "time": 1784890957663.5288
         }
       ]
+    },
+    {
+      "market": "JD50",
+      "strategy": "DIGIT_DIFF_1",
+      "regime": "?",
+      "confidence": 42,
+      "bunch_size": 6,
+      "target_trades": 6,
+      "trades_done": 6,
+      "wins": 2,
+      "losses": 4,
+      "cumulative_pnl": -2.1,
+      "stake": 0.75,
+      "status": "MAX_TRADES",
+      "exit_reason": "max_trades (6/6)",
+      "profitable": false,
+      "session": "\u2753 Unknown",
+      "duration_s": 3340.0,
+      "start_time": 1784891221653.5657,
+      "end_time": 1784894561622.5469,
+      "trades": [
+        {
+          "profit": -1.0,
+          "time": 1784891267727.8945
+        },
+        {
+          "profit": 0.95,
+          "time": 1784891890293.4707
+        },
+        {
+          "profit": -1.0,
+          "time": 1784893837443.7278
+        },
+        {
+          "profit": 0.95,
+          "time": 1784894484559.5068
+        },
+        {
+          "profit": -1.0,
+          "time": 1784894522212.4475
+        },
+        {
+          "profit": -1.0,
+          "time": 1784894561611.4841
+        }
+      ]
     }
   ],
   "daily_stats": {
     "date": "2026-07-24",
-    "total_runs": 33,
+    "total_runs": 34,
     "profitable_runs": 20,
-    "total_pnl": -6.940000000000001,
+    "total_pnl": -9.040000000000001,
     "best_run_pnl": 2.08,
     "worst_run_pnl": -3.05,
-    "total_bunch_trades": 70
+    "total_bunch_trades": 76
   },
   "setup_history": [
     {
@@ -2510,35 +2530,37 @@
       "score": 42,
       "market": "JD50",
       "strategy": "DIGIT_DIFF_1"
+    },
+    {
+      "time": 1784894644813.6694,
+      "score": 55.46,
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1"
     }
   ],
   "current_run": {
-    "market": "JD50",
+    "market": "JD25",
     "strategy": "DIGIT_DIFF_1",
     "regime": "?",
-    "confidence": 42,
-    "bunch_size": 6,
-    "target_trades": 6,
-    "trades_done": 2,
-    "wins": 1,
+    "confidence": 55.46,
+    "bunch_size": 8,
+    "target_trades": 8,
+    "trades_done": 1,
+    "wins": 0,
     "losses": 1,
-    "cumulative_pnl": -0.05,
+    "cumulative_pnl": -1.0,
     "stake": 1.0,
     "status": "RUNNING",
     "exit_reason": null,
     "profitable": false,
     "session": "\u2753 Unknown",
-    "duration_s": 668.6,
-    "start_time": 1784891221653.5657,
+    "duration_s": 5.2,
+    "start_time": 1784894644813.7043,
     "end_time": null,
     "trades": [
       {
         "profit": -1.0,
-        "time": 1784891267727.8945
-      },
-      {
-        "profit": 0.95,
-        "time": 1784891890293.4707
+        "time": 1784894650024.3345
       }
     ]
   }

@@ -6472,8 +6472,10 @@ async def main():
                 print(f"         [REPLICATOR ERR] {e}", flush=True)
             try:
                 # ── SELF DIAGNOSTIC: record trade for system health tracking ──
+                exec_latency_ms = int((time.time() - trade_start) * 1000) if 'trade_start' in dir() else None
                 tools.diagnostic.record_trade(
-                    best_data.get('strategy', 'ALL'), best_market, profit
+                    best_data.get('strategy', 'ALL'), best_market, profit,
+                    execution_time_ms=exec_latency_ms
                 )
                 tools.diagnostic.update_tick_health(
                     0,  # tick_age — updated from heartbeat separately
