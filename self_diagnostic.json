@@ -1,0 +1,948 @@
+{
+  "version": 2,
+  "last_scan": 1784891883.1830523,
+  "trade_timestamps": [
+    1784889971.7887745,
+    1784890004.995039,
+    1784890079.1422107,
+    1784890142.1382585,
+    1784890176.8430052,
+    1784890262.9135969,
+    1784890311.504879,
+    1784890338.6656253,
+    1784890488.3994052,
+    1784890513.6156144,
+    1784890555.576672,
+    1784890609.5445132,
+    1784890899.427606,
+    1784890972.0105176,
+    1784891038.0822124,
+    1784891168.8231294,
+    1784891204.0021255,
+    1784891280.8555696,
+    1784891905.3063846
+  ],
+  "consecutive_losses": 0,
+  "consecutive_wins": 1,
+  "session_start": 1784889916.629075,
+  "last_tick_time": 1784891905.3107395,
+  "last_tick_age": 0,
+  "network_failures": 0,
+  "execution_latencies": [],
+  "strategy_results": {
+    "R_75:DIGIT_DIFF_0": {
+      "trades": 6,
+      "wins": 4,
+      "losses": 2,
+      "recent_5": [
+        -0.07999999999992724,
+        0.9200000000000728,
+        0.92,
+        0.92,
+        1.09
+      ],
+      "pnl": 2.77
+    },
+    "JD25:DIGIT_DIFF_1": {
+      "trades": 91,
+      "wins": 43,
+      "losses": 48,
+      "recent_5": [
+        -1.0,
+        -1.05,
+        -1.0,
+        -1.0,
+        0.95
+      ],
+      "pnl": -18.11
+    },
+    "R_100:MOMENTUM_DOWN": {
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "recent_5": [
+        0.9200000000000728,
+        1.1499999999996362,
+        -1.25
+      ],
+      "pnl": 0.82
+    },
+    "JD10:FALL_TREND": {
+      "trades": 32,
+      "wins": 15,
+      "losses": 17,
+      "recent_5": [
+        0.9500000000007276,
+        1.5299999999988358,
+        -1.5299999999988358,
+        0.9499999999989086,
+        -1.4099999999998545
+      ],
+      "pnl": -2.83
+    },
+    "R_75:DIGIT_MATCH_7": {
+      "trades": 21,
+      "wins": 10,
+      "losses": 11,
+      "recent_5": [
+        0.92,
+        0.92,
+        -1.0,
+        -1.0,
+        0.92
+      ],
+      "pnl": -2.34
+    },
+    "JD100:FALL_TREND": {
+      "trades": 17,
+      "wins": 9,
+      "losses": 8,
+      "recent_5": [
+        0.9500000000007276,
+        -1.9500000000007276,
+        -1.0,
+        0.9200000000000728,
+        0.92
+      ],
+      "pnl": -1.07
+    },
+    "JD50:DIGIT_DIFF_3": {
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "recent_5": [
+        0.9499999999989086,
+        1.1900000000005093,
+        -1.0
+      ],
+      "pnl": 1.14
+    },
+    "JD25:DIGIT_MATCH_0": {
+      "trades": 30,
+      "wins": 15,
+      "losses": 15,
+      "recent_5": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        0.95
+      ],
+      "pnl": 1.01
+    },
+    "JD25:ODD_BIAS": {
+      "trades": 6,
+      "wins": 4,
+      "losses": 2,
+      "recent_5": [
+        -1.5,
+        0.9500000000007276,
+        0.9499999999989086,
+        -1.1900000000005093,
+        0.9500000000007276
+      ],
+      "pnl": 1.59
+    },
+    "JD75:ODD_BIAS": {
+      "trades": 2,
+      "wins": 1,
+      "losses": 1,
+      "recent_5": [
+        -1.25,
+        0.9500000000007276
+      ],
+      "pnl": -0.3
+    },
+    "JD50:DIGIT_DIFF_0": {
+      "trades": 7,
+      "wins": 3,
+      "losses": 4,
+      "recent_5": [
+        1.1900000000005093,
+        -1.860000000000582,
+        1.430000000000291,
+        -1.7199999999993452,
+        -1.25
+      ],
+      "pnl": -2.26
+    },
+    "R_10:FALL_TREND": {
+      "trades": 2,
+      "wins": 1,
+      "losses": 1,
+      "recent_5": [
+        -1.0,
+        0.9200000000000728
+      ],
+      "pnl": -0.08
+    },
+    "JD50:DIGIT_MATCH_2": {
+      "trades": 4,
+      "wins": 0,
+      "losses": 4,
+      "recent_5": [
+        -0.12999999999919964,
+        -1.5,
+        -1.25,
+        -1.25
+      ],
+      "pnl": -4.13
+    },
+    "JD75:DIGIT_MATCH_0": {
+      "trades": 18,
+      "wins": 7,
+      "losses": 11,
+      "recent_5": [
+        -1.25,
+        -1.0,
+        0.95,
+        -1.25,
+        0.95
+      ],
+      "pnl": -6.62
+    },
+    "JD75:DIGIT_DIFF_1": {
+      "trades": 11,
+      "wins": 5,
+      "losses": 6,
+      "recent_5": [
+        -1.5,
+        -1.25,
+        -1.0,
+        -1.0,
+        0.95
+      ],
+      "pnl": -1.49
+    },
+    "R_100:FALL_TREND": {
+      "trades": 7,
+      "wins": 3,
+      "losses": 4,
+      "recent_5": [
+        -1.0,
+        0.9200000000000728,
+        0.9200000000000728,
+        -1.0,
+        -1.0
+      ],
+      "pnl": -1.49
+    },
+    "R_25:DIGIT_MATCH_7": {
+      "trades": 3,
+      "wins": 3,
+      "losses": 0,
+      "recent_5": [
+        1.1500000000014552,
+        0.92,
+        0.92
+      ],
+      "pnl": 2.99
+    },
+    "JD75:DIGIT_DIFF_0": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "recent_5": [
+        1.430000000000291
+      ],
+      "pnl": 1.43
+    },
+    "R_25:DIGIT_DIFF_0": {
+      "trades": 4,
+      "wins": 3,
+      "losses": 1,
+      "recent_5": [
+        0.92,
+        0.92,
+        2.08,
+        -3.04
+      ],
+      "pnl": 0.88
+    },
+    "JD50:DIGIT_MATCH_0": {
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "recent_5": [
+        -1.25,
+        -1.0
+      ],
+      "pnl": -2.25
+    },
+    "R_50:DIGIT_MATCH_7": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "recent_5": [
+        0.92
+      ],
+      "pnl": 0.92
+    },
+    "JD25:DIGIT_DIFF_5": {
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "recent_5": [
+        -1.0,
+        -1.0
+      ],
+      "pnl": -2.0
+    },
+    "R_50:DIGIT_DIFF_0": {
+      "trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "recent_5": [
+        -1.5,
+        1.38,
+        -1.5
+      ],
+      "pnl": -1.62
+    },
+    "R_25:DIGIT_DIFF_1": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "recent_5": [
+        1.38
+      ],
+      "pnl": 1.38
+    },
+    "JD50:DIGIT_DIFF_1": {
+      "trades": 2,
+      "wins": 1,
+      "losses": 1,
+      "recent_5": [
+        -1.0,
+        0.95
+      ],
+      "pnl": -0.05
+    }
+  },
+  "diagnostic_history": [
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891139.4383574,
+      "market": "JD25",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.8439145,
+      "market": "JD100",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.8658078,
+      "market": "JD10",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.8898187,
+      "market": "R_75",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.9182272,
+      "market": "R_25",
+      "hour": 14
+    },
+    {
+      "health_score": 55,
+      "action": "cautious",
+      "stake_mult": 0.4,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 45,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.942362,
+      "market": "JD50",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891142.9663367,
+      "market": "JD25",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891146.431998,
+      "market": "JD100",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891146.453203,
+      "market": "JD10",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891146.4781697,
+      "market": "R_25",
+      "hour": 14
+    },
+    {
+      "health_score": 55,
+      "action": "cautious",
+      "stake_mult": 0.4,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 45,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891146.4998631,
+      "market": "JD50",
+      "hour": 14
+    },
+    {
+      "health_score": 60,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": false,
+      "issues": [
+        "FATIGUE: 6 consecutive losses"
+      ],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 10,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891146.524153,
+      "market": "JD25",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.2827516,
+      "market": "JD100",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.3036962,
+      "market": "JD10",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.3233323,
+      "market": "R_75",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.3417315,
+      "market": "R_25",
+      "hour": 14
+    },
+    {
+      "health_score": 66,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 45,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.3613663,
+      "market": "JD50",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891873.3804226,
+      "market": "JD25",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.7684703,
+      "market": "JD100",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.7894447,
+      "market": "JD10",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.8095586,
+      "market": "R_75",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.828446,
+      "market": "R_25",
+      "hour": 14
+    },
+    {
+      "health_score": 66,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 45,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.8473825,
+      "market": "JD50",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891878.8659399,
+      "market": "JD25",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.0842168,
+      "market": "JD100",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.1034021,
+      "market": "JD10",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.1219542,
+      "market": "R_75",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.1405046,
+      "market": "R_25",
+      "hour": 14
+    },
+    {
+      "health_score": 66,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 45,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.163478,
+      "market": "JD50",
+      "hour": 14
+    },
+    {
+      "health_score": 70,
+      "action": "reduced",
+      "stake_mult": 0.7,
+      "can_trade": true,
+      "issues": [],
+      "scores": {
+        "overtrading": 90,
+        "fatigue": 80,
+        "network": 90,
+        "execution": 70,
+        "strategy": 75,
+        "timezone": 50,
+        "root_cause": "noise"
+      },
+      "root_cause": "noise",
+      "timestamp": 1784891883.1830523,
+      "market": "JD25",
+      "hour": 14
+    }
+  ]
+}

@@ -1,0 +1,5106 @@
+{
+  "improvements": [
+    {
+      "cycle": 1024,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309157084
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309157085
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309157085
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309157085
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309157085
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309157085
+        }
+      ],
+      "time": 1784309157085
+    },
+    {
+      "cycle": 1025,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309182627
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309182627
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309182627
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309182627
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309182627
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309182627
+        }
+      ],
+      "time": 1784309182627
+    },
+    {
+      "cycle": 1026,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309198694
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309198694
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309198694
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309198694
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309198694
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309198694
+        }
+      ],
+      "time": 1784309198694
+    },
+    {
+      "cycle": 1027,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309213919
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309213919
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309213919
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309213919
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309213919
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309213919
+        }
+      ],
+      "time": 1784309213919
+    },
+    {
+      "cycle": 1028,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309226735
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309226735
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309226735
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309226736
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309226736
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309226736
+        }
+      ],
+      "time": 1784309226736
+    },
+    {
+      "cycle": 1029,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309270991
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309270991
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309270991
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309270992
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309270992
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309270992
+        }
+      ],
+      "time": 1784309270992
+    },
+    {
+      "cycle": 1030,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309302086
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309302086
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309302086
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309302086
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309302086
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309302086
+        }
+      ],
+      "time": 1784309302086
+    },
+    {
+      "cycle": 1031,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309308671
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309308671
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309308671
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309308671
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309308671
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309308671
+        }
+      ],
+      "time": 1784309308671
+    },
+    {
+      "cycle": 1032,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309339846
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309339846
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309339846
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309339846
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309339846
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309339846
+        }
+      ],
+      "time": 1784309339846
+    },
+    {
+      "cycle": 1033,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309370946
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309370946
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309370946
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309370946
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309370946
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309370946
+        }
+      ],
+      "time": 1784309370946
+    },
+    {
+      "cycle": 1034,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309402043
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309402043
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309402043
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309402044
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309402044
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309402044
+        }
+      ],
+      "time": 1784309402044
+    },
+    {
+      "cycle": 1035,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309420745
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309420745
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309420745
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309420745
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309420745
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309420745
+        }
+      ],
+      "time": 1784309420746
+    },
+    {
+      "cycle": 1036,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309434770
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309434770
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309434770
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309434770
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309434770
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309434770
+        }
+      ],
+      "time": 1784309434770
+    },
+    {
+      "cycle": 1037,
+      "trades_analyzed": 1075,
+      "winners_found": 11,
+      "losers_found": 51,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.5585, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784309448858
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784309448858
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1474, WR=67%, 103T",
+          "confidence": 0.9,
+          "time": 1784309448858
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784309448858
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309448858
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784309448858
+        }
+      ],
+      "time": 1784309448858
+    },
+    {
+      "cycle": 1038,
+      "trades_analyzed": 1078,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.4239, WR=79%, 19T",
+          "confidence": 0.88,
+          "time": 1784310147973
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784310147973
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1364, WR=66%, 104T",
+          "confidence": 0.9,
+          "time": 1784310147973
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784310147973
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310147974
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310147974
+        }
+      ],
+      "time": 1784310147974
+    },
+    {
+      "cycle": 1039,
+      "trades_analyzed": 1078,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.4239, WR=79%, 19T",
+          "confidence": 0.88,
+          "time": 1784310196538
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784310196538
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1364, WR=66%, 104T",
+          "confidence": 0.9,
+          "time": 1784310196538
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784310196538
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310196538
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310196538
+        }
+      ],
+      "time": 1784310196538
+    },
+    {
+      "cycle": 1040,
+      "trades_analyzed": 1078,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.4239, WR=79%, 19T",
+          "confidence": 0.88,
+          "time": 1784310228511
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784310228511
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1364, WR=66%, 104T",
+          "confidence": 0.9,
+          "time": 1784310228511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784310228511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310228511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310228511
+        }
+      ],
+      "time": 1784310228511
+    },
+    {
+      "cycle": 1041,
+      "trades_analyzed": 1078,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.4239, WR=79%, 19T",
+          "confidence": 0.88,
+          "time": 1784310242987
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784310242987
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1364, WR=66%, 104T",
+          "confidence": 0.9,
+          "time": 1784310242987
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784310242987
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310242987
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784310242987
+        }
+      ],
+      "time": 1784310242987
+    },
+    {
+      "cycle": 1042,
+      "trades_analyzed": 1081,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.3027, WR=75%, 20T",
+          "confidence": 0.9,
+          "time": 1784311189500
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784311189500
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1256, WR=66%, 105T",
+          "confidence": 0.9,
+          "time": 1784311189500
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784311189500
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311189500
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311189500
+        }
+      ],
+      "time": 1784311189500
+    },
+    {
+      "cycle": 1043,
+      "trades_analyzed": 1081,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.3027, WR=75%, 20T",
+          "confidence": 0.9,
+          "time": 1784311197849
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784311197849
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1256, WR=66%, 105T",
+          "confidence": 0.9,
+          "time": 1784311197849
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784311197849
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311197849
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311197849
+        }
+      ],
+      "time": 1784311197849
+    },
+    {
+      "cycle": 1044,
+      "trades_analyzed": 1086,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.3027, WR=75%, 20T",
+          "confidence": 0.9,
+          "time": 1784311520637
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784311520637
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1331, WR=66%, 106T",
+          "confidence": 0.9,
+          "time": 1784311520637
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784311520637
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311520637
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311520637
+        }
+      ],
+      "time": 1784311520637
+    },
+    {
+      "cycle": 1045,
+      "trades_analyzed": 1086,
+      "winners_found": 11,
+      "losers_found": 52,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.3027, WR=75%, 20T",
+          "confidence": 0.9,
+          "time": 1784311537475
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784311537475
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1331, WR=66%, 106T",
+          "confidence": 0.9,
+          "time": 1784311537475
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784311537475
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311537475
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784311537475
+        }
+      ],
+      "time": 1784311537475
+    },
+    {
+      "cycle": 1046,
+      "trades_analyzed": 1111,
+      "winners_found": 10,
+      "losers_found": 54,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784315683043
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784315683043
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.1357, WR=100%, 8T",
+          "confidence": 0.66,
+          "time": 1784315683043
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784315683043
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784315683043
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784315683043
+        }
+      ],
+      "time": 1784315683043
+    },
+    {
+      "cycle": 1047,
+      "trades_analyzed": 1111,
+      "winners_found": 10,
+      "losers_found": 54,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784315695831
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784315695831
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.1357, WR=100%, 8T",
+          "confidence": 0.66,
+          "time": 1784315695831
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784315695831
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784315695831
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784315695831
+        }
+      ],
+      "time": 1784315695831
+    },
+    {
+      "cycle": 1048,
+      "trades_analyzed": 1136,
+      "winners_found": 10,
+      "losers_found": 56,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784318868511
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784318868511
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1371, WR=66%, 109T",
+          "confidence": 0.9,
+          "time": 1784318868511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784318868511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318868511
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318868511
+        }
+      ],
+      "time": 1784318868511
+    },
+    {
+      "cycle": 1049,
+      "trades_analyzed": 1136,
+      "winners_found": 10,
+      "losers_found": 56,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784318872363
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784318872363
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1371, WR=66%, 109T",
+          "confidence": 0.9,
+          "time": 1784318872363
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784318872363
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318872363
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318872363
+        }
+      ],
+      "time": 1784318872364
+    },
+    {
+      "cycle": 1050,
+      "trades_analyzed": 1136,
+      "winners_found": 10,
+      "losers_found": 56,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784318889702
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784318889702
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.1371, WR=66%, 109T",
+          "confidence": 0.9,
+          "time": 1784318889702
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784318889702
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318889702
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784318889702
+        }
+      ],
+      "time": 1784318889702
+    },
+    {
+      "cycle": 1051,
+      "trades_analyzed": 1139,
+      "winners_found": 10,
+      "losers_found": 56,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1930, WR=71%, 21T",
+          "confidence": 0.9,
+          "time": 1784319263136
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784319263136
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.1357, WR=100%, 8T",
+          "confidence": 0.66,
+          "time": 1784319263136
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784319263136
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784319263136
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784319263136
+        }
+      ],
+      "time": 1784319263136
+    },
+    {
+      "cycle": 1052,
+      "trades_analyzed": 1148,
+      "winners_found": 10,
+      "losers_found": 57,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.1820, WR=73%, 22T",
+          "confidence": 0.9,
+          "time": 1784320198971
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784320198971
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.1357, WR=100%, 8T",
+          "confidence": 0.66,
+          "time": 1784320198971
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784320198971
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784320198971
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784320198971
+        }
+      ],
+      "time": 1784320198971
+    },
+    {
+      "cycle": 1053,
+      "trades_analyzed": 1154,
+      "winners_found": 11,
+      "losers_found": 58,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0871, WR=70%, 23T",
+          "confidence": 0.9,
+          "time": 1784320630533
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.4526, WR=83%, 6T",
+          "confidence": 0.62,
+          "time": 1784320630533
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784320630533
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784320630533
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784320630533
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784320630533
+        }
+      ],
+      "time": 1784320630533
+    },
+    {
+      "cycle": 1054,
+      "trades_analyzed": 1161,
+      "winners_found": 11,
+      "losers_found": 58,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0381, WR=68%, 25T",
+          "confidence": 0.9,
+          "time": 1784321876065
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784321876065
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.1817, WR=67%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784321876065
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784321876065
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784321876065
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784321876065
+        }
+      ],
+      "time": 1784321876065
+    },
+    {
+      "cycle": 1055,
+      "trades_analyzed": 1169,
+      "winners_found": 11,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0348, WR=69%, 26T",
+          "confidence": 0.9,
+          "time": 1784322575556
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2556, WR=70%, 10T",
+          "confidence": 0.7,
+          "time": 1784322575556
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784322575556
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784322575556
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322575556
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322575556
+        }
+      ],
+      "time": 1784322575556
+    },
+    {
+      "cycle": 1056,
+      "trades_analyzed": 1169,
+      "winners_found": 11,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0348, WR=69%, 26T",
+          "confidence": 0.9,
+          "time": 1784322593906
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2556, WR=70%, 10T",
+          "confidence": 0.7,
+          "time": 1784322593906
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784322593906
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784322593906
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322593906
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322593906
+        }
+      ],
+      "time": 1784322593906
+    },
+    {
+      "cycle": 1057,
+      "trades_analyzed": 1169,
+      "winners_found": 11,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0348, WR=69%, 26T",
+          "confidence": 0.9,
+          "time": 1784322606282
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2556, WR=70%, 10T",
+          "confidence": 0.7,
+          "time": 1784322606282
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784322606282
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784322606282
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322606282
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784322606282
+        }
+      ],
+      "time": 1784322606282
+    },
+    {
+      "cycle": 1058,
+      "trades_analyzed": 1180,
+      "winners_found": 11,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0316, WR=70%, 27T",
+          "confidence": 0.9,
+          "time": 1784324691546
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.3083, WR=71%, 14T",
+          "confidence": 0.78,
+          "time": 1784324691546
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784324691546
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784324691546
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784324691546
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784324691546
+        }
+      ],
+      "time": 1784324691546
+    },
+    {
+      "cycle": 1059,
+      "trades_analyzed": 1186,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0316, WR=70%, 27T",
+          "confidence": 0.9,
+          "time": 1784325469710
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2317, WR=58%, 12T",
+          "confidence": 0.74,
+          "time": 1784325469710
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784325469710
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784325469710
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784325469710
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784325469710
+        }
+      ],
+      "time": 1784325469710
+    },
+    {
+      "cycle": 1060,
+      "trades_analyzed": 1207,
+      "winners_found": 13,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0287, WR=71%, 28T",
+          "confidence": 0.9,
+          "time": 1784327757608
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.6020, WR=65%, 20T",
+          "confidence": 0.9,
+          "time": 1784327757608
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.2795, WR=100%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784327757608
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784327757608
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784327757608
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784327757608
+        }
+      ],
+      "time": 1784327757608
+    },
+    {
+      "cycle": 1061,
+      "trades_analyzed": 1212,
+      "winners_found": 13,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0260, WR=72%, 29T",
+          "confidence": 0.9,
+          "time": 1784328003417
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.4086, WR=64%, 22T",
+          "confidence": 0.9,
+          "time": 1784328003417
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.3009, WR=71%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784328003417
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784328003417
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328003417
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328003417
+        }
+      ],
+      "time": 1784328003417
+    },
+    {
+      "cycle": 1062,
+      "trades_analyzed": 1215,
+      "winners_found": 13,
+      "losers_found": 59,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=1.0235, WR=73%, 30T",
+          "confidence": 0.9,
+          "time": 1784328134230
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.4322, WR=65%, 23T",
+          "confidence": 0.9,
+          "time": 1784328134230
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_6",
+          "reason": "EV=0.2795, WR=100%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784328134230
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784328134230
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328134230
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328134230
+        }
+      ],
+      "time": 1784328134230
+    },
+    {
+      "cycle": 1063,
+      "trades_analyzed": 1221,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.9582, WR=71%, 31T",
+          "confidence": 0.9,
+          "time": 1784328924909
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.3725, WR=62%, 24T",
+          "confidence": 0.9,
+          "time": 1784328924909
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2287, WR=67%, 18T",
+          "confidence": 0.86,
+          "time": 1784328924909
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784328924909
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328924909
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784328924909
+        }
+      ],
+      "time": 1784328924909
+    },
+    {
+      "cycle": 1064,
+      "trades_analyzed": 1229,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329412999
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.3176, WR=60%, 25T",
+          "confidence": 0.9,
+          "time": 1784329412999
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2287, WR=67%, 18T",
+          "confidence": 0.86,
+          "time": 1784329412999
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329412999
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329412999
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329412999
+        }
+      ],
+      "time": 1784329412999
+    },
+    {
+      "cycle": 1065,
+      "trades_analyzed": 1229,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329425350
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.3176, WR=60%, 25T",
+          "confidence": 0.9,
+          "time": 1784329425350
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2287, WR=67%, 18T",
+          "confidence": 0.86,
+          "time": 1784329425350
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329425350
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329425350
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329425350
+        }
+      ],
+      "time": 1784329425350
+    },
+    {
+      "cycle": 1066,
+      "trades_analyzed": 1229,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329437032
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.3176, WR=60%, 25T",
+          "confidence": 0.9,
+          "time": 1784329437032
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2287, WR=67%, 18T",
+          "confidence": 0.86,
+          "time": 1784329437032
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329437032
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329437032
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329437032
+        }
+      ],
+      "time": 1784329437032
+    },
+    {
+      "cycle": 1067,
+      "trades_analyzed": 1229,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329450665
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.3176, WR=60%, 25T",
+          "confidence": 0.9,
+          "time": 1784329450665
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_50:FALL_TREND",
+          "reason": "EV=0.2287, WR=67%, 18T",
+          "confidence": 0.86,
+          "time": 1784329450665
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329450665
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329450665
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329450665
+        }
+      ],
+      "time": 1784329450665
+    },
+    {
+      "cycle": 1068,
+      "trades_analyzed": 1232,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329610708
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2669, WR=58%, 26T",
+          "confidence": 0.9,
+          "time": 1784329610708
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784329610708
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329610708
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329610708
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329610708
+        }
+      ],
+      "time": 1784329610708
+    },
+    {
+      "cycle": 1069,
+      "trades_analyzed": 1232,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329634860
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2669, WR=58%, 26T",
+          "confidence": 0.9,
+          "time": 1784329634860
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784329634860
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329634860
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329634860
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329634860
+        }
+      ],
+      "time": 1784329634860
+    },
+    {
+      "cycle": 1070,
+      "trades_analyzed": 1235,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329791949
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784329791949
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2015, WR=56%, 27T",
+          "confidence": 0.9,
+          "time": 1784329791949
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329791949
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329791949
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329791949
+        }
+      ],
+      "time": 1784329791949
+    },
+    {
+      "cycle": 1071,
+      "trades_analyzed": 1235,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329806323
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784329806323
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2015, WR=56%, 27T",
+          "confidence": 0.9,
+          "time": 1784329806323
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329806323
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329806323
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329806323
+        }
+      ],
+      "time": 1784329806324
+    },
+    {
+      "cycle": 1072,
+      "trades_analyzed": 1235,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329822918
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784329822918
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2015, WR=56%, 27T",
+          "confidence": 0.9,
+          "time": 1784329822918
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329822918
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329822918
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329822918
+        }
+      ],
+      "time": 1784329822918
+    },
+    {
+      "cycle": 1073,
+      "trades_analyzed": 1235,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784329830027
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784329830027
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:RISE_TREND",
+          "reason": "EV=0.2015, WR=56%, 27T",
+          "confidence": 0.9,
+          "time": 1784329830027
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784329830027
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329830027
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784329830027
+        }
+      ],
+      "time": 1784329830027
+    },
+    {
+      "cycle": 1074,
+      "trades_analyzed": 1238,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784330025660
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784330025660
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784330025660
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784330025660
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330025660
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330025660
+        }
+      ],
+      "time": 1784330025660
+    },
+    {
+      "cycle": 1075,
+      "trades_analyzed": 1238,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784330043452
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784330043452
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784330043452
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784330043452
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330043452
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330043452
+        }
+      ],
+      "time": 1784330043452
+    },
+    {
+      "cycle": 1076,
+      "trades_analyzed": 1238,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784330071424
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784330071424
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784330071424
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784330071424
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330071424
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330071424
+        }
+      ],
+      "time": 1784330071424
+    },
+    {
+      "cycle": 1077,
+      "trades_analyzed": 1238,
+      "winners_found": 12,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784330078997
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784330078997
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784330078997
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784330078997
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330078997
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784330078997
+        }
+      ],
+      "time": 1784330078997
+    },
+    {
+      "cycle": 1078,
+      "trades_analyzed": 1241,
+      "winners_found": 11,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784332635244
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784332635244
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784332635244
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784332635244
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332635244
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332635244
+        }
+      ],
+      "time": 1784332635244
+    },
+    {
+      "cycle": 1079,
+      "trades_analyzed": 1241,
+      "winners_found": 11,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784332660750
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784332660750
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784332660750
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784332660750
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332660750
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332660750
+        }
+      ],
+      "time": 1784332660750
+    },
+    {
+      "cycle": 1080,
+      "trades_analyzed": 1241,
+      "winners_found": 11,
+      "losers_found": 60,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8970, WR=69%, 32T",
+          "confidence": 0.9,
+          "time": 1784332682689
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2178, WR=87%, 15T",
+          "confidence": 0.8,
+          "time": 1784332682689
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784332682689
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784332682689
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332682689
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784332682689
+        }
+      ],
+      "time": 1784332682689
+    },
+    {
+      "cycle": 1081,
+      "trades_analyzed": 1275,
+      "winners_found": 11,
+      "losers_found": 62,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.9152, WR=71%, 35T",
+          "confidence": 0.9,
+          "time": 1784382358733
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2360, WR=81%, 21T",
+          "confidence": 0.9,
+          "time": 1784382358733
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784382358733
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784382358733
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784382358733
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784382358733
+        }
+      ],
+      "time": 1784382358733
+    },
+    {
+      "cycle": 1082,
+      "trades_analyzed": 1275,
+      "winners_found": 11,
+      "losers_found": 62,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.9152, WR=71%, 35T",
+          "confidence": 0.9,
+          "time": 1784382372128
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2360, WR=81%, 21T",
+          "confidence": 0.9,
+          "time": 1784382372128
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784382372128
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784382372128
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784382372128
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784382372128
+        }
+      ],
+      "time": 1784382372128
+    },
+    {
+      "cycle": 1083,
+      "trades_analyzed": 1302,
+      "winners_found": 9,
+      "losers_found": 63,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8620, WR=69%, 36T",
+          "confidence": 0.9,
+          "time": 1784384524614
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.3060, WR=76%, 33T",
+          "confidence": 0.9,
+          "time": 1784384524614
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784384524614
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784384524614
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784384524614
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784384524614
+        }
+      ],
+      "time": 1784384524615
+    },
+    {
+      "cycle": 1084,
+      "trades_analyzed": 1303,
+      "winners_found": 9,
+      "losers_found": 63,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.8620, WR=69%, 36T",
+          "confidence": 0.9,
+          "time": 1784384697351
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.3060, WR=76%, 33T",
+          "confidence": 0.9,
+          "time": 1784384697351
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784384697351
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784384697351
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784384697351
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784384697351
+        }
+      ],
+      "time": 1784384697351
+    },
+    {
+      "cycle": 1085,
+      "trades_analyzed": 1338,
+      "winners_found": 9,
+      "losers_found": 64,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7223, WR=66%, 41T",
+          "confidence": 0.9,
+          "time": 1784394139279
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.5954, WR=75%, 40T",
+          "confidence": 0.9,
+          "time": 1784394139279
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784394139279
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784394139280
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784394139280
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784394139280
+        }
+      ],
+      "time": 1784394139280
+    },
+    {
+      "cycle": 1086,
+      "trades_analyzed": 1338,
+      "winners_found": 9,
+      "losers_found": 64,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7223, WR=66%, 41T",
+          "confidence": 0.9,
+          "time": 1784397525365
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.5954, WR=75%, 40T",
+          "confidence": 0.9,
+          "time": 1784397525365
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784397525365
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784397525365
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784397525365
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784397525365
+        }
+      ],
+      "time": 1784397525365
+    },
+    {
+      "cycle": 1087,
+      "trades_analyzed": 1340,
+      "winners_found": 9,
+      "losers_found": 65,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6777, WR=64%, 42T",
+          "confidence": 0.9,
+          "time": 1784401326961
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.5954, WR=75%, 40T",
+          "confidence": 0.9,
+          "time": 1784401326961
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784401326961
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784401326961
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401326961
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401326961
+        }
+      ],
+      "time": 1784401326962
+    },
+    {
+      "cycle": 1088,
+      "trades_analyzed": 1341,
+      "winners_found": 9,
+      "losers_found": 65,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6840, WR=65%, 43T",
+          "confidence": 0.9,
+          "time": 1784401425284
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.5954, WR=75%, 40T",
+          "confidence": 0.9,
+          "time": 1784401425284
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784401425284
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784401425284
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401425284
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401425284
+        }
+      ],
+      "time": 1784401425284
+    },
+    {
+      "cycle": 1089,
+      "trades_analyzed": 1341,
+      "winners_found": 9,
+      "losers_found": 65,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6840, WR=65%, 43T",
+          "confidence": 0.9,
+          "time": 1784401454255
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.5954, WR=75%, 40T",
+          "confidence": 0.9,
+          "time": 1784401454255
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1998, WR=88%, 17T",
+          "confidence": 0.8400000000000001,
+          "time": 1784401454255
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784401454255
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401454255
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784401454255
+        }
+      ],
+      "time": 1784401454255
+    },
+    {
+      "cycle": 1090,
+      "trades_analyzed": 1375,
+      "winners_found": 9,
+      "losers_found": 67,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7311, WR=69%, 48T",
+          "confidence": 0.9,
+          "time": 1784405667492
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.4292, WR=70%, 53T",
+          "confidence": 0.9,
+          "time": 1784405667492
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784405667492
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784405667492
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405667492
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405667492
+        }
+      ],
+      "time": 1784405667492
+    },
+    {
+      "cycle": 1091,
+      "trades_analyzed": 1375,
+      "winners_found": 9,
+      "losers_found": 67,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7311, WR=69%, 48T",
+          "confidence": 0.9,
+          "time": 1784405694046
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.4292, WR=70%, 53T",
+          "confidence": 0.9,
+          "time": 1784405694046
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784405694046
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784405694046
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405694046
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405694046
+        }
+      ],
+      "time": 1784405694046
+    },
+    {
+      "cycle": 1092,
+      "trades_analyzed": 1375,
+      "winners_found": 9,
+      "losers_found": 67,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7311, WR=69%, 48T",
+          "confidence": 0.9,
+          "time": 1784405719067
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.4292, WR=70%, 53T",
+          "confidence": 0.9,
+          "time": 1784405719067
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784405719067
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784405719067
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405719067
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405719067
+        }
+      ],
+      "time": 1784405719067
+    },
+    {
+      "cycle": 1093,
+      "trades_analyzed": 1375,
+      "winners_found": 9,
+      "losers_found": 67,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.7311, WR=69%, 48T",
+          "confidence": 0.9,
+          "time": 1784405740381
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.4292, WR=70%, 53T",
+          "confidence": 0.9,
+          "time": 1784405740382
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784405740382
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784405740382
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405740382
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784405740382
+        }
+      ],
+      "time": 1784405740382
+    },
+    {
+      "cycle": 1094,
+      "trades_analyzed": 1420,
+      "winners_found": 8,
+      "losers_found": 69,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6016, WR=66%, 58T",
+          "confidence": 0.9,
+          "time": 1784415348783
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2344, WR=62%, 69T",
+          "confidence": 0.9,
+          "time": 1784415348783
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784415348783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784415348783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415348783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415348783
+        }
+      ],
+      "time": 1784415348783
+    },
+    {
+      "cycle": 1095,
+      "trades_analyzed": 1422,
+      "winners_found": 8,
+      "losers_found": 69,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6016, WR=66%, 58T",
+          "confidence": 0.9,
+          "time": 1784415876140
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2344, WR=62%, 69T",
+          "confidence": 0.9,
+          "time": 1784415876140
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784415876140
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784415876140
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415876140
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415876140
+        }
+      ],
+      "time": 1784415876140
+    },
+    {
+      "cycle": 1096,
+      "trades_analyzed": 1422,
+      "winners_found": 8,
+      "losers_found": 69,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.6016, WR=66%, 58T",
+          "confidence": 0.9,
+          "time": 1784415878125
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.2344, WR=62%, 69T",
+          "confidence": 0.9,
+          "time": 1784415878125
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784415878125
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784415878125
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415878125
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784415878125
+        }
+      ],
+      "time": 1784415878125
+    },
+    {
+      "cycle": 1097,
+      "trades_analyzed": 1457,
+      "winners_found": 9,
+      "losers_found": 70,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.5607, WR=65%, 62T",
+          "confidence": 0.9,
+          "time": 1784421513215
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1668, WR=59%, 73T",
+          "confidence": 0.9,
+          "time": 1784421513215
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784421513215
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784421513215
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421513215
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421513215
+        }
+      ],
+      "time": 1784421513215
+    },
+    {
+      "cycle": 1098,
+      "trades_analyzed": 1457,
+      "winners_found": 9,
+      "losers_found": 70,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.5607, WR=65%, 62T",
+          "confidence": 0.9,
+          "time": 1784421523592
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1668, WR=59%, 73T",
+          "confidence": 0.9,
+          "time": 1784421523592
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784421523592
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784421523592
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421523592
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421523592
+        }
+      ],
+      "time": 1784421523592
+    },
+    {
+      "cycle": 1099,
+      "trades_analyzed": 1457,
+      "winners_found": 9,
+      "losers_found": 70,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.5607, WR=65%, 62T",
+          "confidence": 0.9,
+          "time": 1784421530020
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1668, WR=59%, 73T",
+          "confidence": 0.9,
+          "time": 1784421530020
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_5",
+          "reason": "EV=0.1332, WR=83%, 18T",
+          "confidence": 0.86,
+          "time": 1784421530020
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784421530020
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421530020
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784421530020
+        }
+      ],
+      "time": 1784421530020
+    },
+    {
+      "cycle": 1100,
+      "trades_analyzed": 1487,
+      "winners_found": 9,
+      "losers_found": 71,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.5187, WR=63%, 65T",
+          "confidence": 0.9,
+          "time": 1784459899339
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3583, WR=67%, 6T",
+          "confidence": 0.62,
+          "time": 1784459899339
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_100:MOMENTUM_DOWN",
+          "reason": "EV=0.1730, WR=60%, 10T",
+          "confidence": 0.7,
+          "time": 1784459899339
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784459899339
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784459899339
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784459899339
+        }
+      ],
+      "time": 1784459899339
+    },
+    {
+      "cycle": 1101,
+      "trades_analyzed": 1487,
+      "winners_found": 9,
+      "losers_found": 71,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.5187, WR=63%, 65T",
+          "confidence": 0.9,
+          "time": 1784459906084
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3583, WR=67%, 6T",
+          "confidence": 0.62,
+          "time": 1784459906084
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_100:MOMENTUM_DOWN",
+          "reason": "EV=0.1730, WR=60%, 10T",
+          "confidence": 0.7,
+          "time": 1784459906084
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784459906084
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784459906084
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784459906084
+        }
+      ],
+      "time": 1784459906084
+    },
+    {
+      "cycle": 1102,
+      "trades_analyzed": 1502,
+      "winners_found": 10,
+      "losers_found": 72,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.4614, WR=62%, 69T",
+          "confidence": 0.9,
+          "time": 1784462732479
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.2600, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784462732479
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD10:FALL_TREND",
+          "reason": "EV=0.1800, WR=58%, 36T",
+          "confidence": 0.9,
+          "time": 1784462732479
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784462732479
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784462732479
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784462732479
+        }
+      ],
+      "time": 1784462732479
+    },
+    {
+      "cycle": 1103,
+      "trades_analyzed": 1540,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.4127, WR=61%, 80T",
+          "confidence": 0.9,
+          "time": 1784584797354
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3367, WR=67%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784584797354
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1380, WR=58%, 78T",
+          "confidence": 0.9,
+          "time": 1784584797354
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784584797354
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584797354
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584797354
+        }
+      ],
+      "time": 1784584797354
+    },
+    {
+      "cycle": 1104,
+      "trades_analyzed": 1540,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.4127, WR=61%, 80T",
+          "confidence": 0.9,
+          "time": 1784584839805
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3367, WR=67%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784584839805
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1380, WR=58%, 78T",
+          "confidence": 0.9,
+          "time": 1784584839805
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784584839805
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584839805
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584839805
+        }
+      ],
+      "time": 1784584839806
+    },
+    {
+      "cycle": 1105,
+      "trades_analyzed": 1541,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.4127, WR=61%, 80T",
+          "confidence": 0.9,
+          "time": 1784584990565
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3367, WR=67%, 9T",
+          "confidence": 0.6799999999999999,
+          "time": 1784584990565
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1380, WR=58%, 78T",
+          "confidence": 0.9,
+          "time": 1784584990565
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784584990565
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584990565
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784584990565
+        }
+      ],
+      "time": 1784584990565
+    },
+    {
+      "cycle": 1106,
+      "trades_analyzed": 1603,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784635277783
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.2179, WR=56%, 103T",
+          "confidence": 0.9,
+          "time": 1784635277783
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1460, WR=58%, 81T",
+          "confidence": 0.9,
+          "time": 1784635277783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784635277783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784635277783
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784635277784
+        }
+      ],
+      "time": 1784635277784
+    },
+    {
+      "cycle": 1107,
+      "trades_analyzed": 1603,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784635369802
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.2179, WR=56%, 103T",
+          "confidence": 0.9,
+          "time": 1784635369802
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1460, WR=58%, 81T",
+          "confidence": 0.9,
+          "time": 1784635369802
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784635369803
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784635369803
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784635369803
+        }
+      ],
+      "time": 1784635369803
+    },
+    {
+      "cycle": 1108,
+      "trades_analyzed": 1604,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784637991304
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.2249, WR=57%, 104T",
+          "confidence": 0.9,
+          "time": 1784637991304
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1460, WR=58%, 81T",
+          "confidence": 0.9,
+          "time": 1784637991304
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784637991305
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637991305
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637991305
+        }
+      ],
+      "time": 1784637991305
+    },
+    {
+      "cycle": 1109,
+      "trades_analyzed": 1604,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784637996096
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.2249, WR=57%, 104T",
+          "confidence": 0.9,
+          "time": 1784637996097
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1460, WR=58%, 81T",
+          "confidence": 0.9,
+          "time": 1784637996097
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784637996097
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637996097
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637996097
+        }
+      ],
+      "time": 1784637996097
+    },
+    {
+      "cycle": 1110,
+      "trades_analyzed": 1604,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784637999969
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.2249, WR=57%, 104T",
+          "confidence": 0.9,
+          "time": 1784637999969
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1460, WR=58%, 81T",
+          "confidence": 0.9,
+          "time": 1784637999969
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.7500, WR=0%, 6T",
+          "confidence": 0.5,
+          "time": 1784637999969
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637999969
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784637999969
+        }
+      ],
+      "time": 1784637999969
+    },
+    {
+      "cycle": 1111,
+      "trades_analyzed": 1659,
+      "winners_found": 8,
+      "losers_found": 72,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784663476520
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784663476520
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.1510, WR=55%, 127T",
+          "confidence": 0.9,
+          "time": 1784663476520
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663476520
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663476520
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784663476520
+        }
+      ],
+      "time": 1784663476520
+    },
+    {
+      "cycle": 1112,
+      "trades_analyzed": 1659,
+      "winners_found": 8,
+      "losers_found": 72,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784663479418
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784663479418
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.1510, WR=55%, 127T",
+          "confidence": 0.9,
+          "time": 1784663479418
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663479418
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663479418
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784663479418
+        }
+      ],
+      "time": 1784663479418
+    },
+    {
+      "cycle": 1113,
+      "trades_analyzed": 1659,
+      "winners_found": 8,
+      "losers_found": 72,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784663482321
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784663482321
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_DIFF_1",
+          "reason": "EV=0.1510, WR=55%, 127T",
+          "confidence": 0.9,
+          "time": 1784663482321
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663482321
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784663482321
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784663482321
+        }
+      ],
+      "time": 1784663482321
+    },
+    {
+      "cycle": 1114,
+      "trades_analyzed": 1691,
+      "winners_found": 8,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_MATCH_0",
+          "reason": "EV=0.5794, WR=56%, 16T",
+          "confidence": 0.8200000000000001,
+          "time": 1784881638488
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784881638489
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784881638489
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784881638489
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784881638489
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784881638489
+        }
+      ],
+      "time": 1784881638489
+    },
+    {
+      "cycle": 1115,
+      "trades_analyzed": 1691,
+      "winners_found": 8,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:DIGIT_MATCH_0",
+          "reason": "EV=0.5794, WR=56%, 16T",
+          "confidence": 0.8200000000000001,
+          "time": 1784881652237
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784881652237
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784881652237
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784881652237
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784881652237
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784881652237
+        }
+      ],
+      "time": 1784881652237
+    },
+    {
+      "cycle": 1116,
+      "trades_analyzed": 1722,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784884265841
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784884265841
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1447, WR=59%, 87T",
+          "confidence": 0.9,
+          "time": 1784884265841
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884265841
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884265841
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784884265841
+        }
+      ],
+      "time": 1784884265841
+    },
+    {
+      "cycle": 1117,
+      "trades_analyzed": 1722,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784884272810
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784884272810
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1447, WR=59%, 87T",
+          "confidence": 0.9,
+          "time": 1784884272810
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884272810
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884272810
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784884272810
+        }
+      ],
+      "time": 1784884272810
+    },
+    {
+      "cycle": 1118,
+      "trades_analyzed": 1722,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784884333217
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784884333217
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1447, WR=59%, 87T",
+          "confidence": 0.9,
+          "time": 1784884333217
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884333217
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884333217
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784884333217
+        }
+      ],
+      "time": 1784884333218
+    },
+    {
+      "cycle": 1119,
+      "trades_analyzed": 1722,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784884347055
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784884347055
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1447, WR=59%, 87T",
+          "confidence": 0.9,
+          "time": 1784884347055
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884347055
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884347055
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784884347055
+        }
+      ],
+      "time": 1784884347055
+    },
+    {
+      "cycle": 1120,
+      "trades_analyzed": 1722,
+      "winners_found": 7,
+      "losers_found": 73,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784884365970
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD75:DIGIT_DIFF_1",
+          "reason": "EV=0.2687, WR=62%, 8T",
+          "confidence": 0.66,
+          "time": 1784884365970
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1447, WR=59%, 87T",
+          "confidence": 0.9,
+          "time": 1784884365970
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884365970
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784884365970
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784884365970
+        }
+      ],
+      "time": 1784884365970
+    },
+    {
+      "cycle": 1121,
+      "trades_analyzed": 1752,
+      "winners_found": 6,
+      "losers_found": 76,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784890271276
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1535, WR=59%, 88T",
+          "confidence": 0.9,
+          "time": 1784890271276
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.0979, WR=63%, 130T",
+          "confidence": 0.9,
+          "time": 1784890271276
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890271276
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890271276
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784890271276
+        }
+      ],
+      "time": 1784890271276
+    },
+    {
+      "cycle": 1122,
+      "trades_analyzed": 1752,
+      "winners_found": 6,
+      "losers_found": 76,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784890282436
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1535, WR=59%, 88T",
+          "confidence": 0.9,
+          "time": 1784890282436
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.0979, WR=63%, 130T",
+          "confidence": 0.9,
+          "time": 1784890282436
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890282436
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890282436
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784890282436
+        }
+      ],
+      "time": 1784890282436
+    },
+    {
+      "cycle": 1123,
+      "trades_analyzed": 1752,
+      "winners_found": 6,
+      "losers_found": 76,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784890293384
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1535, WR=59%, 88T",
+          "confidence": 0.9,
+          "time": 1784890293384
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.0979, WR=63%, 130T",
+          "confidence": 0.9,
+          "time": 1784890293384
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890293384
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784890293384
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784890293384
+        }
+      ],
+      "time": 1784890293384
+    }
+  ],
+  "total": 1123,
+  "successful": 1123
+}

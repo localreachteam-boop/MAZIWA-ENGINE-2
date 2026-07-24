@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALM Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+.pulse{animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 4px #22c55e}50%{opacity:.5;box-shadow:0 0 12px #22c55e}}
+@keyframes pulse-red{0%,100%{opacity:1;box-shadow:0 0 4px #ef4444}50%{opacity:.5;box-shadow:0 0 12px #ef4444}}
+body{font-family:monospace;background:#0a0e1a;color:#c8d6e5;padding:6px;font-size:11px}
+body.light{background:#f0f2f5;color:#1e293b}
+body.light .card{background:#fff;border-color:#d1d5db}
+body.light .card .lb{color:#6b7280}
+body.light .card .sb{color:#9ca3af}
+body.light .section{color:#6b7280;border-color:#e5e7eb}
+body.light .hdr{border-color:#e5e7eb}
+body.light .hdr h1 span{color:#9ca3af}
+body.light th{color:#6b7280;border-color:#e5e7eb}
+body.light .expand-card .sh{background:#fff;border-color:#d1d5db;color:#6b7280}
+body.light .expand-card .sh:active{background:#f3f4f6}
+body.light .expand-card .sb2{background:#fff;border-color:#d1d5db}
+body.light .ft{color:#9ca3af}
+body.light .green{color:#16a34a}
+body.light .red{color:#dc2626}
+body.light .blue{color:#2563eb}
+body.light .cyan{color:#0891b2}
+body.light .yellow{color:#d97706}
+body.light .purple{color:#7c3aed}
+body.light .win{color:#16a34a}
+body.light .loss{color:#dc2626}
+body.light .log-ts{color:#9ca3af}
+.hdr{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #1a2332;margin-bottom:6px}
+.hdr h1{font-size:14px;color:#00d2ff}.hdr h1 span{color:#3a4f6a;font-size:9px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:4px}
+.dot.on{background:#22c55e;box-shadow:0 0 6px #22c55e}.dot.off{background:#ef4444}.dot.warn{background:#f59e0b}
+.section{font-size:10px;color:#64748b;text-transform:uppercase;letter-spacing:1px;margin:10px 0 4px;font-weight:600;border-bottom:1px solid #1a2332;padding-bottom:2px}
+.row{display:grid;gap:5px;margin-bottom:5px}
+.r7{grid-template-columns:repeat(7,1fr)}.r5{grid-template-columns:repeat(5,1fr)}.r3{grid-template-columns:1fr 1fr 1fr}.r4{grid-template-columns:repeat(4,1fr)}
+.card{background:#111827;border:1px solid #1e293b;border-radius:5px;padding:6px 8px;min-width:0}
+.card .lb{font-size:7px;color:#64748b;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .vl{font-size:15px;font-weight:700;margin-top:1px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .sb{font-size:8px;color:#64748b;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.green{color:#22c55e}.red{color:#ef4444}.blue{color:#3b82f6}.cyan{color:#00d2ff}.yellow{color:#f59e0b}.purple{color:#a855f7}.gray{color:#94a3b8}
+.bar{height:4px;background:#1e293b;border-radius:2px;margin-top:2px;overflow:hidden}
+.bar-fill{height:100%;border-radius:2px}
+table{width:100%;border-collapse:collapse;font-size:9px} table th{padding:3px 6px} table td{padding:3px 6px}
+th{text-align:left;color:#64748b;font-size:7px;text-transform:uppercase;padding:3px 4px;border-bottom:1px solid #1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+td{padding:3px 6px;border-bottom:1px solid #111827;white-space:nowrap}
+svg{width:100%;height:auto}
+svg text{font-family:monospace}
+.win{color:#22c55e}.loss{color:#ef4444}
+.expand-card{margin-bottom:5px}
+.expand-card .sh{display:flex;justify-content:space-between;align-items:center;padding:7px 8px;background:#111827;border:1px solid #1e293b;border-radius:5px;font-size:10px;color:#64748b;text-transform:uppercase;letter-spacing:.5px;font-weight:600;user-select:none;cursor:pointer}
+.expand-card .sh:active{background:#1a2332}
+.expand-card .sh .cnt{margin-left:auto;font-weight:400;color:#3a4f6a}
+.expand-card .sb2{display:none;background:#111827;border:1px solid #1e293b;border-top:0;border-radius:0 0 5px 5px;padding:0 8px;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease,opacity .25s ease;opacity:0;-webkit-overflow-scrolling:touch;touch-action:pan-y;overscroll-behavior:contain}
+.expand-card.open .sb2{display:block;max-height:60vh;padding:6px 8px;opacity:1;overflow-y:auto}
+.expand-card .sbi{padding:0;overflow:visible}
+.expand-card .sh .arr{transition:transform .2s ease;display:inline-block;font-size:8px;margin-right:3px}
+.expand-card.open .sh .arr{transform:rotate(90deg)}
+details{transition:all .2s ease}
+details summary{padding:3px 0;transition:color .15s}
+details summary:hover{color:#c8d6e5}
+details[open] summary{color:#3b82f6}
+details>div{animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0;max-height:0}to{opacity:1;max-height:300px}}
+.ft{text-align:center;color:#3a4f6a;font-size:7px;padding:14px 0}
+@media(max-width:420px){
+.r7{grid-template-columns:repeat(3,1fr)}.r5{grid-template-columns:repeat(3,1fr)}.r2{grid-template-columns:1fr}.r3{grid-template-columns:1fr}.r4{grid-template-columns:1fr 1fr}
+.card .vl{font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+<h1>AD-SMTA <span>v5</span></h1>
+<div style="display:flex;align-items:center;gap:3px"><button onclick="toggleAll(true)" style="background:none;border:1px solid #22c55e;border-radius:3px;padding:1px 4px;font-size:8px;color:#22c55e;cursor:pointer" title="Expand All">⊞</button><button onclick="toggleAll(false)" style="background:none;border:1px solid #ef4444;border-radius:3px;padding:1px 4px;font-size:8px;color:#ef4444;cursor:pointer" title="Collapse All">⊟</button><button id="themeBtn" onclick="toggleTheme()" style="background:none;border:1px solid #334155;border-radius:3px;padding:2px 6px;font-size:9px;color:#64748b;cursor:pointer">☀️</button><button id="killBtn" onclick="killSwitch()" style="background:none;border:1px solid #ef4444;border-radius:3px;padding:2px 6px;font-size:9px;color:#ef4444;cursor:pointer;margin-left:4px" title="Kill Switch — Stop All Trading">⚡ STOP</button><span class="dot __DOT__ pulse" id="hDot"></span><span id="hText" style="font-size:10px">__STATUS_TEXT__</span><span style="color:#3a4f6a;font-size:8px">Up: __UPTIME__</span><span id="hbTick" style="color:#3a4f6a;font-size:8px">● ...</span><span id="derivBadge" style="font-size:8px;color:#64748b">⏳</span></div>
+</div>
+
+<!-- OVERVIEW -->
+<div class="expand-card open" id="sec-overview" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>📊 Overview</div><div class="sb2"><div class="sbi">
+<div class="row r7">
+<div class="card" style="grid-column:span 2"><div class="lb">Paper Balance</div><div class="vl cyan"><span id="kBal">__BAL__</span></div><div class="lb" style="margin-top:4px">Deriv Balance</div><div class="vl green" style="font-size:12px"><span id="kReal">__REAL_BAL__</span></div><div class="sb">PnL: <span class="__PNL_COLOR__">__PNL__</span></div><div class="sb" style="color:#22c55e">Deriv: <span id="kDeriv">__REAL_BAL__</span></div></div>
+<div class="card"><div class="lb">Trades</div><div class="vl blue">__TRADES__</div><div class="sb">__TOTAL_TRADES__ tot</div></div>
+<div class="card"><div class="lb">Wins</div><div class="vl green">__WINS__</div><div class="sb">__WIN_RATE__%</div></div>
+<div class="card"><div class="lb">Losses</div><div class="vl red">__LOSSES__</div><div class="sb">Best: __BEST_STREAK__</div></div>
+<div class="card"><div class="lb">P&L</div><div class="vl __PNL_COLOR__" id="kPnL">__PNL__</div><div class="sb">D: __DAILY_LOSS__%</div></div>
+<div class="card"><div class="lb">Mode</div><div class="vl yellow" style="font-size:11px">__MODE__</div><div class="sb">__MODE_REASON__</div></div>
+<div class="card"><div class="lb">Cycle</div><div class="vl gray">__CYCLES__</div><div class="sb">E: __EDGE__%</div></div>
+</div>
+
+</div></div></div>
+<div class="card" style="margin-bottom:5px">
+<div class="expand-card" id="sec-winrate" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>📈 Win Rate & Health</div><div class="sb2"><div class="sbi">
+<div style="display:flex;justify-content:space-between;margin-bottom:1px"><span class="lb">Win Rate</span><span class="__WR_COLOR__" style="font-size:9px">__WIN_RATE__%</span></div>
+<div class="bar"><div class="bar-fill __WR_BAR__" style="width:__WR_WIDTH__%"></div></div>
+</div>
+
+<!-- HEALTH -->
+<div class="card" style="margin-bottom:5px;padding:5px 8px">
+<div style="display:flex;align-items:center;gap:4px;font-size:9px;flex-wrap:wrap">
+<span style="color:#64748b;font-weight:600">HEALTH</span>
+<span style="color:__HEALTH_COLOR__">__HEALTH_SUMMARY__</span>
+<span style="color:#64748b">|</span>
+<span>__HEALTH_ROWS_INLINE__</span>
+</div>
+</div>
+
+<!-- STATUS -->
+</div></div></div>
+<div class="expand-card" id="sec-status" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🧠 Status & AI</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card" style="grid-column:span 5">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+  <div style="display:flex;align-items:center;gap:6px"><div class="lb" style="margin:0">🧠 BRAIN + MODELS</div><div class="vl __BRAIN_COLOR__" style="font-size:9px;padding:1px 6px;border-radius:8px">__BRAIN_STATUS__</div></div>
+  <div style="display:flex;gap:8px;align-items:center;font-size:8px;color:#64748b">
+    <span>🏠 __M_LOCAL__ local</span><span>☁️ __M_CLOUD__ cloud</span><span>⚙️ __M_RULE__ rule</span>
+    <span style="color:#f59e0b">$__CLOUD_COST__</span><span>/ $5.00</span>
+  </div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-size:10px">
+  <div>
+    <div style="color:#64748b;font-size:8px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:2px">Active Engine</div>
+    <div style="color:#22c55e;font-weight:600">🏠 __LOCAL_MODEL__</div>
+    <div style="color:#3b82f6">☁️ __CLOUD_MODEL__</div>
+    <div style="color:#64748b;margin-top:2px">Last: <span style="color:#a855f7">__LAST_MODEL__</span></div>
+  </div>
+  <div>
+    <div style="color:#64748b;font-size:8px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:2px">Tokens & Queries</div>
+    <div><span style="color:#a855f7;font-weight:700;font-size:12px">__TOKENS__</span> <span style="color:#64748b">tokens</span></div>
+    <div><span style="color:#3b82f6;font-weight:700;font-size:12px">__QUERIES__</span> <span style="color:#64748b">queries</span></div>
+    <div style="color:#64748b;margin-top:2px">Lat: <span style="color:#22c55e">__LAST_LATENCY__</span></div>
+  </div>
+  <div>
+    <div style="color:#64748b;font-size:8px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:2px">Budget</div>
+    <div style="color:#f59e0b">$__DAILY_COST__ <span style="color:#64748b">daily</span> |$__SESSION_COST__ <span style="color:#64748b">session</span></div>
+    <div class="bar" style="margin-top:2px;height:4px"><div class="bar-fill" style="width:__TOKEN_BUDGET_PCT__%;background:__TOKEN_BUDGET_CLR__"></div></div>
+    <div style="font-size:8px;color:#64748b;margin-top:2px"><span style="color:__TOKEN_STATUS_CLR__">__TOKEN_STATUS__</span></div>
+  </div>
+</div>
+</div>
+
+</div>
+<div class="row r5">
+<div class="card" style="grid-column:span 5"><div class="lb">📊 MODEL BENCHMARKS</div><div style="max-height:120px;overflow-y:auto">__MODEL_BENCHMARK_ROWS__</div></div>
+</div>
+<div class="row r5">
+<div class="card" style="grid-column:span 5"><div class="lb">🤖 AI ENGINES — Ollama + OpenRouter</div><div style="margin-top:4px">__OPENROUTER_ROWS__</div></div>
+</div>
+<div class="row r5">
+<div class="card"><div class="lb">Goal</div><div class="vl cyan" style="font-size:10px">__GOAL__</div></div>
+<div class="card"><div class="lb">Market</div><div class="vl blue" style="font-size:10px">__MARKET__</div><div class="sb">R: __REGIME__</div></div>
+<div class="card"><div class="lb">Strategy</div><div class="vl purple" style="font-size:10px">__STRATEGY__</div><div class="sb">EV: __EV__</div></div>
+<div class="card"><div class="lb">Prot</div><div class="vl __PROT_COLOR__" style="font-size:10px">__PROT_STATUS__</div><div class="sb">Pk: $__PEAK__</div></div>
+</div>
+
+<!-- SIMULATION -->
+</div></div></div>
+<div class="expand-card" id="sec-sim" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🎮 Simulation</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Paper Trades</div><div class="vl cyan">__SIM_TRADES__</div></div>
+<div class="card"><div class="lb">Sim Wins</div><div class="vl green">__SIM_WINS__</div></div>
+<div class="card"><div class="lb">Sim Losses</div><div class="vl red">__SIM_LOSSES__</div></div>
+<div class="card"><div class="lb">Sim Win Rate</div><div class="vl yellow">__SIM_WR__%</div></div>
+<div class="card"><div class="lb">Sim P&L</div><div class="vl __SIM_PNL_COLOR__">__SIM_PNL__</div><div class="sb">__SIM_TESTS__ tests · __SIM_STRATS__ strats</div></div>
+</div>
+
+<!-- ROUND PROFIT MANAGER -->
+</div></div></div>
+<div class="expand-card" id="sec-round" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🔄 Round Profit</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Round</div><div class="vl cyan">__RP_ROUND__</div><div class="sb">Target: $5.00</div></div>
+<div class="card"><div class="lb">Round P&L</div><div class="vl __RP_PNL_COLOR__">__RP_PNL__</div><div class="sb">Peak: __RP_PEAK__</div></div>
+<div class="card"><div class="lb">Stop Loss</div><div class="vl yellow">__RP_STOP__</div><div class="sb">Buffer: $2.00</div></div>
+<div class="card"><div class="lb">Locked Profit</div><div class="vl green">__RP_LOCKED__</div><div class="sb">__RP_ROUNDS__ rounds done</div></div>
+<div class="card"><div class="lb">Status</div><div class="vl __RP_STATUS_COLOR__">__RP_STATUS__</div><div class="sb">__RP_REASON__</div></div>
+</div>
+
+<!-- PROFIT GUARD (8-LAYER) -->
+</div></div></div>
+<div class="expand-card" id="sec-pg" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🛡️ Profit Guard</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Watermark</div><div class="vl cyan">__PG_WM__</div><div class="sb">__PG_WM_STATUS__</div></div>
+<div class="card"><div class="lb">Equity Curve</div><div class="vl __PG_EQUITY_COLOR__">__PG_EQUITY__</div><div class="sb">Below MA: __PG_BELOW_MA__x</div></div>
+<div class="card"><div class="lb">Ladder Floor</div><div class="vl yellow">$__PG_LADDER__</div><div class="sb">Daily PnL: __PG_DAILY__</div></div>
+<div class="card"><div class="lb">Streak</div><div class="vl __PG_STREAK_COLOR__">__PG_STREAK__</div><div class="sb">Mult: __PG_STREAK_MULT__</div></div>
+<div class="card"><div class="lb">Positions</div><div class="vl blue">__PG_POSITIONS__</div><div class="sb">EOD: __PG_EOD__</div></div>
+</div>
+
+<!-- TRADE INTELLIGENCE (10-LAYER) -->
+</div></div></div>
+<div class="expand-card" id="sec-ti" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🔍 Trade Intel</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Session</div><div class="vl cyan">__TI_SESSION__</div><div class="sb">Market hours</div></div>
+<div class="card"><div class="lb">Recovery</div><div class="vl __TI_RECOVERY_COLOR__">__TI_RECOVERY__</div><div class="sb">Mult: __TI_RECOVERY_MULT__</div></div>
+<div class="card"><div class="lb">Slippage</div><div class="vl __TI_SLIPPAGE_COLOR__">__TI_SLIPPAGE__</div><div class="sb">Avg execution</div></div>
+<div class="card"><div class="lb">Decay</div><div class="vl yellow">__TI_DECAY__</div><div class="sb">Strategies flagged</div></div>
+<div class="card"><div class="lb">Exposure</div><div class="vl blue">__TI_EXPOSURE__</div><div class="sb">__TI_POSITIONS__ positions</div></div>
+</div>
+
+<!-- TICK BACKTESTER -->
+</div></div></div>
+<div class="expand-card" id="sec-bt" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>⚡ Backtester</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Strategies Found</div><div class="vl cyan">__BT_TOTAL__</div></div>
+<div class="card"><div class="lb">Validated (5+ sims)</div><div class="vl green">__BT_VALIDATED__</div></div>
+<div class="card"><div class="lb">Best EV</div><div class="vl yellow">__BT_EV__</div></div>
+<div class="card"><div class="lb">Best Win Rate</div><div class="vl green">__BT_WR__%</div></div>
+<div class="card"><div class="lb">Tick History</div><div class="vl blue">__BT_TICKS__ ticks</div><div class="sb">Last run: cycle __BT_CYCLE__</div></div>
+</div>
+
+<!-- MEMORY -->
+</div></div></div>
+<div class="expand-card" id="sec-memory" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🧠 Memory</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Total Trades</div><div class="vl blue">__MEM_TOTAL__</div></div>
+<div class="card"><div class="lb">Wins</div><div class="vl green">__MEM_WINS__</div><div class="sb">__MEM_WR__% WR</div></div>
+<div class="card"><div class="lb">Losses</div><div class="vl red">__MEM_LOSSES__</div></div>
+<div class="card"><div class="lb">P&L</div><div class="vl __MEM_PNL_CLR__">__MEM_PNL__</div></div>
+<div class="card"><div class="lb">Strategies</div><div class="vl cyan">__STRAT_ACTIVE__</div><div class="sb">__STRAT_RETIRE__ retired / __STRAT_ALL__</div></div>
+</div>
+
+<!-- CHARTS & PHONE -->
+</div></div></div>
+<div class="expand-card" id="sec-charts" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>📊 Charts & Resources</div><div class="sb2"><div class="sbi">
+<div class="card" style="text-align:center;margin-bottom:5px"><div class="lb" style="margin-bottom:2px">📈 Full Day — PnL by Timezone (UTC)</div><details open><summary style="font-size:9px;color:#3a4f6a;cursor:pointer;list-style:none;padding:2px 0">▸ tap to toggle</summary><div style="min-height:320px">__TICK_SVG__</div></details></div>
+<div class="card" style="text-align:center;margin-bottom:5px"><div class="lb" style="margin-bottom:2px">Win / Loss</div><details open><summary style="font-size:9px;color:#3a4f6a;cursor:pointer;list-style:none;padding:2px 0">▸ tap to toggle</summary><div style="min-height:140px">__WINLOSS_SVG__</div></details></div>
+<div class="row r3">
+<div class="card"><div class="lb">Phone</div>
+<div class="row r4" style="margin:3px 0 0 0">
+<div style="font-size:8px"><span class="lb">RAM</span><div class="vl __RAM_COLOR__" style="font-size:12px">__RAM_PCT__%</div><div class="bar"><div class="bar-fill __RAM_BAR__" style="width:__RAM_PCT__%"></div></div></div>
+<div style="font-size:8px"><span class="lb">Swap</span><div class="vl __SWAP_BAR__" style="font-size:12px">__SWAP_PCT__%</div><div class="bar"><div class="bar-fill __SWAP_BAR__" style="width:__SWAP_PCT__%"></div></div></div>
+<div style="font-size:8px"><span class="lb">CPU</span><div class="vl gray" style="font-size:12px">__CPU_LOAD__</div></div>
+<div style="font-size:8px"><span class="lb">Disk</span><div class="vl __DISK_BAR__" style="font-size:12px">__DISK_PCT__%</div><div class="bar"><div class="bar-fill __DISK_BAR__" style="width:__DISK_PCT__%"></div></div></div>
+</div>
+<div style="font-size:7px;color:#64748b;margin-top:3px">Bot:<span style="color:#c8d6e5">__PROC_BOT__MB</span> C++:<span style="color:#c8d6e5">__PROC_CPP__MB</span> Ol:<span style="color:#c8d6e5">__PROC_OLLAMA__MB</span></div>
+</div>
+</div>
+
+</div></div></div>
+<!-- MARKETS (above logs) -->
+<div class="expand-card" id="sec-markets" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>📊 Markets</div><div class="sb2"><div class="sbi">
+<div class="card" style="margin-bottom:5px">
+<table><tr><th>Mkt</th><th>Score</th><th>Ticks</th><th>Trd</th><th>Status</th></tr>__MARKET_ROWS__</table>
+</div>
+
+</div></div></div>
+<!-- TRADING DATA (last) -->
+<div class="section">Trading Data</div>
+
+<div class="expand-card" id="card-trades" onclick="toggleCard(this,event)">
+<div class="sh"><span>Trades</span><span class="cnt"><span id="tradeLogCount">__TRADE_COUNT__</span></span></div>
+<div class="sb2"><div class="sbi"><table style="table-layout:auto"><colgroup><col style="width:70px"><col style="width:50px"><col style="width:130px"><col style="width:45px"><col style="width:75px"><col style="width:42px"></colgroup><tr><th>Time</th><th>Mkt</th><th>Strat</th><th>$</th><th>P&L</th><th>Res</th></tr><tbody id="tradeLogBody">__TRADE_ROWS__</tbody></table></div></div>
+</div>
+
+<div class="expand-card" id="card-deriv" onclick="toggleCard(this,event)">
+<div class="sh"><span style="color:#22c55e">Deriv Real Trades</span><span class="cnt" id="derivTradeCount">0</span></div>
+<div class="sb2"><div class="sbi"><table style="table-layout:auto"><colgroup><col style="width:70px"><col style="width:55px"><col style="width:140px"><col style="width:50px"><col style="width:75px"><col style="width:42px"></colgroup><tr><th>Time</th><th>Market</th><th>Type</th><th>Stake</th><th>P&L</th><th>W/L</th></tr><tbody id="derivTradeRows"></tbody></table></div></div>
+</div>
+
+<div class="expand-card" id="card-logs" onclick="toggleCard(this,event)">
+<div class="sh"><span>System Logs</span><span class="cnt"><span id="logCountBadge">__LOG_COUNT__</span></span><span style="color:#3b82f6;font-size:8px;margin-left:6px">__LOG_STATUS__</span></div>
+<div class="sb2"><div class="sbi" id="sysLogBody">__SYS_LOG_ROWS__</div></div>
+</div>
+
+<div class="expand-card" id="card-notes" onclick="toggleCard(this,event)">
+<div class="sh"><span>Agent Notifications</span><span class="cnt"><span id="noteCountBadge">__NOTE_COUNT__</span></span></div>
+<div class="sb2"><div class="sbi" id="agentNoteBody">__AGENT_NOTE_ROWS__</div></div>
+</div>
+
+<div class="expand-card" id="card-retired" onclick="toggleCard(this,event)">
+<div class="sh"><span>Retired Strategies</span><span class="cnt" style="color:#ef4444">__RETIRE_COUNT__</span></div>
+<div class="sb2"><div class="sbi"><table><tr><th>Strat</th><th>T</th><th>WR%</th><th>P&L</th><th>EV</th><th>Reason</th></tr>__RETIRED_ROWS__</table></div></div>
+</div>
+
+<div class="expand-card" id="card-strats" onclick="toggleCard(this,event)">
+<div class="sh"><span>Strategy Performance</span><span class="cnt"></span></div>
+<div class="sb2"><div class="sbi"><table><tr><th>Strat</th><th>T</th><th>WR%</th><th>P&L</th><th>EV</th></tr>__STRAT_ROWS__</table></div></div>
+</div>
+
+<div class="expand-card" id="card-model-log" onclick="toggleCard(this,event)">
+<div class="sh"><span>🤖 Model Usage Log</span><span class="cnt" style="color:#a855f7">__M_LOCAL__ local · __M_CLOUD__ cloud</span></div>
+<div class="sb2"><div class="sbi"><div style="max-height:150px;overflow-y:auto">__MODEL_HISTORY_ROWS__</div></div></div>
+</div>
+
+<div class="expand-card" id="card-tz" onclick="toggleCard(this,event)">
+<div class="sh"><span>🌍 Timezone Intelligence</span><span class="cnt" style="color:#3b82f6">__TZ_SESSION__</span></div>
+<div class="sb2"><div class="sbi">
+<!-- Bleeding Status -->
+<div style="display:flex;gap:6px;margin-bottom:4px">
+  <div style="flex:1;background:#0d1117;border:1px solid __BLEED_BORDER__;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">STATUS</div>
+    <div style="font-size:12px;color:__BLEED_COLOR__;font-weight:700">__BLEED_STATUS__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">STAKE MULT</div>
+    <div style="font-size:12px;color:__BLEED_MULT_COLOR__;font-weight:700">__BLEED_MULT__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">REASON</div>
+    <div style="font-size:9px;color:#c8d6e5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">__BLEED_REASON__</div>
+  </div>
+</div>
+<!-- Mission Status -->
+<div style="display:flex;gap:4px;margin:6px 0">
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">🎯 DAILY P&L</div>
+    <div style="font-size:12px;color:__MISSION_LOCK_COLOR__;font-weight:700">__MISSION_DAILY_PROFIT__</div>
+    <div style="font-size:8px;color:#64748b">Target: __MISSION_TARGET__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">LOCK</div>
+    <div style="font-size:11px;color:__MISSION_LOCK_COLOR__;font-weight:700">__MISSION_LOCKED__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">HOUSE $</div>
+    <div style="font-size:11px;color:__MISSION_HOUSE_COLOR__;font-weight:700">__MISSION_HOUSE__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">TRADES</div>
+    <div style="font-size:12px;color:#3b82f6;font-weight:700">__MISSION_TRADES__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">SELF-TEST</div>
+    <div style="font-size:11px;color:#f59e0b;font-weight:700">#__MISSION_TEST_RUNS__ score=__MISSION_TEST_SCORE__</div>
+    <div style="font-size:8px;color:#94a3b8;max-height:80px;overflow-y:auto;scrollbar-width:thin;border-top:1px solid #1a2332;padding-top:2px;margin-top:2px">__MISSION_RECS__</div>
+  </div>
+</div>
+<!-- Growth Engine -->
+<div style="display:flex;gap:4px;margin:6px 0">
+  <div style="flex:1;background:#0d1117;border:1px solid #22c55e;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">💰 GROWTH BALANCE</div>
+    <div style="font-size:12px;color:#22c55e;font-weight:700">__GROWTH_BALANCE__</div>
+    <div style="font-size:8px;color:#64748b">Start: __GROWTH_START__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">📈 COMPOUND EARNED</div>
+    <div style="font-size:12px;color:#f59e0b;font-weight:700">__GROWTH_COMPOUND__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">🔥 BEST STREAK</div>
+    <div style="font-size:12px;color:#a855f7;font-weight:700">__GROWTH_STREAK__</div>
+  </div>
+  <div style="flex:1;background:#0d1117;border:1px solid #1e293b;border-radius:4px;padding:4px 6px">
+    <div style="font-size:8px;color:#64748b;font-weight:600">🎯 SESSIONS LEARNED</div>
+    <div style="font-size:12px;color:#3b82f6;font-weight:700">__GROWTH_SESSIONS__</div>
+  </div>
+</div>
+<div style="padding:4px 0;font-size:10px;color:#c8d6e5">__TZ_HOT_COLD__</div>
+<!-- 24h Heatmap -->
+<div style="display:flex;gap:1px;flex-wrap:wrap;margin:4px 0">__TZ_HEATMAP__</div>
+<div style="max-height:120px;overflow-y:auto;margin-top:4px">__TZ_SESSION_ROWS__</div>
+</div></div>
+</div>
+<div class="expand-card" id="card-state" onclick="toggleCard(this,event)">
+<div class="sh"><span>🧠 Market State Brain</span><span class="cnt" style="color:#a855f7">__STATE_SUMMARY__</span></div>
+<div class="sb2"><div class="sbi">
+<div style="padding:4px 0;font-size:10px;color:#c8d6e5">__STATE_MARKETS__</div>
+<div style="max-height:120px;overflow-y:auto;margin-top:4px">__MARKET_STATE_ROWS__</div>
+</div></div>
+</div>
+<!-- PROFIT REPLICATOR -->
+<!-- YMCRC — YIELD GATEKEEPER -->
+<div class="expand-card" id="sec-ymcrc" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>💰 Yield Gatekeeper (YMCRC)</div><div class="sb2"><div class="sbi">
+<div class="row r3">
+<div class="card"><div class="lb">Kills</div><div class="vl red">__YMCRC_KILLS__</div><div class="sb">Low-yield blocked</div></div>
+<div class="card"><div class="lb">Blocked</div><div class="vl yellow" style="font-size:9px">__YMCRC_BLOCKED__</div><div class="sb">Contract types</div></div>
+<div class="card"><div class="lb">Floor</div><div class="vl green">70%</div><div class="sb">Min net yield</div></div>
+</div>
+<div style="font-size:8px;color:#64748b;margin:4px 0 2px;text-transform:uppercase;font-weight:600">Contract Yield Audit</div>
+<div style="max-height:150px;overflow-y:auto">__YMCRC_ROWS__</div>
+</div></div></div>
+
+<!-- EAT SPECIALIST — KENYA/TIMEZONE -->
+<div class="expand-card" id="sec-eat" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🌍 EAT Market Specialist</div><div class="sb2"><div class="sbi">
+<div class="row r4">
+<div class="card"><div class="lb">Time</div><div class="vl cyan" style="font-size:12px">__EAT_HOUR__</div><div class="sb">__EAT_SESSION__</div></div>
+<div class="card"><div class="lb">Quality</div><div class="vl __EAT_SCORE_CLR__" style="font-size:12px">__EAT_SCORE__%</div><div class="sb">Market score</div></div>
+<div class="card"><div class="lb">Warning</div><div class="vl red" style="font-size:10px">__EAT_WARN__</div><div class="sb">Active alerts</div></div>
+<div class="card"><div class="lb">Status</div><div class="vl green" style="font-size:9px">__EAT_REASON__</div><div class="sb">Session info</div></div>
+</div>
+</div></div></div>
+
+<!-- BUNCH RUNNER — CONFIDENCE-BASED RUN EXECUTION -->
+<div class="expand-card__BUNCH_OPEN__" id="sec-bunch" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🎯 Bunch Runner</div><div class="sb2"><div class="sbi">
+<!-- Row 1: Active Run Status -->
+<div class="row r5">
+<div class="card"><div class="lb">Active</div><div class="vl __BUNCH_ACTIVE_CLR__" style="font-size:11px">__BUNCH_ACTIVE__</div><div class="sb">__BUNCH_SETUP__</div></div>
+<div class="card"><div class="lb">Progress</div><div class="vl cyan">__BUNCH_PROGRESS__</div><div class="sb">Trades in run</div></div>
+<div class="card"><div class="lb">Cum P&L</div><div class="vl __BUNCH_PNL_CLR__">__BUNCH_PNL__</div><div class="sb">Run P&L</div></div>
+<div class="card"><div class="lb">Stake</div><div class="vl white">__BUNCH_STAKE__</div><div class="sb">Current stake</div></div>
+<div class="card"><div class="lb">Regime</div><div class="vl orange" style="font-size:9px">__BUNCH_REGIME__</div><div class="sb">Market state</div></div>
+</div>
+<!-- Row 2: Daily Summary -->
+<div class="row r5">
+<div class="card"><div class="lb">Runs Today</div><div class="vl yellow">__BUNCH_RUNS__</div><div class="sb">__BUNCH_PROFITABLE__ profitable</div></div>
+<div class="card"><div class="lb">Bunch P&L</div><div class="vl __BUNCH_DAILY_CLR__">__BUNCH_DAILY_PNL__</div><div class="sb">Today total</div></div>
+<div class="card"><div class="lb">Win Rate</div><div class="vl __BUNCH_WR_CLR__">__BUNCH_WR__</div><div class="sb">Run success rate</div></div>
+<div class="card"><div class="lb">Best Run</div><div class="vl green">__BUNCH_BEST__</div><div class="sb">Highest P&L</div></div>
+<div class="card"><div class="lb">Worst Run</div><div class="vl red">__BUNCH_WORST__</div><div class="sb">Lowest P&L</div></div>
+</div>
+<!-- Row 3: Setup Scoring -->
+<div style="font-size:8px;color:#64748b;margin:4px 0 2px;text-transform:uppercase;font-weight:600">Setup Scoring</div>
+<div class="row r5">
+<div class="card"><div class="lb">Patterns Tracked</div><div class="vl purple">__BUNCH_SCORER_HIST__</div><div class="sb">Setup scores recorded</div></div>
+<div class="card"><div class="lb">Avg Score</div><div class="vl cyan">__BUNCH_SCORER_AVG__</div><div class="sb">Avg setup confidence</div></div>
+<div class="card"><div class="lb">Total Trades</div><div class="vl white">__BUNCH_TOTAL_TRADES__</div><div class="sb">Across all runs</div></div>
+<div class="card"><div class="lb">Session</div><div class="vl yellow" style="font-size:9px">__BUNCH_SESSION__</div><div class="sb">Current session</div></div>
+<div class="card"><div class="lb">Duration</div><div class="vl cyan">__BUNCH_DURATION__</div><div class="sb">Run time</div></div>
+</div>
+<!-- Row 4: Trade-by-Trade -->
+<div style="font-size:8px;color:#64748b;margin:4px 0 2px;text-transform:uppercase;font-weight:600">Active Run Trades</div>
+<div style="max-height:80px;overflow-y:auto;font-size:9px;color:#94a3b8">__BUNCH_ACTIVE_TRADES__</div>
+<!-- Row 5: Recent Runs -->
+<div style="font-size:8px;color:#64748b;margin:6px 0 2px;text-transform:uppercase;font-weight:600">Recent Runs (Last 15)</div>
+<div style="max-height:200px;overflow-y:auto;font-size:9px;color:#94a3b8">__BUNCH_RECENT_RUNS__</div>
+</div></div></div>
+
+<!-- MISSION TRACKER — DAILY $20 TARGET -->
+<div class="expand-card__MISSION_OPEN__" id="sec-mission" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🎯 Mission: $20 Daily Target</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Progress</div><div class="vl __MISSION_CLR__" style="font-size:14px">__MISSION_PNL__</div><div class="sb">of $20.00 target (__MISSION_PCT__%)</div></div>
+<div class="card"><div class="lb">Mode</div><div class="vl __MISSION_MODE_CLR__" style="font-size:11px">__MISSION_MODE__</div><div class="sb">Trading strategy</div></div>
+<div class="card"><div class="lb">Trades Needed</div><div class="vl cyan">__MISSION_TRADES_NEEDED__</div><div class="sb">to hit target</div></div>
+<div class="card"><div class="lb">Bunches Needed</div><div class="vl yellow">__MISSION_BUNCHES_NEEDED__</div><div class="sb">bunch runs</div></div>
+<div class="card"><div class="lb">Remaining</div><div class="vl orange">__MISSION_REMAINING__</div><div class="sb">dollars to go</div></div>
+</div>
+<div style="background:#1e293b;border-radius:4px;height:8px;margin:4px 0;overflow:hidden">
+<div style="background:linear-gradient(90deg,#22c55e,#16a34a);height:100%;width:__MISSION_BAR__%;transition:width .5s ease;border-radius:4px"></div>
+</div>
+<div class="row r5">
+<div class="card"><div class="lb">Trades Today</div><div class="vl white">__MISSION_TRADES__</div><div class="sb">total executed</div></div>
+<div class="card"><div class="lb">Bunch Runs</div><div class="vl cyan">__MISSION_BUNCH_RUNS__</div><div class="sb">__MISSION_BUNCH_WR__% success</div></div>
+<div class="card"><div class="lb">Single Trades</div><div class="vl yellow">__MISSION_SINGLES__</div><div class="sb">outside bunches</div></div>
+</div>
+</div></div></div>
+
+<!-- PROFIT MIRROR — ECHO + REPLAY + HEATMAP -->
+<div class="expand-card__MIRROR_OPEN__" id="sec-mirror" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🪞 Profit Mirror</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Echo Queue</div><div class="vl cyan">__MIRROR_ECHO__</div><div class="sb">Pending echoes</div></div>
+<div class="card"><div class="lb">Patterns</div><div class="vl green">__MIRROR_PATTERNS__</div><div class="sb">Win patterns stored</div></div>
+<div class="card"><div class="lb">Hot Hours</div><div class="vl yellow">__MIRROR_HOT__</div><div class="sb">Profitable hours</div></div>
+<div class="card"><div class="lb">Stake Mult</div><div class="vl __MIRROR_MULT_CLR__">__MIRROR_MULT__</div><div class="sb">Heatmap boost</div></div>
+<div class="card"><div class="lb">Tracked</div><div class="vl purple">__MIRROR_TRACKED__</div><div class="sb">Hours with trades</div></div>
+</div>
+<div style="font-size:8px;color:#64748b;margin:4px 0 2px;text-transform:uppercase;font-weight:600">24h Heatmap (P&L per hour)</div>
+<div style="display:grid;grid-template-columns:repeat(12,1fr);gap:2px;max-height:120px;overflow-y:auto">__MIRROR_HEATMAP__</div>
+</div></div></div>
+
+<div class="expand-card open" id="sec-repl" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🧬 Profit Replicator</div><div class="sb2"><div class="sbi">
+<div class="row r5">
+<div class="card"><div class="lb">Active Blocks</div><div class="vl red">__BLOCK_COUNT__</div><div class="sb">Combos tracked: __COMBOS_TRACKED__</div></div>
+<div class="card"><div class="lb">Profitable Patterns</div><div class="vl green">__PATTERN_COUNT__</div><div class="sb">Dead: __DEAD_COUNT__</div></div>
+</div>
+<div style="font-size:8px;color:#64748b;margin:4px 0 2px;text-transform:uppercase;font-weight:600">Active Blocks (auto-detected pattern death)</div>
+<div style="max-height:120px;overflow-y:auto">__BLOCK_ROWS__</div>
+<div style="font-size:8px;color:#64748b;margin:6px 0 2px;text-transform:uppercase;font-weight:600">Profitable Patterns (replicating)</div>
+<div style="max-height:120px;overflow-y:auto">__PATTERN_ROWS__</div>
+</div></div></div>
+
+<!-- RECOVERY INTELLIGENCE -->
+<!-- SELF DIAGNOSTIC -->
+<div class="expand-card" id="sec-diag" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🔬 System Diagnostic</div><div class="sb2"><div class="sbi">
+<div style="font-size:8px;color:#64748b;margin-bottom:4px">Scans system health before blaming markets — overtrading, fatigue, network, execution, strategy entry</div>
+<div id="diagData" style="max-height:200px;overflow-y:auto">__DIAG_ROWS__</div>
+</div></div></div>
+
+<div class="expand-card" id="sec-recovery" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🧠 Recovery Intelligence</div><div class="sb2"><div class="sbi">
+<div style="font-size:8px;color:#64748b;margin-bottom:4px">Loss assessment: market behavior + session health + pattern decay detection</div>
+<div id="recoveryData" style="max-height:200px;overflow-y:auto">__RECOVERY_ROWS__</div>
+</div></div></div>
+
+<div class="expand-card" id="sec-evo" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🧬 Evolution Log</div><div class="sb2"><div class="sbi">
+<div style="max-height:150px;overflow-y:auto;margin-bottom:8px">__EVOLUTION_ROWS__</div>
+</div></div></div>
+<div class="expand-card" id="sec-session" onclick="toggleCard(this,event)"><div class="sh"><span class="arr">▸</span>🎯 Session Log</div><div class="sb2"><div class="sbi">
+<div style="max-height:120px;overflow-y:auto;margin-bottom:8px">__SESSION_ROWS__</div>
+
+
+
+
+
+
+</div></div></div>
+<div class="ft">ALM v5 — Self-Evolving</div>
+
+<script>
+// ── Expand/Collapse System ──
+// Restore state from localStorage
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll(".expand-card").forEach(function(c) {
+    var key = "alm-exp-" + c.id;
+    if (localStorage.getItem(key) === "1") {
+      c.classList.add("open");
+    }
+  });
+  // Overview always starts open
+  var ov = document.getElementById("sec-overview");
+  if (ov) ov.classList.add("open");
+});
+
+function toggleCard(el, e) {
+  e.stopPropagation();
+  el.classList.toggle("open");
+  try {
+    if (el.classList.contains("open")) {
+      localStorage.setItem("alm-exp-" + el.id, "1");
+    } else {
+      localStorage.removeItem("alm-exp-" + el.id);
+    }
+  } catch(x) {}
+}
+
+function toggleAll(open) {
+  document.querySelectorAll(".expand-card").forEach(function(c) {
+    if (open) {
+      c.classList.add("open");
+      try { localStorage.setItem("alm-exp-" + c.id, "1"); } catch(x) {}
+    } else {
+      c.classList.remove("open");
+      try { localStorage.removeItem("alm-exp-" + c.id); } catch(x) {}
+    }
+  });
+}
+
+// Click outside to close — but ignore clicks on buttons, section headers, and other expand-card headers
+document.addEventListener("click", function(e) {
+  var target = e.target;
+  // Don't close if clicking on a button, a toggle button, or any expand-card header
+  if (target.closest("button") || target.closest(".sh") || target.closest(".expand-card")) return;
+  document.querySelectorAll(".expand-card.open").forEach(function(c) {
+    c.classList.remove("open");
+  });
+});
+
+// ── Heartbeat ──
+var hbDot = document.getElementById("hDot"), hbText = document.getElementById("hText"), hbTick = document.getElementById("hbTick");
+var hbCount = 0, hbLast = 0;
+function heartbeat() {
+  fetch("/health.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    hbCount++; hbLast = Date.now();
+    var ok = d.ok || 0, dead = d.dead || 0;
+    if (dead === 0) { hbDot.className = "dot on pulse"; hbText.textContent = "LIVE"; hbText.style.color = "#22c55e"; }
+    else { hbDot.className = "dot off"; hbText.textContent = dead + " DEAD"; hbText.style.color = "#ef4444"; }
+    hbTick.textContent = "#" + hbCount + " " + d.ok + "/" + d.total + " ok";
+    hbTick.style.color = "#64748b";
+  }).catch(function() {
+    hbDot.className = "dot off pulse"; hbText.textContent = "NO SIGNAL"; hbText.style.color = "#ef4444";
+    hbTick.textContent = "#" + hbCount + " ERR"; hbTick.style.color = "#ef4444";
+  });
+}
+heartbeat();
+setInterval(heartbeat, 10000);
+
+// ── Theme ──
+function toggleTheme() {
+  document.body.classList.toggle('light');
+  document.getElementById('themeBtn').textContent = document.body.classList.contains('light') ? '☀️' : '🌙';
+  try { localStorage.setItem('alm-theme', document.body.classList.contains('light') ? 'light' : 'dark'); } catch(e) {}
+}
+try {
+  if (localStorage.getItem('alm-theme') === 'light') {
+    document.body.classList.add('light');
+    document.getElementById('themeBtn').textContent = '☀️';
+  }
+} catch(e) {}
+setInterval(function() {
+  if (hbLast) {
+    var s = Math.floor((Date.now() - hbLast) / 1000);
+    hbTick.textContent = "#" + hbCount + " " + (s < 60 ? s + "s" : Math.floor(s / 60) + "m") + " ago";
+  }
+}, 1000);
+
+// ── Kill Switch ──
+function killSwitch() {
+  if (!confirm("⚡ KILL SWITCH — Stop all trading?")) return;
+  var btn = document.getElementById("killBtn");
+  btn.textContent = "STOPPING...";
+  btn.style.background = "#ef4444";
+  btn.style.color = "#fff";
+  fetch("/kill", {method: "POST"}).then(function(r) { return r.json() }).then(function(d) {
+    btn.textContent = "STOPPED";
+    document.getElementById("hDot").className = "dot off";
+    document.getElementById("hText").textContent = "STOPPED";
+    document.getElementById("hText").style.color = "#ef4444";
+  }).catch(function() { btn.textContent = "ERROR"; });
+}
+</script>
+
+<script>
+// ── Live Balance Updates ──
+var lastBal = "", lastReal = "", lastPnl = "";
+function liveBalance() {
+  fetch("/state.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    var b = d.balance || 0, r2 = d.real_balance || 0, pnl = d.total_pnl || 0;
+    var bs = "$" + b.toFixed(2), rs = "$" + r2.toFixed(2);
+    var ps = pnl >= 0 ? "+$" + pnl.toFixed(4) : "-$" + Math.abs(pnl).toFixed(4);
+    var pc = pnl >= 0 ? "green" : "red";
+    if (bs !== lastBal) { document.getElementById("kBal").textContent = bs; lastBal = bs; }
+    if (rs !== lastReal) { document.getElementById("kReal").textContent = rs; lastReal = rs; }
+    if (ps !== lastPnl) { var el = document.getElementById("kPnL"); el.textContent = ps; el.className = "vl " + pc; lastPnl = ps; }
+  }).catch(function() {});
+}
+
+// ── Deriv Trades Live ──
+var derivLoaded = false;
+function loadDerivTrades() {
+  fetch("/deriv.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    var badge = document.getElementById("derivBadge");
+    if (d.connected) { badge.textContent = "🟢 Deriv"; badge.style.color = "#22c55e"; }
+    else { badge.textContent = "🔴 Deriv"; badge.style.color = "#ef4444"; }
+    var db = document.getElementById("kDeriv"); if (db) db.textContent = "$" + d.real_balance.toFixed(2);
+    var tb = document.getElementById("derivTradeCount"); if (tb) tb.textContent = d.total_trades;
+    var tbody = document.getElementById("derivTradeRows"); if (!tbody) return;
+    tbody.innerHTML = "";
+    (d.trades || []).forEach(function(t) {
+      var ts = new Date(t.time).toLocaleTimeString();
+      var p = t.profit; var cls = p >= 0 ? "win" : "loss";
+      var row = document.createElement("tr");
+      row.innerHTML = "<td style='padding:3px 6px;color:#64748b;font-size:9px'>" + ts + "</td><td style='padding:3px 6px;font-size:9px' >" + t.market + "</td><td style='padding:3px 6px;color:#a855f7;font-size:9px' >" + t.strategy + "</td><td style='padding:3px 6px;font-size:9px' >$" + t.stake + "</td><td class='" + cls + "'>" + (p >= 0 ? "+" : "") + "$" + p.toFixed(4) + "</td><td class='" + cls + "'>" + (p >= 0 ? "WIN" : "LOSS") + "</td>";
+      tbody.appendChild(row);
+    });
+    if (!derivLoaded && d.trades && d.trades.length > 0) {
+      derivLoaded = true;
+      var card = document.getElementById("card-deriv");
+      if (card && !card.classList.contains("open")) card.classList.add("open");
+    }
+  }).catch(function() {
+    document.getElementById("derivBadge").textContent = "🔴 Error";
+    document.getElementById("derivBadge").style.color = "#ef4444";
+  });
+}
+loadDerivTrades();
+setInterval(loadDerivTrades, 5000);
+liveBalance();
+setInterval(liveBalance, 5000);
+
+// ── Live Trade Log ──
+var tradeLogLoaded = false;
+function refreshTradeLog() {
+  fetch("/state.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    var tbody = document.getElementById("tradeLogBody");
+    if (!tbody) return;
+    tbody.innerHTML = "";
+    var trades = d.trade_log_full || [];
+    trades.slice(-50).reverse().forEach(function(t) {
+      var ts = new Date(t.time).toLocaleTimeString();
+      var p = t.profit || 0; var cls = p >= 0 ? "win" : "loss";
+      var row = document.createElement("tr");
+      row.innerHTML = "<td style='padding:3px 6px;color:#64748b;font-size:9px'>" + ts + "</td><td style='padding:3px 6px;font-size:9px'>" + (t.market||"") + "</td><td style='padding:3px 6px;color:#a855f7;font-size:9px'>" + (t.strategy||"") + "</td><td style='padding:3px 6px;font-size:9px'>$" + (t.stake||0) + "</td><td style='padding:3px 6px' class='" + cls + "' style='font-size:9px'>" + (p >= 0 ? "+" : "") + "$" + p.toFixed(4) + "</td><td style='padding:3px 6px' class='" + cls + "' style='font-size:9px'>" + (p >= 0 ? "WIN" : "LOSS") + "</td>";
+      tbody.appendChild(row);
+    });
+    var badge = document.getElementById("tradeLogCount");
+    if (badge) badge.textContent = trades.length + " recent";
+    // Update log count badge
+    var lCount = document.getElementById("logCountBadge");
+    if (lCount) {
+      var sl = d.sys_log || [];
+      lCount.textContent = sl.length + " entries";
+    }
+    // Update agent note count
+    var nCount = document.getElementById("noteCountBadge");
+    if (nCount) {
+      var an = d.agent_notes || [];
+      nCount.textContent = an.length + " notes";
+    }
+  }).catch(function() {});
+}
+
+// ── Live Sys Log ──
+function refreshSysLog() {
+  fetch("/state.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    var el = document.getElementById("sysLogBody");
+    if (!el) return;
+    el.innerHTML = "";
+    var logs = d.sys_log || [];
+    logs.slice(-80).reverse().forEach(function(e) {
+      var ts = new Date(e.time).toLocaleTimeString();
+      var msg = e.message || e.note || "";
+      var typ = e.log_type || "info";
+      var color = typ === "error" ? "#ef4444" : typ === "warn" ? "#f59e0b" : typ === "trade" ? "#22c55e" : "#94a3b8";
+      el.innerHTML += "<div style='font-size:9px;padding:1px 0;border-bottom:1px solid #1e293b'><span style='color:#64748b'>" + ts + "</span> <span style='color:" + color + "'>[" + typ + "]</span> " + msg + "</div>";
+    });
+  }).catch(function() {});
+}
+
+// ── Live Agent Notes ──
+function refreshAgentNotes() {
+  fetch("/state.json?t=" + Date.now()).then(function(r) { return r.json() }).then(function(d) {
+    var el = document.getElementById("agentNoteBody");
+    if (!el) return;
+    el.innerHTML = "";
+    var notes = d.agent_notes || [];
+    notes.slice(-80).reverse().forEach(function(e) {
+      var ts = new Date(e.time).toLocaleTimeString();
+      var agent = e.agent || "?";
+      var note = e.note || "";
+      el.innerHTML += "<div style='font-size:9px;padding:1px 0;border-bottom:1px solid #1e293b'><span style='color:#64748b'>" + ts + "</span> <span style='color:#a855f7;font-weight:600'>[" + agent + "]</span> " + note + "</div>";
+    });
+  }).catch(function() {});
+}
+
+// Start live refresh for all panels
+refreshTradeLog();
+refreshSysLog();
+refreshAgentNotes();
+setInterval(refreshTradeLog, 8000);
+setInterval(refreshSysLog, 8000);
+setInterval(refreshAgentNotes, 8000);
+
+// Full page reload every 60s for all other panels
+setTimeout(function() { location.reload(); }, 60000);
+</script>
+</body>
+</html>

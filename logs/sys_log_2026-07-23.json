@@ -1,0 +1,342 @@
+[
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784813787885
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784813787919
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784813790544
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784814247728
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784814247762
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784814250306
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784814277840
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784814277878
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784814280236
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784814900300
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784814900359
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784814903006
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784815207082
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784815207120
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784815209739
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784815228702
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784815228757
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784815228873
+ },
+ {
+  "message": "Mode: EXPLORATION -> OPTIMAL",
+  "log_type": "info",
+  "time": 1784815253173
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784823876689
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784823876726
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784823879395
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784823898474
+ },
+ {
+  "message": "Session #1 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784823898535
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784824113408
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784824113444
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784824116009
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784824128140
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784824128176
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784824130555
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784824148150
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784824148215
+ },
+ {
+  "message": "Mode: EXPLORATION -> OPTIMAL",
+  "log_type": "info",
+  "time": 1784824185737
+ },
+ {
+  "message": "Cycle 50 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824199761
+ },
+ {
+  "message": "Cycle 100 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824258935
+ },
+ {
+  "message": "Cycle 150 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824318453
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784824349471
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784824349531
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784824352461
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784824372533
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784824372606
+ },
+ {
+  "message": "Loaded 337 trades from history",
+  "log_type": "info",
+  "time": 1784824403150
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784824403186
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 40",
+  "log_type": "info",
+  "time": 1784824412888
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784824443724
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784824443799
+ },
+ {
+  "message": "Mode: EXPLORATION -> OPTIMAL",
+  "log_type": "info",
+  "time": 1784824489834
+ },
+ {
+  "message": "Cycle 50 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824503452
+ },
+ {
+  "message": "Cycle 100 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824601005
+ },
+ {
+  "message": "Cycle 150 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824673796
+ },
+ {
+  "message": "Cycle 200 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824714368
+ },
+ {
+  "message": "Cycle 250 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824759262
+ },
+ {
+  "message": "Cycle 300 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824798414
+ },
+ {
+  "message": "Cycle 350 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824873322
+ },
+ {
+  "message": "Cycle 400 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824927207
+ },
+ {
+  "message": "Cycle 450 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784824970252
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784825009160
+ },
+ {
+  "message": "Session #2 started: JD50 DIGIT_DIFF_8",
+  "log_type": "info",
+  "time": 1784825017521
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784825020623
+ },
+ {
+  "message": "Session #3 started: JD50 DIGIT_DIFF_8",
+  "log_type": "info",
+  "time": 1784825028771
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784825032550
+ },
+ {
+  "message": "Session #4 started: JD50 DIGIT_DIFF_8",
+  "log_type": "info",
+  "time": 1784825040765
+ },
+ {
+  "message": "Cycle 500 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784825044560
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784825044699
+ },
+ {
+  "message": "Session #5 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784825052841
+ },
+ {
+  "message": "Cycle 550 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784825110194
+ },
+ {
+  "message": "Cycle 600 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784825163011
+ },
+ {
+  "message": "Cycle 650 | bal=$9871.12 pnl=$+28.81 streak=L0 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784825218214
+ }
+]

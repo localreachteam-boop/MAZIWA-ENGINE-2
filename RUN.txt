@@ -1,0 +1,57 @@
+============================================================
+  ALM TRADING SYSTEM — HOW TO RUN
+============================================================
+
+OPTION 1: Run from Codex App (RECOMMENDED)
+------------------------------------------
+Just tell Codex: "start the system"
+
+Or type these commands in Codex:
+  cd /root/Documents/Codex/2026-07-11/if-you-need-to-run-this
+  python3 dashboard_server.py &
+  python3 brain_active.py &
+
+Dashboard: http://localhost:9102
+
+
+OPTION 2: Run from Termux
+-------------------------
+First install Python in Termux:
+  pkg update && pkg install python
+
+Then copy files:
+  mkdir -p ~/alm-system/agents
+  cp /root/Documents/Codex/.../*.py ~/alm-system/
+  (But files are in proot container, not accessible from Termux directly)
+
+BEST: Just use Codex app to run commands.
+
+
+OPTION 3: Health Check
+----------------------
+Run anytime to check system health:
+  python3 health_debugger.py
+
+This checks:
+  - All files exist and compile
+  - Brain and dashboard processes running
+  - Heartbeat alive
+  - Trading state fresh
+  - Agent memory intact
+  - All 10 cognitive loop stages working
+  - System resources (RAM, swap, disk)
+
+Report saved to: health_report.json
+
+
+FILES:
+  brain_active.py     — Main brain (runs the trading loop)
+  dashboard_server.py — Web dashboard (port 9102)
+  health_debugger.py  — System health checker
+  agents/             — All agent modules
+  dashboard/          — Dashboard HTML
+  .env                — API tokens
+  heartbeat.json      — Brain alive signal
+  trading_state.json  — Current state
+  agent_memory.json   — Learned strategies
+============================================================

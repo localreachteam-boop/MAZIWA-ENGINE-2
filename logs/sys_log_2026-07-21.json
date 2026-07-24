@@ -1,0 +1,6037 @@
+[
+ {
+  "message": "Cycle 450 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784592233569
+ },
+ {
+  "message": "Cycle 500 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784592626493
+ },
+ {
+  "message": "Cycle 550 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784593054541
+ },
+ {
+  "message": "Cycle 600 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784593511204
+ },
+ {
+  "message": "Cycle 650 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784593869516
+ },
+ {
+  "message": "Cycle 700 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784594321277
+ },
+ {
+  "message": "Cycle 750 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784594771077
+ },
+ {
+  "message": "Cycle 800 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784595386395
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784595609487
+ },
+ {
+  "message": "Cycle 850 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784595739790
+ },
+ {
+  "message": "Cycle 900 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784595960149
+ },
+ {
+  "message": "Cycle 950 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784596168941
+ },
+ {
+  "message": "Cycle 1000 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784596368074
+ },
+ {
+  "message": "Cycle 1050 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784596587846
+ },
+ {
+  "message": "Cycle 1100 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784596753266
+ },
+ {
+  "message": "Cycle 1150 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784596973984
+ },
+ {
+  "message": "Cycle 1200 | bal=$9851.09 pnl=$+26.61 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784597181862
+ },
+ {
+  "message": "Session #4 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784597341194
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784597358887
+ },
+ {
+  "message": "Cycle 1250 | bal=$9850.09 pnl=$+25.61 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784597390061
+ },
+ {
+  "message": "Loaded 289 trades from history",
+  "log_type": "info",
+  "time": 1784613336241
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784613336262
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784613338922
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784613356088
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784613356246
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4",
+  "log_type": "info",
+  "time": 1784613358952
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_MATCH_0 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784613413691
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784613414971
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784613415107
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784613416644
+ },
+ {
+  "message": "Cycle 50 | bal=$9851.04 pnl=$+27.56 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784613484541
+ },
+ {
+  "message": "Cycle 100 | bal=$9851.04 pnl=$+27.56 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784613597424
+ },
+ {
+  "message": "Loaded 289 trades from history",
+  "log_type": "info",
+  "time": 1784613682969
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784613682989
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784613685557
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784613699008
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784613699131
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4",
+  "log_type": "info",
+  "time": 1784613702272
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784613715344
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784613804326
+ },
+ {
+  "message": "Cycle 50 | bal=$9877.65 pnl=$+26.61 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784613810088
+ },
+ {
+  "message": "Cycle 100 | bal=$9877.65 pnl=$+26.61 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784613919302
+ },
+ {
+  "message": "Cycle 150 | bal=$9877.65 pnl=$+26.61 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784614028741
+ },
+ {
+  "message": "Cycle 200 | bal=$9877.65 pnl=$+26.61 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784614142542
+ },
+ {
+  "message": "Loaded 289 trades from history",
+  "log_type": "info",
+  "time": 1784614512340
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784614512359
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784614515201
+ },
+ {
+  "message": "Loaded 289 trades from history",
+  "log_type": "info",
+  "time": 1784614652946
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784614652964
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784614655426
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784614669114
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784614669241
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4",
+  "log_type": "info",
+  "time": 1784614677200
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_MATCH_0 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784614691203
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784614692445
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784614692611
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_MATCH_0 score=32 size=4",
+  "log_type": "info",
+  "time": 1784614695687
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784614711153
+ },
+ {
+  "message": "Experiment proposed: market_probe #52",
+  "log_type": "info",
+  "time": 1784614711972
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784614712406
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784614754374
+ },
+ {
+  "message": "EVOLUTION: stake \u2192 $1.50",
+  "log_type": "info",
+  "time": 1784614777237
+ },
+ {
+  "message": "EVOLUTION: DEFENSIVE mode \u2014 min stake",
+  "log_type": "warn",
+  "time": 1784614777258
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784614793262
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784614797233
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784614856224
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_MATCH_0 $+1.14 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784614873408
+ },
+ {
+  "message": "Trade: JD75 PUT $1.25 \u2192 $+1.19",
+  "log_type": "win",
+  "time": 1784614874803
+ },
+ {
+  "message": "Cycle 50 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784614876472
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784614876601
+ },
+ {
+  "message": "Cycle 100 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784614992379
+ },
+ {
+  "message": "Cycle 150 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615105643
+ },
+ {
+  "message": "Cycle 200 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615219030
+ },
+ {
+  "message": "Cycle 250 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615332749
+ },
+ {
+  "message": "Cycle 300 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615445789
+ },
+ {
+  "message": "Cycle 350 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615559620
+ },
+ {
+  "message": "Cycle 400 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615672925
+ },
+ {
+  "message": "Cycle 450 | bal=$9853.13 pnl=$+28.70 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784615786080
+ },
+ {
+  "message": "Loaded 292 trades from history",
+  "log_type": "info",
+  "time": 1784615867673
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784615867691
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784615870356
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784615883151
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784615883294
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4",
+  "log_type": "info",
+  "time": 1784615893255
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784615912580
+ },
+ {
+  "message": "Trade: JD25 PUT $1.78 \u2192 $-1.78",
+  "log_type": "loss",
+  "time": 1784615912726
+ },
+ {
+  "message": "Loaded 292 trades from history",
+  "log_type": "info",
+  "time": 1784616885249
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784616885270
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784616887944
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784616903878
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784616904007
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784616907871
+ },
+ {
+  "message": "Loaded 292 trades from history",
+  "log_type": "info",
+  "time": 1784617489083
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784617489099
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784617491527
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784617505163
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784617505300
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784617508421
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784617522527
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784617523773
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784617523909
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784617527082
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784617542529
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784617543689
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784617587235
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784617609563
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784617612962
+ },
+ {
+  "message": "Cycle 50 | bal=$9851.25 pnl=$+28.41 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784617668954
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784617671172
+ },
+ {
+  "message": "Trade: JD75 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784617688940
+ },
+ {
+  "message": "Experiment proposed: market_probe #53",
+  "log_type": "info",
+  "time": 1784617689745
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784617690188
+ },
+ {
+  "message": "Cycle 100 | bal=$9850.00 pnl=$+27.16 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784617793480
+ },
+ {
+  "message": "Loaded 295 trades from history",
+  "log_type": "info",
+  "time": 1784618148256
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784618148275
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784618150970
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784618163198
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784618163323
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784618168940
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784618183828
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784618183963
+ },
+ {
+  "message": "Experiment proposed: market_probe #54",
+  "log_type": "info",
+  "time": 1784618184821
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784618191473
+ },
+ {
+  "message": "Cycle 50 | bal=$9849.00 pnl=$+27.41 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784618289951
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784618381783
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784618398684
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784618402152
+ },
+ {
+  "message": "Cycle 100 | bal=$9849.95 pnl=$+28.36 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784618413823
+ },
+ {
+  "message": "Loaded 296 trades from history",
+  "log_type": "info",
+  "time": 1784619469687
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784619469706
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784619472372
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784619485532
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784619485664
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784619488536
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784619507907
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784619509340
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784619509533
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784619513111
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784619571371
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784619578400
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784619579232
+ },
+ {
+  "message": "Cycle 50 | bal=$9850.90 pnl=$+28.36 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784619618407
+ },
+ {
+  "message": "Cycle 100 | bal=$9850.90 pnl=$+28.36 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784619724883
+ },
+ {
+  "message": "Session #3 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784619725042
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+1.63 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784619742706
+ },
+ {
+  "message": "Trade: JD25 PUT $1.71 \u2192 $+1.63",
+  "log_type": "win",
+  "time": 1784619744201
+ },
+ {
+  "message": "Bunch started: R_75 DIGIT_MATCH_7 score=32 size=4",
+  "log_type": "info",
+  "time": 1784619845899
+ },
+ {
+  "message": "Session stopped: PROFIT_LOCK: below locked floor $9852.48",
+  "log_type": "warn",
+  "time": 1784619860826
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784620314628
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784620314646
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784620317355
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784620330512
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784620330652
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=89.63333333333333 size=10",
+  "log_type": "info",
+  "time": 1784620340292
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784620355384
+ },
+ {
+  "message": "Trade: JD25 PUT $5.29 \u2192 $-5.29",
+  "log_type": "loss",
+  "time": 1784620355535
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784620359794
+ },
+ {
+  "message": "Cycle 50 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620458908
+ },
+ {
+  "message": "Cycle 100 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620563669
+ },
+ {
+  "message": "Cycle 150 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620668323
+ },
+ {
+  "message": "Cycle 200 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620773029
+ },
+ {
+  "message": "Cycle 250 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620877812
+ },
+ {
+  "message": "Cycle 300 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784620982329
+ },
+ {
+  "message": "Cycle 350 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621087102
+ },
+ {
+  "message": "Cycle 400 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621192250
+ },
+ {
+  "message": "Cycle 450 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621296856
+ },
+ {
+  "message": "Cycle 500 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621401620
+ },
+ {
+  "message": "Cycle 550 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621506403
+ },
+ {
+  "message": "Cycle 600 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621611114
+ },
+ {
+  "message": "Cycle 650 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621715723
+ },
+ {
+  "message": "Cycle 700 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621820672
+ },
+ {
+  "message": "Cycle 750 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784621925470
+ },
+ {
+  "message": "Cycle 800 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622030293
+ },
+ {
+  "message": "Cycle 850 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622135479
+ },
+ {
+  "message": "Cycle 900 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622240111
+ },
+ {
+  "message": "Cycle 950 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622345045
+ },
+ {
+  "message": "Cycle 1000 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622450238
+ },
+ {
+  "message": "Cycle 1050 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622555188
+ },
+ {
+  "message": "Cycle 1100 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622660143
+ },
+ {
+  "message": "Cycle 1150 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622764918
+ },
+ {
+  "message": "Cycle 1200 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622869714
+ },
+ {
+  "message": "Cycle 1250 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784622974719
+ },
+ {
+  "message": "Cycle 1300 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623079809
+ },
+ {
+  "message": "Cycle 1350 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623184691
+ },
+ {
+  "message": "Cycle 1400 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623289598
+ },
+ {
+  "message": "Cycle 1450 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623395131
+ },
+ {
+  "message": "Cycle 1500 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623499950
+ },
+ {
+  "message": "Cycle 1550 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623604782
+ },
+ {
+  "message": "Cycle 1600 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623710236
+ },
+ {
+  "message": "Cycle 1650 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623815399
+ },
+ {
+  "message": "Cycle 1700 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784623920727
+ },
+ {
+  "message": "Cycle 1750 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624025654
+ },
+ {
+  "message": "Cycle 1800 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624130687
+ },
+ {
+  "message": "Cycle 1850 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624242508
+ },
+ {
+  "message": "Cycle 1900 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624347306
+ },
+ {
+  "message": "Cycle 1950 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624451774
+ },
+ {
+  "message": "Cycle 2000 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624556577
+ },
+ {
+  "message": "Cycle 2050 | bal=$9845.74 pnl=$+23.07 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784624661349
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784624909091
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784624909109
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784624911810
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625488250
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625488265
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625490869
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784625510252
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784625510406
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784625512355
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625564461
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625564477
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625567029
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625643413
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625643430
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625650968
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625721169
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625721189
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625723863
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784625737319
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784625737476
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784625746076
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625837504
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625837522
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625841195
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784625933940
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784625933956
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784625936657
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784625949435
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784625949575
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784625953147
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784625968305
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784625968484
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784626424487
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784626424507
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784626427096
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784626438602
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784626438745
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784626442216
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784626457877
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784626458027
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784626787400
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784626787419
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784626789476
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784626802697
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784626802833
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784626805219
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784626926052
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784626926072
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784626928119
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784626939512
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784626939655
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784626941701
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784627049076
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784627049094
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784627051702
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784627065111
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784627065257
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784627067529
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784627088678
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784627088819
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784627403837
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784627403864
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784627406521
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784627476752
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784627476772
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784627479500
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784627492666
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784627492805
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_DIFF_0 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784627497837
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784627512678
+ },
+ {
+  "message": "Trade: JD50 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784627512848
+ },
+ {
+  "message": "Cycle 50 | bal=$9842.64 pnl=$+27.36 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784627617641
+ },
+ {
+  "message": "Cycle 100 | bal=$9842.64 pnl=$+27.36 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784627722120
+ },
+ {
+  "message": "Cycle 150 | bal=$9842.64 pnl=$+27.36 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784627826729
+ },
+ {
+  "message": "Cycle 200 | bal=$9842.64 pnl=$+27.36 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784627937731
+ },
+ {
+  "message": "Cycle 250 | bal=$9842.64 pnl=$+27.36 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628042468
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784628071805
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784628071824
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784628074712
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784628088028
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784628088173
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=53.46 size=6 align=7",
+  "log_type": "info",
+  "time": 1784628093640
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784628117352
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784628118686
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784628118838
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784628122171
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784628180678
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=53.46 size=6 align=8",
+  "log_type": "info",
+  "time": 1784628185638
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784628186287
+ },
+ {
+  "message": "Cycle 50 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628221518
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784628243428
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784628247676
+ },
+ {
+  "message": "Cycle 100 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628334359
+ },
+ {
+  "message": "Cycle 150 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628441476
+ },
+ {
+  "message": "Cycle 200 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628548553
+ },
+ {
+  "message": "Cycle 250 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628655637
+ },
+ {
+  "message": "Cycle 300 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628762379
+ },
+ {
+  "message": "Cycle 350 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628869318
+ },
+ {
+  "message": "Cycle 400 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784628976596
+ },
+ {
+  "message": "Cycle 450 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629083923
+ },
+ {
+  "message": "Cycle 500 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629191213
+ },
+ {
+  "message": "Cycle 550 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629299184
+ },
+ {
+  "message": "Cycle 600 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629406085
+ },
+ {
+  "message": "Cycle 650 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629515074
+ },
+ {
+  "message": "Cycle 700 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629624285
+ },
+ {
+  "message": "Cycle 750 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629732026
+ },
+ {
+  "message": "Cycle 800 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629839581
+ },
+ {
+  "message": "Cycle 850 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784629947672
+ },
+ {
+  "message": "Cycle 900 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630059433
+ },
+ {
+  "message": "Cycle 950 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630166874
+ },
+ {
+  "message": "Cycle 1000 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630274680
+ },
+ {
+  "message": "Cycle 1050 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630382716
+ },
+ {
+  "message": "Cycle 1100 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630489864
+ },
+ {
+  "message": "Cycle 1150 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630597274
+ },
+ {
+  "message": "Cycle 1200 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630704893
+ },
+ {
+  "message": "Cycle 1250 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630813701
+ },
+ {
+  "message": "Cycle 1300 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784630921152
+ },
+ {
+  "message": "Cycle 1350 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631028586
+ },
+ {
+  "message": "Cycle 1400 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631136514
+ },
+ {
+  "message": "Cycle 1450 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631244026
+ },
+ {
+  "message": "Cycle 1500 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631351098
+ },
+ {
+  "message": "Cycle 1550 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631458694
+ },
+ {
+  "message": "Cycle 1600 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631566161
+ },
+ {
+  "message": "Cycle 1650 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631673826
+ },
+ {
+  "message": "Cycle 1700 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631781581
+ },
+ {
+  "message": "Cycle 1750 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784631889488
+ },
+ {
+  "message": "Cycle 1800 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632039081
+ },
+ {
+  "message": "Cycle 1850 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632155213
+ },
+ {
+  "message": "Cycle 1900 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632267083
+ },
+ {
+  "message": "Cycle 1950 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632384810
+ },
+ {
+  "message": "Cycle 2000 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632500272
+ },
+ {
+  "message": "Cycle 2050 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632630319
+ },
+ {
+  "message": "Cycle 2100 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632737977
+ },
+ {
+  "message": "Cycle 2150 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632845809
+ },
+ {
+  "message": "Cycle 2200 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784632953931
+ },
+ {
+  "message": "Cycle 2250 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633063710
+ },
+ {
+  "message": "Cycle 2300 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633175675
+ },
+ {
+  "message": "Cycle 2350 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633283384
+ },
+ {
+  "message": "Cycle 2400 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633390637
+ },
+ {
+  "message": "Cycle 2450 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633498317
+ },
+ {
+  "message": "Cycle 2500 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633606229
+ },
+ {
+  "message": "Cycle 2550 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633714106
+ },
+ {
+  "message": "Cycle 2600 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633821806
+ },
+ {
+  "message": "Cycle 2650 | bal=$9843.59 pnl=$+29.31 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784633929380
+ },
+ {
+  "message": "Loaded 297 trades from history",
+  "log_type": "info",
+  "time": 1784633990896
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784633990920
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784633993737
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784634007068
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784634007241
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=86.43333333333334 size=10 align=7",
+  "log_type": "info",
+  "time": 1784634010790
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+1.00 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784634036278
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784634037623
+ },
+ {
+  "message": "Trade: JD25 PUT $1.05 \u2192 $+1.00",
+  "log_type": "win",
+  "time": 1784634037794
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784634041221
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784634100101
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=86.43333333333334 size=10 align=8",
+  "log_type": "info",
+  "time": 1784634107327
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+2.52 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784634121537
+ },
+ {
+  "message": "Trade: JD25 PUT $2.64 \u2192 $+2.52",
+  "log_type": "win",
+  "time": 1784634123128
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784634125071
+ },
+ {
+  "message": "Cycle 50 | bal=$9847.11 pnl=$+31.88 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634160435
+ },
+ {
+  "message": "Loaded 298 trades from history",
+  "log_type": "info",
+  "time": 1784634208143
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784634208168
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784634210657
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784634223984
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784634224151
+ },
+ {
+  "message": "Loaded 298 trades from history",
+  "log_type": "info",
+  "time": 1784634234567
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784634234589
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784634237351
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784634250546
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784634250713
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=86.43333333333334 size=10 align=7",
+  "log_type": "info",
+  "time": 1784634252624
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+3.57 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784634266675
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784634267914
+ },
+ {
+  "message": "Trade: JD25 PUT $3.75 \u2192 $+3.57",
+  "log_type": "win",
+  "time": 1784634268120
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784634278831
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784634330730
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=86.43333333333334 size=10 align=8",
+  "log_type": "info",
+  "time": 1784634332913
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784634334012
+ },
+ {
+  "message": "Cycle 50 | bal=$9850.68 pnl=$+32.93 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634379593
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784634392408
+ },
+ {
+  "message": "Round stopped: TRAILING_STOP_LOSS: round 1 lost $-3.18",
+  "log_type": "warn",
+  "time": 1784634422657
+ },
+ {
+  "message": "Trade: JD25 PUT $6.75 \u2192 $-6.75",
+  "log_type": "loss",
+  "time": 1784634422905
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784634424256
+ },
+ {
+  "message": "Cycle 100 | bal=$9843.93 pnl=$+26.18 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634514728
+ },
+ {
+  "message": "Loaded 299 trades from history",
+  "log_type": "info",
+  "time": 1784634616545
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784634616576
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784634618736
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784634631545
+ },
+ {
+  "message": "Session #1 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784634631724
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784634638379
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784634652321
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784634653920
+ },
+ {
+  "message": "Trade: JD100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784634654091
+ },
+ {
+  "message": "Bunch started: R_100 FALL_TREND score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784634659785
+ },
+ {
+  "message": "Trade: R_100 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784634674932
+ },
+ {
+  "message": "Experiment proposed: market_probe #55",
+  "log_type": "info",
+  "time": 1784634676118
+ },
+ {
+  "message": "Cycle 50 | bal=$9843.60 pnl=$+32.60 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634769005
+ },
+ {
+  "message": "Cycle 100 | bal=$9843.60 pnl=$+32.60 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634872899
+ },
+ {
+  "message": "Cycle 150 | bal=$9843.60 pnl=$+32.60 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784634976916
+ },
+ {
+  "message": "Loaded 300 trades from history",
+  "log_type": "info",
+  "time": 1784635080628
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784635080655
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784635083335
+ },
+ {
+  "message": "Loaded 300 trades from history",
+  "log_type": "info",
+  "time": 1784635088291
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784635088325
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784635095797
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784635109076
+ },
+ {
+  "message": "Session #1 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784635109269
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784635116587
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784635131732
+ },
+ {
+  "message": "Trade: JD100 PUT $1.18 \u2192 $-1.18",
+  "log_type": "loss",
+  "time": 1784635131923
+ },
+ {
+  "message": "Experiment proposed: market_probe #56",
+  "log_type": "info",
+  "time": 1784635133237
+ },
+ {
+  "message": "Loaded 300 trades from history",
+  "log_type": "info",
+  "time": 1784635195032
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784635195057
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784635197760
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784635213330
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784635213502
+ },
+ {
+  "message": "Loaded 300 trades from history",
+  "log_type": "info",
+  "time": 1784635217240
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784635217265
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784635219942
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=61.46 size=8 align=7",
+  "log_type": "info",
+  "time": 1784635224158
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784635242003
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784635242174
+ },
+ {
+  "message": "Experiment proposed: market_probe #57",
+  "log_type": "info",
+  "time": 1784635243004
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784635277760
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784635278825
+ },
+ {
+  "message": "EVOLUTION: stake \u2192 $1.50",
+  "log_type": "info",
+  "time": 1784635283275
+ },
+ {
+  "message": "EVOLUTION: DEFENSIVE mode \u2014 min stake",
+  "log_type": "warn",
+  "time": 1784635283298
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784635284360
+ },
+ {
+  "message": "Cycle 50 | bal=$9841.42 pnl=$+32.85 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635351428
+ },
+ {
+  "message": "Session #2 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784635366571
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784635369763
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784635371759
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784635388763
+ },
+ {
+  "message": "Cycle 100 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635482471
+ },
+ {
+  "message": "Cycle 150 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635590466
+ },
+ {
+  "message": "Cycle 200 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635698793
+ },
+ {
+  "message": "Cycle 250 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635807725
+ },
+ {
+  "message": "Cycle 300 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784635918066
+ },
+ {
+  "message": "Cycle 350 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636026101
+ },
+ {
+  "message": "Cycle 400 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636134310
+ },
+ {
+  "message": "Cycle 450 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636245467
+ },
+ {
+  "message": "Cycle 500 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636393284
+ },
+ {
+  "message": "Cycle 550 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636534806
+ },
+ {
+  "message": "Cycle 600 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636642910
+ },
+ {
+  "message": "Cycle 650 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636793403
+ },
+ {
+  "message": "Cycle 700 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784636950954
+ },
+ {
+  "message": "Cycle 750 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637134694
+ },
+ {
+  "message": "Cycle 800 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637280303
+ },
+ {
+  "message": "Cycle 850 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637390864
+ },
+ {
+  "message": "Cycle 900 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637498884
+ },
+ {
+  "message": "Cycle 950 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637607294
+ },
+ {
+  "message": "Cycle 1000 | bal=$9842.37 pnl=$+33.80 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784637715668
+ },
+ {
+  "message": "Loaded 301 trades from history",
+  "log_type": "info",
+  "time": 1784637971271
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784637971295
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784637973903
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784637987331
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784637987498
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784637991282
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784637992475
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=61.46 size=8 align=7",
+  "log_type": "info",
+  "time": 1784637992788
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784637996059
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784637997264
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784637999949
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784638001029
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+1.29 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784638015509
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784638016919
+ },
+ {
+  "message": "Trade: JD25 PUT $1.35 \u2192 $+1.29",
+  "log_type": "win",
+  "time": 1784638017136
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784638018562
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784638106443
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=61.46 size=8 align=8",
+  "log_type": "info",
+  "time": 1784638108873
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+2.01 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784638123092
+ },
+ {
+  "message": "Trade: JD25 PUT $2.11 \u2192 $+2.01",
+  "log_type": "win",
+  "time": 1784638124578
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784638126016
+ },
+ {
+  "message": "Cycle 50 | bal=$9845.67 pnl=$+36.15 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638135746
+ },
+ {
+  "message": "Cycle 100 | bal=$9845.67 pnl=$+36.15 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638243460
+ },
+ {
+  "message": "Cycle 150 | bal=$9845.67 pnl=$+36.15 streak=W2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638351987
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784638410251
+ },
+ {
+  "message": "Bunch started: R_75 DIGIT_MATCH_7 score=40 size=6 align=9",
+  "log_type": "info",
+  "time": 1784638416730
+ },
+ {
+  "message": "Bunch run done: R_75 DIGIT_MATCH_7 $+1.38 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784638430772
+ },
+ {
+  "message": "Trade: R_75 PUT $1.50 \u2192 $+1.38",
+  "log_type": "win",
+  "time": 1784638432317
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784638434175
+ },
+ {
+  "message": "Cycle 200 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638485233
+ },
+ {
+  "message": "Cycle 250 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638593837
+ },
+ {
+  "message": "Cycle 300 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638701770
+ },
+ {
+  "message": "Cycle 350 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638810286
+ },
+ {
+  "message": "Cycle 400 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784638919160
+ },
+ {
+  "message": "Cycle 450 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639028051
+ },
+ {
+  "message": "Cycle 500 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639136799
+ },
+ {
+  "message": "Cycle 550 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639245674
+ },
+ {
+  "message": "Cycle 600 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639354306
+ },
+ {
+  "message": "Cycle 650 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639463210
+ },
+ {
+  "message": "Cycle 700 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639572389
+ },
+ {
+  "message": "Cycle 750 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639680907
+ },
+ {
+  "message": "Cycle 800 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639789700
+ },
+ {
+  "message": "Cycle 850 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784639898812
+ },
+ {
+  "message": "Cycle 900 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640007531
+ },
+ {
+  "message": "Cycle 950 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640116583
+ },
+ {
+  "message": "Cycle 1000 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640225761
+ },
+ {
+  "message": "Cycle 1050 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640334933
+ },
+ {
+  "message": "Cycle 1100 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640443963
+ },
+ {
+  "message": "Cycle 1150 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640553392
+ },
+ {
+  "message": "Cycle 1200 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640662090
+ },
+ {
+  "message": "Cycle 1250 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640771254
+ },
+ {
+  "message": "Cycle 1300 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640880376
+ },
+ {
+  "message": "Cycle 1350 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784640989668
+ },
+ {
+  "message": "Cycle 1400 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641098850
+ },
+ {
+  "message": "Cycle 1450 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641208160
+ },
+ {
+  "message": "Cycle 1500 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641317011
+ },
+ {
+  "message": "Cycle 1550 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641426217
+ },
+ {
+  "message": "Cycle 1600 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641535614
+ },
+ {
+  "message": "Cycle 1650 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641644983
+ },
+ {
+  "message": "Cycle 1700 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641754292
+ },
+ {
+  "message": "Cycle 1750 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641863667
+ },
+ {
+  "message": "Cycle 1800 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784641972637
+ },
+ {
+  "message": "Cycle 1850 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642082033
+ },
+ {
+  "message": "Cycle 1900 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642191292
+ },
+ {
+  "message": "Cycle 1950 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642300565
+ },
+ {
+  "message": "Cycle 2000 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642409806
+ },
+ {
+  "message": "Cycle 2050 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642519252
+ },
+ {
+  "message": "Cycle 2100 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642631223
+ },
+ {
+  "message": "Cycle 2150 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642740988
+ },
+ {
+  "message": "Cycle 2200 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784642868759
+ },
+ {
+  "message": "Cycle 2250 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643023399
+ },
+ {
+  "message": "Cycle 2300 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643188490
+ },
+ {
+  "message": "Cycle 2350 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643370891
+ },
+ {
+  "message": "Cycle 2400 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643531809
+ },
+ {
+  "message": "Cycle 2450 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643686734
+ },
+ {
+  "message": "Cycle 2500 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784643876518
+ },
+ {
+  "message": "Cycle 2550 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644061475
+ },
+ {
+  "message": "Cycle 2600 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644192943
+ },
+ {
+  "message": "Cycle 2650 | bal=$9847.05 pnl=$+37.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644302081
+ },
+ {
+  "message": "Loaded 303 trades from history",
+  "log_type": "info",
+  "time": 1784644367693
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784644367720
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784644370407
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784644383654
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784644383859
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784644387021
+ },
+ {
+  "message": "Loaded 303 trades from history",
+  "log_type": "info",
+  "time": 1784644457899
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784644457927
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784644460406
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784644473629
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784644473820
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784644478836
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784644493969
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784644494184
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784644533887
+ },
+ {
+  "message": "Cycle 50 | bal=$9847.00 pnl=$+35.15 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644597642
+ },
+ {
+  "message": "Cycle 100 | bal=$9847.00 pnl=$+35.15 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644702532
+ },
+ {
+  "message": "Cycle 150 | bal=$9847.00 pnl=$+35.15 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784644807597
+ },
+ {
+  "message": "Loaded 303 trades from history",
+  "log_type": "info",
+  "time": 1784644877185
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784644877215
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784644879918
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784644893159
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784644893356
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=40 size=6 align=7",
+  "log_type": "info",
+  "time": 1784644899737
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784644914844
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784644915045
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784644968147
+ },
+ {
+  "message": "Session #1 force-exit: 0 losses",
+  "log_type": "warn",
+  "time": 1784644969578
+ },
+ {
+  "message": "Cycle 50 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645036594
+ },
+ {
+  "message": "Cycle 100 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645141481
+ },
+ {
+  "message": "Cycle 150 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645246747
+ },
+ {
+  "message": "Cycle 200 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645352058
+ },
+ {
+  "message": "Cycle 250 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645457050
+ },
+ {
+  "message": "Cycle 300 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645561899
+ },
+ {
+  "message": "Cycle 350 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645667070
+ },
+ {
+  "message": "Cycle 400 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645772834
+ },
+ {
+  "message": "Cycle 450 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645878044
+ },
+ {
+  "message": "Cycle 500 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784645983300
+ },
+ {
+  "message": "Cycle 550 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646088646
+ },
+ {
+  "message": "Cycle 600 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646193689
+ },
+ {
+  "message": "Cycle 650 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646299245
+ },
+ {
+  "message": "Cycle 700 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646404915
+ },
+ {
+  "message": "Cycle 750 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646510249
+ },
+ {
+  "message": "Cycle 800 | bal=$9845.00 pnl=$+34.15 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646615636
+ },
+ {
+  "message": "Session #2 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784646681190
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784646699196
+ },
+ {
+  "message": "Experiment proposed: market_probe #58",
+  "log_type": "info",
+  "time": 1784646700465
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784646701186
+ },
+ {
+  "message": "Cycle 850 | bal=$9845.95 pnl=$+35.10 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646743764
+ },
+ {
+  "message": "Cycle 900 | bal=$9845.95 pnl=$+35.10 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784646852680
+ },
+ {
+  "message": "Loaded 305 trades from history",
+  "log_type": "info",
+  "time": 1784646897556
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784646897588
+ },
+ {
+  "message": "Startup optimization: retired 54, boosted 39",
+  "log_type": "info",
+  "time": 1784646900501
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784646915967
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784646916185
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=7",
+  "log_type": "info",
+  "time": 1784646918858
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+1.53 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784646933142
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784646934412
+ },
+ {
+  "message": "Trade: JD25 PUT $1.61 \u2192 $+1.53",
+  "log_type": "win",
+  "time": 1784646934619
+ },
+ {
+  "message": "Experiment proposed: market_probe #59",
+  "log_type": "info",
+  "time": 1784646935731
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_DIFF_1 score=32 size=4 align=8",
+  "log_type": "info",
+  "time": 1784646938563
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_DIFF_1 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784646953003
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784646954804
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784646956561
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784646998445
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4 align=9",
+  "log_type": "info",
+  "time": 1784647002359
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784647003237
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784647058651
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+2.90 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784647078166
+ },
+ {
+  "message": "Round profit: TARGET_HIT: round 1 pnl=$+5.38 target=$5.0 \u2014 trailing (align=9)",
+  "log_type": "info",
+  "time": 1784647079629
+ },
+ {
+  "message": "Trade: JD25 PUT $3.04 \u2192 $+2.90",
+  "log_type": "win",
+  "time": 1784647079910
+ },
+ {
+  "message": "Cycle 50 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647081840
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784647082054
+ },
+ {
+  "message": "Cycle 100 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647194064
+ },
+ {
+  "message": "Cycle 150 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647303547
+ },
+ {
+  "message": "Cycle 200 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647413010
+ },
+ {
+  "message": "Cycle 250 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647522834
+ },
+ {
+  "message": "Self-test error: 'self_test'",
+  "log_type": "warn",
+  "time": 1784647631922
+ },
+ {
+  "message": "Cycle 300 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647632437
+ },
+ {
+  "message": "Cycle 350 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647745270
+ },
+ {
+  "message": "Cycle 400 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647855049
+ },
+ {
+  "message": "Cycle 450 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784647965164
+ },
+ {
+  "message": "Cycle 500 | bal=$9851.33 pnl=$+39.53 streak=W3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784648075027
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784649023363
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784649023446
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784649029088
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784649043539
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784649044173
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784649051341
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $-4.21 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784649073974
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784649075808
+ },
+ {
+  "message": "Trade: JD25 PUT $4.21 \u2192 $-4.21",
+  "log_type": "loss",
+  "time": 1784649077030
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784649081501
+ },
+ {
+  "message": "Cycle 100 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649356492
+ },
+ {
+  "message": "Cycle 150 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649474030
+ },
+ {
+  "message": "Cycle 200 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649595321
+ },
+ {
+  "message": "Cycle 250 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649710292
+ },
+ {
+  "message": "Cycle 300 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649832915
+ },
+ {
+  "message": "Cycle 350 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784649949846
+ },
+ {
+  "message": "Cycle 400 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650069454
+ },
+ {
+  "message": "Cycle 450 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650185898
+ },
+ {
+  "message": "Cycle 500 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650318499
+ },
+ {
+  "message": "Cycle 550 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650435883
+ },
+ {
+  "message": "Cycle 600 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650557752
+ },
+ {
+  "message": "Cycle 650 | bal=$9847.12 pnl=$+32.42 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650671201
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784650830318
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784650830525
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784650835617
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784650850247
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784650850787
+ },
+ {
+  "message": "Cycle 50 | bal=$9883.75 pnl=$+36.63 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784650973223
+ },
+ {
+  "message": "Cycle 100 | bal=$9883.75 pnl=$+36.63 streak=L0 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651089163
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784651106368
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784651106428
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784651110211
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784651124435
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784651125069
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784651198512
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784651199023
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784651202152
+ },
+ {
+  "message": "Cycle 50 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651281138
+ },
+ {
+  "message": "Cycle 100 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651415311
+ },
+ {
+  "message": "Cycle 150 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651545157
+ },
+ {
+  "message": "Cycle 200 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651697687
+ },
+ {
+  "message": "Session #2 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784651836415
+ },
+ {
+  "message": "Cycle 250 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784651865233
+ },
+ {
+  "message": "Cycle 350 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784652198660
+ },
+ {
+  "message": "Cycle 450 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784652505141
+ },
+ {
+  "message": "Cycle 500 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784652697341
+ },
+ {
+  "message": "Cycle 550 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784652826579
+ },
+ {
+  "message": "Cycle 600 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784652982329
+ },
+ {
+  "message": "Cycle 650 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784653137439
+ },
+ {
+  "message": "Cycle 700 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784653320524
+ },
+ {
+  "message": "Cycle 750 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784653457296
+ },
+ {
+  "message": "Cycle 800 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784653573946
+ },
+ {
+  "message": "Cycle 850 | bal=$9848.07 pnl=$+37.58 streak=W1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784653689666
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784653726062
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784653726116
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784653729506
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784653746785
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784653746842
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784653749693
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784653766045
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784653766438
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784653769154
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784653775154
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784653775209
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784653778221
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784653794220
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784653794590
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784653799163
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784653815505
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784653815893
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784653829757
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784653829808
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784653832814
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784653846203
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784653846538
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784653850010
+ },
+ {
+  "message": "Loaded 307 trades from history",
+  "log_type": "info",
+  "time": 1784653861963
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784653862016
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784653866242
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784653878969
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784653879314
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=32 size=4",
+  "log_type": "info",
+  "time": 1784653882273
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784653898338
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-2.00",
+  "log_type": "loss",
+  "time": 1784653898710
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784653946142
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $-3.00 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784653964673
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784653966236
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784653969270
+ },
+ {
+  "message": "Session #2 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784654035087
+ },
+ {
+  "message": "Loaded 308 trades from history",
+  "log_type": "info",
+  "time": 1784654042826
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784654042855
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784654045031
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784654058148
+ },
+ {
+  "message": "Session #1 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784654058351
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654060350
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784654082587
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784654084892
+ },
+ {
+  "message": "Trade: JD100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784654085117
+ },
+ {
+  "message": "Bunch started: R_100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654088874
+ },
+ {
+  "message": "Bunch run done: R_100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784654103049
+ },
+ {
+  "message": "Trade: R_100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784654104679
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654111996
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784654126590
+ },
+ {
+  "message": "Trade: JD100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784654128222
+ },
+ {
+  "message": "Experiment proposed: market_probe #60",
+  "log_type": "info",
+  "time": 1784654130577
+ },
+ {
+  "message": "EVOLUTION: stake \u2192 $1.50",
+  "log_type": "info",
+  "time": 1784654147981
+ },
+ {
+  "message": "Bunch started: R_100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654148767
+ },
+ {
+  "message": "Session stopped: PROFIT_LOCK: below locked floor $9846.77",
+  "log_type": "warn",
+  "time": 1784654164480
+ },
+ {
+  "message": "Mode: AGGRESSIVE -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784654465079
+ },
+ {
+  "message": "Session stopped: PROFIT_LOCK: below locked floor $9846.77",
+  "log_type": "warn",
+  "time": 1784654484021
+ },
+ {
+  "message": "Loaded 310 trades from history",
+  "log_type": "info",
+  "time": 1784654576513
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784654576542
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784654579376
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784654592605
+ },
+ {
+  "message": "Session #1 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784654592814
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654595024
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784654614545
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784654616190
+ },
+ {
+  "message": "Trade: JD100 PUT $1.03 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784654616405
+ },
+ {
+  "message": "Experiment proposed: market_probe #61",
+  "log_type": "info",
+  "time": 1784654617679
+ },
+ {
+  "message": "Bunch started: R_100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654620977
+ },
+ {
+  "message": "Bunch run done: R_100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784654635668
+ },
+ {
+  "message": "Trade: R_100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784654637245
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=32 size=4",
+  "log_type": "info",
+  "time": 1784654654965
+ },
+ {
+  "message": "Trade: JD100 PUT $1.95 \u2192 $-1.95",
+  "log_type": "loss",
+  "time": 1784654670548
+ },
+ {
+  "message": "Cycle 50 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784654766658
+ },
+ {
+  "message": "Cycle 100 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784654875765
+ },
+ {
+  "message": "Cycle 150 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784654983508
+ },
+ {
+  "message": "Cycle 200 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655092747
+ },
+ {
+  "message": "Cycle 250 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655205147
+ },
+ {
+  "message": "Cycle 300 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655318005
+ },
+ {
+  "message": "Cycle 350 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655426024
+ },
+ {
+  "message": "Cycle 400 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655536513
+ },
+ {
+  "message": "Cycle 450 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655644580
+ },
+ {
+  "message": "Cycle 500 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655754469
+ },
+ {
+  "message": "Cycle 550 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655862357
+ },
+ {
+  "message": "Cycle 600 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784655971766
+ },
+ {
+  "message": "Cycle 650 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656079557
+ },
+ {
+  "message": "Cycle 700 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656190097
+ },
+ {
+  "message": "Cycle 750 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656299210
+ },
+ {
+  "message": "Cycle 800 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656410816
+ },
+ {
+  "message": "Cycle 850 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656518687
+ },
+ {
+  "message": "Cycle 900 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656628262
+ },
+ {
+  "message": "Cycle 950 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656736377
+ },
+ {
+  "message": "Cycle 1000 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656849968
+ },
+ {
+  "message": "Cycle 1050 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784656958761
+ },
+ {
+  "message": "Cycle 1100 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784657068951
+ },
+ {
+  "message": "Cycle 1150 | bal=$9846.67 pnl=$+36.39 streak=L1 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784657177511
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $-2.95 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784657219018
+ },
+ {
+  "message": "Round stopped: TRAILING_STOP_LOSS: round 1 lost $-1.08",
+  "log_type": "warn",
+  "time": 1784657220388
+ },
+ {
+  "message": "Trade: JD100 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784657220730
+ },
+ {
+  "message": "Session #1 force-exit: 0 losses",
+  "log_type": "warn",
+  "time": 1784657222982
+ },
+ {
+  "message": "Cycle 1200 | bal=$9845.67 pnl=$+35.39 streak=L2 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784657316231
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784657349135
+ },
+ {
+  "message": "Bunch started: R_75 DIGIT_MATCH_7 score=32 size=4",
+  "log_type": "info",
+  "time": 1784657356222
+ },
+ {
+  "message": "Session #2 closed: $-1.0000",
+  "log_type": "loss",
+  "time": 1784657385595
+ },
+ {
+  "message": "Trade: R_75 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784657387457
+ },
+ {
+  "message": "Strategy switch: PUT \u2192 parity (after 3 losses)",
+  "log_type": "warn",
+  "time": 1784657388076
+ },
+ {
+  "message": "Cycle 1300 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784657672180
+ },
+ {
+  "message": "Cycle 1350 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=EXPLORATION",
+  "log_type": "info",
+  "time": 1784657781300
+ },
+ {
+  "message": "Goal switched: RECOVERY",
+  "log_type": "info",
+  "time": 1784657853902
+ },
+ {
+  "message": "Mode: EXPLORATION -> RECOVERY",
+  "log_type": "info",
+  "time": 1784657854312
+ },
+ {
+  "message": "Cycle 1400 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784657900031
+ },
+ {
+  "message": "Cycle 1450 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658011849
+ },
+ {
+  "message": "Cycle 1500 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658121998
+ },
+ {
+  "message": "Cycle 1550 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658230430
+ },
+ {
+  "message": "Cycle 1600 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658341030
+ },
+ {
+  "message": "Cycle 1650 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658449735
+ },
+ {
+  "message": "Cycle 1700 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658560333
+ },
+ {
+  "message": "Cycle 1750 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658669740
+ },
+ {
+  "message": "Cycle 1800 | bal=$9844.67 pnl=$+34.39 streak=L3 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784658779965
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659921265
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659921293
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659930083
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659930109
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659933582
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659933609
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659936411
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659936439
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659945330
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659945356
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659948739
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659948763
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659951573
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659951600
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784659956226
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784659979161
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784659979187
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784659984815
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660009560
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660009587
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660014621
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660055068
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660055090
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660059864
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660101465
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660101489
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660107730
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660129129
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660129182
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660129232
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660136205
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660174796
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660174824
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660180614
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660207053
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660207081
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660212205
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660237515
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660237544
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660240478
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660266200
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660266220
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660269002
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660280319
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660280345
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660285076
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660310632
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660310659
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660313621
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660340624
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660340646
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660346017
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660400983
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660401008
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660404413
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660441260
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660441282
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660446995
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660467896
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660468125
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660468774
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784660485519
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660502195
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660502235
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660510174
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660533731
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660533999
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660534686
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784660551697
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660562708
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660562730
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660567418
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660587294
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660587515
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660588126
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660623677
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660623703
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660627911
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660642641
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660642882
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660643528
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660676997
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660677025
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784660684422
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660700450
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660700697
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660701331
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784660719641
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660737717
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660737743
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660740472
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660755242
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660755475
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660756123
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660783406
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660783436
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660787751
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660807284
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660807513
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660808158
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784660824033
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660844123
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660844148
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660846947
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660860810
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660861046
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660861703
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784660870793
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784660879331
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784660894310
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660904897
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660904925
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660907667
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660920088
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660920319
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660920981
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784660950447
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784660950475
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784660962211
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784660975778
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784660976016
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784660976677
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784661011195
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784661011221
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784661013951
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784661028941
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784661029177
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784661029828
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784661056849
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784661056877
+ },
+ {
+  "message": "Startup optimization: retired 52, boosted 39",
+  "log_type": "info",
+  "time": 1784661059291
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784661072230
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784661072461
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784661073248
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784661101666
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784661101698
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784661104384
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784661117164
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784661117381
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784661118174
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784661162621
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784661162645
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784661165358
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784661178421
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784661178639
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784661179440
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784661207733
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784661207756
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784661210316
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784661222864
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784661223098
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784661223958
+ },
+ {
+  "message": "Loaded 314 trades from history",
+  "log_type": "info",
+  "time": 1784662522629
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784662522659
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784662525430
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784662539752
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662539997
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784662540901
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784662560202
+ },
+ {
+  "message": "Trade: JD25 PUT $1.05 \u2192 $-1.05",
+  "log_type": "loss",
+  "time": 1784662560465
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662566398
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784662591860
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662597314
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784662605831
+ },
+ {
+  "message": "Trade: JD25 PUT $1.05 \u2192 $+1.00",
+  "log_type": "win",
+  "time": 1784662622796
+ },
+ {
+  "message": "Experiment proposed: market_probe #62",
+  "log_type": "info",
+  "time": 1784662624005
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662624983
+ },
+ {
+  "message": "Session #4 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662633616
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662635360
+ },
+ {
+  "message": "Session #5 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662643899
+ },
+ {
+  "message": "Session #5 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662645652
+ },
+ {
+  "message": "Session #6 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662654114
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+1.96 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784662669530
+ },
+ {
+  "message": "Trade: JD25 PUT $2.11 \u2192 $+2.01",
+  "log_type": "win",
+  "time": 1784662671859
+ },
+ {
+  "message": "Loaded 316 trades from history",
+  "log_type": "info",
+  "time": 1784662676730
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784662676758
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784662679659
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784662698812
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662699854
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784662702799
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+3.50 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784662717298
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784662718935
+ },
+ {
+  "message": "Trade: JD25 PUT $3.67 \u2192 $+3.50",
+  "log_type": "win",
+  "time": 1784662719290
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_DIFF_1 score=40 size=6",
+  "log_type": "info",
+  "time": 1784662721736
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_DIFF_1 $+1.43 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784662737149
+ },
+ {
+  "message": "Trade: JD75 PUT $1.50 \u2192 $+1.43",
+  "log_type": "win",
+  "time": 1784662758486
+ },
+ {
+  "message": "Loaded 317 trades from history",
+  "log_type": "info",
+  "time": 1784662770079
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784662770107
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784662787063
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784662803098
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784662803353
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=73.15 size=10",
+  "log_type": "info",
+  "time": 1784662805127
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784662824717
+ },
+ {
+  "message": "Trade: JD25 PUT $6.64 \u2192 $-6.64",
+  "log_type": "loss",
+  "time": 1784662824965
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662826411
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784662854421
+ },
+ {
+  "message": "Trade: JD25 PUT $1.05 \u2192 $+1.00",
+  "log_type": "win",
+  "time": 1784662871528
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662873137
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784662881561
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662883427
+ },
+ {
+  "message": "Session #4 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784662892420
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $-6.95 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784662907459
+ },
+ {
+  "message": "Round stopped: ROUND_LOSS: round 1 pnl=$-6.95",
+  "log_type": "warn",
+  "time": 1784662908837
+ },
+ {
+  "message": "Trade: JD25 PUT $1.31 \u2192 $-1.31",
+  "log_type": "loss",
+  "time": 1784662909141
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662910702
+ },
+ {
+  "message": "Session #5 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784662939506
+ },
+ {
+  "message": "Bunch started: R_75 DIGIT_MATCH_7 score=37 size=4",
+  "log_type": "info",
+  "time": 1784662940388
+ },
+ {
+  "message": "Session #5 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662941487
+ },
+ {
+  "message": "Session #6 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784662950015
+ },
+ {
+  "message": "Session #6 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662953500
+ },
+ {
+  "message": "Session #7 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784662962196
+ },
+ {
+  "message": "Bunch run done: R_75 DIGIT_MATCH_7 $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784662977575
+ },
+ {
+  "message": "Trade: R_75 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784662980053
+ },
+ {
+  "message": "Experiment proposed: market_probe #63",
+  "log_type": "info",
+  "time": 1784662981112
+ },
+ {
+  "message": "Session #7 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784662981683
+ },
+ {
+  "message": "Session #8 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784662990167
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784662992031
+ },
+ {
+  "message": "Bunch started: R_25 DIGIT_MATCH_7 score=40 size=6",
+  "log_type": "info",
+  "time": 1784662992453
+ },
+ {
+  "message": "Bunch run done: R_25 DIGIT_MATCH_7 $+1.15 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784663007280
+ },
+ {
+  "message": "Trade: R_25 PUT $1.25 \u2192 $+1.15",
+  "log_type": "win",
+  "time": 1784663009007
+ },
+ {
+  "message": "Loaded 321 trades from history",
+  "log_type": "info",
+  "time": 1784663019120
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663019145
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 39",
+  "log_type": "info",
+  "time": 1784663021806
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784663035349
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784663035593
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663037494
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_MATCH_2 score=40 size=6",
+  "log_type": "info",
+  "time": 1784663037732
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663041111
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663044018
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663046618
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663049544
+ },
+ {
+  "message": "Evolution error: 'ALMBrain' object has no attribute 'self_evolve'",
+  "log_type": "warn",
+  "time": 1784663052461
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784663067799
+ },
+ {
+  "message": "Trade: JD50 PUT $1.50 \u2192 $-1.50",
+  "log_type": "loss",
+  "time": 1784663068263
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_MATCH_2 $-2.75 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784663111819
+ },
+ {
+  "message": "Trade: JD50 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784663113352
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663114885
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663175530
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=65.15 size=8",
+  "log_type": "info",
+  "time": 1784663176188
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663176941
+ },
+ {
+  "message": "Session #3 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663185567
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663187208
+ },
+ {
+  "message": "Session #4 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663195830
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663199019
+ },
+ {
+  "message": "Session #5 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663207509
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_DIFF_1 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784663222494
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784663224156
+ },
+ {
+  "message": "Session #5 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663225699
+ },
+ {
+  "message": "Session #6 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663234140
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_DIFF_1 score=40 size=6",
+  "log_type": "info",
+  "time": 1784663235228
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_DIFF_1 $+1.23 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784663249619
+ },
+ {
+  "message": "Trade: JD75 PUT $1.29 \u2192 $+1.23",
+  "log_type": "win",
+  "time": 1784663251282
+ },
+ {
+  "message": "Loaded 324 trades from history",
+  "log_type": "info",
+  "time": 1784663261982
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663262013
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663264892
+ },
+ {
+  "message": "Loaded 324 trades from history",
+  "log_type": "info",
+  "time": 1784663292491
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663292518
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663295110
+ },
+ {
+  "message": "Loaded 324 trades from history",
+  "log_type": "info",
+  "time": 1784663299444
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663299473
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663302090
+ },
+ {
+  "message": "Loaded 324 trades from history",
+  "log_type": "info",
+  "time": 1784663322167
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663322191
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663324862
+ },
+ {
+  "message": "Loaded 324 trades from history",
+  "log_type": "info",
+  "time": 1784663345423
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663345451
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663348422
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784663366381
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784663366623
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_DIFF_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784663367385
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_DIFF_0 $+1.19 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784663381594
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784663383323
+ },
+ {
+  "message": "Trade: JD50 PUT $1.25 \u2192 $+1.19",
+  "log_type": "win",
+  "time": 1784663383565
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_DIFF_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784663386046
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_DIFF_0 $+1.43 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784663400409
+ },
+ {
+  "message": "Trade: JD75 PUT $1.50 \u2192 $+1.43",
+  "log_type": "win",
+  "time": 1784663402110
+ },
+ {
+  "message": "Loaded 325 trades from history",
+  "log_type": "info",
+  "time": 1784663414335
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663414366
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663417161
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784663430070
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784663430303
+ },
+ {
+  "message": "Bunch started: JD50 DIGIT_DIFF_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784663431170
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784663447340
+ },
+ {
+  "message": "Trade: JD50 PUT $1.86 \u2192 $-1.86",
+  "log_type": "loss",
+  "time": 1784663447581
+ },
+ {
+  "message": "Experiment proposed: market_probe #64",
+  "log_type": "info",
+  "time": 1784663448847
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784663477970
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784663480879
+ },
+ {
+  "message": "Improvement cycle: 6 actions",
+  "log_type": "info",
+  "time": 1784663483801
+ },
+ {
+  "message": "Trade: JD50 PUT $1.50 \u2192 $+1.43",
+  "log_type": "win",
+  "time": 1784663500074
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663501757
+ },
+ {
+  "message": "Session #2 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663527912
+ },
+ {
+  "message": "Trade: JD50 PUT $1.72 \u2192 $-1.72",
+  "log_type": "loss",
+  "time": 1784663544680
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663546346
+ },
+ {
+  "message": "Session #3 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663575256
+ },
+ {
+  "message": "Bunch run done: JD50 DIGIT_DIFF_0 $-3.40 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784663590087
+ },
+ {
+  "message": "Round stopped: CONSEC_LOSS: round 1 3 losses",
+  "log_type": "warn",
+  "time": 1784663591439
+ },
+ {
+  "message": "Trade: JD50 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784663591756
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784663593660
+ },
+ {
+  "message": "Session #4 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784663654207
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=65.15 size=8",
+  "log_type": "info",
+  "time": 1784663654895
+ },
+ {
+  "message": "Session #4 closed: $-1.2500",
+  "log_type": "loss",
+  "time": 1784663670854
+ },
+ {
+  "message": "Trade: JD25 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784663672450
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663680717
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663680750
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663683664
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663703226
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663703256
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663705998
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663725524
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663725553
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663728363
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663748969
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663749028
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663751751
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663771291
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663771322
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663774102
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663794301
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663794331
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663797273
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663817118
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663817149
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663819854
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663840485
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663840517
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663843311
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663862950
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663862982
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663865778
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663886147
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663886180
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663889064
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663908753
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663908785
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663911569
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663931941
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663931976
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663934986
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663954599
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663954634
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663957413
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784663977658
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784663977692
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784663980544
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784663998206
+ },
+ {
+  "message": "Session #1 started: JD100 FALL_TREND",
+  "log_type": "info",
+  "time": 1784663998456
+ },
+ {
+  "message": "Bunch started: JD100 FALL_TREND score=40 size=6",
+  "log_type": "info",
+  "time": 1784663999384
+ },
+ {
+  "message": "Bunch run done: JD100 FALL_TREND $+0.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784664015547
+ },
+ {
+  "message": "Day reset: 2026-07-21 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784664017129
+ },
+ {
+  "message": "Trade: JD100 PUT $1.00 \u2192 $+0.92",
+  "log_type": "win",
+  "time": 1784664017396
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784665204475
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784665204505
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784665207329
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784665220898
+ },
+ {
+  "message": "Session #1 started: JD50 DIGIT_MATCH_2",
+  "log_type": "info",
+  "time": 1784665222358
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665258215
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665266891
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665269354
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665277719
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665279714
+ },
+ {
+  "message": "Session #4 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665288414
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665290676
+ },
+ {
+  "message": "Session #5 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665299361
+ },
+ {
+  "message": "Session #5 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665301359
+ },
+ {
+  "message": "Session #6 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665310053
+ },
+ {
+  "message": "Session #6 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665312125
+ },
+ {
+  "message": "Session #7 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665320818
+ },
+ {
+  "message": "Session #7 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665322844
+ },
+ {
+  "message": "Session #8 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665331544
+ },
+ {
+  "message": "Session #8 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665333586
+ },
+ {
+  "message": "Session #9 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665342320
+ },
+ {
+  "message": "Session #9 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665344357
+ },
+ {
+  "message": "Session #10 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784665353066
+ },
+ {
+  "message": "Session #10 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784665355123
+ },
+ {
+  "message": "Loaded 329 trades from history",
+  "log_type": "info",
+  "time": 1784669087993
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784669088022
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784669090799
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784669104009
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784669104260
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784669105171
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_MATCH_0 $+0.95 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784669123031
+ },
+ {
+  "message": "Day reset: 2026-07-22 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784669124772
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784669125025
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_MATCH_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784669127660
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784669142994
+ },
+ {
+  "message": "Experiment proposed: market_probe #65",
+  "log_type": "info",
+  "time": 1784669144175
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669144749
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784669174041
+ },
+ {
+  "message": "Evolution error: unsupported operand type(s) for +: 'int' and 'dict'",
+  "log_type": "warn",
+  "time": 1784669174741
+ },
+ {
+  "message": "Round stopped: TRAILING_STOP_LOSS: round 1 lost $-1.05",
+  "log_type": "warn",
+  "time": 1784669190597
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784669190919
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669195630
+ },
+ {
+  "message": "Session #3 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784669256198
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784669272479
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669274255
+ },
+ {
+  "message": "Session #4 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784669282962
+ },
+ {
+  "message": "Trade: JD75 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784669299663
+ },
+ {
+  "message": "Loaded 333 trades from history",
+  "log_type": "info",
+  "time": 1784669304363
+ },
+ {
+  "message": "Brain v3 started",
+  "log_type": "info",
+  "time": 1784669304394
+ },
+ {
+  "message": "Startup optimization: retired 53, boosted 40",
+  "log_type": "info",
+  "time": 1784669306955
+ },
+ {
+  "message": "Mode: OPTIMAL -> EXPLORATION",
+  "log_type": "info",
+  "time": 1784669319483
+ },
+ {
+  "message": "Session #1 started: JD25 DIGIT_MATCH_0",
+  "log_type": "info",
+  "time": 1784669319753
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_MATCH_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784669320666
+ },
+ {
+  "message": "Bunch run done: JD25 DIGIT_MATCH_0 $+1.92 [TARGET_HIT]",
+  "log_type": "win",
+  "time": 1784669343613
+ },
+ {
+  "message": "Day reset: 2026-07-22 \u2014 archived old logs",
+  "log_type": "info",
+  "time": 1784669345018
+ },
+ {
+  "message": "Trade: JD25 PUT $2.01 \u2192 $+1.92",
+  "log_type": "win",
+  "time": 1784669345281
+ },
+ {
+  "message": "Bunch started: JD75 DIGIT_MATCH_0 score=40 size=6",
+  "log_type": "info",
+  "time": 1784669348486
+ },
+ {
+  "message": "Trade: JD75 PUT $1.50 \u2192 $-1.50",
+  "log_type": "loss",
+  "time": 1784669364176
+ },
+ {
+  "message": "Session #1 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669365804
+ },
+ {
+  "message": "Session #2 started: R_75 DIGIT_DIFF_0",
+  "log_type": "info",
+  "time": 1784669394769
+ },
+ {
+  "message": "Trade: JD75 PUT $1.25 \u2192 $+1.19",
+  "log_type": "win",
+  "time": 1784669411783
+ },
+ {
+  "message": "Experiment proposed: market_probe #66",
+  "log_type": "info",
+  "time": 1784669413301
+ },
+ {
+  "message": "Session #2 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669414549
+ },
+ {
+  "message": "Session #3 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784669423069
+ },
+ {
+  "message": "Trade: JD75 PUT $1.50 \u2192 $-1.50",
+  "log_type": "loss",
+  "time": 1784669439476
+ },
+ {
+  "message": "Session #3 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669441050
+ },
+ {
+  "message": "Session #4 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784669470490
+ },
+ {
+  "message": "Bunch run done: JD75 DIGIT_MATCH_0 $-3.06 [STOPPED]",
+  "log_type": "loss",
+  "time": 1784669485935
+ },
+ {
+  "message": "Round stopped: TRAILING_STOP_LOSS: round 1 lost $-1.14",
+  "log_type": "warn",
+  "time": 1784669487267
+ },
+ {
+  "message": "Strategy killed: DIGIT_MATCH_0 \u2014 SV=-0.832 edge=0.0000 RR=0.00x",
+  "log_type": "warn",
+  "time": 1784669487534
+ },
+ {
+  "message": "Trade: JD75 PUT $1.25 \u2192 $-1.25",
+  "log_type": "loss",
+  "time": 1784669487868
+ },
+ {
+  "message": "Session #4 force-exit: digit cooldown",
+  "log_type": "warn",
+  "time": 1784669489548
+ },
+ {
+  "message": "Session #5 started: R_75 DIGIT_MATCH_7",
+  "log_type": "info",
+  "time": 1784669550154
+ },
+ {
+  "message": "Bunch started: R_75 DIGIT_MATCH_7 score=32 size=4",
+  "log_type": "info",
+  "time": 1784669550899
+ }
+]

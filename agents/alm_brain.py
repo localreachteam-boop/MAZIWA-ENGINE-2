@@ -1,11 +1,9 @@
 """
 ALM BRAIN — AI Reasoning Layer (Dual Model Architecture)
-Uses Qwen via Ollama for fast local reasoning.
-Uses DeepSeek V4 Flash via OpenRouter for deep research.
+Uses Gemma 4 26B (free) via OpenRouter for AI reasoning.
 
 Architecture:
-  Qwen (fast, local) → quick decisions, monitoring, simple tasks
-  DeepSeek V4 Flash (paid, cloud) → deep analysis, strategy research, complex reasoning
+  Gemma 4 26B (free, cloud) → quick decisions, strategy research, complex reasoning
   C++ Engine (fast computation) → tick processing, simulations
   Memory (storage) → persistent knowledge
 """
@@ -15,17 +13,17 @@ import os
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434")
-LOCAL_MODEL = os.environ.get("ALM_MODEL", "qwen2.5:3b")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-CLOUD_MODEL = "deepseek/deepseek-chat-v3-0324"  # DeepSeek V4 Flash
+CLOUD_MODEL = "google/gemma-4-26b-a4b-it:free"  # Free Gemma 4 26B via OpenRouter
+LOCAL_MODEL = os.environ.get("ALM_MODEL", CLOUD_MODEL)
 
 
 class ALMBrain:
     """
     Dual-model AI reasoning layer.
 
-    LOCAL (Qwen 2.5:3b):
+    LOCAL (Ollama — offline):
       - Fast decisions (< 1s)
       - Monitoring, classification, simple reasoning
       - Free, always available
@@ -41,7 +39,7 @@ class ALMBrain:
     """
 
     def __init__(self):
-        # Local model (Qwen)
+        # Local model (Ollama)
         self.connected = False
         self.model = LOCAL_MODEL
         self.url = OLLAMA_URL
@@ -60,7 +58,7 @@ class ALMBrain:
         self.total_tokens = 0
         self.last_response = ""
         self.last_reasoning = ""
-        self.last_model_used = ""
+        self.last_model_used = CLOUD_MODEL  # default to cloud since Ollama is offline
         self.model_size = "—"
         self.enabled = True
         self.runtime_ok = False
@@ -68,10 +66,13 @@ class ALMBrain:
         self._local_future = None
         self._cloud_future = None
         self.notes = []
+        self.log_callback = None
+        self.model_usage_log = []
         self.next_decision = ""
         self.current_task = ""
         self.session_mode = "EXECUTE"
         self.session_start = time.time()
+        self._mem = None  # set by brain_active after Memory init
         self.study_cycles = 0
         self.execute_cycles = 0
         self.study_interval = 50
@@ -97,6 +98,7 @@ class ALMBrain:
             else:
                 print(f"  [ALM-BRAIN] Ollama running but no models pulled")
         except Exception as e:
+            self.model = CLOUD_MODEL  # Ollama offline, use cloud as primary
             print(f"  [ALM-BRAIN] Local model not available: {e}")
 
         if self.cloud_available:
@@ -105,11 +107,11 @@ class ALMBrain:
             print(f"  [ALM-BRAIN] Cloud: No OPENROUTER_API_KEY set")
 
     # ═══════════════════════════════════════════════════════
-    # LOCAL MODEL (Qwen via Ollama)
+    # LOCAL MODEL (Ollama via local server)
     # ═══════════════════════════════════════════════════════
 
     def _query_local(self, prompt):
-        """Query local Qwen model via Ollama."""
+        """Query local model via Ollama."""
         if not self.connected:
             return None
         try:
@@ -134,7 +136,11 @@ class ALMBrain:
             result = json.loads(resp.read().decode())
             if "error" not in result:
                 self.runtime_ok = True
-                self.last_model_used = "qwen2.5:3b"
+                self.last_model_used = self.model
+                self.total_queries += 1
+                gen_tokens = result.get("eval_count", 0)
+                self.total_tokens += gen_tokens
+                self._log_model_event("Local model responded: " + str(gen_tokens) + " tokens generated", gen_tokens)
                 return result.get("response", "")
         except:
             pass
@@ -145,12 +151,10 @@ class ALMBrain:
     # ═══════════════════════════════════════════════════════
 
     def _query_cloud(self, messages, temperature=0.3, max_tokens=512):
-        """Query DeepSeek V4 Flash via OpenRouter API."""
+        """Query Gemma 4 26B (free) via OpenRouter API."""
         if not self.cloud_available:
             return None
-        if self.cloud_total_tokens > 0 and self.cloud_total_cost() > self.cloud_budget:
-            self.write_note("Cloud budget exceeded (${:.2f})".format(self.cloud_total_cost()), "warn")
-            return None
+        # Free model — no budget check needed
 
         try:
             import urllib.request
@@ -181,8 +185,10 @@ class ALMBrain:
 
             self.cloud_total_queries += 1
             self.cloud_total_tokens += tokens
-            self.cloud_last_cost = self._estimate_cost(tokens)
+            cost = self._estimate_cost(tokens)
+            self.cloud_last_cost = cost
             self.last_model_used = self.cloud_model
+            self._log_model_event("Cloud responded: " + str(tokens) + " tokens ($" + "{:.6f}".format(cost) + ")", tokens, cost)
 
             return content
         except Exception as e:
@@ -190,14 +196,12 @@ class ALMBrain:
             return None
 
     def _estimate_cost(self, tokens):
-        """Estimate cost for DeepSeek V4 Flash on OpenRouter."""
-        # DeepSeek V4 Flash pricing: ~$0.27/M input, ~$1.10/M output
-        # Rough estimate: $0.50 per 1M tokens average
-        return tokens * 0.50 / 1_000_000
+        """Estimate cost — free model, always $0."""
+        return 0.0
 
     def cloud_total_cost(self):
-        """Total cloud cost this session."""
-        return self.cloud_total_tokens * 0.50 / 1_000_000
+        """Total cloud cost this session — free model."""
+        return 0.0
 
     # ═══════════════════════════════════════════════════════
     # SMART ROUTING
@@ -206,7 +210,7 @@ class ALMBrain:
     def query(self, prompt, context=None, depth="fast"):
         """
         Smart query routing:
-          depth="fast"  → local Qwen (free, instant)
+          depth="fast"  → local model (free, instant)
           depth="deep"  → cloud DeepSeek (paid, thorough)
           depth="auto"  → auto-select based on complexity
 
@@ -252,7 +256,7 @@ Respond concisely with actionable analysis. Format as JSON if possible."""
         try:
             if self._cloud_future and not self._cloud_future.done():
                 return self.last_response or self._fallback_reasoning(prompt, None)
-            messages = [{"role": "user", "content": prompt}]
+            messages = [{"role": "system", "content": "You are a trading AI. Reply ONLY with valid JSON. No explanations, no markdown, no thinking. Just the JSON object."}, {"role": "user", "content": prompt}]
             self._cloud_future = self._executor.submit(
                 self._query_cloud, messages, 0.3, 512
             )
@@ -404,6 +408,21 @@ Respond concisely with actionable analysis. Format as JSON if possible."""
             self.write_note(f"Study: {'; '.join(findings[:3])}", "plan")
         return findings
 
+    def _log_model_event(self, event, tokens=0, cost=0):
+        """Log model usage to console and callback."""
+        model = self.last_model_used or "rule_based"
+        tag = "[MODEL] " + model
+        print("  " + tag + ": " + event + " (tokens=" + str(tokens) + ", cost=$" + "{:.6f}".format(cost) + ")", flush=True)
+        entry = {"model": model, "event": event, "tokens": tokens, "cost": cost, "time": int(time.time() * 1000)}
+        self.model_usage_log.append(entry)
+        if len(self.model_usage_log) > 100:
+            self.model_usage_log = self.model_usage_log[-100:]
+        if self.log_callback:
+            try:
+                self.log_callback(model, event, tokens, cost)
+            except:
+                pass
+
     def write_note(self, note, level="info"):
         self.notes.append({"text": note, "level": level, "time": int(time.time() * 1000)})
         if len(self.notes) > 30:
@@ -417,9 +436,193 @@ Respond concisely with actionable analysis. Format as JSON if possible."""
         self.current_task = task
         self.write_note("Running: " + task, "action")
 
+    def restore_state(self, state_data):
+        """Restore brain state from saved data."""
+        try:
+            if isinstance(state_data, dict):
+                self.notes = state_data.get("notes", self.notes)
+                self.next_decision = state_data.get("next_decision", self.next_decision)
+                self.current_task = state_data.get("current_task", self.current_task)
+        except: pass
+
+    def save_state(self):
+        """Return state dict for saving."""
+        return {
+            "notes": self.notes[-50:],
+            "next_decision": self.next_decision,
+            "current_task": self.current_task,
+            "enabled": self.enabled,
+        }
+
+    def nexus_decide(self, market, strategy, regime, recent_trades, balance, signal=None,
+                    strategy_health=None, risk_state=None, env_text=""):
+        """Core AI decision pipeline. Returns dict with ok, reason, confidence, model."""
+        prompt = "You are a trading AI. Should we take this trade? Market: " + str(market) + " | Strategy: " + str(strategy) + " | Regime: " + str(regime) + " | Balance: $" + "{:.2f}".format(balance) + " | Signal: " + str(signal)
+        if recent_trades:
+            prompt += " | Recent: " + json.dumps(recent_trades[-3:], default=str)[:300]
+        prompt += ' Answer with JSON: {"ok": true/false, "confidence": 1-10, "reason": "brief explanation"}'
+
+        if self.session_mode == "STUDY" and self.cloud_available:
+            result_text = self.query(prompt, depth="deep")
+        else:
+            result_text = self.query(prompt, depth="fast")
+
+        try:
+            if result_text and "{" in result_text:
+                start = result_text.index("{")
+                end = result_text.index("}") + 1
+                parsed = json.loads(result_text[start:end])
+                ok = parsed.get("ok", True)
+                conf = parsed.get("confidence", 5)
+                reason = parsed.get("reason", "brain_decided")
+                return {
+                    "ok": ok, "reason": reason, "confidence": conf,
+                    "model": self.last_model_used or "rule_based",
+                    "decision": "TRADE" if ok else "WAIT"
+                }
+        except (json.JSONDecodeError, ValueError):
+            pass
+
+        self._log_model_event("NEXUS fallback: rule-based (no model response)")
+        return {
+            "ok": True, "reason": "rule_based_fallback", "confidence": 5,
+            "model": "rule_based", "decision": "TRADE"
+        }
+
+    def build_environment(self, market, strategy, regime, recent_trades, balance,
+                          signal=None, strategy_health=None, risk_state=None,
+                          tick_data=None, cpp_predictions=None, all_markets=None,
+                          price_action=None):
+        """Build environment snapshot for NEXUS decision."""
+        return {
+            "market": market, "strategy": strategy, "regime": regime,
+            "balance": balance, "signal": signal,
+            "strategy_health": strategy_health, "risk_state": risk_state,
+            "recent_trades": recent_trades[-5:] if recent_trades else [],
+            "tick_data": tick_data, "cpp_predictions": cpp_predictions,
+            "all_markets": all_markets, "price_action": price_action,
+            "session_mode": self.session_mode,
+            "cloud_cost": round(self.cloud_total_cost(), 4),
+            "queries_today": self.total_queries,
+        }
+
+    def format_environment(self, env):
+        """Format environment snapshot as text for model input."""
+        lines = []
+        lines.append("Market: " + str(env.get("market", "?")) + " | Strategy: " + str(env.get("strategy", "?")))
+        lines.append("Regime: " + str(env.get("regime", "?")) + " | Balance: $" + "{:.2f}".format(env.get("balance", 0)))
+        lines.append("Signal: " + str(env.get("signal", "none")) + " | Mode: " + str(env.get("session_mode", "?")))
+        risk = env.get("risk_state")
+        if risk:
+            lines.append("Risk: mode=" + str(risk.get("trading_mode", "?")) + " streak=" + str(risk.get("consec_loss", 0)) + "L/" + str(risk.get("consec_win", 0)) + "W")
+        trades = env.get("recent_trades", [])
+        if trades:
+            lines.append("Recent: " + json.dumps(trades[-3:], default=str)[:200])
+        return "\n".join(lines)
+
+    def quick_check(self, market, strategy, contract, regime, balance, consec_loss):
+        """Quick brain check — uses model when available, falls back to rules."""
+        # Hard rules first (no model needed)
+        if consec_loss >= 5:
+            self._log_model_event("Quick BLOCKED: " + str(consec_loss) + " consecutive losses")
+            return {"ok": False, "reason": f"Too many consecutive losses ({consec_loss})"}
+        if consec_loss >= 3 and balance < 9000:
+            self._log_model_event("Quick BLOCKED: loss streak + low balance")
+            return {"ok": False, "reason": f"Loss streak {consec_loss} with low balance"}
+
+        # Ask model (shows [MODEL] log)
+        prompt = "Quick trade check. Market: " + str(market) + " Strategy: " + str(strategy) + " Contract: " + str(contract) + " Regime: " + str(regime) + " Balance: $" + "{:.2f}".format(balance) + " ConsecLoss: " + str(consec_loss) + '. Reply JSON: {"ok":true/false,"reason":"brief"}'
+        try:
+            # Synchronous call — try local first, fallback to cloud
+            result_text = None
+            if self.connected:
+                result_text = self._query_local(prompt)
+            if not result_text and self.cloud_available:
+                messages = [{"role": "system", "content": "You are a trading AI. Reply ONLY with valid JSON. No explanations, no markdown, no thinking. Just the JSON object."}, {"role": "user", "content": prompt}]
+                result_text = self._query_cloud(messages, 0.3, 256)
+
+            if result_text and "{" in result_text:
+                start = result_text.index("{")
+                end = result_text.index("}") + 1
+                parsed = json.loads(result_text[start:end])
+                ok = parsed.get("ok", True)
+                reason = parsed.get("reason", "model_checked")
+                model = self.last_model_used or "rule_based"
+                self._log_model_event("Quick check: ok=" + str(ok) + " model=" + model + " reason=" + reason[:40])
+                return {"ok": ok, "reason": reason}
+        except Exception as e:
+            self._log_model_event("Quick check model error: " + str(e))
+
+        self._log_model_event("Quick check: rule fallback -> approved")
+        return {"ok": True, "reason": "rule_based_approved"}
+
+    def self_evolve(self, pnl_history, trade_log, context):
+        """Self-evolve based on persistent knowledge. Returns {"evolved": True/False, "changes": [...]}"""
+        if not pnl_history:
+            return {"evolved": False, "changes": []}
+        recent_pnl = sum(pnl_history[-10:]) if len(pnl_history) >= 10 else sum(pnl_history)
+        changes = []
+
+        # Use persistent memory for smarter evolution
+        try:
+            accuracy = self._mem.get_model_accuracy() if hasattr(self, "_mem") and self._mem else {}
+            families = self._mem.get_family_insights() if hasattr(self, "_mem") and self._mem else []
+            sessions = self._mem.get_session_insights() if hasattr(self, "_mem") and self._mem else {}
+        except:
+            accuracy = {}
+            families = []
+            sessions = {}
+
+        # Stake adjustment
+        if recent_pnl < -5 and context.get("stake", 0) > 1:
+            changes.append({"type": "reduce_stake", "reason": f"Recent PnL ${recent_pnl:+.2f} negative"})
+        if recent_pnl > 5:
+            changes.append({"type": "boost_confidence", "reason": f"Recent PnL ${recent_pnl:+.2f} positive"})
+
+        # AI accuracy-based evolution
+        ai_acc = accuracy.get("accuracy_pct", 0)
+        if ai_acc > 0 and ai_acc < 40:
+            changes.append({"type": "increase_rule_weight", "reason": f"AI accuracy {ai_acc:.0f}% — rule-based decisions may be better"})
+        elif ai_acc > 70:
+            changes.append({"type": "increase_ai_weight", "reason": f"AI accuracy {ai_acc:.0f}% — trust AI decisions more"})
+
+        # Family-based evolution
+        if families:
+            best = families[0] if families else {}
+            worst = families[-1] if len(families) > 1 else {}
+            if best.get("total_profit", 0) > 0:
+                changes.append({"type": "prefer_family", "family": best.get("family", ""), "reason": f"Best family: {best.get('family', '?')} (${best.get('total_profit', 0):+.2f})"})
+            if worst.get("total_profit", 0) < -5:
+                changes.append({"type": "avoid_family", "family": worst.get("family", ""), "reason": f"Worst family: {worst.get('family', '?')} (${worst.get('total_profit', 0):+.2f})"})
+
+        # Session-based evolution
+        if sessions and sessions.get("avg_win_rate", 0) < 40:
+            changes.append({"type": "reduce_frequency", "reason": f"Session avg WR {sessions.get('avg_win_rate', 0):.0f}% — trade less frequently"})
+
+        self.write_note(f"Self-evolve: PnL={recent_pnl:+.2f} changes={len(changes)} ai_acc={ai_acc:.0f}%", "evolve")
+        return {"evolved": len(changes) > 0, "changes": changes}
+    def record_trade_result(self, profit):
+        """Record trade result for ALM learning."""
+        if not hasattr(self, "_trade_results"):
+            self._trade_results = []
+        self._trade_results.append({"profit": profit, "time": int(time.time() * 1000)})
+        if len(self._trade_results) > 200:
+            self._trade_results = self._trade_results[-200:]
+        total = sum(r["profit"] for r in self._trade_results)
+        wins = sum(1 for r in self._trade_results if r["profit"] > 0)
+        self.write_note(f"Trade: ${profit:+.2f} | Running PnL: ${total:+.2f} WR: {wins}/{len(self._trade_results)}", "trade")
+
     def set_enabled(self, enabled):
         self.enabled = enabled
         self.write_note(f"{'Enabled' if enabled else 'Disabled'}", "action")
+
+    def _get_model_counts(self):
+        """Count queries per model."""
+        counts = {}
+        for entry in self.model_usage_log:
+            m = entry.get("model", "unknown")
+            counts[m] = counts.get(m, 0) + 1
+        return counts
 
     def get_status(self):
         return {
@@ -436,6 +639,8 @@ Respond concisely with actionable analysis. Format as JSON if possible."""
             "total_tokens": self.total_tokens,
             "last_response": self.last_response[:200] if self.last_response else "",
             "notes": self.notes[-10:],
+            "model_usage_log": self.model_usage_log[-20:],
+            "model_counts": self._get_model_counts(),
             "next_decision": self.next_decision,
             "current_task": self.current_task,
             "session_mode": self.session_mode,

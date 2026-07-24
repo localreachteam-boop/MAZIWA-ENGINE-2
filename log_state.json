@@ -1,0 +1,2508 @@
+{
+ "trade_log_full": [
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9842.55,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196 [digit cooldown]",
+   "status": "lost",
+   "time": 1784669142745,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9841.55,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196 [digit cooldown]",
+   "status": "lost",
+   "time": 1784669190671,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.9500000000007276,
+   "balance": 9842.5,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "won",
+   "time": 1784669272221,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.9500000000007276,
+   "balance": 9843.45,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "won",
+   "time": 1784669299409,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 2.01,
+   "profit": 1.9200000000000728,
+   "balance": 9845.37,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196",
+   "status": "won",
+   "time": 1784669344992,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 9843.87,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196 [digit cooldown]",
+   "status": "lost",
+   "time": 1784669363926,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": 1.1899999999986903,
+   "balance": 9845.06,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196 [digit cooldown]",
+   "status": "won",
+   "time": 1784669411537,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 9843.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "lost",
+   "time": 1784669439235,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 9842.31,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "lost",
+   "time": 1784669487613,
+   "hour": 0,
+   "session": "\ud83c\udf19 Asian Late"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9999.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 28T ev=0.5196",
+   "status": "won",
+   "time": 1784878369123,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9999.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+   "status": "won",
+   "time": 1784878381553,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 10001.77,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 13T ev=0.4100",
+   "status": "won",
+   "time": 1784878976099,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 10001.77,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+   "status": "lost",
+   "time": 1784878982357,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 2.14,
+   "profit": 2.04,
+   "balance": 10001.22,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 14T ev=0.4486",
+   "status": "won",
+   "time": 1784879416105,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 10001.22,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+   "status": "lost",
+   "time": 1784879422124,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 10001.22,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 15T ev=0.5547 [digit cooldown]",
+   "status": "lost",
+   "time": 1784879458229,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD50",
+   "strategy": "DIGIT_MATCH_2",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 10001.22,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 25T ev=0.1380 [digit cooldown]",
+   "status": "lost",
+   "time": 1784879523925,
+   "hour": 10,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "won",
+   "time": 1784880961013,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "lost",
+   "time": 1784880972121,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "won",
+   "time": 1784881006190,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881014150,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "won",
+   "time": 1784881048169,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD50",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881055344,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD50",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881119871,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 128T ev=0.1400 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881186134,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 26T ev=0.0846 [digit cooldown]",
+   "status": "won",
+   "time": 1784881629145,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.08,
+   "profit": -1.08,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 130T ev=0.1375 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881655942,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9999.26,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 131T ev=0.1282 [digit cooldown]",
+   "status": "lost",
+   "time": 1784881803375,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 16T ev=0.5794",
+   "status": "lost",
+   "time": 1784882174854,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "lost",
+   "time": 1784882212952,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782",
+   "status": "won",
+   "time": 1784882282955,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "lost",
+   "time": 1784882309897,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "won",
+   "time": 1784882343965,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "won",
+   "time": 1784882370520,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 132T ev=0.1196 [digit cooldown]",
+   "status": "lost",
+   "time": 1784882387078,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 38T ev=0.2782 [digit cooldown]",
+   "status": "lost",
+   "time": 1784882445040,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.48,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 132T ev=0.1196 [digit cooldown]",
+   "status": "lost",
+   "time": 1784882513049,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9992.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 87T ev=0.1447",
+   "status": "lost",
+   "time": 1784882967347,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9991.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 39T ev=0.2454",
+   "status": "won",
+   "time": 1784883050877,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9991.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+   "status": "won",
+   "time": 1784883060877,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_50",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9991.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 24T ev=0.2967 [digit cooldown]",
+   "status": "won",
+   "time": 1784883087621,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9991.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "won",
+   "time": 1784883127477,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9991.33,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "won",
+   "time": 1784883185408,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 41T ev=0.2783",
+   "status": "lost",
+   "time": 1784883259831,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112",
+   "status": "lost",
+   "time": 1784883303964,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112",
+   "status": "won",
+   "time": 1784883380112,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "won",
+   "time": 1784883395524,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883428264,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "won",
+   "time": 1784883509764,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883536362,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883577235,
+   "hour": 11,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9995.93,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 133T ev=0.1112",
+   "status": "won",
+   "time": 1784883682668,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.61,
+   "profit": -1.61,
+   "balance": 9994.73,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 41T ev=0.2783 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883817613,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.35,
+   "profit": -1.35,
+   "balance": 9994.73,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 41T ev=0.2783 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883852775,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9994.73,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 41T ev=0.2783 [digit cooldown]",
+   "status": "lost",
+   "time": 1784883936131,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_5",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9990.77,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 18T ev=0.1332",
+   "status": "lost",
+   "time": 1784884148215,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_5",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9990.77,
+   "regime": "RANGE_COMPRESSION",
+   "reason": "MAIN: C++ bearish + tick down 3/9 \u2014 PUT",
+   "status": "lost",
+   "time": 1784884207028,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9990.77,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 42T ev=0.2479 [digit cooldown]",
+   "status": "lost",
+   "time": 1784884379171,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_MATCH_7",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9990.77,
+   "regime": "RANGE_COMPRESSION",
+   "reason": "MAIN: C++ bearish + tick down 5/9 \u2014 PUT",
+   "status": "won",
+   "time": 1784884602029,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9988.69,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 32T ev=0.1553",
+   "status": "lost",
+   "time": 1784886366811,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "JD100",
+   "strategy": "FALL_TREND",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9987.69,
+   "regime": "RANGE_COMPRESSION",
+   "reason": "MAIN: Trend FALL (-3.75) \u2014 C++=-1",
+   "status": "won",
+   "time": 1784886781517,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_100",
+   "strategy": "FALL_TREND",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9987.69,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "lost",
+   "time": 1784886802968,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_100",
+   "strategy": "FALL_TREND",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9987.69,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "lost",
+   "time": 1784886835214,
+   "hour": 12,
+   "session": "\ud83c\udfdb\ufe0f European Mid"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 29T ev=0.5334",
+   "status": "won",
+   "time": 1784887613824,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.92,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 30T ev=0.5463",
+   "status": "won",
+   "time": 1784887647041,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_75",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.18,
+   "profit": 1.09,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784887705951,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 2.25,
+   "profit": 2.08,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784887730146,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_50",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348 [digit cooldown]",
+   "status": "lost",
+   "time": 1784887754394,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_50",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": 1.38,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348 [digit cooldown]",
+   "status": "won",
+   "time": 1784887787929,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_50",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348 [digit cooldown]",
+   "status": "lost",
+   "time": 1784887811905,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_DIFF_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 3.04,
+   "profit": -3.04,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 136T ev=0.0940",
+   "status": "lost",
+   "time": 1784888014564,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 136T ev=0.0940",
+   "status": "lost",
+   "time": 1784888065087,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 137T ev=0.0860",
+   "status": "won",
+   "time": 1784888324905,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.35,
+   "profit": -1.35,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 138T ev=0.0923 [digit cooldown]",
+   "status": "lost",
+   "time": 1784888354261,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 139T ev=0.0819 [digit cooldown]",
+   "status": "won",
+   "time": 1784888452358,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 20T ev=0.0199",
+   "status": "won",
+   "time": 1784888579910,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": 1.19,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 20T ev=0.0199 [digit cooldown]",
+   "status": "won",
+   "time": 1784888620222,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "R_25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": 1.38,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 142T ev=0.1019 [digit cooldown]",
+   "status": "won",
+   "time": 1784888651698,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.5,
+   "profit": -1.5,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 142T ev=0.1019 [digit cooldown]",
+   "status": "lost",
+   "time": 1784888680253,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.25,
+   "profit": -1.25,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 142T ev=0.1019 [digit cooldown]",
+   "status": "lost",
+   "time": 1784888721954,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 3.67,
+   "profit": -3.67,
+   "balance": 9986.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 142T ev=0.1019 [digit cooldown]",
+   "status": "lost",
+   "time": 1784888780859,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9983.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 31T ev=0.5639",
+   "status": "lost",
+   "time": 1784889971847,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9983.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "lost",
+   "time": 1784890005050,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_MATCH_0",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9983.61,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784890079200,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 31T ev=0.5639",
+   "status": "lost",
+   "time": 1784890142197,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 31T ev=0.5639",
+   "status": "lost",
+   "time": 1784890176900,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784890262973,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784890311566,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 44T ev=0.2348",
+   "status": "won",
+   "time": 1784890338728,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 148T ev=0.0787",
+   "status": "won",
+   "time": 1784890488459,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 149T ev=0.0846 [digit cooldown]",
+   "status": "lost",
+   "time": 1784890513912,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 149T ev=0.0846 [digit cooldown]",
+   "status": "lost",
+   "time": 1784890555947,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 149T ev=0.0846 [digit cooldown]",
+   "status": "lost",
+   "time": 1784890609609,
+   "hour": 13,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.05,
+   "profit": -1.05,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 150T ev=0.0774",
+   "status": "lost",
+   "time": 1784890899492,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 151T ev=0.0699 [digit cooldown]",
+   "status": "lost",
+   "time": 1784890972080,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 152T ev=0.0629 [digit cooldown]",
+   "status": "lost",
+   "time": 1784891038146,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD25",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 153T ev=0.0559",
+   "status": "won",
+   "time": 1784891168891,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD75",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 154T ev=0.0617 [digit cooldown]",
+   "status": "won",
+   "time": 1784891204064,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD50",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": -1.0,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 154T ev=0.0617 [digit cooldown]",
+   "status": "lost",
+   "time": 1784891280919,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  },
+  {
+   "market": "JD50",
+   "strategy": "DIGIT_DIFF_1",
+   "contract": "PUT",
+   "digit": null,
+   "stake": 1.0,
+   "profit": 0.95,
+   "balance": 9982.56,
+   "regime": "MEMORY",
+   "reason": "Memory fallback: 154T ev=0.0617",
+   "status": "won",
+   "time": 1784891905371,
+   "hour": 14,
+   "session": "\ud83d\uddfd US Open"
+  }
+ ],
+ "sys_log": [
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_4",
+   "log_type": "warn",
+   "time": 1784891275613
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891275862
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_7",
+   "log_type": "warn",
+   "time": 1784891276109
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891276360
+  },
+  {
+   "message": "Strategy retired: JD25:ODD_BIAS",
+   "log_type": "warn",
+   "time": 1784891276598
+  },
+  {
+   "message": "Strategy retired: R_25:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891276843
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+   "log_type": "warn",
+   "time": 1784891277087
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891277335
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+   "log_type": "warn",
+   "time": 1784891277578
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_2",
+   "log_type": "warn",
+   "time": 1784891277825
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_5",
+   "log_type": "warn",
+   "time": 1784891278068
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_6",
+   "log_type": "warn",
+   "time": 1784891278309
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_1",
+   "log_type": "warn",
+   "time": 1784891278555
+  },
+  {
+   "message": "Strategy retired: JD75:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891278799
+  },
+  {
+   "message": "Strategy retired: R_100:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891279043
+  },
+  {
+   "message": "Strategy retired: R_10:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891279286
+  },
+  {
+   "message": "Strategy retired: JD50:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891279530
+  },
+  {
+   "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891279780
+  },
+  {
+   "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891280028
+  },
+  {
+   "message": "Strategy retired: R_10:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891280272
+  },
+  {
+   "message": "Strategy retired: R_10:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891280516
+  },
+  {
+   "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891280758
+  },
+  {
+   "message": "Trade: JD50 PUT $1.00 \u2192 $-1.00",
+   "log_type": "loss",
+   "time": 1784891281125
+  },
+  {
+   "message": "Session #27 force-exit: strategy retired",
+   "log_type": "warn",
+   "time": 1784891868055
+  },
+  {
+   "message": "Session #28 started: JD25 DIGIT_DIFF_1",
+   "log_type": "info",
+   "time": 1784891883569
+  },
+  {
+   "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+   "log_type": "warn",
+   "time": 1784891891233
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+   "log_type": "warn",
+   "time": 1784891891476
+  },
+  {
+   "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+   "log_type": "warn",
+   "time": 1784891891733
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+   "log_type": "warn",
+   "time": 1784891891988
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+   "log_type": "warn",
+   "time": 1784891892294
+  },
+  {
+   "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+   "log_type": "warn",
+   "time": 1784891892556
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+   "log_type": "warn",
+   "time": 1784891892801
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_1",
+   "log_type": "warn",
+   "time": 1784891893049
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_MATCH_1",
+   "log_type": "warn",
+   "time": 1784891893296
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_5",
+   "log_type": "warn",
+   "time": 1784891893549
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_MATCH_5",
+   "log_type": "warn",
+   "time": 1784891893801
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_MATCH_5",
+   "log_type": "warn",
+   "time": 1784891894045
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_MATCH_2",
+   "log_type": "warn",
+   "time": 1784891894285
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_MATCH_7",
+   "log_type": "warn",
+   "time": 1784891894521
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_MATCH_9",
+   "log_type": "warn",
+   "time": 1784891894764
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_MATCH_7",
+   "log_type": "warn",
+   "time": 1784891895003
+  },
+  {
+   "message": "Strategy retired: JD50:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891895252
+  },
+  {
+   "message": "Strategy retired: JD50:ODD_BIAS",
+   "log_type": "warn",
+   "time": 1784891895499
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_8",
+   "log_type": "warn",
+   "time": 1784891895747
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_1",
+   "log_type": "warn",
+   "time": 1784891895996
+  },
+  {
+   "message": "Strategy retired: R_75:ODD_BIAS",
+   "log_type": "warn",
+   "time": 1784891896242
+  },
+  {
+   "message": "Strategy retired: R_75:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891896491
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_9",
+   "log_type": "warn",
+   "time": 1784891896744
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_3",
+   "log_type": "warn",
+   "time": 1784891896995
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891897246
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+   "log_type": "warn",
+   "time": 1784891897491
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_7",
+   "log_type": "warn",
+   "time": 1784891897748
+  },
+  {
+   "message": "Strategy retired: JD50:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891897999
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_3",
+   "log_type": "warn",
+   "time": 1784891898255
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891898506
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_7",
+   "log_type": "warn",
+   "time": 1784891898756
+  },
+  {
+   "message": "Strategy retired: JD25:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891898998
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891899241
+  },
+  {
+   "message": "Strategy retired: R_25:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891899482
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+   "log_type": "warn",
+   "time": 1784891899723
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891899968
+  },
+  {
+   "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+   "log_type": "warn",
+   "time": 1784891900235
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_6",
+   "log_type": "warn",
+   "time": 1784891900489
+  },
+  {
+   "message": "Strategy retired: JD100:DIGIT_DIFF_5",
+   "log_type": "warn",
+   "time": 1784891900744
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_6",
+   "log_type": "warn",
+   "time": 1784891900996
+  },
+  {
+   "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+   "log_type": "warn",
+   "time": 1784891901245
+  },
+  {
+   "message": "Strategy retired: R_75:DIGIT_DIFF_1",
+   "log_type": "warn",
+   "time": 1784891901484
+  },
+  {
+   "message": "Strategy retired: JD75:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891901725
+  },
+  {
+   "message": "Strategy retired: R_100:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891901964
+  },
+  {
+   "message": "Strategy retired: JD10:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891902211
+  },
+  {
+   "message": "Strategy retired: R_10:FALL_TREND",
+   "log_type": "warn",
+   "time": 1784891902459
+  },
+  {
+   "message": "Strategy retired: JD100:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891902787
+  },
+  {
+   "message": "Strategy retired: R_75:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891903034
+  },
+  {
+   "message": "Strategy retired: JD50:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891903284
+  },
+  {
+   "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891903533
+  },
+  {
+   "message": "Strategy retired: JD25:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891903786
+  },
+  {
+   "message": "Strategy retired: R_25:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891904034
+  },
+  {
+   "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+   "log_type": "warn",
+   "time": 1784891904287
+  },
+  {
+   "message": "Strategy retired: R_10:RISE_TREND",
+   "log_type": "warn",
+   "time": 1784891904525
+  },
+  {
+   "message": "Strategy retired: R_10:MOMENTUM_UP",
+   "log_type": "warn",
+   "time": 1784891904773
+  },
+  {
+   "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+   "log_type": "warn",
+   "time": 1784891905016
+  },
+  {
+   "message": "Trade: JD50 PUT $1.00 \u2192 $+0.95",
+   "log_type": "win",
+   "time": 1784891905619
+  },
+  {
+   "message": "Session #28 force-exit: strategy retired",
+   "log_type": "warn",
+   "time": 1784891907179
+  },
+  {
+   "message": "Session #29 started: JD25 DIGIT_DIFF_1",
+   "log_type": "info",
+   "time": 1784891912797
+  },
+  {
+   "message": "Session #29 force-exit: strategy retired",
+   "log_type": "warn",
+   "time": 1784891918324
+  },
+  {
+   "message": "Session #30 started: JD25 DIGIT_DIFF_1",
+   "log_type": "info",
+   "time": 1784891924623
+  },
+  {
+   "message": "Session #30 force-exit: strategy retired",
+   "log_type": "warn",
+   "time": 1784891930195
+  },
+  {
+   "message": "Cycle 400 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784891985888
+  },
+  {
+   "message": "Cycle 450 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892070843
+  },
+  {
+   "message": "Cycle 500 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892194708
+  },
+  {
+   "message": "Cycle 550 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892326206
+  },
+  {
+   "message": "Cycle 600 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892455154
+  },
+  {
+   "message": "Cycle 650 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892553199
+  },
+  {
+   "message": "Cycle 700 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892647096
+  },
+  {
+   "message": "Cycle 750 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892827392
+  },
+  {
+   "message": "Cycle 800 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784892908854
+  },
+  {
+   "message": "Cycle 850 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784893036573
+  },
+  {
+   "message": "Cycle 900 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784893109707
+  },
+  {
+   "message": "Cycle 950 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784893203764
+  },
+  {
+   "message": "Cycle 1000 | bal=$9982.56 pnl=$+16.80 streak=W1 mode=OPTIMAL",
+   "log_type": "info",
+   "time": 1784893330685
+  }
+ ],
+ "agent_log": [
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893304204
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2793 scout=$0.30",
+   "time": 1784893304412
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2384 scout=$0.30",
+   "time": 1784893305623
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893306831
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2384 scout=$0.30",
+   "time": 1784893307065
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2793 scout=$0.30",
+   "time": 1784893308356
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893309556
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2793 scout=$0.30",
+   "time": 1784893309767
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893311013
+  },
+  {
+   "agent": "brain",
+   "note": "STATUS: cycle=990 bal=$9982.56 pnl=$+16.80 wr=54% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+   "time": 1784893312294
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893312489
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893312694
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893313940
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893315152
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893315389
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893316690
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893317899
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893318097
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893319343
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893320649
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2256 scout=$0.30",
+   "time": 1784893320861
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2889 scout=$0.30",
+   "time": 1784893322087
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893323294
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2889 scout=$0.30",
+   "time": 1784893323533
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2889 scout=$0.30",
+   "time": 1784893324838
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (9s left)",
+   "time": 1784893325033
+  },
+  {
+   "agent": "brain",
+   "note": "STATUS: cycle=1000 bal=$9982.56 pnl=$+16.80 wr=54% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+   "time": 1784893330299
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893330494
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2889 scout=$0.30",
+   "time": 1784893330773
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (3s left)",
+   "time": 1784893330967
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2710 scout=$0.30",
+   "time": 1784893334056
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: hourly limit hit (30/30)",
+   "time": 1784893334253
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893339551
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893339754
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (114s left)",
+   "time": 1784893339950
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893345158
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (109s left)",
+   "time": 1784893345362
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893350567
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893350829
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (103s left)",
+   "time": 1784893351023
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893356327
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (98s left)",
+   "time": 1784893356526
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893361730
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893361929
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (92s left)",
+   "time": 1784893362120
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893367367
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (87s left)",
+   "time": 1784893367561
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893372862
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2503 scout=$0.30",
+   "time": 1784893373070
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (81s left)",
+   "time": 1784893373265
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893378475
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (76s left)",
+   "time": 1784893378673
+  },
+  {
+   "agent": "brain",
+   "note": "STATUS: cycle=1010 bal=$9982.56 pnl=$+16.80 wr=54% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+   "time": 1784893383870
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893384071
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893384304
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (70s left)",
+   "time": 1784893384503
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893389835
+  },
+  {
+   "agent": "overtrade",
+   "note": "SESSION BLOCKED: FORCED BREAK: hourly limit hit (30/30) (64s left)",
+   "time": 1784893390069
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893395286
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2629 scout=$0.30",
+   "time": 1784893395493
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893396753
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893398053
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893398252
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3471 scout=$0.30",
+   "time": 1784893399469
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893400680
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3471 scout=$0.30",
+   "time": 1784893400919
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893402211
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893403416
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893403625
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3499 scout=$0.30",
+   "time": 1784893404871
+  },
+  {
+   "agent": "brain",
+   "note": "STATUS: cycle=1020 bal=$9982.56 pnl=$+16.80 wr=54% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+   "time": 1784893406176
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893406373
+  },
+  {
+   "agent": "intelligence",
+   "note": "Best market: JD25 (score=0.494, WR=67.7%, PnL=$-23.98)",
+   "time": 1784893406568
+  },
+  {
+   "agent": "intelligence",
+   "note": "Best strategy: JD100:DIGIT_DIFF_2 (score=2.297, WR=333.3%, EV=$-0.2507)",
+   "time": 1784893406765
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3499 scout=$0.30",
+   "time": 1784893406960
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893408172
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893409378
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3624 scout=$0.30",
+   "time": 1784893409604
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3622 scout=$0.30",
+   "time": 1784893410894
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893412096
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.3622 scout=$0.30",
+   "time": 1784893412295
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893413595
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893414935
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893415140
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893416348
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893417560
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893417795
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893419098
+  },
+  {
+   "agent": "brain",
+   "note": "STATUS: cycle=1030 bal=$9982.56 pnl=$+16.80 wr=54% mode=OPTIMAL strategies=199 retired=0 streak=W1",
+   "time": 1784893420301
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893420496
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893420691
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893421926
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893423238
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893423439
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893424646
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893425860
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893426097
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893427389
+  },
+  {
+   "agent": "brain",
+   "note": "Win streak: 1 | confidence: 1",
+   "time": 1784893428598
+  },
+  {
+   "agent": "bunch",
+   "note": "RESCUE: JD25 DIGIT_DIFF_1 score=0.2585 scout=$0.30",
+   "time": 1784893428801
+  }
+ ]
+}

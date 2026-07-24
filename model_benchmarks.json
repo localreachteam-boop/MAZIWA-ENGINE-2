@@ -1,0 +1,37 @@
+{
+ "engines": {
+  "ollama": {
+   "name": "Ollama",
+   "queries": 27,
+   "successes": 27,
+   "failures": 0,
+   "total_tokens": 30,
+   "total_latency": 109.12180662155151,
+   "avg_latency": 4.041548393390797,
+   "consec_fails": 0,
+   "last_result": "success",
+   "last_error": "",
+   "trade_pnl": 1.5,
+   "trade_wins": 1,
+   "trade_losses": 0,
+   "score": 81.8
+  },
+  "openrouter": {
+   "name": "OpenRouter",
+   "queries": 193,
+   "successes": 193,
+   "failures": 0,
+   "total_tokens": 0,
+   "total_latency": 457.27767419815063,
+   "avg_latency": 2.369314374083682,
+   "consec_fails": 0,
+   "last_result": "none",
+   "last_error": "",
+   "trade_pnl": 0,
+   "trade_wins": 0,
+   "trade_losses": 0,
+   "score": 59.3
+  }
+ },
+ "rotation_mode": "smart"
+}

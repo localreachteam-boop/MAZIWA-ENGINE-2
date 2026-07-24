@@ -1,0 +1,4122 @@
+{
+  "version": 2,
+  "today": "2026-07-24",
+  "combos": {
+    "R_75|10|DIGIT_DIFF_0": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 0.92,
+      "peak_pnl": 0.92,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784878369.0647182,
+      "last_trade": 1784878369.0647433,
+      "recent_5_pnl": [
+        0.92
+      ]
+    },
+    "R_25|10|DIGIT_DIFF_0": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 0.92,
+      "peak_pnl": 0.92,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784878381.494396,
+      "last_trade": 1784878381.4944212,
+      "recent_5_pnl": [
+        0.92
+      ]
+    },
+    "JD25|10|DIGIT_MATCH_0": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "pnl": 2.99,
+      "peak_pnl": 2.99,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784878976.037712,
+      "last_trade": 1784879416.0398114,
+      "recent_5_pnl": [
+        0.95,
+        2.04
+      ]
+    },
+    "JD75|10|DIGIT_MATCH_0": {
+      "trades": 3,
+      "wins": 0,
+      "losses": 3,
+      "pnl": -4.25,
+      "peak_pnl": 0.0,
+      "consec_losses": 3,
+      "max_consec_losses": 3,
+      "status": "blocked",
+      "first_seen": 1784878982.2842185,
+      "last_trade": 1784879458.0883896,
+      "recent_5_pnl": [
+        -1.5,
+        -1.5,
+        -1.25
+      ]
+    },
+    "JD50|10|DIGIT_MATCH_2": {
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl": -1.25,
+      "peak_pnl": 0.0,
+      "consec_losses": 1,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784879523.8613296,
+      "last_trade": 1784879523.861358,
+      "recent_5_pnl": [
+        -1.25
+      ]
+    },
+    "JD25|11|DIGIT_MATCH_0": {
+      "trades": 17,
+      "wins": 7,
+      "losses": 10,
+      "pnl": -3.35,
+      "peak_pnl": 0.95,
+      "consec_losses": 2,
+      "max_consec_losses": 4,
+      "status": "blocked",
+      "first_seen": 1784880960.9518034,
+      "last_trade": 1784883577.1699576,
+      "recent_5_pnl": [
+        0.95,
+        -1.0,
+        0.95,
+        -1.0,
+        -1.0
+      ]
+    },
+    "JD75|11|DIGIT_MATCH_0": {
+      "trades": 4,
+      "wins": 2,
+      "losses": 2,
+      "pnl": -0.35,
+      "peak_pnl": 0.0,
+      "consec_losses": 0,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784880972.0603745,
+      "last_trade": 1784881048.1072094,
+      "recent_5_pnl": [
+        -1.0,
+        0.95,
+        -1.25,
+        0.95
+      ]
+    },
+    "JD50|11|DIGIT_MATCH_0": {
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "pnl": -2.25,
+      "peak_pnl": 0.0,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784881055.20117,
+      "last_trade": 1784881119.805458,
+      "recent_5_pnl": [
+        -1.25,
+        -1.0
+      ]
+    },
+    "JD25|11|DIGIT_DIFF_1": {
+      "trades": 5,
+      "wins": 1,
+      "losses": 4,
+      "pnl": -3.13,
+      "peak_pnl": 0.0,
+      "consec_losses": 3,
+      "max_consec_losses": 3,
+      "status": "blocked",
+      "first_seen": 1784881186.0691192,
+      "last_trade": 1784882512.9820893,
+      "recent_5_pnl": [
+        -1.0,
+        0.95,
+        -1.08,
+        -1.0,
+        -1.0
+      ]
+    },
+    "R_75|11|DIGIT_MATCH_7": {
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "pnl": 0.84,
+      "peak_pnl": 0.84,
+      "consec_losses": 0,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784882967.2668104,
+      "last_trade": 1784883127.4032693,
+      "recent_5_pnl": [
+        -1.0,
+        0.92,
+        0.92
+      ]
+    },
+    "R_25|11|DIGIT_MATCH_7": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "pnl": 1.84,
+      "peak_pnl": 1.84,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784883060.803022,
+      "last_trade": 1784883185.3443666,
+      "recent_5_pnl": [
+        0.92,
+        0.92
+      ]
+    },
+    "R_50|11|DIGIT_MATCH_7": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 0.92,
+      "peak_pnl": 0.92,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784883087.55661,
+      "last_trade": 1784883087.5566373,
+      "recent_5_pnl": [
+        0.92
+      ]
+    },
+    "JD25|12|DIGIT_DIFF_1": {
+      "trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "pnl": -2.01,
+      "peak_pnl": 0.95,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
+      "status": "blocked",
+      "first_seen": 1784883682.5994396,
+      "last_trade": 1784883852.7063127,
+      "recent_5_pnl": [
+        0.95,
+        -1.61,
+        -1.35
+      ]
+    },
+    "R_75|12|DIGIT_MATCH_7": {
+      "trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "pnl": -1.08,
+      "peak_pnl": 0.0,
+      "consec_losses": 0,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784883935.9732683,
+      "last_trade": 1784884601.9584198,
+      "recent_5_pnl": [
+        -1.0,
+        -1.0,
+        0.92
+      ]
+    },
+    "JD25|12|DIGIT_DIFF_5": {
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "pnl": -2.0,
+      "peak_pnl": 0.0,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784884148.1500611,
+      "last_trade": 1784884206.9592583,
+      "recent_5_pnl": [
+        -1.0,
+        -1.0
+      ]
+    },
+    "JD25|12|DIGIT_MATCH_0": {
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl": -1.0,
+      "peak_pnl": 0.0,
+      "consec_losses": 1,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784886366.746448,
+      "last_trade": 1784886366.7464747,
+      "recent_5_pnl": [
+        -1.0
+      ]
+    },
+    "JD100|12|FALL_TREND": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 0.92,
+      "peak_pnl": 0.92,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784886781.4531338,
+      "last_trade": 1784886781.4531589,
+      "recent_5_pnl": [
+        0.92
+      ]
+    },
+    "R_100|12|FALL_TREND": {
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "pnl": -2.0,
+      "peak_pnl": 0.0,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784886802.9024394,
+      "last_trade": 1784886834.9903202,
+      "recent_5_pnl": [
+        -1.0,
+        -1.0
+      ]
+    },
+    "R_75|13|DIGIT_DIFF_0": {
+      "trades": 2,
+      "wins": 2,
+      "losses": 0,
+      "pnl": 2.01,
+      "peak_pnl": 2.01,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784887613.7386994,
+      "last_trade": 1784887705.8834984,
+      "recent_5_pnl": [
+        0.92,
+        1.09
+      ]
+    },
+    "R_25|13|DIGIT_DIFF_0": {
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "pnl": -0.04,
+      "peak_pnl": 3.0,
+      "consec_losses": 1,
+      "max_consec_losses": 1,
+      "status": "blocked",
+      "first_seen": 1784887646.9748402,
+      "last_trade": 1784888014.3043013,
+      "recent_5_pnl": [
+        0.92,
+        2.08,
+        -3.04
+      ]
+    },
+    "R_50|13|DIGIT_DIFF_0": {
+      "trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "pnl": -1.62,
+      "peak_pnl": 0.0,
+      "consec_losses": 1,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784887754.3215308,
+      "last_trade": 1784887811.8316505,
+      "recent_5_pnl": [
+        -1.5,
+        1.38,
+        -1.5
+      ]
+    },
+    "JD25|13|DIGIT_DIFF_1": {
+      "trades": 14,
+      "wins": 8,
+      "losses": 6,
+      "pnl": -1.18,
+      "peak_pnl": 1.69,
+      "consec_losses": 1,
+      "max_consec_losses": 3,
+      "status": "blocked",
+      "first_seen": 1784888065.0150592,
+      "last_trade": 1784890609.531138,
+      "recent_5_pnl": [
+        0.95,
+        0.95,
+        0.95,
+        0.95,
+        -1.0
+      ]
+    },
+    "R_25|13|DIGIT_DIFF_1": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 1.38,
+      "peak_pnl": 1.38,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784888651.623762,
+      "last_trade": 1784888651.6237848,
+      "recent_5_pnl": [
+        1.38
+      ]
+    },
+    "JD75|13|DIGIT_DIFF_1": {
+      "trades": 4,
+      "wins": 0,
+      "losses": 4,
+      "pnl": -4.75,
+      "peak_pnl": 0.0,
+      "consec_losses": 4,
+      "max_consec_losses": 4,
+      "status": "blocked",
+      "first_seen": 1784888679.988829,
+      "last_trade": 1784890555.564005,
+      "recent_5_pnl": [
+        -1.5,
+        -1.25,
+        -1.0,
+        -1.0
+      ]
+    },
+    "JD25|13|DIGIT_MATCH_0": {
+      "trades": 3,
+      "wins": 1,
+      "losses": 2,
+      "pnl": -1.05,
+      "peak_pnl": 0.0,
+      "consec_losses": 0,
+      "max_consec_losses": 2,
+      "status": "tracking",
+      "first_seen": 1784889971.777782,
+      "last_trade": 1784890079.1307845,
+      "recent_5_pnl": [
+        -1.0,
+        -1.0,
+        0.95
+      ]
+    },
+    "JD25|14|DIGIT_DIFF_1": {
+      "trades": 4,
+      "wins": 1,
+      "losses": 3,
+      "pnl": -2.1,
+      "peak_pnl": 0.0,
+      "consec_losses": 0,
+      "max_consec_losses": 3,
+      "status": "blocked",
+      "first_seen": 1784890899.4140716,
+      "last_trade": 1784891168.8095012,
+      "recent_5_pnl": [
+        -1.05,
+        -1.0,
+        -1.0,
+        0.95
+      ]
+    },
+    "JD75|14|DIGIT_DIFF_1": {
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl": 0.95,
+      "peak_pnl": 0.95,
+      "consec_losses": 0,
+      "max_consec_losses": 0,
+      "status": "tracking",
+      "first_seen": 1784891203.9890425,
+      "last_trade": 1784891203.9890718,
+      "recent_5_pnl": [
+        0.95
+      ]
+    },
+    "JD50|14|DIGIT_DIFF_1": {
+      "trades": 2,
+      "wins": 1,
+      "losses": 1,
+      "pnl": -0.05,
+      "peak_pnl": 0.0,
+      "consec_losses": 0,
+      "max_consec_losses": 1,
+      "status": "tracking",
+      "first_seen": 1784891280.8424268,
+      "last_trade": 1784891905.293488,
+      "recent_5_pnl": [
+        -1.0,
+        0.95
+      ]
+    }
+  },
+  "blocks": {
+    "JD25|11": {
+      "until": 1784918212.8852046,
+      "severity": "severe",
+      "reasons": [
+        "reversed from $+0.95 to $-3.35",
+        "eroded $4.30 from peak"
+      ],
+      "applied": 1784883577.1700222,
+      "duration": 7200
+    },
+    "R_25|13": {
+      "until": 1784895214.304372,
+      "severity": "severe",
+      "reasons": [
+        "eroded $3.04 from peak"
+      ],
+      "applied": 1784888014.304372,
+      "duration": 7200
+    },
+    "JD25|13": {
+      "until": 1784917580.5841537,
+      "severity": "moderate",
+      "reasons": [
+        "reversed from $+1.69 to $-1.18",
+        "eroded $2.87 from peak"
+      ],
+      "applied": 1784890609.5312023,
+      "duration": 3600
+    },
+    "JD75|13": {
+      "until": 1784901313.6030989,
+      "severity": "severe",
+      "reasons": [
+        "4 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "applied": 1784890555.5640528,
+      "duration": 7200
+    },
+    "JD25|14": {
+      "until": 1784898238.0692601,
+      "severity": "severe",
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "applied": 1784891038.0692601,
+      "duration": 7200
+    }
+  },
+  "profitable_patterns": [
+    {
+      "key": "JD100|17|ALL",
+      "wr": 63.6,
+      "pnl": 13.26,
+      "trades": 11,
+      "score": 85.5,
+      "updated": 1784455343.1529055
+    },
+    {
+      "key": "JD10|2|ALL",
+      "wr": 88.9,
+      "pnl": 6.6,
+      "trades": 9,
+      "score": 75.2,
+      "updated": 1784455343.1529055
+    },
+    {
+      "key": "JD25|10|DIGIT_DIFF_1",
+      "wr": 80.0,
+      "pnl": 3.48,
+      "trades": 5,
+      "score": 52.9,
+      "updated": 1784619743.9728112
+    },
+    {
+      "key": "R_25|3|ALL",
+      "wr": 75.0,
+      "pnl": 1.72,
+      "trades": 4,
+      "score": 40.3,
+      "updated": 1784455343.1529055
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "wr": 62.5,
+      "pnl": 2.05,
+      "trades": 8,
+      "score": 37.3,
+      "updated": 1784462003.2367249
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "wr": 66.7,
+      "pnl": 1.69,
+      "trades": 6,
+      "score": 36.8,
+      "updated": 1784888620.1504436
+    },
+    {
+      "key": "JD25|22|ALL",
+      "wr": 66.7,
+      "pnl": 1.65,
+      "trades": 6,
+      "score": 36.6,
+      "updated": 1784455343.1529055
+    },
+    {
+      "key": "JD10|14|FALL_TREND",
+      "wr": 60.0,
+      "pnl": 1.98,
+      "trades": 10,
+      "score": 35.9,
+      "updated": 1784462080.7159376
+    },
+    {
+      "key": "JD10|1|FALL_TREND",
+      "wr": 62.5,
+      "pnl": 1.8,
+      "trades": 8,
+      "score": 35.8,
+      "updated": 1784587636.411125
+    }
+  ],
+  "dead_patterns": [
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784459971.455249,
+      "reasons": [
+        "reversed from $+0.95 to $-1.30",
+        "eroded $2.25 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.3,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784460315.9419718,
+      "reasons": [
+        "reversed from $+0.95 to $-2.30",
+        "eroded $3.25 from peak",
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.3,
+      "trades": 4,
+      "wr": 25.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD100|14|FALL_TREND",
+      "time": 1784460487.3198433,
+      "reasons": [
+        "reversed from $+0.92 to $-1.08"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.92,
+      "final_pnl": -1.08,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784460854.194153,
+      "reasons": [
+        "eroded $3.38 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 4.0,
+      "final_pnl": 0.62,
+      "trades": 7,
+      "wr": 57.1,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784461058.688822,
+      "reasons": [
+        "reversed from $+0.95 to $-1.35",
+        "eroded $2.30 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.35,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD100|14|FALL_TREND",
+      "time": 1784461116.2263668,
+      "reasons": [
+        "reversed from $+0.92 to $-1.41",
+        "eroded $2.33 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.92,
+      "final_pnl": -1.41,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784462101.6977313,
+      "reasons": [
+        "eroded $3.83 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 4.0,
+      "final_pnl": 0.17,
+      "trades": 9,
+      "wr": 55.6,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784585997.4105546,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -2.05,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784586994.6180243,
+      "reasons": [
+        "4 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.05,
+      "trades": 4,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784587576.3755856,
+      "reasons": [
+        "5 consecutive losses",
+        "WR=0% over 5 trades",
+        "3 recent losses in a row"
+      ],
+      "severity": "critical",
+      "peak_pnl": 0.0,
+      "final_pnl": -4.05,
+      "trades": 5,
+      "wr": 0.0,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|10|DIGIT_DIFF_1",
+      "time": 1784620355.2927394,
+      "reasons": [
+        "reversed from $+3.48 to $-1.81",
+        "eroded $5.29 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 3.48,
+      "final_pnl": -1.81,
+      "trades": 6,
+      "wr": 66.7,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784634422.4872851,
+      "reasons": [
+        "eroded $6.75 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 7.09,
+      "final_pnl": 0.34,
+      "trades": 4,
+      "wr": 75.0,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|17|DIGIT_DIFF_1",
+      "time": 1784644967.8970902,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.0,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|18|DIGIT_DIFF_1",
+      "time": 1784649075.3302705,
+      "reasons": [
+        "eroded $4.21 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 5.38,
+      "final_pnl": 1.17,
+      "trades": 4,
+      "wr": 75.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|20|DIGIT_DIFF_1",
+      "time": 1784653965.8179483,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -4.0,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|22|DIGIT_DIFF_1",
+      "time": 1784662824.6001458,
+      "reasons": [
+        "reversed from $+5.46 to $-1.18",
+        "eroded $6.64 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 5.46,
+      "final_pnl": -1.18,
+      "trades": 5,
+      "wr": 60.0,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|22|DIGIT_DIFF_1",
+      "time": 1784662871.2417903,
+      "reasons": [
+        "eroded $5.64 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 5.46,
+      "final_pnl": -0.18,
+      "trades": 6,
+      "wr": 66.7,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|22|DIGIT_DIFF_1",
+      "time": 1784662908.6162975,
+      "reasons": [
+        "reversed from $+5.46 to $-1.49",
+        "eroded $6.95 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 5.46,
+      "final_pnl": -1.49,
+      "trades": 7,
+      "wr": 57.1,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|22|DIGIT_DIFF_1",
+      "time": 1784663223.8518403,
+      "reasons": [
+        "reversed from $+5.46 to $-0.54",
+        "eroded $6.00 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 5.46,
+      "final_pnl": -0.54,
+      "trades": 8,
+      "wr": 62.5,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD50|22|DIGIT_DIFF_0",
+      "time": 1784663544.3884747,
+      "reasons": [
+        "reversed from $+1.19 to $-0.96",
+        "eroded $2.15 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 1.19,
+      "final_pnl": -0.96,
+      "trades": 4,
+      "wr": 50.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD50|22|DIGIT_DIFF_0",
+      "time": 1784663591.2100563,
+      "reasons": [
+        "reversed from $+1.19 to $-2.21",
+        "eroded $3.40 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 1.19,
+      "final_pnl": -2.21,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|22|DIGIT_DIFF_1",
+      "time": 1784663672.135086,
+      "reasons": [
+        "reversed from $+5.46 to $-1.79",
+        "eroded $7.25 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 5.46,
+      "final_pnl": -1.79,
+      "trades": 9,
+      "wr": 55.6,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD75|10|DIGIT_MATCH_0",
+      "time": 1784879458.088508,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -4.25,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784882212.8852139,
+      "reasons": [
+        "reversed from $+0.95 to $-1.05"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.05,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784882309.7744615,
+      "reasons": [
+        "reversed from $+0.95 to $-1.10",
+        "eroded $2.05 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.1,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784882444.974061,
+      "reasons": [
+        "reversed from $+0.95 to $-1.20",
+        "eroded $2.15 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.2,
+      "trades": 9,
+      "wr": 44.4,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|11|DIGIT_DIFF_1",
+      "time": 1784882512.9821537,
+      "reasons": [
+        "3 consecutive losses",
+        "WR=20% over 5 trades",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.13,
+      "trades": 5,
+      "wr": 20.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883259.7625537,
+      "reasons": [
+        "reversed from $+0.95 to $-2.20",
+        "eroded $3.15 from peak",
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.2,
+      "trades": 10,
+      "wr": 40.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883303.8974469,
+      "reasons": [
+        "reversed from $+0.95 to $-3.20",
+        "eroded $4.15 from peak",
+        "4 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -3.2,
+      "trades": 11,
+      "wr": 36.4,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883380.046647,
+      "reasons": [
+        "reversed from $+0.95 to $-2.25",
+        "eroded $3.20 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.25,
+      "trades": 12,
+      "wr": 41.7,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883395.4530323,
+      "reasons": [
+        "reversed from $+0.95 to $-1.30",
+        "eroded $2.25 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.3,
+      "trades": 13,
+      "wr": 46.2,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883428.0468361,
+      "reasons": [
+        "reversed from $+0.95 to $-2.30",
+        "eroded $3.25 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.3,
+      "trades": 14,
+      "wr": 42.9,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883509.697306,
+      "reasons": [
+        "reversed from $+0.95 to $-1.35",
+        "eroded $2.30 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.35,
+      "trades": 15,
+      "wr": 46.7,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883536.2927582,
+      "reasons": [
+        "reversed from $+0.95 to $-2.35",
+        "eroded $3.30 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.35,
+      "trades": 16,
+      "wr": 43.8,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|11|DIGIT_MATCH_0",
+      "time": 1784883577.1700337,
+      "reasons": [
+        "reversed from $+0.95 to $-3.35",
+        "eroded $4.30 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -3.35,
+      "trades": 17,
+      "wr": 41.2,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|12|DIGIT_DIFF_1",
+      "time": 1784883852.706391,
+      "reasons": [
+        "reversed from $+0.95 to $-2.01",
+        "eroded $2.96 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.01,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "R_25|13|DIGIT_DIFF_0",
+      "time": 1784888014.304383,
+      "reasons": [
+        "eroded $3.04 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 3.0,
+      "final_pnl": -0.04,
+      "trades": 3,
+      "wr": 66.7,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784888780.5841632,
+      "reasons": [
+        "reversed from $+1.69 to $-1.98",
+        "eroded $3.67 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 1.69,
+      "final_pnl": -1.98,
+      "trades": 7,
+      "wr": 57.1,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890142.1266255,
+      "reasons": [
+        "reversed from $+1.69 to $-2.98",
+        "eroded $4.67 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 1.69,
+      "final_pnl": -2.98,
+      "trades": 8,
+      "wr": 50.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890176.8314602,
+      "reasons": [
+        "reversed from $+1.69 to $-3.98",
+        "eroded $5.67 from peak",
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "critical",
+      "peak_pnl": 1.69,
+      "final_pnl": -3.98,
+      "trades": 9,
+      "wr": 44.4,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890262.9021943,
+      "reasons": [
+        "reversed from $+1.69 to $-3.03",
+        "eroded $4.72 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 1.69,
+      "final_pnl": -3.03,
+      "trades": 10,
+      "wr": 50.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890311.492734,
+      "reasons": [
+        "reversed from $+1.69 to $-2.08",
+        "eroded $3.77 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 1.69,
+      "final_pnl": -2.08,
+      "trades": 11,
+      "wr": 54.5,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890338.6528807,
+      "reasons": [
+        "reversed from $+1.69 to $-1.13",
+        "eroded $2.82 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 1.69,
+      "final_pnl": -1.13,
+      "trades": 12,
+      "wr": 58.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD75|13|DIGIT_DIFF_1",
+      "time": 1784890513.6031086,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.75,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD75|13|DIGIT_DIFF_1",
+      "time": 1784890555.5640657,
+      "reasons": [
+        "4 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -4.75,
+      "trades": 4,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|13|DIGIT_DIFF_1",
+      "time": 1784890609.5320039,
+      "reasons": [
+        "reversed from $+1.69 to $-1.18",
+        "eroded $2.87 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 1.69,
+      "final_pnl": -1.18,
+      "trades": 14,
+      "wr": 57.1,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784891038.069268,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.05,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    }
+  ],
+  "recovery_assessments": {
+    "JD10|3": {
+      "confidence": 36,
+      "action": "pause",
+      "reason": "Low confidence \u2014 pausing 10min to reassess",
+      "tick_confidence": 5,
+      "session_confidence": 25,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 4.25,
+      "consec_losses": 0,
+      "timestamp": 1784456293.8524342
+    },
+    "JD100|17": {
+      "confidence": 60,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 65,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645978.7614758
+    },
+    "JD50|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.1683216
+    },
+    "JD25|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.1873991
+    },
+    "JD75|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784462398.0995374
+    },
+    "JD10|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.107689
+    },
+    "R_75|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.1259022
+    },
+    "R_25|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.1444798
+    },
+    "R_100|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784462398.0812247
+    },
+    "R_50|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784462398.0904021
+    },
+    "R_10|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784460512.5161095
+    },
+    "JD100|14": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784891883.0889847
+    },
+    "R_75|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635366.3016055
+    },
+    "R_25|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635357.7895963
+    },
+    "R_100|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784465171.2716117
+    },
+    "JD75|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0.0,
+      "consec_losses": 0,
+      "timestamp": 1784465160.9549942
+    },
+    "R_10|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784465169.1756887
+    },
+    "JD10|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635315.9024746
+    },
+    "JD25|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635334.1849606
+    },
+    "R_50|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784465169.1603994
+    },
+    "JD50|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635353.6481783
+    },
+    "JD100|15": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784635366.2708957
+    },
+    "R_75|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0.0,
+      "consec_losses": 0,
+      "timestamp": 1784469592.4654946
+    },
+    "JD100|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 1.61,
+      "consec_losses": 0,
+      "timestamp": 1784469596.6618962
+    },
+    "JD50|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469589.813836
+    },
+    "R_100|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469559.6790905
+    },
+    "R_10|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469596.7105398
+    },
+    "JD10|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 2.0,
+      "consec_losses": 0,
+      "timestamp": 1784469592.5148206
+    },
+    "R_50|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469599.2421587
+    },
+    "JD75|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0.05,
+      "consec_losses": 0,
+      "timestamp": 1784469596.6939936
+    },
+    "R_25|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469599.2270522
+    },
+    "JD25|16": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784469592.4819467
+    },
+    "R_25|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645997.814774
+    },
+    "JD75|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 7.27,
+      "consec_losses": 0,
+      "timestamp": 1784472844.8510113
+    },
+    "R_10|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784472815.1976688
+    },
+    "JD25|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645999.846767
+    },
+    "R_100|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784472837.169547
+    },
+    "JD50|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645972.5986612
+    },
+    "R_50|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784472839.3123453
+    },
+    "JD10|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645941.412173
+    },
+    "R_75|17": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784645972.5789948
+    },
+    "R_75|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649569.9623275
+    },
+    "JD50|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649595.45399
+    },
+    "JD75|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784476422.5677977
+    },
+    "JD10|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649583.39571
+    },
+    "R_10|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784476433.7044597
+    },
+    "JD25|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649597.7516432
+    },
+    "R_50|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784476433.686151
+    },
+    "R_100|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784476433.6716955
+    },
+    "R_25|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649595.406022
+    },
+    "JD100|18": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784649587.8114145
+    },
+    "R_75|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669549.6646194
+    },
+    "JD50|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669549.6846569
+    },
+    "JD25|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669549.6069858
+    },
+    "R_25|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669546.1835976
+    },
+    "R_100|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784584631.8093
+    },
+    "R_50|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784584698.0980752
+    },
+    "JD75|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784584672.1664004
+    },
+    "R_10|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784584698.1109707
+    },
+    "JD10|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669549.6444063
+    },
+    "JD100|0": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784669549.6264691
+    },
+    "R_75|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588389.5612378
+    },
+    "JD100|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588396.18366
+    },
+    "JD50|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588387.0536919
+    },
+    "R_50|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588398.2876027
+    },
+    "JD75|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588398.3055153
+    },
+    "R_10|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588398.3240538
+    },
+    "JD25|1": {
+      "confidence": 60,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 65,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588398.2680779
+    },
+    "R_25|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588369.42492
+    },
+    "R_100|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588351.6100807
+    },
+    "JD10|1": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784588398.3446486
+    },
+    "R_75|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590046.0967476
+    },
+    "JD75|2": {
+      "confidence": 60,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 65,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590070.3133323
+    },
+    "JD10|2": {
+      "confidence": 60,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 65,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590068.1690104
+    },
+    "R_100|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590041.4589634
+    },
+    "R_50|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590070.295299
+    },
+    "R_10|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590066.088897
+    },
+    "JD100|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784589996.5396743
+    },
+    "JD25|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590056.8086095
+    },
+    "JD50|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590034.7157812
+    },
+    "R_25|2": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784590036.881428
+    },
+    "JD100|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597473.7716813
+    },
+    "R_25|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597496.2305446
+    },
+    "JD25|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597491.340404
+    },
+    "JD10|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597484.6519217
+    },
+    "JD50|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597463.8233683
+    },
+    "R_75|4": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784597491.3765695
+    },
+    "JD25|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615942.5034184
+    },
+    "JD100|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615938.3662994
+    },
+    "JD10|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615944.6341288
+    },
+    "R_75|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615944.6745043
+    },
+    "R_25|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615942.5525239
+    },
+    "JD50|9": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784615944.7013433
+    },
+    "JD100|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879519.311509
+    },
+    "JD50|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879519.357964
+    },
+    "JD25|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879519.2945735
+    },
+    "R_75|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879514.969707
+    },
+    "R_25|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879519.3424213
+    },
+    "JD10|10": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784879519.3265069
+    },
+    "R_75|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.5108418
+    },
+    "JD100|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.4714026
+    },
+    "JD50|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.5524254
+    },
+    "JD25|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.5719233
+    },
+    "R_25|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.5315042
+    },
+    "JD10|11": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784883599.4897044
+    },
+    "R_75|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.2661874
+    },
+    "JD10|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.2465384
+    },
+    "R_25|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.2834046
+    },
+    "JD25|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.2103264
+    },
+    "JD100|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.2278388
+    },
+    "JD50|12": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784887196.300689
+    },
+    "JD10|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.5286698
+    },
+    "R_25|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.5671713
+    },
+    "JD25|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.6052105
+    },
+    "JD50|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.5864296
+    },
+    "R_75|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.5474954
+    },
+    "JD100|13": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784890798.5065272
+    },
+    "R_25|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650767.467141
+    },
+    "JD100|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650773.1001072
+    },
+    "JD10|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650775.2001226
+    },
+    "JD25|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650775.1443233
+    },
+    "R_75|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650780.4751565
+    },
+    "JD50|19": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784650782.5601761
+    },
+    "JD25|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.75565
+    },
+    "JD100|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.7721496
+    },
+    "JD10|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.7887945
+    },
+    "R_75|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.8186388
+    },
+    "R_25|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.8380163
+    },
+    "JD50|20": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784656799.900258
+    },
+    "JD100|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658806.5564883
+    },
+    "JD10|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658830.3685222
+    },
+    "R_25|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658828.2794003
+    },
+    "JD50|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658830.3850882
+    },
+    "JD25|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658830.3467877
+    },
+    "R_75|21": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784658819.3890755
+    },
+    "JD25|22": {
+      "confidence": 60,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 65,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663653.68195
+    },
+    "JD100|22": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663653.701658
+    },
+    "JD10|22": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663653.7206059
+    },
+    "R_75|22": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663653.7408526
+    },
+    "R_25|22": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663653.7613733
+    },
+    "JD50|22": {
+      "confidence": 56,
+      "action": "cautious",
+      "reason": "Moderate confidence \u2014 reducing stake, watching",
+      "tick_confidence": 50,
+      "session_confidence": 50,
+      "recovery_confidence": 50,
+      "consec_confidence": 80,
+      "loss_from_peak": 0,
+      "consec_losses": 0,
+      "timestamp": 1784663636.170007
+    }
+  },
+  "daily_archive": [
+    {
+      "date": "2026-07-19",
+      "combos": {
+        "R_75|2|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.58,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_75|3|ALL": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": 1.1,
+          "peak_pnl": 1.1,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_75|16|ALL": {
+          "trades": 5,
+          "wins": 3,
+          "losses": 2,
+          "pnl": 0.71,
+          "peak_pnl": 0.71,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_75|17|ALL": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": 0.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_75|18|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.1,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_75|23|ALL": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 1.84,
+          "peak_pnl": 1.84,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_100|3|ALL": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": -0.49,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_25|1|ALL": {
+          "trades": 4,
+          "wins": 2,
+          "losses": 2,
+          "pnl": -0.16,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_25|3|ALL": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 1.72,
+          "peak_pnl": 1.72,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "R_10|22|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": 0.5,
+          "peak_pnl": 0.5,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|1|ALL": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|2|ALL": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": 1.38,
+          "peak_pnl": 1.38,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|3|ALL": {
+          "trades": 3,
+          "wins": 0,
+          "losses": 3,
+          "pnl": -3.25,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "blocked",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|15|ALL": {
+          "trades": 3,
+          "wins": 3,
+          "losses": 0,
+          "pnl": 2.85,
+          "peak_pnl": 2.85,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|16|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.05,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|17|ALL": {
+          "trades": 9,
+          "wins": 4,
+          "losses": 5,
+          "pnl": -7.27,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|19|ALL": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -6.2,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD75|23|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": 0.85,
+          "peak_pnl": 0.85,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|1|ALL": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": 0.84,
+          "peak_pnl": 0.84,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|2|ALL": {
+          "trades": 4,
+          "wins": 1,
+          "losses": 3,
+          "pnl": -1.62,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "blocked",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|16|ALL": {
+          "trades": 5,
+          "wins": 2,
+          "losses": 3,
+          "pnl": -1.61,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|17|ALL": {
+          "trades": 11,
+          "wins": 7,
+          "losses": 4,
+          "pnl": 13.26,
+          "peak_pnl": 13.26,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|22|ALL": {
+          "trades": 5,
+          "wins": 2,
+          "losses": 3,
+          "pnl": -1.51,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD100|23|ALL": {
+          "trades": 5,
+          "wins": 1,
+          "losses": 4,
+          "pnl": -6.06,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "blocked",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD50|3|ALL": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|1|ALL": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": 1.19,
+          "peak_pnl": 1.19,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|2|ALL": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": -0.15,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|3|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.05,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|9|ALL": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|17|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.05,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|19|ALL": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": 0.01,
+          "peak_pnl": 0.01,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|22|ALL": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": 1.65,
+          "peak_pnl": 1.65,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|23|ALL": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": 0.9,
+          "peak_pnl": 0.9,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD10|1|ALL": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 1.9,
+          "peak_pnl": 1.9,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD10|2|ALL": {
+          "trades": 9,
+          "wins": 8,
+          "losses": 1,
+          "pnl": 6.6,
+          "peak_pnl": 6.6,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD10|3|ALL": {
+          "trades": 4,
+          "wins": 0,
+          "losses": 4,
+          "pnl": -4.25,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "blocked",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD10|16|ALL": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784368943.1529055,
+          "last_trade": 1784455343.1529055,
+          "recent_5_pnl": []
+        },
+        "JD25|14|DIGIT_DIFF_1": {
+          "trades": 9,
+          "wins": 5,
+          "losses": 4,
+          "pnl": 0.17,
+          "peak_pnl": 4.0,
+          "consec_losses": 1,
+          "max_consec_losses": 2,
+          "status": "blocked",
+          "first_seen": 1784459601.2653363,
+          "last_trade": 1784462101.6976442,
+          "recent_5_pnl": [
+            1.430000000000291,
+            -1.5,
+            -1.8799999999991996,
+            1.430000000000291,
+            -1.8800000000010186
+          ]
+        },
+        "R_100|14|MOMENTUM_DOWN": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 2.07,
+          "peak_pnl": 2.07,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784459656.1644661,
+          "last_trade": 1784460594.2921708,
+          "recent_5_pnl": [
+            0.9200000000000728,
+            1.1499999999996362
+          ]
+        },
+        "JD10|14|FALL_TREND": {
+          "trades": 10,
+          "wins": 6,
+          "losses": 4,
+          "pnl": 1.98,
+          "peak_pnl": 1.98,
+          "consec_losses": 0,
+          "max_consec_losses": 3,
+          "status": "blocked",
+          "first_seen": 1784459680.444409,
+          "last_trade": 1784462080.7158833,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            1.1900000000005093,
+            -1.25,
+            0.9499999999989086,
+            1.4899999999997817
+          ]
+        },
+        "R_75|14|DIGIT_MATCH_7": {
+          "trades": 3,
+          "wins": 2,
+          "losses": 1,
+          "pnl": 0.59,
+          "peak_pnl": 0.59,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784459701.8060446,
+          "last_trade": 1784460575.3388774,
+          "recent_5_pnl": [
+            -1.25,
+            0.9200000000000728,
+            0.9200000000000728
+          ]
+        },
+        "JD100|14|FALL_TREND": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": -0.49,
+          "peak_pnl": 0.92,
+          "consec_losses": 0,
+          "max_consec_losses": 2,
+          "status": "blocked",
+          "first_seen": 1784459921.4234889,
+          "last_trade": 1784462022.6256752,
+          "recent_5_pnl": [
+            -1.0,
+            -1.0,
+            0.9200000000000728,
+            -1.25,
+            0.9200000000000728
+          ]
+        },
+        "JD50|14|DIGIT_DIFF_3": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 2.14,
+          "peak_pnl": 2.14,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784460250.2069366,
+          "last_trade": 1784461694.8440502,
+          "recent_5_pnl": [
+            0.9499999999989086,
+            1.1900000000005093
+          ]
+        },
+        "JD25|14|ODD_BIAS": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.07,
+          "peak_pnl": 1.43,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784461297.5086856,
+          "last_trade": 1784462393.6911342,
+          "recent_5_pnl": [
+            1.430000000000291,
+            -1.5
+          ]
+        },
+        "JD10|15|FALL_TREND": {
+          "trades": 6,
+          "wins": 3,
+          "losses": 3,
+          "pnl": -0.15,
+          "peak_pnl": 0.85,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784462467.2383666,
+          "last_trade": 1784463858.4166625,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            -1.0,
+            0.9500000000007276,
+            0.9499999999989086,
+            -1.0
+          ]
+        },
+        "JD25|15|DIGIT_DIFF_1": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 2.33,
+          "peak_pnl": 2.33,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784462548.2934992,
+          "last_trade": 1784464623.7838502,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            0.9499999999989086,
+            -1.0,
+            1.430000000000291
+          ]
+        },
+        "R_75|15|DIGIT_MATCH_7": {
+          "trades": 4,
+          "wins": 2,
+          "losses": 2,
+          "pnl": -0.41,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784462654.589198,
+          "last_trade": 1784463835.5912619,
+          "recent_5_pnl": [
+            -1.25,
+            0.9200000000000728,
+            -1.0,
+            0.9200000000000728
+          ]
+        },
+        "JD25|17|DIGIT_DIFF_1": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.05,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784471918.4185615,
+          "last_trade": 1784472720.8657732,
+          "recent_5_pnl": [
+            -1.0,
+            0.9499999999989086
+          ]
+        },
+        "JD10|17|FALL_TREND": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.05,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784471992.674169,
+          "last_trade": 1784472568.492647,
+          "recent_5_pnl": [
+            -1.0,
+            0.9500000000007276
+          ]
+        },
+        "R_75|17|DIGIT_MATCH_7": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.08,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784472502.0271819,
+          "last_trade": 1784472861.0037236,
+          "recent_5_pnl": [
+            -1.0,
+            0.9200000000000728
+          ]
+        },
+        "JD10|18|FALL_TREND": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "tracking",
+          "first_seen": 1784473497.4959416,
+          "last_trade": 1784476362.4936967,
+          "recent_5_pnl": [
+            -1.0,
+            -1.0
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "combos": {
+        "JD25|0|DIGIT_DIFF_1": {
+          "trades": 3,
+          "wins": 3,
+          "losses": 0,
+          "pnl": 2.85,
+          "peak_pnl": 2.85,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784583699.5657039,
+          "last_trade": 1784584794.2095196,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            0.9499999999989086,
+            0.9500000000007276
+          ]
+        },
+        "JD10|0|FALL_TREND": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "tracking",
+          "first_seen": 1784584096.7337894,
+          "last_trade": 1784584610.5723495,
+          "recent_5_pnl": [
+            -1.0,
+            -1.0
+          ]
+        },
+        "JD10|1|FALL_TREND": {
+          "trades": 9,
+          "wins": 5,
+          "losses": 4,
+          "pnl": 0.39,
+          "peak_pnl": 2.38,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784584854.37538,
+          "last_trade": 1784587671.6700804,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            1.5299999999988358,
+            -1.5299999999988358,
+            0.9499999999989086,
+            -1.4099999999998545
+          ]
+        },
+        "JD25|1|DIGIT_DIFF_1": {
+          "trades": 5,
+          "wins": 0,
+          "losses": 5,
+          "pnl": -4.05,
+          "peak_pnl": 0.0,
+          "consec_losses": 5,
+          "max_consec_losses": 5,
+          "status": "blocked",
+          "first_seen": 1784585005.3978615,
+          "last_trade": 1784587576.3755033,
+          "recent_5_pnl": [
+            -1.0,
+            -1.0,
+            -0.050000000001091394,
+            -1.0,
+            -1.0
+          ]
+        },
+        "R_10|1|FALL_TREND": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.08,
+          "peak_pnl": 0.0,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784587071.9962196,
+          "last_trade": 1784587654.452801,
+          "recent_5_pnl": [
+            -1.0,
+            0.9200000000000728
+          ]
+        },
+        "JD25|2|ODD_BIAS": {
+          "trades": 3,
+          "wins": 2,
+          "losses": 1,
+          "pnl": 0.71,
+          "peak_pnl": 0.95,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784589718.3507724,
+          "last_trade": 1784590088.6947114,
+          "recent_5_pnl": [
+            0.9499999999989086,
+            -1.1900000000005093,
+            0.9500000000007276
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "combos": {
+        "JD25|9|DIGIT_MATCH_0": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.83,
+          "peak_pnl": 0.95,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784614692.366645,
+          "last_trade": 1784615912.5009184,
+          "recent_5_pnl": [
+            0.9499999999989086,
+            -1.7799999999988358
+          ]
+        },
+        "JD75|9|DIGIT_MATCH_0": {
+          "trades": 3,
+          "wins": 2,
+          "losses": 1,
+          "pnl": 1.14,
+          "peak_pnl": 1.14,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784614710.9759965,
+          "last_trade": 1784614874.5785918,
+          "recent_5_pnl": [
+            -1.0,
+            0.9500000000007276,
+            1.1899999999986903
+          ]
+        },
+        "JD25|10|DIGIT_DIFF_1": {
+          "trades": 6,
+          "wins": 4,
+          "losses": 2,
+          "pnl": -1.81,
+          "peak_pnl": 3.48,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "blocked",
+          "first_seen": 1784617523.7028894,
+          "last_trade": 1784620355.292658,
+          "recent_5_pnl": [
+            -1,
+            0.9500000000007276,
+            0.9499999999989086,
+            1.6300000000010186,
+            -5.290000000000873
+          ]
+        },
+        "JD75|10|DIGIT_DIFF_1": {
+          "trades": 3,
+          "wins": 1,
+          "losses": 2,
+          "pnl": -1.3,
+          "peak_pnl": 0.0,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784617542.3346503,
+          "last_trade": 1784617688.7244985,
+          "recent_5_pnl": [
+            -1.0,
+            0.9500000000007276,
+            -1.25
+          ]
+        },
+        "JD25|12|DIGIT_DIFF_1": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "tracking",
+          "first_seen": 1784625968.1751769,
+          "last_trade": 1784626457.7928936,
+          "recent_5_pnl": [
+            -1.0,
+            -1.0
+          ]
+        },
+        "JD25|14|DIGIT_DIFF_1": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 0.34,
+          "peak_pnl": 7.09,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "blocked",
+          "first_seen": 1784634037.5463967,
+          "last_trade": 1784634422.487202,
+          "recent_5_pnl": [
+            1.0,
+            2.5200000000004366,
+            3.569999999999709,
+            -6.75
+          ]
+        },
+        "JD100|14|FALL_TREND": {
+          "trades": 2,
+          "wins": 1,
+          "losses": 1,
+          "pnl": -0.26,
+          "peak_pnl": 0.92,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784634653.8345203,
+          "last_trade": 1784635131.62604,
+          "recent_5_pnl": [
+            0.9200000000000728,
+            -1.180000000000291
+          ]
+        },
+        "JD25|15|DIGIT_DIFF_1": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 3.25,
+          "peak_pnl": 3.25,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784635241.9174967,
+          "last_trade": 1784638124.325134,
+          "recent_5_pnl": [
+            -1.0,
+            0.9500000000007276,
+            1.2899999999990541,
+            2.0100000000002183
+          ]
+        },
+        "JD25|17|DIGIT_DIFF_1": {
+          "trades": 3,
+          "wins": 0,
+          "losses": 3,
+          "pnl": -3.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 3,
+          "max_consec_losses": 3,
+          "status": "blocked",
+          "first_seen": 1784644493.8523083,
+          "last_trade": 1784644967.897026,
+          "recent_5_pnl": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "JD25|18|DIGIT_DIFF_1": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 1.17,
+          "peak_pnl": 5.38,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "blocked",
+          "first_seen": 1784646698.8667736,
+          "last_trade": 1784649075.3301597,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            1.5299999999988358,
+            2.899999999999636,
+            -4.209999999999127
+          ]
+        },
+        "JD25|20|DIGIT_DIFF_1": {
+          "trades": 3,
+          "wins": 0,
+          "losses": 3,
+          "pnl": -4.0,
+          "peak_pnl": 0.0,
+          "consec_losses": 3,
+          "max_consec_losses": 3,
+          "status": "blocked",
+          "first_seen": 1784653815.2910573,
+          "last_trade": 1784653965.8177083,
+          "recent_5_pnl": [
+            -1.0,
+            -2.0,
+            -1.0
+          ]
+        },
+        "JD100|20|FALL_TREND": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 0.84,
+          "peak_pnl": 2.79,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784654084.815074,
+          "last_trade": 1784654670.294406,
+          "recent_5_pnl": [
+            0.9200000000000728,
+            0.9200000000000728,
+            0.9500000000007276,
+            -1.9500000000007276
+          ]
+        },
+        "R_100|20|FALL_TREND": {
+          "trades": 4,
+          "wins": 3,
+          "losses": 1,
+          "pnl": 1.76,
+          "peak_pnl": 1.76,
+          "consec_losses": 0,
+          "max_consec_losses": 1,
+          "status": "tracking",
+          "first_seen": 1784654104.4016168,
+          "last_trade": 1784654636.9700477,
+          "recent_5_pnl": [
+            0.9200000000000728,
+            -1.0,
+            0.9200000000000728,
+            0.9200000000000728
+          ]
+        },
+        "JD25|22|DIGIT_DIFF_1": {
+          "trades": 9,
+          "wins": 5,
+          "losses": 4,
+          "pnl": -1.79,
+          "peak_pnl": 5.46,
+          "consec_losses": 1,
+          "max_consec_losses": 1,
+          "status": "blocked",
+          "first_seen": 1784662560.073385,
+          "last_trade": 1784663672.135009,
+          "recent_5_pnl": [
+            -6.639999999999418,
+            1.0,
+            -1.3100000000013097,
+            0.9499999999989086,
+            -1.25
+          ]
+        },
+        "JD75|22|DIGIT_DIFF_1": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 2.66,
+          "peak_pnl": 2.66,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784662758.1965437,
+          "last_trade": 1784663250.9684901,
+          "recent_5_pnl": [
+            1.430000000000291,
+            1.2299999999995634
+          ]
+        },
+        "JD50|22|DIGIT_MATCH_2": {
+          "trades": 2,
+          "wins": 0,
+          "losses": 2,
+          "pnl": -2.75,
+          "peak_pnl": 0.0,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "tracking",
+          "first_seen": 1784663067.6597974,
+          "last_trade": 1784663113.044406,
+          "recent_5_pnl": [
+            -1.5,
+            -1.25
+          ]
+        },
+        "JD50|22|DIGIT_DIFF_0": {
+          "trades": 5,
+          "wins": 2,
+          "losses": 3,
+          "pnl": -2.21,
+          "peak_pnl": 1.19,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "blocked",
+          "first_seen": 1784663383.2301712,
+          "last_trade": 1784663591.2099683,
+          "recent_5_pnl": [
+            1.1900000000005093,
+            -1.860000000000582,
+            1.430000000000291,
+            -1.7199999999993452,
+            -1.25
+          ]
+        },
+        "JD25|0|DIGIT_MATCH_0": {
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "pnl": 2.87,
+          "peak_pnl": 2.87,
+          "consec_losses": 0,
+          "max_consec_losses": 0,
+          "status": "tracking",
+          "first_seen": 1784669124.6746728,
+          "last_trade": 1784669344.9324505,
+          "recent_5_pnl": [
+            0.9499999999989086,
+            1.9200000000000728
+          ]
+        },
+        "JD75|0|DIGIT_MATCH_0": {
+          "trades": 8,
+          "wins": 3,
+          "losses": 5,
+          "pnl": -3.16,
+          "peak_pnl": 0.0,
+          "consec_losses": 2,
+          "max_consec_losses": 2,
+          "status": "tracking",
+          "first_seen": 1784669142.6811223,
+          "last_trade": 1784669487.0192833,
+          "recent_5_pnl": [
+            0.9500000000007276,
+            -1.5,
+            1.1899999999986903,
+            -1.5,
+            -1.25
+          ]
+        }
+      }
+    }
+  ]
+}

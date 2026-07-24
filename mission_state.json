@@ -1,0 +1,230 @@
+{
+  "date": "2026-07-24",
+  "daily_target": 20.0,
+  "start_balance": 9965.760000000006,
+  "current_pnl": 16.8,
+  "trades_today": 413,
+  "bunch_trades": 70,
+  "single_trades": 343,
+  "bunch_runs": 33,
+  "bunch_wins": 20,
+  "sessions_completed": 0,
+  "mode": "TARGET_CLOSE",
+  "trades_needed": 7,
+  "bunches_needed": 1,
+  "estimated_completion": "",
+  "self_test": {
+    "runs": 32,
+    "last_run": "2026-07-21T18:32:57.969672+00:00",
+    "last_score": 41,
+    "last_recommendation": [
+      "BLOCK hour 9:00 \u2014 $-3.83, WR=20%",
+      "BLOCK hour 12:00 \u2014 $-4.00, WR=0%",
+      "AVOID JD75 at h3 \u2014 $-3.25",
+      "AVOID JD100 at h23 \u2014 $-6.06",
+      "AVOID JD25 at h17 \u2014 $-3.15",
+      "AVOID JD10 at h3 \u2014 $-4.25"
+    ],
+    "history": [
+      {
+        "time": "2026-07-21T15:19:14.053043+00:00",
+        "score": 46,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T15:55:50.983090+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T15:59:50.055597+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:03:47.137610+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:07:43.972497+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:11:51.946810+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:15:53.285790+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:24:44.562789+00:00",
+        "score": 41,
+        "recommendations": 7,
+        "results_sampled": 55
+      },
+      {
+        "time": "2026-07-21T16:30:09.405410+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T16:34:46.493057+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T16:51:32.368192+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T16:56:16.904328+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T17:01:57.455568+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T17:06:11.007625+00:00",
+        "score": 43,
+        "recommendations": 6,
+        "results_sampled": 56
+      },
+      {
+        "time": "2026-07-21T17:27:53.877122+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:31:30.922534+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:35:16.139910+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:38:54.610749+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:42:32.528269+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:46:09.824353+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:49:48.042387+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:53:28.727179+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T17:57:06.220639+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:00:46.977910+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:04:26.942071+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:08:34.272688+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:14:30.164328+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:18:16.396348+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:21:59.964744+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:25:38.986715+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:29:18.218563+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      },
+      {
+        "time": "2026-07-21T18:32:57.969710+00:00",
+        "score": 41,
+        "recommendations": 6,
+        "results_sampled": 58
+      }
+    ]
+  },
+  "today": "2026-07-24",
+  "daily_profit": 0.0,
+  "daily_profit_locked": false,
+  "house_money_mode": false,
+  "house_money_balance": 0.0,
+  "daily_trades": 0,
+  "daily_session_pnl": 0.0
+}

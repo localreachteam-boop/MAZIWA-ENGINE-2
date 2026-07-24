@@ -38,7 +38,21 @@ class Memory:
             self.data["failure_patterns"] = []
         if "simulation_results" not in self.data:
             self.data["simulation_results"] = []
+        if "model_decisions" not in self.data:
+            self.data["model_decisions"] = []
+        if "ai_feedback" not in self.data:
+            self.data["ai_feedback"] = {"approved": 0, "blocked": 0, "correct": 0, "incorrect": 0, "recent": []}
+        if "session_memory" not in self.data:
+            self.data["session_memory"] = []
+        if "strategy_families" not in self.data:
+            self.data["strategy_families"] = {}
+        if "daily_drawdown" not in self.data:
+            self.data["daily_drawdown"] = {}
 
+
+    @property
+    def strategies(self):
+        return self.data.get("strategies", {})
     def _load(self):
         try:
             if MEMORY_FILE.exists():
@@ -349,7 +363,42 @@ class Memory:
         """Get lifecycle history for a strategy."""
         return self.data["strategy_lifecycle"].get(strategy_key)
 
+    def is_strategy_retired(self, market, strategy):
+        """Check if a strategy is retired for a market."""
+        strat_key = f"{market}:{strategy}"
+        lc = self.data["strategy_lifecycle"].get(strat_key, {})
+        return lc.get("current_status") == "RETIRE"
+
+    def get_strategy_ev(self, market, strategy):
+        """Get expected value (EV) for a strategy: pnl / trades."""
+        strat_key = f"{market}:{strategy}"
+        s = self.data["strategies"].get(strat_key, {})
+        trades = s.get("trades", 0)
+        pnl = s.get("pnl", 0.0)
+        return pnl / max(1, trades)
+
     # ── ALM Failure Pattern Detection ──────────────────
+
+    def evaluate_and_retire(self):
+        """Evaluate strategies and retire losers. Returns list of retired keys."""
+        retired = []
+        for key, s in list(self.data["strategies"].items()):
+            trades = s.get("trades", 0)
+            if trades < 5:
+                continue
+            losses = trades - s.get("wins", 0)
+            loss_rate = losses / trades
+            # Retire if: 5+ trades with 70%+ loss rate, OR 10+ trades with 60%+ loss rate
+            should_retire = (trades >= 5 and loss_rate >= 0.70) or (trades >= 10 and loss_rate >= 0.60) or (trades >= 15 and loss_rate >= 0.55)
+            ev = s.get("ev", 0)
+            # Also retire if negative EV with enough data
+            if trades >= 8 and ev < -0.01:
+                should_retire = True
+            if should_retire:
+                self.data["strategy_lifecycle"][key] = {"current_status": "RETIRE", "history": [{"action": "RETIRE", "reason": f"{losses}/{trades} losses, EV={ev:.4f}", "time": int(time.time() * 1000)}]}
+                retired.append({"key": key, "reason": f"{losses}/{trades} losses, EV={ev:.4f}"})
+        self.save()
+        return retired
     def detect_failure_patterns(self):
         """Analyze recent trades for failure patterns."""
         recent = self.data["trades"][-30:]
@@ -415,7 +464,7 @@ class Memory:
 
     # ── ALM Simulation Memory ──────────────────────────
     def record_simulation(self, strategy_key, results):
-        """Store simulation results for strategy validation."""
+        """Store simulation results AND update strategy stats with EV/sims."""
         entry = {
             "strategy": strategy_key,
             "simulations": results.get("simulations", 0),
@@ -428,6 +477,15 @@ class Memory:
         self.data["simulation_results"].append(entry)
         if len(self.data["simulation_results"]) > 100:
             self.data["simulation_results"] = self.data["simulation_results"][-100:]
+        # KEY FIX: write EV + simulations into strategy stats so retirement works
+        sims = results.get("simulations", 0)
+        ev = results.get("expected_value", 0)
+        wr = results.get("win_rate", 0)
+        if sims >= 5 and strategy_key in self.data["strategies"]:
+            self.data["strategies"][strategy_key]["ev"] = ev
+            self.data["strategies"][strategy_key]["simulations"] = sims
+            self.data["strategies"][strategy_key]["sim_win_rate"] = wr
+            self.data["strategies"][strategy_key]["sim_time"] = int(time.time() * 1000)
 
     def get_simulation_history(self, strategy_key=None):
         """Get simulation results, optionally filtered by strategy."""
@@ -733,3 +791,248 @@ class Memory:
     def get_evolution_history(self, limit=10):
         """Get recent evolution events."""
         return self.data.get("evolution_history", [])[-limit:]
+
+    # ═══════════════════════════════════════════════════════
+    # MODEL DECISION FEEDBACK LOOP
+    # ═══════════════════════════════════════════════════════
+
+    def record_model_decision(self, decision, market, strategy, reason, context=None):
+        """Record an AI model decision (approve/block) for later feedback."""
+        entry = {
+            "decision": decision,  # "approve" or "block"
+            "market": market,
+            "strategy": strategy,
+            "reason": reason,
+            "context": context or {},
+            "time": int(time.time() * 1000),
+            "outcome": None,  # filled in after trade result
+        }
+        self.data["model_decisions"].append(entry)
+        if len(self.data["model_decisions"]) > 200:
+            self.data["model_decisions"] = self.data["model_decisions"][-200:]
+        # Update counts
+        if decision == "approve":
+            self.data["ai_feedback"]["approved"] += 1
+        elif decision == "block":
+            self.data["ai_feedback"]["blocked"] += 1
+        self.save()
+
+    def record_model_feedback(self, profit, market, strategy):
+        """After trade completes, check if AI decision was correct."""
+        # Find most recent approve decision for this market/strategy
+        fb = self.data["ai_feedback"]
+        recent = fb.get("recent", [])
+
+        # Match the last approve decision
+        matched = None
+        for d in reversed(self.data["model_decisions"]):
+            if d["decision"] == "approve" and d["outcome"] is None:
+                if d["market"] == market or d["strategy"] == strategy:
+                    matched = d
+                    break
+
+        if matched:
+            correct = (profit > 0)
+            matched["outcome"] = "correct" if correct else "incorrect"
+            matched["profit"] = profit
+            matched["feedback_time"] = int(time.time() * 1000)
+            if correct:
+                fb["correct"] += 1
+            else:
+                fb["incorrect"] += 1
+
+            fb["recent"].append({
+                "market": market,
+                "strategy": strategy,
+                "profit": profit,
+                "correct": correct,
+                "time": int(time.time() * 1000),
+            })
+            if len(fb["recent"]) > 50:
+                fb["recent"] = fb["recent"][-50:]
+            self.save()
+            return correct
+        return None
+
+    def get_model_accuracy(self):
+        """Get AI model decision accuracy."""
+        fb = self.data.get("ai_feedback", {})
+        approved = fb.get("approved", 0)
+        correct = fb.get("correct", 0)
+        total_evaluated = correct + fb.get("incorrect", 0)
+        accuracy = (correct / total_evaluated * 100) if total_evaluated > 0 else 0
+        return {
+            "approved": approved,
+            "blocked": fb.get("blocked", 0),
+            "correct": correct,
+            "incorrect": fb.get("incorrect", 0),
+            "accuracy_pct": round(accuracy, 1),
+            "total_evaluated": total_evaluated,
+        }
+
+    # ═══════════════════════════════════════════════════════
+    # SESSION MEMORY — carry across restarts
+    # ═══════════════════════════════════════════════════════
+
+    def record_session(self, session_id, pnl, balance, trades, wins, losses,
+                       best_market, best_strategy, mode, duration_seconds):
+        """Persist session summary so new sessions start with knowledge."""
+        entry = {
+            "session_id": session_id,
+            "pnl": round(pnl, 4),
+            "balance": round(balance, 2),
+            "trades": trades,
+            "wins": wins,
+            "losses": losses,
+            "win_rate": round(wins / trades * 100, 1) if trades > 0 else 0,
+            "best_market": best_market,
+            "best_strategy": best_strategy,
+            "mode": mode,
+            "duration_sec": round(duration_seconds, 1),
+            "time": int(time.time() * 1000),
+        }
+        self.data["session_memory"].append(entry)
+        # Keep last 50 sessions
+        if len(self.data["session_memory"]) > 50:
+            self.data["session_memory"] = self.data["session_memory"][-50:]
+        self.save()
+
+    def get_session_insights(self, limit=10):
+        """Get insights from past sessions to avoid repeating mistakes."""
+        sessions = self.data.get("session_memory", [])[-limit:]
+        if not sessions:
+            return None
+
+        total_pnl = sum(s["pnl"] for s in sessions)
+        avg_wr = sum(s["win_rate"] for s in sessions) / len(sessions)
+        best_markets = {}
+        for s in sessions:
+            m = s.get("best_market", "")
+            if m:
+                best_markets[m] = best_markets.get(m, 0) + 1
+        top_market = max(best_markets, key=best_markets.get) if best_markets else None
+
+        return {
+            "sessions": len(sessions),
+            "total_pnl": round(total_pnl, 4),
+            "avg_win_rate": round(avg_wr, 1),
+            "best_market": top_market,
+            "last_mode": sessions[-1].get("mode", "?") if sessions else "?",
+        }
+
+    # ═══════════════════════════════════════════════════════
+    # STRATEGY FAMILIES — aggregate family-level stats
+    # ═══════════════════════════════════════════════════════
+
+    def update_strategy_families(self):
+        """Aggregate strategy stats by family (DIGIT_DIFF, DIGIT_MATCH, etc.)."""
+        families = {}
+        for key, strat in self.data.get("strategies", {}).items():
+            if strat.get("status") == "RETIRED":
+                continue
+            strat_name = strat.get("strategy", "")
+            # Extract family: "DIGIT_DIFF_5" -> "DIGIT_DIFF", "DIGIT_MATCH_3" -> "DIGIT_MATCH"
+            parts = strat_name.split("_")
+            if len(parts) >= 2:
+                family = "_".join(parts[:2])
+            else:
+                family = strat_name
+
+            if family not in families:
+                families[family] = {
+                    "trades": 0, "wins": 0, "losses": 0,
+                    "total_profit": 0, "strategies": 0,
+                }
+            f = families[family]
+            f["trades"] += strat.get("trades", 0)
+            f["wins"] += strat.get("wins", 0)
+            f["losses"] += strat.get("losses", 0)
+            f["total_profit"] = round(f["total_profit"] + strat.get("total_profit", 0), 4)
+            f["strategies"] += 1
+
+        # Calculate family win rates
+        for family, f in families.items():
+            total = f["wins"] + f["losses"]
+            f["win_rate"] = round(f["wins"] / total * 100, 1) if total > 0 else 0
+            f["total_profit"] = round(f["total_profit"], 4)
+
+        self.data["strategy_families"] = families
+        self.save()
+        return families
+
+    def get_family_insights(self):
+        """Get which strategy families are performing best."""
+        families = self.data.get("strategy_families", {})
+        if not families:
+            self.update_strategy_families()
+            families = self.data.get("strategy_families", {})
+
+        ranked = sorted(
+            families.items(),
+            key=lambda x: (x[1].get("total_profit", 0), x[1].get("win_rate", 0)),
+            reverse=True,
+        )
+        return [{"family": k, **v} for k, v in ranked]
+
+    # ═══════════════════════════════════════════════════════
+    # DAILY DRAWDOWN TRACKING
+    # ═══════════════════════════════════════════════════════
+
+    def record_daily_drawdown(self, pnl, balance, daily_limit=10.0):
+        """Track daily drawdown and return if limit breached."""
+        today = time.strftime("%Y-%m-%d")
+        if today not in self.data["daily_drawdown"]:
+            self.data["daily_drawdown"][today] = {
+                "start_balance": balance,
+                "min_balance": balance,
+                "max_loss": 0,
+                "trades": 0,
+                "breached": False,
+            }
+
+        dd = self.data["daily_drawdown"][today]
+        dd["trades"] += 1
+        dd["min_balance"] = min(dd["min_balance"], balance)
+        dd["max_loss"] = round(dd["start_balance"] - dd["min_balance"], 4)
+
+        if dd["max_loss"] >= daily_limit and not dd["breached"]:
+            dd["breached"] = True
+            dd["breach_time"] = int(time.time() * 1000)
+            self.save()
+            return True  # breached
+
+        self.save()
+        return False  # ok
+
+    def is_daily_limit_breached(self):
+        """Check if today's daily drawdown limit is already breached."""
+        today = time.strftime("%Y-%m-%d")
+        dd = self.data["daily_drawdown"].get(today, {})
+        return dd.get("breached", False)
+
+    def get_daily_stats(self):
+        """Get today's trading stats."""
+        today = time.strftime("%Y-%m-%d")
+        return self.data["daily_drawdown"].get(today, {})
+
+    # ═══════════════════════════════════════════════════════
+    # PERSISTENT KNOWLEDGE — consolidate all knowledge
+    # ═══════════════════════════════════════════════════════
+
+    def save_knowledge_snapshot(self, brain_notes=None, model_log=None):
+        """Save a full knowledge snapshot so system restarts with context."""
+        snapshot = {
+            "time": int(time.time() * 1000),
+            "model_accuracy": self.get_model_accuracy(),
+            "session_insights": self.get_session_insights(),
+            "family_insights": self.get_family_insights()[:5],
+            "daily_stats": self.get_daily_stats(),
+            "brain_notes": (brain_notes or [])[-10:],
+            "model_log": (model_log or [])[-10:],
+        }
+        self.data["knowledge_snapshot"] = snapshot
+        self.save()
+
+    def get_knowledge_snapshot(self):
+        """Get latest knowledge snapshot for system restart."""
+        return self.data.get("knowledge_snapshot", {})

@@ -1,0 +1,181 @@
+{
+  "rounds": {
+    "1": {
+      "id": "1",
+      "market": "JD100",
+      "strategies": [
+        "JD25:DIGIT_DIFF_0",
+        "JD10:DIGIT_MATCH_5",
+        "JD50:DIGIT_MATCH_8"
+      ],
+      "competitors": {
+        "JD25:DIGIT_DIFF_0": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        },
+        "JD10:DIGIT_MATCH_5": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        },
+        "JD50:DIGIT_MATCH_8": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        }
+      },
+      "status": "running",
+      "created_at": 1783980140.0172648,
+      "updated_at": 1783980140.0172665,
+      "completed_at": null,
+      "winner": null,
+      "regime": "RANGE_COMPRESSION",
+      "total_trades": 0
+    },
+    "2": {
+      "id": "2",
+      "market": "R_75",
+      "strategies": [
+        "DIGIT_DIFF_6",
+        "DIGIT_DIFF_1",
+        "DIGIT_DIFF_2",
+        "DIGIT_DIFF_3"
+      ],
+      "competitors": {
+        "DIGIT_DIFF_6": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        },
+        "DIGIT_DIFF_1": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        },
+        "DIGIT_DIFF_2": {
+          "trades": 1,
+          "wins": 1,
+          "losses": 0,
+          "total_pnl": 0.0102,
+          "pnl_history": [
+            0.0102
+          ],
+          "score": 0.0
+        },
+        "DIGIT_DIFF_3": {
+          "trades": 0,
+          "wins": 0,
+          "losses": 0,
+          "total_pnl": 0.0,
+          "pnl_history": [],
+          "score": 0.0
+        }
+      },
+      "status": "completed",
+      "created_at": 1784034547.270547,
+      "updated_at": 1784037340.136812,
+      "completed_at": 1784037340.1368299,
+      "winner": "DIGIT_DIFF_6",
+      "regime": "RANGE_COMPRESSION",
+      "total_trades": 1,
+      "ranking": [
+        {
+          "strategy": "DIGIT_DIFF_6",
+          "score": 0.0,
+          "trades": 0,
+          "wr": 0.0,
+          "pnl": 0.0
+        },
+        {
+          "strategy": "DIGIT_DIFF_1",
+          "score": 0.0,
+          "trades": 0,
+          "wr": 0.0,
+          "pnl": 0.0
+        },
+        {
+          "strategy": "DIGIT_DIFF_2",
+          "score": 0.0,
+          "trades": 1,
+          "wr": 100.0,
+          "pnl": 0.0102
+        },
+        {
+          "strategy": "DIGIT_DIFF_3",
+          "score": 0.0,
+          "trades": 0,
+          "wr": 0.0,
+          "pnl": 0.0
+        }
+      ]
+    }
+  },
+  "rankings": {
+    "R_75": [
+      {
+        "strategy": "DIGIT_DIFF_6",
+        "score": 0.0,
+        "trades": 0,
+        "wr": 0.0,
+        "pnl": 0.0
+      },
+      {
+        "strategy": "DIGIT_DIFF_1",
+        "score": 0.0,
+        "trades": 0,
+        "wr": 0.0,
+        "pnl": 0.0
+      },
+      {
+        "strategy": "DIGIT_DIFF_2",
+        "score": 0.0,
+        "trades": 1,
+        "wr": 100.0,
+        "pnl": 0.0102
+      },
+      {
+        "strategy": "DIGIT_DIFF_3",
+        "score": 0.0,
+        "trades": 0,
+        "wr": 0.0,
+        "pnl": 0.0
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "2",
+      "market": "R_75",
+      "winner": "DIGIT_DIFF_6",
+      "regime": "RANGE_COMPRESSION",
+      "strategies": [
+        "DIGIT_DIFF_6",
+        "DIGIT_DIFF_1",
+        "DIGIT_DIFF_2",
+        "DIGIT_DIFF_3"
+      ],
+      "total_trades": 1,
+      "completed_at": 1784037340.1368299
+    }
+  ],
+  "next_round_id": 3,
+  "active_rounds": [
+    "1"
+  ]
+}

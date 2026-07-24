@@ -1,0 +1,1356 @@
+{
+  "hourly_heatmap": {
+    "date": "2026-07-24",
+    "hours": {
+      "10": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "pnl": -0.67
+      },
+      "11": {
+        "trades": 34,
+        "wins": 15,
+        "losses": 19,
+        "pnl": -5.48
+      },
+      "12": {
+        "trades": 12,
+        "wins": 3,
+        "losses": 9,
+        "pnl": -7.17
+      },
+      "13": {
+        "trades": 30,
+        "wins": 15,
+        "losses": 15,
+        "pnl": -5.25
+      },
+      "14": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "pnl": -1.2
+      }
+    }
+  },
+  "win_patterns": [
+    {
+      "market": "JD10",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 1.5299999999988358,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784587054.0421047
+    },
+    {
+      "market": "JD10",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784587636.3732584
+    },
+    {
+      "market": "R_10",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784587654.418459
+    },
+    {
+      "market": "JD25",
+      "strategy": "ODD_BIAS",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784589718.3106053
+    },
+    {
+      "market": "JD75",
+      "strategy": "ODD_BIAS",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784589735.8449445
+    },
+    {
+      "market": "JD25",
+      "strategy": "ODD_BIAS",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784590088.6521335
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784590510.5497904
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784613414.7767427
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784614692.2255986
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784614792.9296153
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 1.1899999999986903,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784614874.4429321
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784617523.5900364
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784617609.240826
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784618398.345833
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784619509.0216343
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.6300000000010186,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784619743.8312714
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784628118.4574237
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.0,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784634037.3948972
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 2.5200000000004366,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784634122.6335034
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 3.569999999999709,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784634267.6625943
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784634653.6841016
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784635388.0615559
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.2899999999990541,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784638016.62054
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 2.0100000000002183,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784638124.1547964
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 1.3799999999991996,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784638431.8528688
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784646698.6449218
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.5299999999988358,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784646934.1156454
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784646954.3402202
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 2.899999999999636,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784647079.2198718
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784651197.1816707
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654084.6162524
+    },
+    {
+      "market": "R_100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654104.203379
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654127.751674
+    },
+    {
+      "market": "R_100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654483.488789
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654615.9066668
+    },
+    {
+      "market": "R_100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784654636.7668304
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.0,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662622.2302866
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 2.0100000000002183,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662671.345859
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 3.5,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662718.6293964
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.430000000000291,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662757.966125
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.0,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662871.029144
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784662979.5150158
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 1.1500000000014552,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663008.4105155
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663223.6341321
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.2299999999995634,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663250.7479799
+    },
+    {
+      "market": "JD50",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 1.1900000000005093,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663383.0104506
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 1.430000000000291,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663401.601769
+    },
+    {
+      "market": "JD50",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 1.430000000000291,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784663499.5630586
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "evening",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784664016.7875824
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9499999999989086,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784669124.4321558
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784669271.9255416
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.9500000000007276,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784669299.1178865
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 1.9200000000000728,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784669344.6816728
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 1.1899999999986903,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "night",
+        "session": "\u2753 Unknown",
+        "balance_range": "mid"
+      },
+      "time": 1784669411.2247372
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784878368.9630938
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784878381.3696976
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784878975.9608948
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 2.04,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784879415.9624891
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784880960.921221
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784881006.097387
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784881048.071402
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784881629.032886
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784882282.8489547
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784882343.8067083
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784882370.390131
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883050.765427
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883060.7303703
+    },
+    {
+      "market": "R_50",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883087.508049
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883127.3530521
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883185.291567
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883379.985204
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883395.3964295
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "morning",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883509.6412966
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784883682.5357664
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_MATCH_7",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784884601.8642297
+    },
+    {
+      "market": "JD100",
+      "strategy": "FALL_TREND",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784886781.3388388
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784887613.6133118
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 0.92,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784887646.84551
+    },
+    {
+      "market": "R_75",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 1.09,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784887705.7556248
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 2.08,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784887729.7836323
+    },
+    {
+      "market": "R_50",
+      "strategy": "DIGIT_DIFF_0",
+      "contract": "PUT",
+      "pnl": 1.38,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784887787.7086666
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784888324.678646
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784888452.1387036
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784888579.6856036
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.19,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784888620.0095227
+    },
+    {
+      "market": "R_25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 1.38,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784888651.4693413
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_MATCH_0",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784890078.9793062
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784890262.7192867
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784890311.3236518
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784890338.4837966
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784890488.2149618
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784891168.6210968
+    },
+    {
+      "market": "JD75",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784891203.8174167
+    },
+    {
+      "market": "JD50",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784891905.0887115
+    }
+  ],
+  "echoes_pending": 3
+}

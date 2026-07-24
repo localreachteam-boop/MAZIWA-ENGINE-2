@@ -1,0 +1,7412 @@
+[
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678438742
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678470831
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678501208
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678531475
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678561752
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678592099
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678622369
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678652718
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678682999
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678713295
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678743661
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678773977
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678804357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678834647
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678864965
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678895333
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678925634
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678956025
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784678986304
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679016618
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679046989
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679077276
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679107667
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679137964
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679168268
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679198619
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679228897
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679259255
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679289528
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679325254
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679364724
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679405666
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679444327
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679483662
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679526705
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679565926
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679602297
+ },
+ {
+  "agent": "tz_intel",
+  "note": "\ud83e\ude78 RECOVERY: trying small trades after grace period",
+  "time": 1784679605557
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679634938
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679665226
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679695526
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679725904
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679756265
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679786651
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784679816919
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784680502375
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784680664481
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784680694800
+ },
+ {
+  "agent": "tz_intel",
+  "note": "\ud83e\ude78 RECOVERY: trying small trades after grace period",
+  "time": 1784680995470
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784681006943
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784681037243
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784681067570
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784681097959
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784681128277
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682009544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682276522
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682306851
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682464405
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682494693
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682525092
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682555414
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784682585753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784683207581
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784683500697
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784683531080
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784684238700
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784686292007
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687166785
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687197101
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687227497
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687257812
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687288118
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687318484
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687348818
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687379228
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687409537
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687439868
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687470263
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784687500580
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688621570
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688771775
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688802072
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688832449
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688862775
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784688893182
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689201311
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689349232
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689782184
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689812510
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689842899
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689873205
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689903536
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689933925
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784689964256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784690110753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784690141054
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784690171376
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691187615
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691217963
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691248363
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691278677
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691308753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691338898
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691803658
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784691909543
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692146832
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692208689
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692806271
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692836332
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692866493
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692896552
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692926624
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692956763
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784692986821
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693016978
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693047039
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693077108
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693107255
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693249374
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693279554
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784693309626
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784694004667
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784694723217
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784694753298
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784694783484
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784694813563
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784695507796
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784695537973
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784695726164
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784695756372
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784696370285
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784696400380
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784696430544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784696525065
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784696560514
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784699700720
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700186425
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700216583
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700246662
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700276845
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700306919
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700337003
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700367167
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700397239
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700427404
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700457490
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700487579
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784700517751
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784702100428
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784702482890
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784702927898
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784702958035
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784702988193
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703018258
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703048439
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703078516
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703108604
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703138787
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703168868
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703199050
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703229160
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703259242
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703289378
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703319449
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703349637
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703379699
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703409779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703439944
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703470026
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703500216
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703565461
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703595549
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703922776
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703952862
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784703983066
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784704142412
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704172656
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704205756
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704239671
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704276515
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704314629
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704351567
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704390657
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704426693
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704465031
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704502512
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704538953
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704576638
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704615354
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704658729
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704700600
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704740579
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704777539
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704807601
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704837784
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704867846
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704897930
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704928081
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704958153
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784704988356
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705018417
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705048498
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705078646
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705108710
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705138855
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705168909
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705198992
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705229129
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705259192
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705289359
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705319421
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705349517
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705379674
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705409753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705439915
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705469971
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705500330
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705531684
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705561737
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705591888
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705622003
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705652074
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705683003
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705713643
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Tick stream stalled >30s",
+  "time": 1784705767506
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705804774
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705834869
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705865013
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705895074
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705925218
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705955263
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784705985324
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706015472
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706045537
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706075709
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706105770
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706135848
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706165991
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706196046
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706226180
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706257560
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706292523
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706328562
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706358641
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706389376
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706419971
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706450050
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706480393
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706510463
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706545244
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706580428
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706611631
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706641794
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706671887
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706702073
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706732131
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706762213
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706792378
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706822450
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706852641
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706882707
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706912789
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706942962
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784706973042
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707003218
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707033284
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707063364
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707095508
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707135537
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707168838
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707207503
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707247498
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707286616
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707325916
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707365607
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707405136
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707445524
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707483910
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707521953
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707561069
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707599527
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707638517
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707678246
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707717444
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707757538
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707795101
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707825915
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707861447
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707900485
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707940507
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784707980488
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708019392
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708058983
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708148407
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708188482
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708227413
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708266430
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708308373
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708346912
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708387425
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708419876
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708458422
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708497337
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708535357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708575434
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708614899
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708655331
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708695327
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708729310
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708767583
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708797647
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708827722
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708857881
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708887957
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708927400
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784708965304
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709005305
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709045304
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709082722
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709120357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709162396
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709202284
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709241309
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709279261
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709318345
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709360275
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709399247
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709439214
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709479231
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709516317
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709556273
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709595235
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709635204
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709676322
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709716303
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709757202
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709798182
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709837191
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709870399
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709900584
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709930650
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709960733
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784709999200
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710038202
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710077270
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710113153
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710152223
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710190200
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710230186
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710269183
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710308165
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710348334
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710388188
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710428150
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710467178
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710505122
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710544127
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710584118
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710624127
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710664214
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710707052
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710748126
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710787070
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710824113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710864182
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710904133
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710944063
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784710984067
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711024117
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711065145
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711102532
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711142058
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711180098
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711218695
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711259621
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711299019
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711339020
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711376951
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711419175
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711458152
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711498030
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711537521
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711576944
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711616007
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711654016
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711693983
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711732931
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711771976
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711811956
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711850993
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711888911
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711929957
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784711968894
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712006980
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712046538
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712085944
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712124940
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712164888
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712204916
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712243565
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712283412
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712313918
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712344078
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712377914
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712415982
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712455878
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712494187
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712533934
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712570862
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712608366
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712645423
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712685885
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712727847
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712809875
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712863931
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712902256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712940819
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784712980796
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713019410
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713058162
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713089792
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713128874
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713166574
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713210792
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713248643
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713287794
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713327789
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713410744
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713450768
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713517811
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713556708
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713594755
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713634750
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713674753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713713903
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713751746
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713790731
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713831720
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713871694
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713910787
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713949714
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784713989785
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714028647
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714068649
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714109800
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714150671
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714190727
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714238662
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714277888
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714322634
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714362142
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714398398
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714428556
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714458635
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714491733
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714529647
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714566626
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714605654
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714642886
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714673035
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714703085
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714733154
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714763282
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714800626
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714831971
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714862024
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714892091
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714922239
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714952350
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784714982529
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715012589
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715042989
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715075635
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715106588
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715136759
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715166832
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715196930
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715227096
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715257169
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715287345
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715317503
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715347704
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715377871
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715407964
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715438724
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715468790
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715498871
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715529035
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715559113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715589341
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715619406
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715649489
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715679652
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715709723
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715739882
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715769950
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715800047
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715830208
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715860281
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715890463
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715920525
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715950614
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784715987096
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716025599
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716066618
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716104551
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716142568
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716180742
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716244789
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716284634
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716324544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716361790
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716397732
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716438500
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716478137
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716509697
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716553528
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716592523
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716627510
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716663612
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716701909
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716738502
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716775597
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716812514
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716851624
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716890682
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716927520
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784716967349
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717009471
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717047946
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717088505
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717125761
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717164048
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717200497
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717233567
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717275326
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717311369
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717346627
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717384432
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717419505
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717458863
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717495413
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717535433
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717573428
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717611067
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717649041
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717687446
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717725414
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717764461
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717804478
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717843439
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717881388
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717919372
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717958351
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784717996423
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718033380
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718069378
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718105401
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718141732
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718179455
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718216366
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718254379
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718288844
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718324328
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718360804
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718391843
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718429352
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718469312
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718507353
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718543705
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718578351
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Ollama unreachable",
+  "time": 1784718616316
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718663105
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718708136
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718765611
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718795693
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718825784
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718859488
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718894556
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718931371
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718964568
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784718995484
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719025648
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719055744
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719085920
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719115997
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719147257
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719185908
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719218676
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719260994
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719307355
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719360383
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719410467
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719459565
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719515149
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719581884
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719635971
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719678653
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719713869
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719760616
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719797833
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719847008
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719887979
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719928272
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784719969301
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720015435
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720058380
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720105341
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720158545
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720195704
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720225791
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720255885
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720286053
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720321327
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720373852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720427283
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720480908
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720539882
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720589483
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720650319
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720714544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720771351
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720823439
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720870434
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720923914
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784720975551
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721021553
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721067523
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721119032
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721158975
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721202506
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721232605
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721262777
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721292870
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721371710
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721475856
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721603083
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721661779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721784811
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721861461
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721891567
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721921660
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784721971003
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722034413
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722101051
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722174889
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722206634
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722254852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722309934
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722368120
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722418819
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722452219
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722508782
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722549116
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722586804
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722631104
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722694641
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784722907945
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723104206
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723362754
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723545161
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723610561
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723659428
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723704075
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723749988
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723781446
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723811548
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723845246
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723883418
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784723941047
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724022200
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724053579
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724156585
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724242309
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724277020
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724318497
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724360524
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724398089
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724433583
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724522080
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724573543
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724614902
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724673002
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724724583
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724798734
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724848423
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724922965
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724953140
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784724983236
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725058753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725183902
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725239592
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725270358
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725303817
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725337024
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725453171
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725522123
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: Tick stream stalled >30s",
+  "time": 1784725690295
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725767011
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725797172
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725827260
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725859547
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784725901887
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726006632
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726090983
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726121852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726151967
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726195113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726246547
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726276736
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726306817
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726342979
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726389649
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726422543
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726452736
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726482817
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726544023
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726619041
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726677763
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726712508
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726866541
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784726951430
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727096693
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727128813
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727162509
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727194194
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727231048
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727261602
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727295235
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727339975
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727376647
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727414004
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727464468
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727494568
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727524715
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727554791
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727584899
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727616068
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727665952
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727728288
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727759984
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727790813
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727821000
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727884047
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727920496
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727954785
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784727985184
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728015343
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728045430
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728075612
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728105684
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728136757
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728166931
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728197462
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728228600
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728258678
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728288779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728318955
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728370141
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728407849
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728446124
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728505828
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728590057
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728633855
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728674964
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728717089
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728763013
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728794733
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728860460
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728891387
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728940626
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784728993726
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729033442
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729078977
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729117113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729158749
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729197430
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729228214
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729272992
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729313732
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729351815
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729384839
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729442222
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729486681
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729534707
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729572232
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729602535
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729633054
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729663143
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729717417
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729752336
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729799920
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729844220
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729904264
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729950321
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784729992194
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730033578
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730072445
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730114136
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730152472
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730192658
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730235581
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730276956
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730312641
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730365108
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730409855
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730440424
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730470593
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730500694
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730530879
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730560952
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730599663
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730642630
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730685175
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730719578
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730749653
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730779738
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730810412
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730849639
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730891120
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730924955
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730955055
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784730985233
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731015323
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731054044
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731099586
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731145697
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731186970
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731235716
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731266248
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731296336
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731326448
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731356632
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731386717
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731442525
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731500511
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731533387
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731564089
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731595185
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731629449
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731687081
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731720994
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731765702
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731807987
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731848594
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731881086
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731911767
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731941960
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784731983356
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732020885
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732084325
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732114431
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732144598
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732174687
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732256802
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732286886
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732317000
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732347426
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732377514
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732407691
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732437773
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732467878
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732498057
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732528159
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732558366
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732588456
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732618563
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732648750
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732678846
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732709015
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732739093
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732769204
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732799383
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784732829488
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733263825
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733293968
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733324048
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733354215
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733392064
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733435400
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733477137
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733518989
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733562411
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733602184
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733648892
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733707126
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733752966
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733800138
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733851471
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733883902
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733914010
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784733953221
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784734215147
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784734816925
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784735423301
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736020958
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736070201
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736100343
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736130442
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736160627
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736190714
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736220816
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736250993
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736281077
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736311215
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736341289
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736371381
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736401543
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736431625
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736461825
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736491911
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736522003
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736552161
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736582258
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736612444
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736642530
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736672629
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736702790
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736732909
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736763130
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736793211
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736823316
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736853509
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736883616
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736913806
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784736943898
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737062876
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737093051
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737123139
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737153314
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737183396
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737213504
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737243680
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737273787
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737303974
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737334064
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737364167
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737394357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737424443
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737454609
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737484705
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737514812
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737544991
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737575095
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737605304
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737635391
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737665503
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737695675
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737725780
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737755971
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737786049
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737816151
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737846322
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737876424
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737906625
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737936719
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737966819
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784737996967
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738027064
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738057262
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738087343
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738117455
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738147632
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738177719
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738207919
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738238014
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738268115
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738298277
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738328363
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738358504
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738388578
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738418673
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738448861
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738478963
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738509149
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738539227
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738569331
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738599487
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738629599
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738659809
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738689899
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738720007
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738750196
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738780300
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738810483
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738840576
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738870675
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738900832
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738930947
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738961151
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784738991236
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739021355
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739051533
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739081636
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739111840
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739141915
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739172027
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739202196
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739232308
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739262509
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739292631
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739322722
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739352901
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784739623906
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740145725
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740175820
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740205928
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740236104
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740266205
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740296402
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740326489
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740356604
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740386803
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740416911
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740447110
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740477212
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740507321
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740537519
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740567624
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740597798
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740627889
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740657997
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740688170
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740718256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740748454
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740778545
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740808655
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740838800
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740868880
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740899059
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740929133
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740959220
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784740989403
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741019490
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741049691
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741079779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741109895
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741140088
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741170193
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784741429143
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784742299935
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784742901076
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784743501847
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784744405078
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784744999993
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784745030113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784745900024
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784746802122
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784746832215
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784746862404
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784746892487
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784746922580
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784747726968
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748299918
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748727765
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748871954
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748902055
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748932232
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784748962328
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784749233606
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784750071304
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784750702942
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784750920852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784750950949
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784750981139
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751011231
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751041346
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751071499
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751101613
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751131832
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751161928
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751192040
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751222230
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751252324
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751282511
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751312600
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751342711
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751372868
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751402974
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751433154
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751463483
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751493601
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751523797
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751553913
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751584123
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751614195
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751644287
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751674454
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784751899930
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752501010
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752699732
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752729800
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752759949
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752790044
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752820171
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752861942
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752915812
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752945963
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784752976054
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753006238
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753036318
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753066418
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753096588
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753126679
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753156821
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753186896
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753216981
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753247127
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753277220
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753307399
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753337474
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753367579
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753397733
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753427815
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753457985
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753488060
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753518155
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753548297
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753578368
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753608524
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753638622
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753668719
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753698879
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753728966
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753759171
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753789245
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753819349
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753849511
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753879608
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753909779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753939855
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784753969934
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754000092
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754030187
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754060380
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754090456
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754120546
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754150703
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754180800
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754210973
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754241054
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754271149
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754301296
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754331366
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754361520
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754391596
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754421684
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754451833
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754481913
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754512057
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754542136
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754572227
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754602377
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754632468
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754662633
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754692704
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754722784
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754752940
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754783017
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754813206
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754843291
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754873397
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754903595
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754933701
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754963892
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784754993994
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755024103
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755054256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755084357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755114504
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755144596
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755174687
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755204877
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755234989
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755265200
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755295309
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755325427
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755355605
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755385693
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755415889
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755445984
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755476096
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755506278
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755536395
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755566592
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755596681
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755626804
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755656995
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755687089
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755717284
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755747363
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755777480
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755807668
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755837768
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755867970
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755898073
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755928186
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755958375
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784755988467
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756018636
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756048726
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756078842
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756109015
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756139128
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756169318
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756199403
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756229500
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756259660
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756289752
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756319917
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756349995
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756380092
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756410253
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756440352
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756470551
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756500641
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756530760
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756560939
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756591028
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756621235
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756651320
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756681449
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756711623
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756741721
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756771920
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756802021
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756832137
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756862312
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756892417
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756922752
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756952855
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784756982952
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757013112
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757043220
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757073445
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757103538
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757133664
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757163847
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757193961
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757224155
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757254242
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757284333
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757314480
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757344574
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757374774
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757404872
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757434984
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757465154
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757495267
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757525471
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757555552
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757585640
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757615804
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757645916
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757676139
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757706236
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757736352
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757766533
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757796645
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757826844
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757856936
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757887048
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757917203
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757947314
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784757977503
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758007588
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758037671
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758067835
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758097928
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758128110
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758158201
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758188317
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758218504
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758248599
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758278772
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758308862
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758338967
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758369141
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758399256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758429451
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758459538
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758489660
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758519852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758549940
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758580122
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758610204
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758640308
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758670489
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758700602
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758730801
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758760897
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758791010
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758821194
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758851296
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758881470
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758911572
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758941672
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784758971860
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759001972
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759032163
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759062261
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759092376
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759122551
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759152678
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759182856
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759212961
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759243077
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759273263
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759303378
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759333598
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759363694
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759393810
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759424006
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759454113
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759484286
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759514383
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759544489
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759574669
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759604794
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759634987
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759665085
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759695202
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759725387
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759755499
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759785698
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759815779
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759845852
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759876051
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759906159
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759936348
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759966452
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784759996569
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760026753
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760056868
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760087043
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760117137
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760147249
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760177434
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760207549
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760237758
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760267856
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760297977
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760328160
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760358256
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760388442
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760418544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760448653
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760478827
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760508929
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760539126
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760569225
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760599348
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760629527
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760659625
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760689828
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760719924
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760750040
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760780217
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760810324
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760840533
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760870642
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760900759
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760930943
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760961059
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784760991254
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761021357
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761051470
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761081672
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761111815
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761142017
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761172108
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761202224
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761232407
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761262512
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761292699
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761322806
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761352904
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761383078
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761413195
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761443397
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761473497
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761503600
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761533784
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761563885
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761594056
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761624133
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761654225
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761684388
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761714468
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761744648
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761774744
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761804857
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761835035
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761865149
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761895356
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761925444
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761955542
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784761985710
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762015825
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762046054
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762076150
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762106269
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762136456
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762166568
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762196768
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762226860
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762256954
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762287134
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762317245
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762347444
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762377545
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762407659
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762437837
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762467942
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762498146
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762528237
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762558340
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762588517
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762618617
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762648808
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762678912
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762709033
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762739212
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762769327
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762799544
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762829631
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762859738
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762889913
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762920016
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762950228
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784762980322
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763010437
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763040742
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763070857
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763101036
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763131124
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763161234
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763191406
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763221522
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763251723
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763281812
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763311934
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763342122
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763372236
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763402418
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763432493
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763462580
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763492732
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763522819
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763553000
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763583109
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763613234
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763643422
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763673534
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763703741
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763733836
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763763942
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763794108
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763824214
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763854432
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763884533
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763914653
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763944844
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784763974956
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764005152
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764035260
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764065362
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764095528
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764125621
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764155816
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764185920
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764216043
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764256888
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764333035
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764411959
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764496897
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764580840
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764641067
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764671185
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764701399
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764731484
+ },
+ {
+  "agent": "network",
+  "note": "TRADING STOPPED: No tick data",
+  "time": 1784764768197
+ }
+]
