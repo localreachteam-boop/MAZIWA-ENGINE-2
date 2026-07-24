@@ -13,5 +13,50 @@
   "time": 1784878369123,
   "hour": 10,
   "session": "\ud83c\udfdb\ufe0f European Mid"
+ },
+ {
+  "market": "R_25",
+  "strategy": "DIGIT_DIFF_0",
+  "contract": "PUT",
+  "digit": null,
+  "stake": 1.0,
+  "profit": 0.92,
+  "balance": 9999.93,
+  "regime": "MEMORY",
+  "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+  "status": "won",
+  "time": 1784878381553,
+  "hour": 10,
+  "session": "\ud83c\udfdb\ufe0f European Mid"
+ },
+ {
+  "market": "JD25",
+  "strategy": "DIGIT_MATCH_0",
+  "contract": "PUT",
+  "digit": null,
+  "stake": 1.0,
+  "profit": 0.95,
+  "balance": 10001.77,
+  "regime": "MEMORY",
+  "reason": "Memory fallback: 13T ev=0.4100",
+  "status": "won",
+  "time": 1784878976099,
+  "hour": 10,
+  "session": "\ud83c\udfdb\ufe0f European Mid"
+ },
+ {
+  "market": "JD75",
+  "strategy": "DIGIT_MATCH_0",
+  "contract": "PUT",
+  "digit": null,
+  "stake": 1.5,
+  "profit": -1.5,
+  "balance": 10001.77,
+  "regime": "MEMORY",
+  "reason": "Memory fallback: 87T ev=0.1447 [digit cooldown]",
+  "status": "lost",
+  "time": 1784878982357,
+  "hour": 10,
+  "session": "\ud83c\udfdb\ufe0f European Mid"
  }
 ]

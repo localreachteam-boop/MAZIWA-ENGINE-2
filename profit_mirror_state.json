@@ -33,10 +33,10 @@
         "pnl": -2.2
       },
       "15": {
-        "trades": 9,
-        "wins": 3,
-        "losses": 6,
-        "pnl": -3.15
+        "trades": 12,
+        "wins": 4,
+        "losses": 8,
+        "pnl": -4.2
       }
     }
   },
@@ -1398,7 +1398,21 @@
         "balance_range": "high"
       },
       "time": 1784895091.8398001
+    },
+    {
+      "market": "JD25",
+      "strategy": "DIGIT_DIFF_1",
+      "contract": "PUT",
+      "pnl": 0.95,
+      "conditions": {
+        "regime": "?",
+        "entropy_range": "medium",
+        "hour_range": "afternoon",
+        "session": "\u2753 Unknown",
+        "balance_range": "high"
+      },
+      "time": 1784896003.6241217
     }
   ],
-  "echoes_pending": 0
+  "echoes_pending": 2
 }

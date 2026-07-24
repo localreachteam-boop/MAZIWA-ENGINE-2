@@ -115,10 +115,10 @@
         "wr": 55.0
       },
       "15": {
-        "trades": 15,
-        "wins": 9,
-        "pnl": 4.43,
-        "wr": 60.0
+        "trades": 17,
+        "wins": 10,
+        "pnl": 4.38,
+        "wr": 58.8
       },
       "16": {
         "trades": 1,
@@ -469,6 +469,12 @@
         "wins": 0,
         "pnl": -4.75,
         "wr": 0.0
+      },
+      "15": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -1.0,
+        "wr": 0.0
       }
     },
     "R_25": {
@@ -577,15 +583,15 @@
     }
   },
   "daily_snapshots": [],
-  "total_compound_earned": 171.75000000000182,
+  "total_compound_earned": 172.7000000000018,
   "streak_peak": 4,
   "best_streak_mult": 1.5,
   "today": "2026-07-24",
-  "daily_wins": 43,
-  "daily_losses": 58,
-  "daily_compound_earned": 43.98000000000003,
+  "daily_wins": 44,
+  "daily_losses": 60,
+  "daily_compound_earned": 44.930000000000035,
   "start_balance": 9896.990000000002,
   "last_balance": 9982.56,
-  "last_pnl": -50.76000000000008,
-  "daily_trades_today": 333
+  "last_pnl": -51.81000000000008,
+  "daily_trades_today": 336
 }

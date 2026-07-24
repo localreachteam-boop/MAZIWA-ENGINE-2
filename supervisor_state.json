@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "today": "2026-07-24",
+  "sessions": [],
+  "current_session": {
+    "start_time": 1784896394.5621092,
+    "trades": [
+      {
+        "market": "R_75",
+        "strategy": "FALL_TREND",
+        "profit": 0.95,
+        "stake": 1.0,
+        "balance": 9985.0,
+        "time": 1784896394562,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "FALL_TREND",
+        "profit": -1.0,
+        "stake": 1.0,
+        "balance": 9984.0,
+        "time": 1784896394563,
+        "context": {}
+      },
+      {
+        "market": "R_75",
+        "strategy": "FALL_TREND",
+        "profit": 0.95,
+        "stake": 1.0,
+        "balance": 9985.0,
+        "time": 1784896394565,
+        "context": {}
+      }
+    ],
+    "decisions": [
+      {
+        "decision": "CHALLENGE",
+        "result": {
+          "approved": false,
+          "challenges": [
+            "Market JD10 is not in the profitable whitelist. What evidence supports trading it?",
+            "Strategy DIGIT_DIFF_1 has PnL $-5.00. Why are we trading a losing strategy?",
+            "Hour 12 is not in the profitable window. What changed?",
+            "Daily loss is $4.00. Are we chasing losses?",
+            "25 trades today. Are we overtrading?"
+          ],
+          "evidence_required": [],
+          "context": {
+            "market": "JD10",
+            "strategy": "DIGIT_DIFF_1",
+            "hour": 12,
+            "daily_loss": 4.0,
+            "trades_today": 25,
+            "strategy_pnl": -5.0
+          },
+          "time": 1784896394567
+        },
+        "time": 1784896394567
+      }
+    ],
+    "changes_made": [],
+    "rollbacks": []
+  },
+  "benchmarks": {},
+  "evolution_log": [],
+  "approved_changes": [],
+  "rejected_changes": [],
+  "performance_history": [
+    {
+      "verdict": "WINNING",
+      "pnl": 0.9,
+      "trades": 3,
+      "wr": 66.7,
+      "failures": [],
+      "successes": [
+        {
+          "type": "STRATEGY_WORKS",
+          "strategy": "FALL_TREND",
+          "wins": 2,
+          "message": "Strategy FALL_TREND had 2 wins"
+        }
+      ],
+      "root_cause": "WORKING",
+      "improvements": [],
+      "timestamp": 1784896394566
+    }
+  ]
+}

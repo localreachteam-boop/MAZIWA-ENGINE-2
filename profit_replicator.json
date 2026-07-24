@@ -134,20 +134,20 @@
       ]
     },
     "JD25|11|DIGIT_DIFF_1": {
-      "trades": 7,
+      "trades": 5,
       "wins": 1,
-      "losses": 6,
-      "pnl": -5.13,
+      "losses": 4,
+      "pnl": -3.13,
       "peak_pnl": 0.0,
-      "consec_losses": 5,
-      "max_consec_losses": 5,
+      "consec_losses": 3,
+      "max_consec_losses": 3,
       "status": "blocked",
       "first_seen": 1784881186.0691192,
-      "last_trade": 1784895313.2747514,
+      "last_trade": 1784882512.9820893,
       "recent_5_pnl": [
+        -1.0,
+        0.95,
         -1.08,
-        -1.0,
-        -1.0,
         -1.0,
         -1.0
       ]
@@ -201,22 +201,20 @@
       ]
     },
     "JD25|12|DIGIT_DIFF_1": {
-      "trades": 5,
+      "trades": 3,
       "wins": 1,
-      "losses": 4,
-      "pnl": -4.01,
+      "losses": 2,
+      "pnl": -2.01,
       "peak_pnl": 0.95,
-      "consec_losses": 4,
-      "max_consec_losses": 4,
+      "consec_losses": 2,
+      "max_consec_losses": 2,
       "status": "blocked",
       "first_seen": 1784883682.5994396,
-      "last_trade": 1784895313.3002782,
+      "last_trade": 1784883852.7063127,
       "recent_5_pnl": [
         0.95,
         -1.61,
-        -1.35,
-        -1.0,
-        -1.0
+        -1.35
       ]
     },
     "R_75|12|DIGIT_MATCH_7": {
@@ -349,21 +347,21 @@
       ]
     },
     "JD25|13|DIGIT_DIFF_1": {
-      "trades": 16,
+      "trades": 14,
       "wins": 8,
-      "losses": 8,
-      "pnl": -3.18,
+      "losses": 6,
+      "pnl": -1.18,
       "peak_pnl": 1.69,
-      "consec_losses": 3,
+      "consec_losses": 1,
       "max_consec_losses": 3,
       "status": "blocked",
       "first_seen": 1784888065.0150592,
-      "last_trade": 1784895313.3241959,
+      "last_trade": 1784890609.531138,
       "recent_5_pnl": [
         0.95,
         0.95,
-        -1.0,
-        -1.0,
+        0.95,
+        0.95,
         -1.0
       ]
     },
@@ -418,22 +416,21 @@
       ]
     },
     "JD25|14|DIGIT_DIFF_1": {
-      "trades": 6,
+      "trades": 4,
       "wins": 1,
-      "losses": 5,
-      "pnl": -4.1,
+      "losses": 3,
+      "pnl": -2.1,
       "peak_pnl": 0.0,
-      "consec_losses": 2,
+      "consec_losses": 0,
       "max_consec_losses": 3,
       "status": "blocked",
       "first_seen": 1784890899.4140716,
-      "last_trade": 1784895313.348311,
+      "last_trade": 1784891168.8095012,
       "recent_5_pnl": [
+        -1.05,
         -1.0,
         -1.0,
-        0.95,
-        -1.0,
-        -1.0
+        0.95
       ]
     },
     "JD75|14|DIGIT_DIFF_1": {
@@ -486,73 +483,60 @@
       ]
     },
     "JD25|15|DIGIT_DIFF_1": {
-      "trades": 11,
-      "wins": 2,
-      "losses": 9,
-      "pnl": -7.1,
+      "trades": 8,
+      "wins": 3,
+      "losses": 5,
+      "pnl": -2.15,
       "peak_pnl": 0.0,
-      "consec_losses": 7,
-      "max_consec_losses": 7,
+      "consec_losses": 0,
+      "max_consec_losses": 3,
       "status": "blocked",
       "first_seen": 1784894668.3062446,
-      "last_trade": 1784895293.3410277,
+      "last_trade": 1784896003.8489637,
       "recent_5_pnl": [
+        0.95,
         -1.0,
         -1.0,
         -1.0,
-        -1.0,
-        -1.0
+        0.95
       ]
     },
-    "JD25|10|DIGIT_DIFF_1": {
-      "trades": 2,
+    "JD75|15|DIGIT_DIFF_1": {
+      "trades": 1,
       "wins": 0,
-      "losses": 2,
-      "pnl": -2.0,
+      "losses": 1,
+      "pnl": -1.0,
       "peak_pnl": 0.0,
-      "consec_losses": 2,
-      "max_consec_losses": 2,
+      "consec_losses": 1,
+      "max_consec_losses": 1,
       "status": "tracking",
-      "first_seen": 1784895313.2317655,
-      "last_trade": 1784895313.2495344,
+      "first_seen": 1784896081.5651703,
+      "last_trade": 1784896081.565194,
       "recent_5_pnl": [
-        -1.0,
         -1.0
       ]
     }
   },
   "blocks": {
     "JD25|11": {
-      "until": 1784929012.8852046,
-      "severity": "critical",
-      "reasons": [
-        "5 consecutive losses",
-        "WR=14% over 7 trades",
-        "3 recent losses in a row"
-      ],
-      "applied": 1784895313.27483,
-      "duration": 14400
-    },
-    "R_25|13": {
-      "until": 1784895214.304372,
+      "until": 1784918212.8852046,
       "severity": "severe",
       "reasons": [
-        "eroded $3.04 from peak"
+        "reversed from $+0.95 to $-3.35",
+        "eroded $4.30 from peak"
       ],
-      "applied": 1784888014.304372,
+      "applied": 1784883577.1700222,
       "duration": 7200
     },
     "JD25|13": {
-      "until": 1784924780.5841537,
-      "severity": "severe",
+      "until": 1784917580.5841537,
+      "severity": "moderate",
       "reasons": [
-        "reversed from $+1.69 to $-3.18",
-        "eroded $4.87 from peak",
-        "3 consecutive losses",
-        "3 recent losses in a row"
+        "reversed from $+1.69 to $-1.18",
+        "eroded $2.87 from peak"
       ],
-      "applied": 1784895313.3242626,
-      "duration": 7200
+      "applied": 1784890609.5312023,
+      "duration": 3600
     },
     "JD75|13": {
       "until": 1784901313.6030989,
@@ -565,12 +549,13 @@
       "duration": 7200
     },
     "JD25|14": {
-      "until": 1784906113.336004,
+      "until": 1784898238.0692601,
       "severity": "severe",
       "reasons": [
-        "WR=17% over 6 trades"
+        "3 consecutive losses",
+        "3 recent losses in a row"
       ],
-      "applied": 1784895313.348368,
+      "applied": 1784891038.0692601,
       "duration": 7200
     },
     "JD50|15": {
@@ -583,88 +568,14 @@
       "duration": 3600
     },
     "JD25|15": {
-      "until": 1784927693.2918155,
-      "severity": "critical",
-      "reasons": [
-        "7 consecutive losses",
-        "WR=18% over 11 trades",
-        "3 recent losses in a row"
-      ],
-      "applied": 1784895293.3410826,
-      "duration": 14400
-    },
-    "JD25|15|DIGIT_DIFF_1": {
-      "until": 1784927693.2918363,
-      "severity": "critical",
-      "reasons": [
-        "7 consecutive losses",
-        "WR=18% over 11 trades",
-        "3 recent losses in a row",
-        "Strategy DIGIT_DIFF_1 dead pattern"
-      ],
-      "applied": 1784895293.341103,
-      "duration": 14400
-    },
-    "JD25|11|DIGIT_DIFF_1": {
-      "until": 1784909713.2748528,
-      "severity": "critical",
-      "reasons": [
-        "5 consecutive losses",
-        "WR=14% over 7 trades",
-        "3 recent losses in a row",
-        "Strategy DIGIT_DIFF_1 dead pattern"
-      ],
-      "applied": 1784895313.2748528,
-      "duration": 14400
-    },
-    "JD25|12": {
-      "until": 1784906113.2875268,
+      "until": 1784903070.1831532,
       "severity": "severe",
       "reasons": [
-        "reversed from $+0.95 to $-4.01",
-        "eroded $4.96 from peak",
-        "4 consecutive losses",
-        "WR=20% over 5 trades",
-        "3 recent losses in a row"
-      ],
-      "applied": 1784895313.3003385,
-      "duration": 7200
-    },
-    "JD25|12|DIGIT_DIFF_1": {
-      "until": 1784906113.2875412,
-      "severity": "severe",
-      "reasons": [
-        "reversed from $+0.95 to $-4.01",
-        "eroded $4.96 from peak",
-        "4 consecutive losses",
-        "WR=20% over 5 trades",
-        "3 recent losses in a row",
-        "Strategy DIGIT_DIFF_1 dead pattern"
-      ],
-      "applied": 1784895313.3003535,
-      "duration": 7200
-    },
-    "JD25|13|DIGIT_DIFF_1": {
-      "until": 1784906113.3121266,
-      "severity": "severe",
-      "reasons": [
-        "reversed from $+1.69 to $-3.18",
-        "eroded $4.87 from peak",
         "3 consecutive losses",
-        "3 recent losses in a row",
-        "Strategy DIGIT_DIFF_1 dead pattern"
+        "WR=29% over 7 trades",
+        "3 recent losses in a row"
       ],
-      "applied": 1784895313.3242815,
-      "duration": 7200
-    },
-    "JD25|14|DIGIT_DIFF_1": {
-      "until": 1784906113.3360245,
-      "severity": "severe",
-      "reasons": [
-        "WR=17% over 6 trades",
-        "Strategy DIGIT_DIFF_1 dead pattern"
-      ],
-      "applied": 1784895313.3483853,
+      "applied": 1784895870.1831532,
       "duration": 7200
     }
   },
@@ -743,6 +654,160 @@
     }
   ],
   "dead_patterns": [
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784459971.455249,
+      "reasons": [
+        "reversed from $+0.95 to $-1.30",
+        "eroded $2.25 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.3,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784460315.9419718,
+      "reasons": [
+        "reversed from $+0.95 to $-2.30",
+        "eroded $3.25 from peak",
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.95,
+      "final_pnl": -2.3,
+      "trades": 4,
+      "wr": 25.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD100|14|FALL_TREND",
+      "time": 1784460487.3198433,
+      "reasons": [
+        "reversed from $+0.92 to $-1.08"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.92,
+      "final_pnl": -1.08,
+      "trades": 3,
+      "wr": 33.3,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784460854.194153,
+      "reasons": [
+        "eroded $3.38 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 4.0,
+      "final_pnl": 0.62,
+      "trades": 7,
+      "wr": 57.1,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD10|14|FALL_TREND",
+      "time": 1784461058.688822,
+      "reasons": [
+        "reversed from $+0.95 to $-1.35",
+        "eroded $2.30 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.95,
+      "final_pnl": -1.35,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD100|14|FALL_TREND",
+      "time": 1784461116.2263668,
+      "reasons": [
+        "reversed from $+0.92 to $-1.41",
+        "eroded $2.33 from peak"
+      ],
+      "severity": "moderate",
+      "peak_pnl": 0.92,
+      "final_pnl": -1.41,
+      "trades": 5,
+      "wr": 40.0,
+      "block_duration": 3600
+    },
+    {
+      "key": "JD25|14|DIGIT_DIFF_1",
+      "time": 1784462101.6977313,
+      "reasons": [
+        "eroded $3.83 from peak"
+      ],
+      "severity": "severe",
+      "peak_pnl": 4.0,
+      "final_pnl": 0.17,
+      "trades": 9,
+      "wr": 55.6,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784585997.4105546,
+      "reasons": [
+        "3 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -2.05,
+      "trades": 3,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784586994.6180243,
+      "reasons": [
+        "4 consecutive losses",
+        "3 recent losses in a row"
+      ],
+      "severity": "severe",
+      "peak_pnl": 0.0,
+      "final_pnl": -3.05,
+      "trades": 4,
+      "wr": 0.0,
+      "block_duration": 7200
+    },
+    {
+      "key": "JD25|1|DIGIT_DIFF_1",
+      "time": 1784587576.3755856,
+      "reasons": [
+        "5 consecutive losses",
+        "WR=0% over 5 trades",
+        "3 recent losses in a row"
+      ],
+      "severity": "critical",
+      "peak_pnl": 0.0,
+      "final_pnl": -4.05,
+      "trades": 5,
+      "wr": 0.0,
+      "block_duration": 14400
+    },
+    {
+      "key": "JD25|10|DIGIT_DIFF_1",
+      "time": 1784620355.2927394,
+      "reasons": [
+        "reversed from $+3.48 to $-1.81",
+        "eroded $5.29 from peak"
+      ],
+      "severity": "critical",
+      "peak_pnl": 3.48,
+      "final_pnl": -1.81,
+      "trades": 6,
+      "wr": 66.7,
+      "block_duration": 14400
+    },
     {
       "key": "JD25|14|DIGIT_DIFF_1",
       "time": 1784634422.4872851,
@@ -1264,7 +1329,7 @@
     },
     {
       "key": "JD25|15|DIGIT_DIFF_1",
-      "time": 1784895293.2918441,
+      "time": 1784895870.1831615,
       "reasons": [
         "3 consecutive losses",
         "WR=29% over 7 trades",
@@ -1275,185 +1340,6 @@
       "final_pnl": -3.1,
       "trades": 7,
       "wr": 28.6,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|15|DIGIT_DIFF_1",
-      "time": 1784895293.305862,
-      "reasons": [
-        "4 consecutive losses",
-        "WR=25% over 8 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.0,
-      "final_pnl": -4.1,
-      "trades": 8,
-      "wr": 25.0,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|15|DIGIT_DIFF_1",
-      "time": 1784895293.3178399,
-      "reasons": [
-        "5 consecutive losses",
-        "WR=22% over 9 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "critical",
-      "peak_pnl": 0.0,
-      "final_pnl": -5.1,
-      "trades": 9,
-      "wr": 22.2,
-      "block_duration": 14400
-    },
-    {
-      "key": "JD25|15|DIGIT_DIFF_1",
-      "time": 1784895293.3292377,
-      "reasons": [
-        "6 consecutive losses",
-        "WR=20% over 10 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "critical",
-      "peak_pnl": 0.0,
-      "final_pnl": -6.1,
-      "trades": 10,
-      "wr": 20.0,
-      "block_duration": 14400
-    },
-    {
-      "key": "JD25|15|DIGIT_DIFF_1",
-      "time": 1784895293.3411098,
-      "reasons": [
-        "7 consecutive losses",
-        "WR=18% over 11 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "critical",
-      "peak_pnl": 0.0,
-      "final_pnl": -7.1,
-      "trades": 11,
-      "wr": 18.2,
-      "block_duration": 14400
-    },
-    {
-      "key": "JD25|11|DIGIT_DIFF_1",
-      "time": 1784895313.2617812,
-      "reasons": [
-        "4 consecutive losses",
-        "WR=17% over 6 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.0,
-      "final_pnl": -4.13,
-      "trades": 6,
-      "wr": 16.7,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|11|DIGIT_DIFF_1",
-      "time": 1784895313.274862,
-      "reasons": [
-        "5 consecutive losses",
-        "WR=14% over 7 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "critical",
-      "peak_pnl": 0.0,
-      "final_pnl": -5.13,
-      "trades": 7,
-      "wr": 14.3,
-      "block_duration": 14400
-    },
-    {
-      "key": "JD25|12|DIGIT_DIFF_1",
-      "time": 1784895313.2875464,
-      "reasons": [
-        "reversed from $+0.95 to $-3.01",
-        "eroded $3.96 from peak",
-        "3 consecutive losses",
-        "3 recent losses in a row"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.95,
-      "final_pnl": -3.01,
-      "trades": 4,
-      "wr": 25.0,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|12|DIGIT_DIFF_1",
-      "time": 1784895313.3003592,
-      "reasons": [
-        "reversed from $+0.95 to $-4.01",
-        "eroded $4.96 from peak",
-        "4 consecutive losses",
-        "WR=20% over 5 trades",
-        "3 recent losses in a row"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.95,
-      "final_pnl": -4.01,
-      "trades": 5,
-      "wr": 20.0,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|13|DIGIT_DIFF_1",
-      "time": 1784895313.31213,
-      "reasons": [
-        "reversed from $+1.69 to $-2.18",
-        "eroded $3.87 from peak"
-      ],
-      "severity": "severe",
-      "peak_pnl": 1.69,
-      "final_pnl": -2.18,
-      "trades": 15,
-      "wr": 53.3,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|13|DIGIT_DIFF_1",
-      "time": 1784895313.3242877,
-      "reasons": [
-        "reversed from $+1.69 to $-3.18",
-        "eroded $4.87 from peak",
-        "3 consecutive losses",
-        "3 recent losses in a row"
-      ],
-      "severity": "severe",
-      "peak_pnl": 1.69,
-      "final_pnl": -3.18,
-      "trades": 16,
-      "wr": 50.0,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|14|DIGIT_DIFF_1",
-      "time": 1784895313.3360279,
-      "reasons": [
-        "WR=20% over 5 trades"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.0,
-      "final_pnl": -3.1,
-      "trades": 5,
-      "wr": 20.0,
-      "block_duration": 7200
-    },
-    {
-      "key": "JD25|14|DIGIT_DIFF_1",
-      "time": 1784895313.3483915,
-      "reasons": [
-        "WR=17% over 6 trades"
-      ],
-      "severity": "severe",
-      "peak_pnl": 0.0,
-      "final_pnl": -4.1,
-      "trades": 6,
-      "wr": 16.7,
       "block_duration": 7200
     }
   ],
@@ -1612,7 +1498,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895149.477838
+      "timestamp": 1784895982.2799137
     },
     "R_25|15": {
       "confidence": 56,
@@ -1624,7 +1510,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895149.497144
+      "timestamp": 1784895976.8823595
     },
     "R_100|15": {
       "confidence": 56,
@@ -1672,7 +1558,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784894978.5096474
+      "timestamp": 1784895940.9788823
     },
     "JD25|15": {
       "confidence": 56,
@@ -1684,7 +1570,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784894978.5672889
+      "timestamp": 1784895982.318333
     },
     "R_50|15": {
       "confidence": 56,
@@ -1708,7 +1594,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895149.515739
+      "timestamp": 1784895982.2987666
     },
     "JD100|15": {
       "confidence": 56,
@@ -1720,7 +1606,7 @@
       "consec_confidence": 80,
       "loss_from_peak": 0,
       "consec_losses": 0,
-      "timestamp": 1784895149.4586246
+      "timestamp": 1784895982.259784
     },
     "R_75|16": {
       "confidence": 56,

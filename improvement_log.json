@@ -1,57 +1,6 @@
 {
   "improvements": [
     {
-      "cycle": 1024,
-      "trades_analyzed": 1075,
-      "winners_found": 11,
-      "losers_found": 51,
-      "actions": [
-        {
-          "type": "PROMOTE",
-          "strategy": "JD25:DIGIT_DIFF_1",
-          "reason": "EV=1.5585, WR=83%, 18T",
-          "confidence": 0.86,
-          "time": 1784309157084
-        },
-        {
-          "type": "PROMOTE",
-          "strategy": "JD25:DIGIT_DIFF_5",
-          "reason": "EV=0.1998, WR=88%, 17T",
-          "confidence": 0.8400000000000001,
-          "time": 1784309157085
-        },
-        {
-          "type": "PROMOTE",
-          "strategy": "R_75:FALL_TREND",
-          "reason": "EV=0.1474, WR=67%, 103T",
-          "confidence": 0.9,
-          "time": 1784309157085
-        },
-        {
-          "type": "DEPRIORITIZE",
-          "strategy": "JD75:DIGIT_DIFF_0",
-          "reason": "EV=-3.7500, WR=0%, 6T",
-          "confidence": 0.5,
-          "time": 1784309157085
-        },
-        {
-          "type": "DEPRIORITIZE",
-          "strategy": "R_10:DIGIT_DIFF_0",
-          "reason": "EV=-3.6000, WR=0%, 5T",
-          "confidence": 0.5,
-          "time": 1784309157085
-        },
-        {
-          "type": "DEPRIORITIZE",
-          "strategy": "R_100:DIGIT_DIFF_0",
-          "reason": "EV=-3.5000, WR=0%, 5T",
-          "confidence": 0.5,
-          "time": 1784309157085
-        }
-      ],
-      "time": 1784309157085
-    },
-    {
       "cycle": 1025,
       "trades_analyzed": 1075,
       "winners_found": 11,
@@ -5099,8 +5048,59 @@
         }
       ],
       "time": 1784890293384
+    },
+    {
+      "cycle": 1124,
+      "trades_analyzed": 1777,
+      "winners_found": 6,
+      "losers_found": 76,
+      "actions": [
+        {
+          "type": "PROMOTE",
+          "strategy": "JD25:ODD_BIAS",
+          "reason": "EV=0.3117, WR=67%, 12T",
+          "confidence": 0.74,
+          "time": 1784896059034
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "JD100:FALL_TREND",
+          "reason": "EV=0.1535, WR=59%, 88T",
+          "confidence": 0.9,
+          "time": 1784896059034
+        },
+        {
+          "type": "PROMOTE",
+          "strategy": "R_75:FALL_TREND",
+          "reason": "EV=0.0979, WR=63%, 130T",
+          "confidence": 0.9,
+          "time": 1784896059034
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_10:DIGIT_DIFF_0",
+          "reason": "EV=-3.6000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784896059034
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "R_100:DIGIT_DIFF_0",
+          "reason": "EV=-3.5000, WR=0%, 5T",
+          "confidence": 0.5,
+          "time": 1784896059034
+        },
+        {
+          "type": "DEPRIORITIZE",
+          "strategy": "JD75:DIGIT_DIFF_0",
+          "reason": "EV=-3.0100, WR=14%, 7T",
+          "confidence": 0.5,
+          "time": 1784896059034
+        }
+      ],
+      "time": 1784896059034
     }
   ],
-  "total": 1123,
-  "successful": 1123
+  "total": 1124,
+  "successful": 1124
 }

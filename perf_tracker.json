@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "targets": {
+    "win_rate_min": 55.0,
+    "win_rate_target": 60.0,
+    "max_drawdown": 10.0,
+    "max_daily_loss": 5.0,
+    "min_profit_factor": 1.2,
+    "max_trades_per_day": 20,
+    "min_ev_per_trade": 0.01,
+    "target_daily_pnl": 2.0,
+    "target_monthly_pnl": 60.0
+  },
+  "current": {
+    "trades_today": 3,
+    "wins_today": 2,
+    "pnl_today": 0.9,
+    "peak_balance": 9985.0,
+    "current_balance": 9985.0,
+    "max_drawdown_today": 1.0,
+    "quality_opps_found": 0,
+    "quality_opps_taken": 0,
+    "avg_execution_ms": 1567.0
+  },
+  "history": [],
+  "rollbacks": [],
+  "improvements": []
+}

@@ -564,6 +564,8 @@ from agents.ymcrc import YieldGatekeeper
 from agents.bunch_runner import BunchRunner
 from agents.profit_mirror import ProfitMirror
 from agents.mission_tracker import MissionTracker
+from agents.supervisor import Supervisor
+from agents.perf_tracker import PerformanceTracker
 
 class AgentTools:
     """Wraps 7 agents as tools the brain can call."""
@@ -605,6 +607,8 @@ class AgentTools:
         self.bunch_runner = BunchRunner()
         self.profit_mirror = ProfitMirror()
         self.mission_tracker = MissionTracker()
+        self.supervisor = Supervisor()
+        self.perf_tracker = PerformanceTracker()
         self.anomaly = AnomalyDetector()
         self.state_brain = MarketStateBrain()
         self.initialized = False
@@ -829,6 +833,22 @@ class AgentTools:
         log_sys(f"NEXUS approved {strategy}/{market}: conf={conf} [{model}]", "info")
         try:
             tools.memory.record_model_decision("approve", market, strategy, reason, {"confidence": conf, "model": model})
+        except: pass
+        # SUPERVISOR CHALLENGE: audit this decision before execution
+        try:
+            _supCtx = {
+                "market": market, "strategy": strategy,
+                "hour": int(time.strftime('%H')),
+                "daily_loss": abs(min(0, risk.pnl)),
+                "trades_today": risk.total,
+                "strategy_pnl": tools.memory.strategies.get(f"{market}:{strategy}", {}).get("total_profit", 0),
+            }
+            _supResult = tools.supervisor.challenge(result, _supCtx)
+            if not _supResult.get("approved", True):
+                _challenges = _supResult.get("challenges", [])
+                if _challenges:
+                    log_agent("supervisor", f"CHALLENGED: {_challenges[0][:80]}")
+                    return False, f"supervisor_blocked: {_challenges[0][:60]}", result
         except: pass
         return True, "nexus_approved", result
 
@@ -5001,6 +5021,16 @@ async def main():
                             for m in MARKET_LIST
                         ],
                     }
+                    # SUPERVISOR + PERF TRACKER status for dashboard
+                    try:
+                        state_out["supervisor"] = tools.supervisor.get_status()
+                        state_out["perf_tracker"] = tools.perf_tracker.get_status()
+                        state_out["mission_config"] = {
+                            "name": MISSION_CONFIG.get("name", "Default"),
+                            "targets": MISSION_CONFIG.get("targets", {}),
+                            "rules_active": bool(MISSION_CONFIG.get("rules")),
+                        }
+                    except: pass
                     save_state(state_out)
                     if cycle % 30 == 0:
                         print(f'  [WATCHER] State saved cycle={cycle} trades={risk.total} pnl=\${risk.pnl:+.2f} agent_notes={len(state_out.get("agent_notes",[]))}', flush=True)
@@ -6433,6 +6463,29 @@ async def main():
                         log_agent("profit_guard", "Session reset — all guards cleared")
                     except: pass
                     log_sys(f"Session #{session_entry['session_id']} closed: ${session_entry['pnl']:+.4f}", "win" if session_entry["pnl"] > 0 else "loss")
+                    # ════ SUPERVISOR: session review + benchmark ════
+                    try:
+                        _ses_wr = session_entry.get('wins', 0) / session_entry.get('trades', 1) * 100 if session_entry.get('trades', 0) > 0 else 0
+                        _review = tools.supervisor.review_session(
+                            session_entry['pnl'], session_entry.get('trades', 0), _ses_wr
+                        )
+                        _bench = tools.supervisor.benchmark(session_entry['pnl'], _ses_wr, session_entry.get('trades', 0))
+                        log_agent("supervisor", f"REVIEW: {_review['verdict']} PnL=${session_entry['pnl']:+.2f} WR={_ses_wr:.0f}% root={_review['root_cause']}")
+                        if _review.get('failures'):
+                            for _f in _review['failures'][:2]:
+                                log_agent("supervisor", f"  FAILURE: {_f['message']}")
+                        if _review.get('improvements'):
+                            for _imp in _review['improvements'][:2]:
+                                log_agent("supervisor", f"  IMPROVE: {_imp['action']} → {_imp['target']}")
+                        if _bench.get('trend') == 'DECLINING':
+                            log_agent("supervisor", f"TREND: DECLINING — avg PnL=${_bench.get('avg_pnl', 0):.2f}")
+                        elif _bench.get('trend') == 'IMPROVING':
+                            log_agent("supervisor", f"TREND: IMPROVING — avg PnL=${_bench.get('avg_pnl', 0):.2f}")
+                        # Perf tracker end of day
+                        _perf_report = tools.perf_tracker.end_of_day_review()
+                        log_agent("perf", f"EOD: {_perf_report['trades']}T WR={_perf_report['win_rate']}% PnL=${_perf_report['pnl']:+.2f} targets={_perf_report['targets_met']}")
+                    except Exception as _sup_err:
+                        pass
             
             # ── BUNCH RUNNER: feed trade result ──
             br = tools.bunch_runner
@@ -6565,6 +6618,24 @@ async def main():
                     best_data.get('strategy', 'ALL'), best_market, profit,
                     execution_time_ms=exec_latency_ms
                 )
+                # PERF TRACKER: record trade for measurable targets
+                try:
+                    tools.perf_tracker.record_trade(profit, risk.balance, exec_latency_ms)
+                    tools.perf_tracker.record_opportunity(True, taken=True)
+                    # Check if targets are being met
+                    _pt_targets = tools.perf_tracker.check_targets()
+                    if not _pt_targets["all_met"]:
+                        for _v in _pt_targets.get("violations", []):
+                            if _v.get("severity") == "CRITICAL":
+                                log_agent("perf", f"TARGET VIOLATION: {_v['target']} = {_v['current']} (limit: {_v.get('limit', _v.get('minimum', '?'))})")
+                except: pass
+                # SUPERVISOR: record trade for session review
+                try:
+                    tools.supervisor.record_trade(
+                        best_market, best_data.get('strategy', 'ALL'),
+                        profit, stake, risk.balance
+                    )
+                except: pass
                 tools.diagnostic.update_tick_health(
                     0,  # tick_age — updated from heartbeat separately
                     0   # network_failures — updated from heartbeat separately
