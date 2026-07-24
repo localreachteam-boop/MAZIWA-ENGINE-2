@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "kills": 5763,
+  "kills": 5786,
   "swaps": 0,
   "kills_by_contract": {
     "DIGITDIFF": 1,
-    "DIGITODD": 5409,
+    "DIGITODD": 5432,
     "DIGITEVEN": 353
   },
   "last_kill": {
     "contract": "DIGITODD",
     "net_yield": 0.5,
-    "time": 1784894619.8691034,
+    "time": 1784895061.9494755,
     "swap_to": "RISE"
   },
   "blocked_contracts": [

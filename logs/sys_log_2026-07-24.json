@@ -20918,5 +20918,1420 @@
   "message": "Strategy retired: JD25:DIGIT_MATCH_7",
   "log_type": "warn",
   "time": 1784894567444
+ },
+ {
+  "message": "Strategy retired: JD50:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894567737
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894568026
+ },
+ {
+  "message": "Strategy retired: JD25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894568334
+ },
+ {
+  "message": "Strategy retired: R_75:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894568626
+ },
+ {
+  "message": "Strategy retired: R_75:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894568906
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784894569196
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894569613
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894569975
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784894570257
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894570540
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784894570810
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894571087
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894571377
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894571681
+ },
+ {
+  "message": "Strategy retired: R_25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894571957
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894572251
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894572542
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894572820
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_6",
+  "log_type": "warn",
+  "time": 1784894573113
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894573394
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894573673
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894573948
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894574221
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894574492
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894574766
+ },
+ {
+  "message": "Strategy retired: R_100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894575039
+ },
+ {
+  "message": "Strategy retired: JD10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894575317
+ },
+ {
+  "message": "Strategy retired: R_10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894575602
+ },
+ {
+  "message": "Strategy retired: JD100:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894575888
+ },
+ {
+  "message": "Strategy retired: R_75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894576174
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894576461
+ },
+ {
+  "message": "Strategy retired: JD25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894576743
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894577022
+ },
+ {
+  "message": "Strategy retired: R_10:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894577304
+ },
+ {
+  "message": "Strategy retired: R_10:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894577588
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894577870
+ },
+ {
+  "message": "Trade: JD50 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784894578281
+ },
+ {
+  "message": "Session #36 force-exit: strategy retired",
+  "log_type": "warn",
+  "time": 1784894580019
+ },
+ {
+  "message": "Session #37 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784894640421
+ },
+ {
+  "message": "Bunch started: JD25 DIGIT_DIFF_1 score=55.46 size=8",
+  "log_type": "info",
+  "time": 1784894645024
+ },
+ {
+  "message": "Session #37 closed: $-1.0000",
+  "log_type": "loss",
+  "time": 1784894649945
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894651222
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894651511
+ },
+ {
+  "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894651831
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894652226
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+  "log_type": "warn",
+  "time": 1784894652706
+ },
+ {
+  "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894653021
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894653390
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894653683
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_1",
+  "log_type": "warn",
+  "time": 1784894653959
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894654238
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894654521
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894654800
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_2",
+  "log_type": "warn",
+  "time": 1784894655076
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894655346
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_9",
+  "log_type": "warn",
+  "time": 1784894655627
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894655915
+ },
+ {
+  "message": "Strategy retired: JD50:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894656187
+ },
+ {
+  "message": "Strategy retired: JD50:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894656459
+ },
+ {
+  "message": "Strategy retired: JD25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894656736
+ },
+ {
+  "message": "Strategy retired: R_75:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894657009
+ },
+ {
+  "message": "Strategy retired: R_75:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894657282
+ },
+ {
+  "message": "Strategy retired: R_75:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894657558
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894657882
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894658172
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894658454
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784894658735
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894659008
+ },
+ {
+  "message": "Strategy retired: JD50:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894659283
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894659563
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784894659843
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894660125
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894660406
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784894660840
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894661184
+ },
+ {
+  "message": "Strategy retired: R_25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894661506
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894661780
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894662048
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894662319
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894662588
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_6",
+  "log_type": "warn",
+  "time": 1784894663070
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894663356
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_6",
+  "log_type": "warn",
+  "time": 1784894663630
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894663903
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894664180
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894664492
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894664789
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894665062
+ },
+ {
+  "message": "Strategy retired: R_100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894665340
+ },
+ {
+  "message": "Strategy retired: JD10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894665625
+ },
+ {
+  "message": "Strategy retired: R_10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894665922
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894666206
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894666490
+ },
+ {
+  "message": "Strategy retired: R_25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894666782
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894667155
+ },
+ {
+  "message": "Strategy retired: R_10:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894667502
+ },
+ {
+  "message": "Strategy retired: R_10:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894667880
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894668197
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784894668665
+ },
+ {
+  "message": "Strategy switch: PUT \u2192 directional (after 3 losses)",
+  "log_type": "warn",
+  "time": 1784894669185
+ },
+ {
+  "message": "Goal switched: RECOVERY",
+  "log_type": "info",
+  "time": 1784894830965
+ },
+ {
+  "message": "Mode: OPTIMAL -> RECOVERY",
+  "log_type": "info",
+  "time": 1784894831246
+ },
+ {
+  "message": "Session #38 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784894892611
+ },
+ {
+  "message": "Session #38 force-exit: strategy retired",
+  "log_type": "warn",
+  "time": 1784894894335
+ },
+ {
+  "message": "Session #39 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784894899941
+ },
+ {
+  "message": "Session #39 closed: $-1.0000",
+  "log_type": "loss",
+  "time": 1784894904760
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894905783
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894906067
+ },
+ {
+  "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894906349
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894906632
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+  "log_type": "warn",
+  "time": 1784894906912
+ },
+ {
+  "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894907217
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894907498
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_1",
+  "log_type": "warn",
+  "time": 1784894907785
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894908069
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894908354
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894908630
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_2",
+  "log_type": "warn",
+  "time": 1784894908912
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894909198
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_9",
+  "log_type": "warn",
+  "time": 1784894909474
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894909752
+ },
+ {
+  "message": "Strategy retired: JD50:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894910045
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894910327
+ },
+ {
+  "message": "Strategy retired: JD25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894910617
+ },
+ {
+  "message": "Strategy retired: R_75:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894910899
+ },
+ {
+  "message": "Strategy retired: R_75:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894911182
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894911458
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894911742
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894912026
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894912315
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784894912599
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894912880
+ },
+ {
+  "message": "Strategy retired: JD25:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894913173
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894913467
+ },
+ {
+  "message": "Strategy retired: R_25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894913750
+ },
+ {
+  "message": "Strategy retired: R_25:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894914031
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894914318
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894914597
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894914878
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894915162
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_6",
+  "log_type": "warn",
+  "time": 1784894915448
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894915730
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894916009
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894916293
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894916576
+ },
+ {
+  "message": "Strategy retired: R_100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894916871
+ },
+ {
+  "message": "Strategy retired: JD10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894917153
+ },
+ {
+  "message": "Strategy retired: R_10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894917437
+ },
+ {
+  "message": "Strategy retired: R_75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894917721
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894918003
+ },
+ {
+  "message": "Strategy retired: JD25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894918289
+ },
+ {
+  "message": "Strategy retired: R_25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894918565
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894918844
+ },
+ {
+  "message": "Strategy retired: R_10:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894919127
+ },
+ {
+  "message": "Strategy retired: R_10:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894919410
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894919695
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $-1.00",
+  "log_type": "loss",
+  "time": 1784894920119
+ },
+ {
+  "message": "Strategy switch: PUT \u2192 parity (after 4 losses)",
+  "log_type": "warn",
+  "time": 1784894920613
+ },
+ {
+  "message": "Cycle 1450 | bal=$9982.56 pnl=$+12.75 streak=L4 mode=RECOVERY",
+  "log_type": "info",
+  "time": 1784894954551
+ },
+ {
+  "message": "Session #40 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784894965318
+ },
+ {
+  "message": "Session #40 force-exit: strategy retired",
+  "log_type": "warn",
+  "time": 1784894966122
+ },
+ {
+  "message": "Session #41 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784894979019
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894983599
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894984004
+ },
+ {
+  "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894984423
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894984892
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+  "log_type": "warn",
+  "time": 1784894985316
+ },
+ {
+  "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784894985611
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784894985941
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784894986233
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_1",
+  "log_type": "warn",
+  "time": 1784894986515
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894986802
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784894987084
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_2",
+  "log_type": "warn",
+  "time": 1784894987367
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894987648
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_9",
+  "log_type": "warn",
+  "time": 1784894987938
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784894988216
+ },
+ {
+  "message": "Strategy retired: JD50:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894988502
+ },
+ {
+  "message": "Strategy retired: JD25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894988783
+ },
+ {
+  "message": "Strategy retired: R_75:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894989079
+ },
+ {
+  "message": "Strategy retired: JD100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894989451
+ },
+ {
+  "message": "Strategy retired: R_75:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784894989740
+ },
+ {
+  "message": "Strategy retired: R_75:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894990054
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894990362
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784894990640
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894990937
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894991235
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784894991520
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784894991813
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894992105
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894992390
+ },
+ {
+  "message": "Strategy retired: JD25:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894992689
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894993034
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784894993372
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894993717
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784894994061
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_6",
+  "log_type": "warn",
+  "time": 1784894994352
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894994650
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784894994936
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784894995222
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894995509
+ },
+ {
+  "message": "Strategy retired: R_100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894995794
+ },
+ {
+  "message": "Strategy retired: JD10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894996086
+ },
+ {
+  "message": "Strategy retired: R_10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784894996375
+ },
+ {
+  "message": "Strategy retired: R_75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894996664
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894996952
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894997238
+ },
+ {
+  "message": "Strategy retired: JD25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894997533
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784894997816
+ },
+ {
+  "message": "Strategy retired: R_10:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784894998103
+ },
+ {
+  "message": "Strategy retired: R_10:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784894998387
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784894998676
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784894999305
+ },
+ {
+  "message": "Experiment proposed: market_probe #79",
+  "log_type": "info",
+  "time": 1784895000638
+ },
+ {
+  "message": "Session #41 force-exit: strategy retired",
+  "log_type": "warn",
+  "time": 1784895001365
+ },
+ {
+  "message": "Goal switched: OPTIMAL",
+  "log_type": "info",
+  "time": 1784895007085
+ },
+ {
+  "message": "Mode: RECOVERY -> OPTIMAL",
+  "log_type": "info",
+  "time": 1784895007448
+ },
+ {
+  "message": "Cycle 1500 | bal=$9982.56 pnl=$+13.70 streak=W1 mode=OPTIMAL",
+  "log_type": "info",
+  "time": 1784895061415
+ },
+ {
+  "message": "Session #42 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784895068164
+ },
+ {
+  "message": "Scoring error: 'EfficiencyAgent' object has no attribute 'blacklist'",
+  "log_type": "warn",
+  "time": 1784895070645
+ },
+ {
+  "message": "Evolution error: unsupported operand type(s) for +: 'int' and 'dict'",
+  "log_type": "warn",
+  "time": 1784895072552
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895077396
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784895077693
+ },
+ {
+  "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895078003
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895078339
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+  "log_type": "warn",
+  "time": 1784895078614
+ },
+ {
+  "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895078922
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784895079239
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_1",
+  "log_type": "warn",
+  "time": 1784895079550
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_5",
+  "log_type": "warn",
+  "time": 1784895079894
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784895080187
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_5",
+  "log_type": "warn",
+  "time": 1784895080479
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_2",
+  "log_type": "warn",
+  "time": 1784895080747
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784895081017
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_9",
+  "log_type": "warn",
+  "time": 1784895081295
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_7",
+  "log_type": "warn",
+  "time": 1784895081561
+ },
+ {
+  "message": "Strategy retired: JD50:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784895081848
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784895082143
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_1",
+  "log_type": "warn",
+  "time": 1784895082423
+ },
+ {
+  "message": "Strategy retired: JD100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784895082702
+ },
+ {
+  "message": "Strategy retired: R_75:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784895083003
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_9",
+  "log_type": "warn",
+  "time": 1784895083280
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_3",
+  "log_type": "warn",
+  "time": 1784895083571
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784895083871
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784895084145
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784895084413
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784895084690
+ },
+ {
+  "message": "Strategy retired: JD50:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784895084965
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784895085235
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784895085507
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_7",
+  "log_type": "warn",
+  "time": 1784895085776
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784895086055
+ },
+ {
+  "message": "Strategy retired: JD25:ODD_BIAS",
+  "log_type": "warn",
+  "time": 1784895086322
+ },
+ {
+  "message": "Strategy retired: R_25:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784895086591
+ },
+ {
+  "message": "Strategy retired: R_25:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784895086861
+ },
+ {
+  "message": "Strategy retired: R_75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784895087134
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_8",
+  "log_type": "warn",
+  "time": 1784895087399
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_DIFF_2",
+  "log_type": "warn",
+  "time": 1784895087677
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784895087972
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_DIFF_4",
+  "log_type": "warn",
+  "time": 1784895088245
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784895088514
+ },
+ {
+  "message": "Strategy retired: R_100:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784895088787
+ },
+ {
+  "message": "Strategy retired: JD10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784895089054
+ },
+ {
+  "message": "Strategy retired: R_10:FALL_TREND",
+  "log_type": "warn",
+  "time": 1784895089327
+ },
+ {
+  "message": "Strategy retired: JD100:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784895089610
+ },
+ {
+  "message": "Strategy retired: JD50:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784895090094
+ },
+ {
+  "message": "Strategy retired: JD25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784895090401
+ },
+ {
+  "message": "Strategy retired: R_25:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784895090674
+ },
+ {
+  "message": "Strategy retired: JD75:MOMENTUM_DOWN",
+  "log_type": "warn",
+  "time": 1784895090948
+ },
+ {
+  "message": "Strategy retired: R_10:RISE_TREND",
+  "log_type": "warn",
+  "time": 1784895091223
+ },
+ {
+  "message": "Strategy retired: R_10:MOMENTUM_UP",
+  "log_type": "warn",
+  "time": 1784895091493
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_MATCH_0",
+  "log_type": "warn",
+  "time": 1784895091764
+ },
+ {
+  "message": "Trade: JD25 PUT $1.00 \u2192 $+0.95",
+  "log_type": "win",
+  "time": 1784895092374
+ },
+ {
+  "message": "Market rotation: 5 trades on JD25",
+  "log_type": "info",
+  "time": 1784895093912
+ },
+ {
+  "message": "Session #42 force-exit: strategy retired",
+  "log_type": "warn",
+  "time": 1784895094514
+ },
+ {
+  "message": "Session #43 started: JD25 DIGIT_DIFF_1",
+  "log_type": "info",
+  "time": 1784895100387
+ },
+ {
+  "message": "Strategy retired: JD75:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895117814
+ },
+ {
+  "message": "Strategy retired: JD25:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784895118102
+ },
+ {
+  "message": "Strategy retired: R_10:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895118406
+ },
+ {
+  "message": "Strategy retired: JD50:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895118705
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_4",
+  "log_type": "warn",
+  "time": 1784895119017
+ },
+ {
+  "message": "Strategy retired: R_100:DIGIT_DIFF_0",
+  "log_type": "warn",
+  "time": 1784895119301
+ },
+ {
+  "message": "Strategy retired: JD100:DIGIT_MATCH_6",
+  "log_type": "warn",
+  "time": 1784895119590
  }
 ]

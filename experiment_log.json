@@ -1528,17 +1528,18 @@
       "description": "Explore a new market with existing strategies",
       "min_trades": 10,
       "budget_trades": 20,
-      "trades_taken": 9,
+      "trades_taken": 10,
       "wins": 4,
-      "losses": 5,
-      "total_pnl": -1.2500000000000004,
-      "status": "running",
+      "losses": 6,
+      "total_pnl": -2.2500000000000004,
+      "status": "archived",
       "created_at": 1784890263.8659708,
-      "updated_at": 1784894668.2900608,
+      "updated_at": 1784894919.7743309,
       "priority_score": 1.55,
-      "conclusion": null,
+      "conclusion": "FAILED: WR=40% EV=-0.2250",
       "reason": "Knowledge gap: Only 0 trades recorded",
-      "knowledge_gap_score": 3.0
+      "knowledge_gap_score": 3.0,
+      "completed_at": 1784894919.7744026
     },
     "78": {
       "id": "78",
@@ -1559,9 +1560,73 @@
       "conclusion": null,
       "reason": "Knowledge gap: Only 0 trades recorded",
       "knowledge_gap_score": 3.0
+    },
+    "79": {
+      "id": "79",
+      "type": "market_probe",
+      "market": "JD100",
+      "strategy": "DIGIT_DIFF_9",
+      "description": "Explore a new market with existing strategies",
+      "min_trades": 10,
+      "budget_trades": 20,
+      "trades_taken": 0,
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0.0,
+      "status": "running",
+      "created_at": 1784895000.4284708,
+      "updated_at": 1784895000.4284713,
+      "priority_score": 1.55,
+      "conclusion": null,
+      "reason": "Knowledge gap: Only 0 trades recorded",
+      "knowledge_gap_score": 3.0
     }
   },
-  "completed": [],
-  "archive": [],
-  "next_id": 79
+  "completed": [
+    {
+      "id": "77",
+      "type": "market_probe",
+      "market": "JD25",
+      "strategy": "EVEN_BIAS",
+      "description": "Explore a new market with existing strategies",
+      "min_trades": 10,
+      "budget_trades": 20,
+      "trades_taken": 10,
+      "wins": 4,
+      "losses": 6,
+      "total_pnl": -2.2500000000000004,
+      "status": "archived",
+      "created_at": 1784890263.8659708,
+      "updated_at": 1784894919.7743309,
+      "priority_score": 1.55,
+      "conclusion": "FAILED: WR=40% EV=-0.2250",
+      "reason": "Knowledge gap: Only 0 trades recorded",
+      "knowledge_gap_score": 3.0,
+      "completed_at": 1784894919.7744026
+    }
+  ],
+  "archive": [
+    {
+      "id": "77",
+      "type": "market_probe",
+      "market": "JD25",
+      "strategy": "EVEN_BIAS",
+      "description": "Explore a new market with existing strategies",
+      "min_trades": 10,
+      "budget_trades": 20,
+      "trades_taken": 10,
+      "wins": 4,
+      "losses": 6,
+      "total_pnl": -2.2500000000000004,
+      "status": "archived",
+      "created_at": 1784890263.8659708,
+      "updated_at": 1784894919.7743309,
+      "priority_score": 1.55,
+      "conclusion": "FAILED: WR=40% EV=-0.2250",
+      "reason": "Knowledge gap: Only 0 trades recorded",
+      "knowledge_gap_score": 3.0,
+      "completed_at": 1784894919.7744026
+    }
+  ],
+  "next_id": 80
 }

@@ -1,0 +1,17 @@
+[
+ {
+  "market": "R_75",
+  "strategy": "DIGIT_DIFF_0",
+  "contract": "PUT",
+  "digit": null,
+  "stake": 1.0,
+  "profit": 0.92,
+  "balance": 9999.93,
+  "regime": "MEMORY",
+  "reason": "Memory fallback: 28T ev=0.5196",
+  "status": "won",
+  "time": 1784878369123,
+  "hour": 10,
+  "session": "\ud83c\udfdb\ufe0f European Mid"
+ }
+]

@@ -5323,6 +5323,18 @@ async def main():
                 _rep_mult, _rep_reason = tools.replicator.get_recommended_stake_mult(m, int(time.strftime('%H')), strategy.get('strategy', 'ALL'))
                 if _rep_mult > 1.0 and _rep_reason != 'no_data':
                     score *= _rep_mult  # boost stake for winning patterns
+                # CUMULATIVE STRATEGY CHECK: block if strategy is bleeding across ALL hours
+                _strat_name = strategy.get('strategy', 'ALL')
+                if _strat_name != 'ALL':
+                    _strat_total_pnl = 0
+                    _strat_total_trades = 0
+                    for _ck, _cv in tools.replicator.state.get('combos', {}).items():
+                        if _ck.endswith('|' + _strat_name) and _ck.startswith(m + '|'):
+                            _strat_total_pnl += _cv.get('pnl', 0)
+                            _strat_total_trades += _cv.get('trades', 0)
+                    if _strat_total_pnl < -3.0 and _strat_total_trades >= 5:
+                        score *= 0.05  # near-zero — strategy is a loser across all hours
+                        log_agent('replicator', f'BLOCK {m}:{_strat_name} — cumulative loss \${_strat_total_pnl:.2f} across {_strat_total_trades} trades')
                 # Self Diagnostic: scan system BEFORE blaming the market
                 if risk.consec_loss > 0 or risk.pnl < 0:
                     _diag_score, _diag_issues, _diag_can, _diag_mult, _diag_action = tools.diagnostic.run_diagnostic(

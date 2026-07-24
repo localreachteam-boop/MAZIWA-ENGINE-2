@@ -99,6 +99,21 @@ class ProfitReplicator:
 
         self._detect_pattern_death(key, c, hour_key)
         self._detect_profitable_pattern(key, c)
+
+        # CUMULATIVE LOSS BLOCK: if total PnL < -$5, block this strategy everywhere
+        if c.get("pnl", 0) < -5.0 and c.get("trades", 0) >= 5:
+            parts = key.split("|")
+            if len(parts) == 3 and parts[2] != "ALL":
+                strat_key = self._combo_key(parts[0], parts[1], parts[2])
+                if strat_key not in self.state["blocks"]:
+                    self._apply_block(
+                        strat_key,
+                        [f"Cumulative loss ${c['pnl']:.2f} over {c['trades']} trades"],
+                        "severe",
+                        3600  # 1 hour
+                    )
+                    c["status"] = "blocked"
+
         self._save()
 
     def _detect_pattern_death(self, key, combo, block_key):
@@ -128,8 +143,21 @@ class ProfitReplicator:
         if reasons:
             severity = self._calc_severity(combo, peak, current)
             duration = self._get_block_duration(severity)
+
+            # STRATEGY-LEVEL BLOCK: block this specific market+strategy+hour
+            # This prevents the same losing strategy from being traded at this hour
             self._apply_block(block_key, reasons, severity, duration)
             combo["status"] = "blocked"
+
+            # Also extract and block the strategy specifically
+            # key format: "market|hour|strategy"
+            parts = key.split("|")
+            if len(parts) == 3:
+                strategy = parts[2]
+                strat_block_key = self._combo_key(parts[0], parts[1], strategy)
+                # Only create strat block if it's a real strategy (not ALL)
+                if strategy and strategy != "ALL":
+                    self._apply_block(strat_block_key, reasons + [f"Strategy {strategy} dead pattern"], severity, duration)
 
             self.state["dead_patterns"].append({
                 "key": key, "time": time.time(),
