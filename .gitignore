@@ -16,3 +16,6 @@ cpp_engine/build/
 research_results.json
 market_research_report.json
 agent_notifications.json
+dashboard/templates/state.json
+trading_state.json
+heartbeat.json
